@@ -1,0 +1,92 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("Config.meats" include nil nil [1 30])
+            ("Meat" code nil nil [32 298])
+            ("Meat" code nil nil [300 550])
+            ("Meat" code nil nil [552 776])
+            ("Meat" code nil nil [778 1012])
+            ("Meat" code nil nil [1014 1264]))          
+      :file "MeadDefs.py"
+      :pointmax 1265
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("Config.fruitAndVeg" include nil nil [1 43])
+            ("FruitAndVeg" code nil nil [45 411])
+            ("FruitAndVeg" code nil nil [413 779])
+            ("FruitAndVeg" code nil nil [781 1167])
+            ("FruitAndVeg" code nil nil [1169 1543])
+            ("FruitAndVeg" code nil nil [1545 1896])
+            ("FruitAndVeg" code nil nil [1898 2250])
+            ("FruitAndVeg" code nil nil [2252 2619])
+            ("FruitAndVeg" code nil nil [2621 2980])
+            ("FruitAndVeg" code nil nil [2982 3342]))          
+      :file "FruitAndVegDefs.py"
+      :pointmax 3714
+      :fsize 1285
+      :lastmodtime '(24209 58682 704619 928000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("Config.liquids" include nil nil [1 34])
+            ("Liquid" code nil nil [36 329])
+            ("Liquid" code nil nil [331 614])
+            ("Liquid" code nil nil [616 919]))          
+      :file "LiquidDefs.py"
+      :pointmax 920
+      :fsize 919
+      :lastmodtime '(24209 59913 598021 819000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("Config.starches" include nil nil [1 35])
+            ("Starch" code nil nil [37 320])
+            ("Starch" code nil nil [322 601])
+            ("Starch" code nil nil [603 862])
+            ("Starch" code nil nil [864 1146])
+            ("Starch" code nil nil [1148 1430])
+            ("Starch" code nil nil [1432 1692])
+            ("Starch" code nil nil [1694 1954])
+            ("Starch" code nil nil [1956 2227]))          
+      :file "StarchDef.py"
+      :pointmax 2231
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("Config.sides" include nil nil [1 30])
+            ("Side" code nil nil [32 275])
+            ("Side" code nil nil [277 561])
+            ("Side" code nil nil [563 822])
+            ("Side" code nil nil [824 1095]))          
+      :file "SideDefs.py"
+      :pointmax 1097
+      :fsize 1096
+      :lastmodtime '(24209 62400 853045 172000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("Config.meats" include nil nil [1 30])
+            ("Meat" code nil nil [32 294])
+            ("Meat" code nil nil [296 546])
+            ("Meat" code nil nil [548 768])
+            ("Meat" code nil nil [770 1004])
+            ("Meat" code nil nil [1255 1483]))          
+      :file "MeatDefs.py"
+      :pointmax 1484
+      :fsize 1483
+      :lastmodtime '(24209 62216 803438 884000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!General!Food App!Configurations!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

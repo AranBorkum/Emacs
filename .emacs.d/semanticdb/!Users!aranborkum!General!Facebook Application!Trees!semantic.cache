@@ -1,0 +1,75 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("math" include nil nil [1 12])
+            ("TreeNode" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [120 136])
+                            ("self" variable nil (reparse-symbol indented_block_body) [145 162])
+                            ("self" variable nil (reparse-symbol indented_block_body) [171 185]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [100 104])
+                            ("key" variable nil (reparse-symbol function_parameters) [105 108]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [87 187]))                  
+                :type "class")
+                nil [66 187])
+            ("visible_nodes" function (:arguments 
+              ( ("root" variable nil (reparse-symbol function_parameters) [251 255]))              ) nil [233 1159])
+            ("printInteger" function (:arguments 
+              ( ("n" variable nil (reparse-symbol function_parameters) [1287 1288]))              ) nil [1270 1330])
+            ("test_case_number" variable nil nil [1331 1351])
+            ("check" function (:arguments 
+              ( ("expected" variable nil (reparse-symbol function_parameters) [1363 1371])
+                ("output" variable nil (reparse-symbol function_parameters) [1373 1379]))              ) nil [1353 1840])
+            ("if" code nil nil [1841 3027]))          
+      :file "NumberOfVisibleNodes_trees.py"
+      :pointmax 3027
+      :fsize 3026
+      :lastmodtime '(25147 8665 485822 335000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("math" include nil nil [1 12])
+            ("Node" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [119 134])
+                            ("self" variable nil (reparse-symbol indented_block_body) [144 162]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [97 101])
+                            ("data" variable nil (reparse-symbol function_parameters) [103 107]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [84 163]))                  
+                :type "class")
+                nil [67 163])
+            ("count_of_nodes" function (:arguments 
+              ( ("root" variable nil (reparse-symbol function_parameters) [242 246])
+                ("queries" variable nil (reparse-symbol function_parameters) [248 255])
+                ("s" variable nil (reparse-symbol function_parameters) [257 258]))              ) nil [223 1484])
+            ("printIntegerList" function (:arguments 
+              ( ("array" variable nil (reparse-symbol function_parameters) [1506 1511]))              ) nil [1485 1691])
+            ("test_case_number" variable nil nil [1692 1712])
+            ("check" function (:arguments 
+              ( ("expected" variable nil (reparse-symbol function_parameters) [1724 1732])
+                ("output" variable nil (reparse-symbol function_parameters) [1734 1740]))              ) nil [1714 2381])
+            ("if" code nil nil [2382 3185]))          
+      :file "NodesInASubtree_trees.py"
+      :pointmax 3230
+      :fsize 3229
+      :lastmodtime '(25144 35414 156217 91000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!General!Facebook Application!Trees!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

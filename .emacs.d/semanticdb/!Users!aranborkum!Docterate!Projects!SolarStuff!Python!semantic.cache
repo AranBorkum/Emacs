@@ -1,0 +1,229 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("argparse" include nil nil [25 40])
+            ("numpy" include nil nil [41 59])
+            ("matplotlib.pyplot" include nil nil [60 91])
+            ("create_parser" function nil nil [93 504])
+            ("read_data" function (:arguments 
+              ( ("input_file" variable nil (reparse-symbol function_parameters) [519 529]))              ) nil [505 681])
+            ("read_msw" function (:arguments 
+              ( ("input_file" variable nil (reparse-symbol function_parameters) [695 705]))              ) nil [682 891])
+            ("main" function nil nil [892 1665])
+            ("if" code nil nil [1927 1965]))          
+      :file "SurvivalProbability.py"
+      :pointmax 1965
+      :fsize 1964
+      :lastmodtime '(25100 54043 426787 283000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("argparse" include nil nil [25 40])
+            ("numpy" include nil nil [41 59])
+            ("matplotlib.pyplot" include nil nil [60 91])
+            ("scipy.interpolate" include nil nil [93 139])
+            ("scipy.optimize" include nil nil [140 185])
+            ("math" include nil nil [186 227])
+            ("create_parser" function nil nil [229 574])
+            ("exp_function" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [592 593])
+                ("a" variable nil (reparse-symbol function_parameters) [595 596])
+                ("b" variable nil (reparse-symbol function_parameters) [598 599])
+                ("c" variable nil (reparse-symbol function_parameters) [601 602]))              ) nil [575 638])
+            ("lin_function" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [656 657])
+                ("a" variable nil (reparse-symbol function_parameters) [659 660])
+                ("b" variable nil (reparse-symbol function_parameters) [662 663]))              ) nil [639 687])
+            ("quartic_function" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [709 710])
+                ("a" variable nil (reparse-symbol function_parameters) [712 713])
+                ("c" variable nil (reparse-symbol function_parameters) [715 716]))              ) nil [688 754])
+            ("import_file" function (:arguments 
+              ( ("input_file" variable nil (reparse-symbol function_parameters) [771 781])
+                ("maximum" variable nil (reparse-symbol function_parameters) [783 790]))              ) nil [755 1335])
+            ("GetMaxValueFlux" function (:arguments 
+              ( ("flux" variable nil (reparse-symbol function_parameters) [1356 1360]))              ) nil [1336 1411])
+            ("main" function nil nil [1412 1878])
+            ("if" code nil nil [2118 2156]))          
+      :file "InterpolateEfficiency.py"
+      :pointmax 2156
+      :fsize 2155
+      :lastmodtime '(25054 47794 344610 587000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("argparse" include nil nil [25 40])
+            ("numpy" include nil nil [41 59])
+            ("matplotlib.pyplot" include nil nil [60 91])
+            ("create_parser" function nil nil [93 435])
+            ("read_eff" function (:arguments 
+              ( ("input_file" variable nil (reparse-symbol function_parameters) [450 460])
+                ("cno" variable nil (reparse-symbol function_parameters) [462 465]))              ) nil [437 613])
+            ("main" function nil nil [619 1001])
+            ("if" code nil nil [1002 1040]))          
+      :file "MakeEfficiency.py"
+      :pointmax 1040
+      :fsize 1039
+      :lastmodtime '(25054 49369 932324 239000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [26 56])
+            ("matplotlib.pyplot" include nil nil [57 88])
+            ("scipy.stats" include nil nil [89 122])
+            ("scipy.optimize" include nil nil [124 169])
+            ("scipy.interpolate" include nil nil [170 216])
+            ("lmfit.models" include nil nil [217 261])
+            ("symfit" include nil nil [262 317])
+            ("nYears" variable nil nil [319 334])
+            ("stoy" code nil nil [335 371])
+            ("scale_background" function (:arguments 
+              ( ("background" variable nil (reparse-symbol function_parameters) [395 405]))              ) nil [374 619])
+            ("scale_solar" function (:arguments 
+              ( ("solar" variable nil (reparse-symbol function_parameters) [636 641]))              ) nil [620 881])
+            ("import_backgrounds" function nil nil [882 2061])
+            ("import_solar" function nil nil [2062 3036])
+            ("get_total_solar" function (:arguments 
+              ( ("lists" variable nil (reparse-symbol function_parameters) [3057 3062]))              ) nil [3037 3256])
+            ("get_total_background" function (:arguments 
+              ( ("lists" variable nil (reparse-symbol function_parameters) [3286 3291]))              ) nil [3261 3444])
+            ("get_back_plus_solar" function (:arguments 
+              ( ("lists" variable nil (reparse-symbol function_parameters) [3469 3474]))              ) nil [3445 3686])
+            ("limit_range" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [3703 3704])
+                ("y" variable nil (reparse-symbol function_parameters) [3706 3707])
+                ("myRange" variable nil (reparse-symbol function_parameters) [3709 3716]))              ) nil [3687 3925])
+            ("limit_range_back" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [3947 3948])
+                ("y" variable nil (reparse-symbol function_parameters) [3950 3951])
+                ("e" variable nil (reparse-symbol function_parameters) [3953 3954])
+                ("myRange" variable nil (reparse-symbol function_parameters) [3956 3963]))              ) nil [3926 4222])
+            ("lin" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [4231 4232])
+                ("a" variable nil (reparse-symbol function_parameters) [4234 4235])
+                ("b" variable nil (reparse-symbol function_parameters) [4237 4238]))              ) nil [4223 4262])
+            ("quadratic" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [4277 4278])
+                ("a" variable nil (reparse-symbol function_parameters) [4280 4281])
+                ("b" variable nil (reparse-symbol function_parameters) [4283 4284])
+                ("c" variable nil (reparse-symbol function_parameters) [4286 4287]))              ) nil [4263 4318])
+            ("exponential" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [4335 4336])
+                ("a" variable nil (reparse-symbol function_parameters) [4338 4339])
+                ("c" variable nil (reparse-symbol function_parameters) [4341 4342]))              ) nil [4319 4379])
+            ("gaus" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [4389 4390])
+                ("m" variable nil (reparse-symbol function_parameters) [4392 4393])
+                ("s" variable nil (reparse-symbol function_parameters) [4395 4396])
+                ("a" variable nil (reparse-symbol function_parameters) [4398 4399]))              ) nil [4380 4477])
+            ("gaus_offset" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [4494 4495])
+                ("m" variable nil (reparse-symbol function_parameters) [4497 4498])
+                ("s" variable nil (reparse-symbol function_parameters) [4500 4501])
+                ("a" variable nil (reparse-symbol function_parameters) [4503 4504])
+                ("o" variable nil (reparse-symbol function_parameters) [4506 4507]))              ) nil [4478 4589])
+            ("fit_gaus" function (:arguments 
+              ( ("lists" variable nil (reparse-symbol function_parameters) [4603 4608])
+                ("scale" variable nil (reparse-symbol function_parameters) [4610 4615])
+                ("myRange" variable nil (reparse-symbol function_parameters) [4617 4624]))              ) nil [4590 4940])
+            ("standard_deviation" function (:arguments 
+              ( ("values" variable nil (reparse-symbol function_parameters) [4968 4974]))              ) nil [4945 5125])
+            ("Chi2" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [5135 5136])
+                ("y" variable nil (reparse-symbol function_parameters) [5138 5139])
+                ("e" variable nil (reparse-symbol function_parameters) [5141 5142])
+                ("fitFunc" variable nil (reparse-symbol function_parameters) [5144 5151])
+                ("popt" variable nil (reparse-symbol function_parameters) [5153 5157]))              ) nil [5126 5523])
+            ("fourier_series" function
+               (:documentation "
+    Returns a symbolic fourier series of order `n`.
+
+    :param n: Order of the fourier series.
+    :param x: Independent variable
+    :param f: Frequency of the fourier series
+    "
+                :arguments 
+                  ( ("x" variable nil (reparse-symbol function_parameters) [5543 5544])
+                    ("f" variable nil (reparse-symbol function_parameters) [5546 5547])
+                    ("n" variable nil (reparse-symbol function_parameters) [5549 5550]))                  )
+                nil [5524 6146]))          
+      :file "TotalSignalTriggered_functions.py"
+      :pointmax 6146
+      :fsize 6145
+      :lastmodtime '(25126 8993 294182 6000)
+      :unmatched-syntax '((NAME 5803 . 5805) (MULT 5807 . 5808)))
+    (semanticdb-table "semanticdb-table"
+      :file "TotalSignalTriggered_data.py"
+      :fsize 4720
+      :lastmodtime '(25126 5606 982010 430000))
+    (semanticdb-table "semanticdb-table"
+      :file "TotalSignalTriggered_plots.py"
+      :fsize 28290
+      :lastmodtime '(25126 11088 762866 113000))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("argparse" include nil nil [25 40])
+            ("numpy" include nil nil [42 60])
+            ("matplotlib.pyplot" include nil nil [61 92])
+            ("scipy.integrate" include nil nil [93 130])
+            ("scipy.interpolate" include nil nil [132 177])
+            ("create_parser" function nil nil [179 663])
+            ("make_spectrum" function (:arguments 
+              ( ("input_file" variable nil (reparse-symbol function_parameters) [682 692])
+                ("flux" variable nil (reparse-symbol function_parameters) [694 698]))              ) nil [664 1249])
+            ("export_file" function (:arguments 
+              ( ("output" variable nil (reparse-symbol function_parameters) [1266 1272])
+                ("x" variable nil (reparse-symbol function_parameters) [1274 1275])
+                ("y" variable nil (reparse-symbol function_parameters) [1277 1278]))              ) nil [1250 1506])
+            ("main" function nil nil [1508 1669])
+            ("if" code nil nil [1671 1718]))          
+      :file "MakeSolarSpectrum.py"
+      :pointmax 1718
+      :fsize 1717
+      :lastmodtime '(25005 59817 316674 224000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [25 55])
+            ("matplotlib.pyplot" include nil nil [56 87])
+            ("scipy.interpolate" include nil nil [89 134])
+            ("main" function nil nil [136 489])
+            ("if" code nil nil [2053 2091]))          
+      :file "MakeSolarRates.py"
+      :pointmax 2091
+      :fsize 2090
+      :lastmodtime '(25127 15817 727508 964000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [25 55])
+            ("matplotlib.pyplot" include nil nil [56 87])
+            ("scipy.stats" include nil nil [88 121])
+            ("scipy.optimize" include nil nil [123 168])
+            ("scipy.interpolate" include nil nil [169 215])
+            ("lmfit.models" include nil nil [216 260])
+            ("symfit" include nil nil [261 316])
+            ("TotalSignalTriggered_functions" include nil nil [318 362])
+            ("TotalSignalTriggered_data" include nil nil [363 407])
+            ("TotalSignalTriggered_plots" include nil nil [408 452])
+            ("main" function nil nil [455 633])
+            ("if" code nil nil [796 834]))          
+      :file "TotalSignalTriggered.py"
+      :pointmax 834
+      :fsize 833
+      :lastmodtime '(25127 14444 470152 589000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!SolarStuff!Python!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

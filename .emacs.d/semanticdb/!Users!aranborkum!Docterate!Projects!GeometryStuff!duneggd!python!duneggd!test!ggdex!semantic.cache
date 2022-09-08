@@ -1,0 +1,97 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'''An example GeGeDe module.
+
+This provides some builder classes to build a Rubik's cube.
+
+Warning: any resemblance between the result and an actual Rubik's cube
+is purely accidental.  It's really just a 3x3x3 stack of blocks less
+one at the origin.
+'''" code nil nil [23 276])
+            ("gegede.builder" include nil nil [278 299])
+            ("gegede" include nil nil [300 332])
+            ("WorldBuilder" type
+               (:superclasses ("gegede.builder.Builder")
+                :members 
+                  ( ("'''
+    Build a simple box world of given material and size.
+    '''" code nil (reparse-symbol indented_block_body) [382 450])
+                    ("configure" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [469 473])
+                            ("material" variable nil (reparse-symbol function_parameters) [475 483])
+                            ("size" variable nil (reparse-symbol function_parameters) [493 497])
+                            ("kwds" variable nil (reparse-symbol function_parameters) [509 515]))                          )
+                        (reparse-symbol indented_block_body) [455 583])
+                    ("construct" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [602 606])
+                            ("geom" variable nil (reparse-symbol function_parameters) [608 612]))                          )
+                        (reparse-symbol indented_block_body) [588 1276]))                  
+                :type "class")
+                nil [334 1276])
+            ("RubikBuilder" type
+               (:superclasses ("gegede.builder.Builder")
+                :members 
+                  ( ("'''Build a Rubik's cube (kind of).  
+
+    Delegate to three sub-builders assumed to provide each one of, in
+    order, corner, edge and center blocks.  Blocks are assumed to be
+    cubes of equal size.
+
+    '''" code nil (reparse-symbol indented_block_body) [1342 1552])
+                    ("configure" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1572 1576])
+                            ("material" variable nil (reparse-symbol function_parameters) [1578 1586])
+                            ("gap" variable nil (reparse-symbol function_parameters) [1596 1599])
+                            ("kwds" variable nil (reparse-symbol function_parameters) [1612 1618]))                          )
+                        (reparse-symbol indented_block_body) [1558 1684])
+                    ("construct" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1703 1707])
+                            ("geom" variable nil (reparse-symbol function_parameters) [1709 1713]))                          )
+                        (reparse-symbol indented_block_body) [1689 3681]))                  
+                :type "class")
+                nil [1294 3681])
+            ("RubikBlockBuilder" type
+               (:superclasses ("gegede.builder.Builder")
+                :members 
+                  ( ("'''
+    Build a corner, edge or center Rubik's cube block.
+    '''" code nil (reparse-symbol indented_block_body) [3740 3806])
+                    ("configure" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3825 3829])
+                            ("location" variable nil (reparse-symbol function_parameters) [3831 3839])
+                            ("material" variable nil (reparse-symbol function_parameters) [3852 3860])
+                            ("size" variable nil (reparse-symbol function_parameters) [3874 3878])
+                            ("kwds" variable nil (reparse-symbol function_parameters) [3892 3898]))                          )
+                        (reparse-symbol indented_block_body) [3811 3966])
+                    ("construct" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3985 3989])
+                            ("geom" variable nil (reparse-symbol function_parameters) [3991 3995]))                          )
+                        (reparse-symbol indented_block_body) [3971 4216]))                  
+                :type "class")
+                nil [3687 4216]))          
+      :file "__init__.py"
+      :pointmax 4216
+      :fsize 4215
+      :lastmodtime '(23953 64894 755314 934000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!GeometryStuff!duneggd!python!duneggd!test!ggdex!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

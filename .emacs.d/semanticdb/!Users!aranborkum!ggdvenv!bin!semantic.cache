@@ -1,0 +1,20 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("__requires__" variable nil nil [114 142])
+            ("sys" include nil nil [143 153])
+            ("pkg_resources" include nil nil [154 196])
+            ("if" code nil nil [198 320]))          
+      :file "gegede-cli"
+      :pointmax 320
+      :fsize 319
+      :lastmodtime '(24087 352 185993 248000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!ggdvenv!bin!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

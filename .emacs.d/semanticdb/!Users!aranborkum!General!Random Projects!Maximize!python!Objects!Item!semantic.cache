@@ -1,0 +1,39 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("collections" include nil nil [1 36])
+            ("_all" variable nil nil [38 58])
+            ("get" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [69 74]))              ) nil [61 253])
+            ("get_all" function (:documentation "Returns a list of all variables.") nil [255 338])
+            ("Item" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [404 422])
+                            ("self" variable nil (reparse-symbol indented_block_body) [433 452])
+                            ("self" variable nil (reparse-symbol indented_block_body) [462 482])
+                            ("_all" variable nil (reparse-symbol indented_block_body) [491 509]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [368 372])
+                            ("name" variable nil (reparse-symbol function_parameters) [374 378])
+                            ("price" variable nil (reparse-symbol function_parameters) [380 385])
+                            ("markup" variable nil (reparse-symbol function_parameters) [387 393]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [355 510]))                  
+                :type "class")
+                nil [339 510]))          
+      :file "__init__.py"
+      :pointmax 515
+      :fsize 514
+      :lastmodtime '(24161 5432 1882 9000)
+      :unmatched-syntax '((RETURN 151 . 157) (IF 172 . 174) (ELSE 191 . 195))))
+  :file "!Users!aranborkum!General!Random Projects!Maximize!python!Objects!Item!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

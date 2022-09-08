@@ -1,0 +1,24 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags nil
+      :file "heat.C"
+      :pointmax 1
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("TFile.h" include nil nil [1 19])
+            ("head" function (:type "void") nil [24 84]))          
+      :file "head.C"
+      :pointmax 85
+      :fsize 84
+      :lastmodtime '(23827 28161 605671 406000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Red-Optima!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

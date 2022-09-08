@@ -1,0 +1,46 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("ctime" include (:system-flag t) nil [83 99])
+            ("cstdlib" include (:system-flag t) nil [177 195])
+            ("vector" include (:system-flag t) nil [253 270])
+            ("cmath" include (:system-flag t) nil [323 339])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [425 445])
+            ("rnd" function (:type "double") nil [529 617])
+            ("dice" function
+               (:arguments 
+                  ( ("generated_number" variable (:type "double") (reparse-symbol arg-sub-list) [682 706]))                  
+                :type "int")
+                nil [673 748])
+            ("two_dice" function (:type "int") nil [821 924])
+            ("craps" function
+               (:arguments 
+                  ( ("type" variable (:type "int") (reparse-symbol arg-sub-list) [992 1001]))                  
+                :type "double")
+                nil [979 7290])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [7301 7311])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [7312 7324]))                  
+                :type "int")
+                nil [7292 10267]))          
+      :file "craps.cpp"
+      :pointmax 10268
+      :fsize 10267
+      :lastmodtime '(23460 61887 444264 337000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!University!Year 4!Programming in C++!i2ccp!Assignment 1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

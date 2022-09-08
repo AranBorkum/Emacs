@@ -1,0 +1,18 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode arduino-mode
+      :tags 
+        '( ("setup" function (:type "void") nil [2 42])
+            ("loop" function (:type "void") nil [44 109]))          
+      :file "sketch_apr05a.ino"
+      :pointmax 110
+      :fsize 109
+      :lastmodtime '(23719 19283 861224 957000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Desktop!sketch_apr05a!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

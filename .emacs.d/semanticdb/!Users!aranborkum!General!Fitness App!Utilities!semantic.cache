@@ -1,0 +1,41 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("pandas" include nil nil [1 20])
+            ("data" variable nil nil [22 77])
+            ("f" variable nil nil [79 132])
+            ("for" code nil nil [185 860])
+            ("f" code nil nil [861 870]))          
+      :file "ParseExersizes.py"
+      :pointmax 871
+      :fsize 870
+      :lastmodtime '(24201 49401 621020 359000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("argparse" include nil nil [1 16])
+            ("create_parser" function nil nil [18 439]))          
+      :file "Parser.py"
+      :pointmax 439
+      :fsize 438
+      :lastmodtime '(24201 50002 691785 241000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("Utilities.Parser" include nil nil [1 43])
+            ("__all__" variable nil nil [45 70]))          
+      :file "__init__.py"
+      :pointmax 71
+      :fsize 70
+      :lastmodtime '(24201 46896 216177 840000)
+      :unmatched-syntax '((NAME 45 . 52) ($EOI 52 . 52) ($EOI 43 . 43) ($EOI 22 . 22))))
+  :file "!Users!aranborkum!General!Fitness App!Utilities!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

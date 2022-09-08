@@ -1,0 +1,90 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("__future__" include nil nil [1 38])
+            ("numpy" include nil nil [39 57])
+            ("os" include nil nil [58 67])
+            ("logging" include nil nil [68 89])
+            ("ROOT" include nil nil [90 101])
+            ("get_color" function (:arguments 
+              ( ("color" variable nil (reparse-symbol function_parameters) [118 123]))              ) nil [104 227])
+            ("enable_debug" function nil nil [229 289])
+            ("enable_info" function nil nil [291 349])
+            ("convert_hist_to_arrays" function (:arguments 
+              ( ("hist" variable nil (reparse-symbol function_parameters) [378 382])
+                ("overflow" variable nil (reparse-symbol function_parameters) [384 392])
+                ("underflow" variable nil (reparse-symbol function_parameters) [400 409]))              ) nil [351 777])
+            ("delete_tobject" function
+               (:documentation "Delete the TObject, freeing the memory for other things.
+
+    Doing the usual Python `del my_var` doesn't necessarily delete the object
+    reference by my_var if the object is a ROOT object.
+    One way to ensure the object is truely deleted is documented here:
+        http://wlav.web.cern.ch/wlav/pyroot/memory.html
+    and that is what this method does.
+    After this method has been called, the variable tobject will be None.
+    "
+                :arguments 
+                  ( ("tobject" variable nil (reparse-symbol function_parameters) [798 805]))                  )
+                nil [779 1325])
+            ("createGraphAsymmErrors" function (:arguments 
+              ( ("hist" variable nil (reparse-symbol function_parameters) [1353 1357])
+                ("min_b" variable nil (reparse-symbol function_parameters) [1359 1364])
+                ("max_b" variable nil (reparse-symbol function_parameters) [1366 1371])
+                ("fl_name" variable nil (reparse-symbol function_parameters) [1373 1380]))              ) nil [1326 2097])
+            ("quiet_mode" function
+               (:documentation "Enables ROOT batch mode (no X windows) and sets no INFO logging."
+                :arguments 
+                  ( ("silence_roofit" variable nil (reparse-symbol function_parameters) [2114 2128]))                  )
+                nil [2099 2297])
+            ("title" function
+               (:documentation "Print string s as a title, underlined or surrounded by hypens."
+                :arguments 
+                  ( ("s" variable nil (reparse-symbol function_parameters) [2555 2556])
+                    ("banner" variable nil (reparse-symbol function_parameters) [2558 2564]))                  )
+                nil [2545 2769])
+            ("directory_exists" function
+               (:documentation "Return True if a directory exists at path."
+                :arguments 
+                  ( ("path" variable nil (reparse-symbol function_parameters) [2792 2796]))                  )
+                nil [2771 2884])
+            ("ensure_directory_exists" function
+               (:documentation "Create directory structure matching path if it doesn't already exist."
+                :arguments 
+                  ( ("path" variable nil (reparse-symbol function_parameters) [2914 2918]))                  )
+                nil [2886 3128]))          
+      :file "helpers.py"
+      :pointmax 3128
+      :fsize 3127
+      :lastmodtime '(23566 9916 715690 720000)
+      :unmatched-syntax '((NAME 508 . 513) (IF 526 . 528) (ELSE 547 . 551)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("utilities.parser" include nil nil [1 43])
+            ("utilities" include nil nil [44 73])
+            ("__all__" variable nil nil [75 120]))          
+      :file "__init__.py"
+      :pointmax 121
+      :fsize 120
+      :lastmodtime '(23566 9916 686555 752000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("argparse" include nil nil [1 16])
+            ("create_parser" function (:documentation "Argument parser for the main script
+    ") nil [19 870]))          
+      :file "parser.py"
+      :pointmax 870
+      :fsize 869
+      :lastmodtime '(23566 9916 722492 868000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!PrettyPython!utilities!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

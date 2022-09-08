@@ -1,0 +1,32 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("random" include nil nil [20 40])
+            ("matplotlib.pyplot" include nil nil [41 72])
+            ("data" variable nil nil [102 156])
+            ("KE" variable nil nil [157 201])
+            ("TrackLength" variable nil nil [202 246])
+            ("fmt, strs" code nil nil [247 312])
+            ("x, y" code nil nil [314 372])
+            ("X, Y" code nil nil [373 397])
+            ("h, x, y, qm" code nil nil [399 444])
+            ("plt" code nil nil [448 460])
+            ("plt" code nil nil [461 494])
+            ("CS" variable nil nil [495 595])
+            ("for" code nil nil [596 645])
+            ("plt" code nil nil [645 710])
+            ("plt" code nil nil [712 722]))          
+      :file "main.py"
+      :pointmax 723
+      :fsize 722
+      :lastmodtime '(24777 58722 889511 654000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!HitFinder!TrackLenReco!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

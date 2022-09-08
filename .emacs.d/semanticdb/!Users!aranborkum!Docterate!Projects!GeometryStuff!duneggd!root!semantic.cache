@@ -1,0 +1,134 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("CheckOverlaps" function (:type "void") nil [47 886]))          
+      :file "CheckOverlaps.C"
+      :pointmax 890
+      :fsize 889
+      :lastmodtime '(24826 34817 176645 326000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("iomanip" include (:system-flag t) nil [21 39])
+            ("string" include (:system-flag t) nil [40 57])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [58 78])
+            ("TGeoManager.h" include nil nil [80 104])
+            ("gDumpRot" variable
+               (:default-value "false"
+                :type "bool")
+                nil [106 129])
+            ("gPrintDs" variable
+               (:default-value "true"
+                :type "bool")
+                nil [130 152])
+            ("gPrintMed" variable
+               (:default-value "true"
+                :type "bool")
+                nil [153 175])
+            ("gPrintMom" variable
+               (:default-value "true"
+                :type "bool")
+                nil [176 198])
+            ("gStripNum" variable
+               (:default-value "false"
+                :type "bool")
+                nil [199 222])
+            ("gPrevPos" variable
+               (:dereference 1
+                :default-value "{ 0, 0, 0 }"
+                :type "double")
+                nil [224 257])
+            ("print_status" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("s" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [277 286])
+                    ("i" variable (:type "int") (reparse-symbol arg-sub-list) [287 293]))                  
+                :type "void")
+                nil [259 294])
+            ("remove_trailing_nums" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("instr" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [328 346]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [295 347])
+            ("PointWalk" function
+               (:arguments 
+                  ( ("x" variable
+                       (:default-value "0"
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [622 634])
+                    ("y" variable
+                       (:default-value "0"
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [635 647])
+                    ("z" variable
+                       (:default-value "100000"
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [648 665])
+                    ("px" variable
+                       (:default-value "0"
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [682 694])
+                    ("py" variable
+                       (:default-value "0"
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [695 707])
+                    ("pz" variable
+                       (:default-value "-1"
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [708 721])
+                    ("fname" variable
+                       (:default-value "\"../python/duneggd/larfd/test.gdml\""
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [918 972])
+                    ("dumpRot" variable
+                       (:default-value "false"
+                        :type "bool")
+                        (reparse-symbol arg-sub-list) [989 1008])
+                    ("printDs" variable
+                       (:default-value "true"
+                        :type "bool")
+                        (reparse-symbol arg-sub-list) [1025 1043])
+                    ("printMed" variable
+                       (:default-value "true"
+                        :type "bool")
+                        (reparse-symbol arg-sub-list) [1060 1079])
+                    ("printMom" variable
+                       (:default-value "true"
+                        :type "bool")
+                        (reparse-symbol arg-sub-list) [1096 1115])
+                    ("stripNum" variable
+                       (:default-value "true"
+                        :type "bool")
+                        (reparse-symbol arg-sub-list) [1132 1151]))                  
+                :type "void")
+                nil [607 2770])
+            ("print_status" function
+               (:arguments 
+                  ( ("s" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2791 2800])
+                    ("i" variable (:type "int") (reparse-symbol arg-sub-list) [2801 2807]))                  
+                :type "void")
+                nil [2773 4300])
+            ("remove_trailing_nums" function
+               (:arguments 
+                  ( ("instr" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4335 4353]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [4302 4599]))          
+      :file "PointWalk.C"
+      :pointmax 4600
+      :fsize 4599
+      :lastmodtime '(24217 44193 14911 694000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!GeometryStuff!duneggd!root!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

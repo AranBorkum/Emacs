@@ -1,0 +1,45 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("Utilities.parser" include nil nil [1 73])
+            ("Utilities.input_interpreter" include nil nil [74 141])
+            ("__all__" variable nil nil [143 231]))          
+      :file "__init__.py"
+      :pointmax 233
+      :fsize 232
+      :lastmodtime '(24722 24873 948554 404000)
+      :unmatched-syntax '(($EOI 233 . 233) ($EOI 209 . 209)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("argparse" include nil nil [1 16])
+            ("create_parser_for_map_generation" function nil nil [18 956]))          
+      :file "parser.py"
+      :pointmax 956
+      :fsize 955
+      :lastmodtime '(24722 21606 574403 215000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("glob" include nil nil [1 12])
+            ("numpy" include nil nil [13 32])
+            ("pandas" include nil nil [33 52])
+            ("input_interpreter" function (:arguments 
+              ( ("Directory" variable nil (reparse-symbol function_parameters) [75 84]))              ) nil [53 1135])
+            ("get_file" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [1149 1158])
+                ("df" variable nil (reparse-symbol function_parameters) [1160 1162]))              ) nil [1136 1237]))          
+      :file "input_interpreter.py"
+      :pointmax 1237
+      :fsize 1236
+      :lastmodtime '(24722 45708 146454 699000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!RedOptima!Utilities!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

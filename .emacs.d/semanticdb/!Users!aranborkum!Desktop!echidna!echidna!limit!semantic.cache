@@ -1,0 +1,169 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 13])
+            ("echidna.core.config" include nil nil [15 62])
+            ("echidna.fit.fit_results" include nil nil [63 111])
+            ("echidna.fit.minimise" include nil nil [112 155])
+            ("echidna.output" include nil nil [156 187])
+            ("echidna.errors.custom_errors" include nil nil [188 259])
+            ("echidna.output" include nil nil [260 292])
+            ("logging" include nil nil [294 308])
+            ("collections" include nil nil [309 327])
+            ("yaml" include nil nil [328 339])
+            ("datetime" include nil nil [340 355])
+            ("json" include nil nil [356 367])
+            ("copy" include nil nil [368 379])
+            ("Limit" type
+               (:documentation " Class to handle main limit setting.
+
+    Args:
+      signal (:class:`echidna.core.spectra.Spectra`): signal spectrum you wish
+        to obtain a limit for.
+      fitter (:class:`echidna.limit.fit.Fit`): The fitter used to set a
+        a limit with.
+      shrink (bool, optional): If set to True, :meth:`shrink` method is
+        called on the signal spectrum before limit setting, shrinking to
+        ROI.
+
+    Attributes:
+      _logger (:class:`logging.Logger`): The output logger.
+      _fitter (:class:`echidna.limit.fit.Fit`): The fitter used to set a
+        a limit with.
+      _signal (:class:`echidna.core.spectra.Spectra`): signal spectrum you wish
+        to obtain a limit for.
+      _limit_results (:class:`echidna.fit.fit_results.LimitResults`): Limit
+        results instance to report limit fit results
+    "
+                :superclasses ("object")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [1318 1364])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1373 1394])
+                            ("self" code nil (reparse-symbol indented_block_body) [1403 1440])
+                            ("self" code nil (reparse-symbol indented_block_body) [1449 1495])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1504 1525])
+                            ("parameters" variable nil (reparse-symbol indented_block_body) [1534 1572])
+                            ("name" code nil (reparse-symbol indented_block_body) [1581 1627])
+                            ("limit_config" variable nil (reparse-symbol indented_block_body) [1636 1674])
+                            ("fitter_config" variable nil (reparse-symbol indented_block_body) [1683 1722])
+                            ("signal_config" variable nil (reparse-symbol indented_block_body) [1731 1766])
+                            ("name" code nil (reparse-symbol indented_block_body) [1775 1818])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1827 1954])
+                            ("self" code nil (reparse-symbol indented_block_body) [1963 2028])
+                            ("logging" code nil (reparse-symbol indented_block_body) [2037 2124]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1257 1261])
+                            ("signal" variable nil (reparse-symbol function_parameters) [1263 1269])
+                            ("fitter" variable nil (reparse-symbol function_parameters) [1271 1277])
+                            ("shrink" variable nil (reparse-symbol function_parameters) [1279 1285])
+                            ("store_all" variable nil (reparse-symbol function_parameters) [1292 1301]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [1244 2125])
+                    ("get_array_limit" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2150 2154])
+                            ("array" variable nil (reparse-symbol function_parameters) [2156 2161])
+                            ("limit" variable nil (reparse-symbol function_parameters) [2163 2168]))                          
+                        :documentation " Get the limit from an array containing statisics
+
+        Args:
+          array (:class:`numpy.array`): The array you want to set a limit for.
+          limit (float, optional): The value of the test statisic which
+            corresponds to the limit you want to set. The default is 2.71
+            which corresponds to 90% CL when using a chi-squared test
+            statistic.
+
+        Raises:
+          CompatibilityError: If the length of the array is not equal to the
+            number of signal scalings.
+          LimitError: If all values in the array are below limit.
+
+        Returns:
+          float: The signal scaling at the limit you are setting.
+        ")
+                        (reparse-symbol indented_block_body) [2130 3460])
+                    ("get_limit" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3479 3483])
+                            ("limit" variable nil (reparse-symbol function_parameters) [3485 3490])
+                            ("min_stat" variable nil (reparse-symbol function_parameters) [3497 3505])
+                            ("store_limit" variable nil (reparse-symbol function_parameters) [3512 3523])
+                            ("store_fits" variable nil (reparse-symbol function_parameters) [3548 3558])
+                            ("store_spectra" variable nil (reparse-symbol function_parameters) [3566 3579])
+                            ("limit_fname" variable nil (reparse-symbol function_parameters) [3587 3598]))                          
+                        :documentation " Get the limit using the signal spectrum.
+
+        Args:
+          limit (float, optional): The value of the test statisic which
+            corresponds to the limit you want to set. The default is 2.71
+            which corresponds to 90% CL when using a chi-squared test
+            statistic.
+          stat_zero (float or :class:`numpy.ndarray`, optional): Enables
+            calculation of e.g. delta chi-squared. Include values of
+            test statistic for zero signal contribution, so these can be
+            subtracted from the values of the test statistic, with signal.
+          store_limit (bool, optional):  If True (default) then a hdf5 file
+            containing the :class:`echidna.fit.fit_results.LimitResults`
+            object is saved.
+          store_fits (bool, optional): If True then the
+            :class:`echidna.fit.fit_results.FitResults` objects at each signal
+            scale is stored in the
+            :class:`echidna.fit.fit_results.LimitResults` object.
+            Default is False.
+          store_spectra (bool, optional): If True then the spectra used for
+            fitting are saved to hdf5. Default is False.
+          limit_fname (string): Filename to save the
+            `:class:`echidna.fit.fit_results.LimitResults` to.
+
+        Raises:
+          LimitError: If all values in the array are below limit.
+
+        Returns:
+          float: The signal scaling at the limit you are setting.
+        ")
+                        (reparse-symbol indented_block_body) [3465 14417])
+                    ("get_statistics" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [14441 14445]))                          
+                        :documentation " Get the test statistics for all signal scalings.
+
+        Returns:
+          :class:`numpy.array`: Of test statisics for all signal scalings.
+        ")
+                        (reparse-symbol indented_block_body) [14422 15049])
+                    ("sum_entries" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [15070 15074])
+                            ("array" variable nil (reparse-symbol function_parameters) [15076 15081]))                          
+                        :documentation " Sums entries of an array which contains arrays as entries.
+
+        Args:
+          array (:class:`numpy.array`): The array you want to sum the
+            elements of.
+
+        Returns:
+          :class:`numpy.array`: The input array with its entries summed.
+        ")
+                        (reparse-symbol indented_block_body) [15054 15499]))                  
+                :type "class")
+                nil [382 15499]))          
+      :file "limit.py"
+      :pointmax 15499
+      :fsize 15498
+      :lastmodtime '(25202 17698 231593 344000)
+      :unmatched-syntax '((INDENT_BLOCK 11578 . 14417) (NEWLINE 11536 . 11537) (COLON 11535 . 11536) (TRY 8141 . 8144) (AS 11526 . 11528))))
+  :file "!Users!aranborkum!Desktop!echidna!echidna!limit!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

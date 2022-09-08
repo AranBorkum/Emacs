@@ -1,0 +1,222 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("psycopg2" include nil nil [1 48])
+            ("psycopg2.extras" include nil nil [49 87])
+            ("psycopg2.extensions" include nil nil [88 114])
+            ("operator" include nil nil [115 130])
+            ("math" include nil nil [131 152])
+            ("networkx" include nil nil [153 174])
+            ("yaml_helpers" include nil nil [175 218])
+            ("shapely.geometry" include nil nil [219 258])
+            ("shapely.wkt" include nil nil [259 277])
+            ("collections" include nil nil [278 313])
+            ("DEC2FLOAT" variable nil nil [434 601])
+            ("psycopg2" code nil nil [602 646])
+            ("OSMHandler" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [698 721])
+                            ("try" code nil (reparse-symbol indented_block_body) [778 1323]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [683 687]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [670 1323])
+                    ("__del__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1340 1344]))                          )
+                        (reparse-symbol indented_block_body) [1328 1373])
+                    ("RequestDataFrame" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1399 1403])
+                            ("req_string" variable nil (reparse-symbol function_parameters) [1405 1415])
+                            ("params" variable nil (reparse-symbol function_parameters) [1417 1423]))                          )
+                        (reparse-symbol indented_block_body) [1378 1928])
+                    ("GetNearestPoints" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1954 1958])
+                            ("lat" variable nil (reparse-symbol function_parameters) [1960 1963])
+                            ("lon" variable nil (reparse-symbol function_parameters) [1964 1967])
+                            ("offset" variable nil (reparse-symbol function_parameters) [1968 1974]))                          )
+                        (reparse-symbol indented_block_body) [1933 4023])
+                    ("GetNearestPoint" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4048 4052])
+                            ("lat" variable nil (reparse-symbol function_parameters) [4054 4057])
+                            ("lon" variable nil (reparse-symbol function_parameters) [4059 4062])
+                            ("offset" variable nil (reparse-symbol function_parameters) [4064 4070]))                          )
+                        (reparse-symbol indented_block_body) [4028 5613])
+                    ("GetNearestPointsOrdered" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5646 5650])
+                            ("lat" variable nil (reparse-symbol function_parameters) [5652 5655])
+                            ("lon" variable nil (reparse-symbol function_parameters) [5657 5660])
+                            ("offset" variable nil (reparse-symbol function_parameters) [5662 5668]))                          )
+                        (reparse-symbol indented_block_body) [5618 6291])
+                    ("GetNearestPointInterp" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6322 6326])
+                            ("lat" variable nil (reparse-symbol function_parameters) [6328 6331])
+                            ("lon" variable nil (reparse-symbol function_parameters) [6332 6335])
+                            ("offset" variable nil (reparse-symbol function_parameters) [6336 6342]))                          )
+                        (reparse-symbol indented_block_body) [6296 8448])
+                    ("OrderPoints" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [8469 8473])
+                            ("latlist" variable nil (reparse-symbol function_parameters) [8475 8482])
+                            ("lonlist" variable nil (reparse-symbol function_parameters) [8484 8491]))                          )
+                        (reparse-symbol indented_block_body) [8453 10299])
+                    ("GetSpeedLimits" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [10331 10335])
+                            ("lat" variable nil (reparse-symbol function_parameters) [10337 10340])
+                            ("lon" variable nil (reparse-symbol function_parameters) [10342 10345])
+                            ("radius_deg" variable nil (reparse-symbol function_parameters) [10347 10357])
+                            ("wayid" variable nil (reparse-symbol function_parameters) [10359 10364]))                          )
+                        (reparse-symbol indented_block_body) [10312 11587])
+                    ("GetBuildings" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [11613 11617])
+                            ("lat" variable nil (reparse-symbol function_parameters) [11619 11622])
+                            ("lon" variable nil (reparse-symbol function_parameters) [11624 11627])
+                            ("radius_deg" variable nil (reparse-symbol function_parameters) [11629 11639]))                          )
+                        (reparse-symbol indented_block_body) [11596 12350])
+                    ("GetRoadNodeLists" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [12376 12380])
+                            ("lat" variable nil (reparse-symbol function_parameters) [12382 12385])
+                            ("lon" variable nil (reparse-symbol function_parameters) [12387 12390])
+                            ("radius_deg" variable nil (reparse-symbol function_parameters) [12392 12402]))                          )
+                        (reparse-symbol indented_block_body) [12355 13499])
+                    ("GetRoadMaterial" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [14054 14058]))                          )
+                        (reparse-symbol indented_block_body) [14034 14096])
+                    ("GetRoadNodesBox" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [14121 14125])
+                            ("bbox" variable nil (reparse-symbol function_parameters) [14127 14131]))                          )
+                        (reparse-symbol indented_block_body) [14101 15420])
+                    ("MakeGraphFromBox" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [15632 15636])
+                            ("box" variable nil (reparse-symbol function_parameters) [15638 15641]))                          )
+                        (reparse-symbol indented_block_body) [15611 16607])
+                    ("GetRoadNodesForBuffer" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [16638 16642])
+                            ("bbox" variable nil (reparse-symbol function_parameters) [16644 16648]))                          )
+                        (reparse-symbol indented_block_body) [16612 17969]))                  
+                :type "class")
+                nil [648 17969])
+            ("main" function nil nil [17970 18012])
+            ("if" code nil nil [19258 19295]))          
+      :file "Holder.py"
+      :pointmax 19295
+      :fsize 0
+      :lastmodtime '(23817 63417)
+      :unmatched-syntax '((INDENT_BLOCK 1756 . 1928) (NEWLINE 1755 . 1756) (COLON 1754 . 1755) (TRY 1543 . 1546) (AS 1750 . 1752)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("psycopg2.extensions" include nil nil [1 27])
+            ("numpy" include nil nil [29 51])
+            ("pandas" include nil nil [52 74])
+            ("networkit" include nil nil [75 97])
+            ("psycopg2" include nil nil [99 153])
+            ("psycopg2.extras" include nil nil [154 192])
+            ("yaml_helpers" include nil nil [193 239])
+            ("time" include nil nil [240 272])
+            ("DEC2FLOAT" variable nil nil [638 805])
+            ("psycopg2" code nil nil [806 850])
+            ("FileHandler" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("try" code nil (reparse-symbol indented_block_body) [1049 1656]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1033 1037]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [1020 1656])
+                    ("__del__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1685 1689]))                          )
+                        (reparse-symbol indented_block_body) [1673 1724])
+                    ("RequestDataFrame" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1898 1902])
+                            ("req_string" variable nil (reparse-symbol function_parameters) [1904 1914])
+                            ("params" variable nil (reparse-symbol function_parameters) [1916 1922]))                          )
+                        (reparse-symbol indented_block_body) [1877 2414])
+                    ("OrderPoints" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2575 2579])
+                            ("latlist" variable nil (reparse-symbol function_parameters) [2581 2588])
+                            ("lonlist" variable nil (reparse-symbol function_parameters) [2590 2597]))                          )
+                        (reparse-symbol indented_block_body) [2559 4409])
+                    ("GetSpeedLimits" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4573 4577])
+                            ("lat" variable nil (reparse-symbol function_parameters) [4579 4582])
+                            ("lon" variable nil (reparse-symbol function_parameters) [4584 4587])
+                            ("radius_deg" variable nil (reparse-symbol function_parameters) [4589 4599])
+                            ("wayid" variable nil (reparse-symbol function_parameters) [4601 4606]))                          )
+                        (reparse-symbol indented_block_body) [4554 6134])
+                    ("GetRoadNodeList" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6299 6303])
+                            ("lat" variable nil (reparse-symbol function_parameters) [6305 6308])
+                            ("lon" variable nil (reparse-symbol function_parameters) [6310 6313])
+                            ("radius_deg" variable nil (reparse-symbol function_parameters) [6315 6325]))                          )
+                        (reparse-symbol indented_block_body) [6279 7499])
+                    ("GetRoadNodesBox" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7672 7676])
+                            ("bbox" variable nil (reparse-symbol function_parameters) [7678 7682]))                          )
+                        (reparse-symbol indented_block_body) [7652 9042])
+                    ("MakeGraphFromBox" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [9212 9216])
+                            ("box" variable nil (reparse-symbol function_parameters) [9218 9221]))                          )
+                        (reparse-symbol indented_block_body) [9191 12671])
+                    ("main" function nil (reparse-symbol indented_block_body) [12829 12877]))                  
+                :type "class")
+                nil [852 12877])
+            ("if" code nil nil [13056 13094]))          
+      :file "FileHandler.py"
+      :pointmax 13094
+      :fsize 13093
+      :lastmodtime '(23824 54722)
+      :unmatched-syntax nil))
+  :file "!ssh:borkuma@54.154.11.78:!home!borkuma!PSQL-Tests!Utilities!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

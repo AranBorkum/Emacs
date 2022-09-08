@@ -1,0 +1,306 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [25 34])
+            ("numpy" include nil nil [35 53])
+            ("matplotlib.pyplot" include nil nil [54 85])
+            ("Jeromy" include nil nil [86 99])
+            ("Jeromy.statistics.test_statistic" include nil nil [100 157])
+            ("Jeromy.statistics.test_ensemble" include nil nil [158 214])
+            ("Jeromy.statistics.run_chi2_tests" include nil nil [215 272])
+            ("Jeromy.core.true_solar" include nil nil [274 331])
+            ("Jeromy.analyzers.counting_experiment" include nil nil [332 397])
+            ("Jeromy.analyzers.likelihood_ratios" include nil nil [398 462])
+            ("Jeromy.IO.FileImporter" include nil nil [464 513])
+            ("Jeromy.IO.ImportDataHighZ" include nil nil [514 567])
+            ("Jeromy.IO.ImportDataLowZ" include nil nil [568 621])
+            ("Jeromy.ToyMCGenerator.ToyMonteCarlo" include nil nil [622 682])
+            ("Jeromy.IO.UncertaintyImporter" include nil nil [683 735])
+            ("Jeromy.config.configuration_loader" include nil nil [736 803])
+            ("Jeromy.plots.make_spectrum_plots" include nil nil [804 870])
+            ("Jeromy.plots.make_true_plots" include nil nil [871 933])
+            ("Jeromy.utilities.helpers" include nil nil [934 982])
+            ("Jeromy.utilities.argument_parser" include nil nil [984 1042])
+            ("scipy.integrate" include nil nil [1043 1075])
+            ("lmfit.models" include nil nil [1076 1114])
+            ("tqdm" include nil nil [1115 1136])
+            ("scale_spectrum" function (:arguments 
+              ( ("spectrum" variable nil (reparse-symbol function_parameters) [1157 1165])
+                ("exposure" variable nil (reparse-symbol function_parameters) [1167 1175])
+                ("bkg_reduction" variable nil (reparse-symbol function_parameters) [1177 1190]))              ) nil [1138 1568])
+            ("gaussian" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [1583 1584])
+                ("m" variable nil (reparse-symbol function_parameters) [1586 1587])
+                ("s" variable nil (reparse-symbol function_parameters) [1589 1590])
+                ("a" variable nil (reparse-symbol function_parameters) [1592 1593]))              ) nil [1570 1721])
+            ("if" code nil nil [1726 8433]))          
+      :file "generate_likelihood_profiles.py"
+      :pointmax 8439
+      :fsize 8438
+      :lastmodtime '(25255 14899 610424 106000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [25 34])
+            ("numpy" include nil nil [35 53])
+            ("matplotlib.pyplot" include nil nil [54 85])
+            ("Jeromy" include nil nil [86 99])
+            ("Jeromy.statistics.test_statistic" include nil nil [100 157])
+            ("Jeromy.statistics.test_ensemble" include nil nil [158 214])
+            ("Jeromy.statistics.run_chi2_tests" include nil nil [215 272])
+            ("Jeromy.core.true_solar" include nil nil [274 331])
+            ("Jeromy.analyzers.counting_experiment" include nil nil [332 397])
+            ("Jeromy.analyzers.likelihood_ratios" include nil nil [398 462])
+            ("Jeromy.ToyMCGenerator.ToyMonteCarlo" include nil nil [464 524])
+            ("Jeromy.IO.UncertaintyImporter" include nil nil [525 577])
+            ("Jeromy.config.configuration_loader" include nil nil [578 645])
+            ("Jeromy.plots.make_spectrum_plots" include nil nil [646 712])
+            ("Jeromy.plots.make_true_plots" include nil nil [713 775])
+            ("Jeromy.utilities.helpers" include nil nil [776 824])
+            ("Jeromy.utilities.argument_parser" include nil nil [826 884])
+            ("scipy.integrate" include nil nil [885 917])
+            ("lmfit.models" include nil nil [918 956])
+            ("gaussian" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [972 973])
+                ("m" variable nil (reparse-symbol function_parameters) [975 976])
+                ("s" variable nil (reparse-symbol function_parameters) [978 979])
+                ("a" variable nil (reparse-symbol function_parameters) [981 982]))              ) nil [959 1110])
+            ("if" code nil nil [1111 2940])
+            ("\"\"\"
+        
+        likelihood = likelihood_ratios.LikelihoodTest(test, test_statistic.BakerCousinsChi, config, False)
+        print(likelihood._predicted.mean, likelihood._predicted.error)
+        path = f\"{Jeromy.__jeromy_output__}/\"
+        path += f\"{config.metallicity}Z_\"
+        path += f\"exp{float(config.exposure) * 10}kt_year_\"
+        path += f\"{args.systematics}\"
+        h.ensure_directory_exists(path)
+        plt.figure()
+        plt.subplot(1, 3, 1)
+        plt.hist(likelihood.bins, bins=likelihood.bins, weights=likelihood.observed , label=\"obs\", histtype=\"step\")
+        plt.title(\"Observed\")
+        plt.subplot(1, 3, 2)
+        plt.hist(likelihood.true_bins, bins=likelihood.true_bins, weights=likelihood.true_pred, label=\"pre\",
+                 histtype=\"step\")
+        plt.title(\"Predicted\")
+        plt.subplot(1, 3, 3)
+        plt.hist(likelihood.bins, bins=likelihood.bins, weights=likelihood.observed , label=\"obs\", histtype=\"step\")
+        plt.hist(likelihood.bins, bins=likelihood.bins, weights=likelihood.predicted, label=\"pre\", histtype=\"step\")
+        plt.legend()
+        plt.savefig(f\"{path}/likelihoods.png\")
+        if args.make_plots: plt.show()
+        plt.close()
+        
+        print(likelihood.chi2)
+        likelihood_ensemble1 = likelihood_ratios.LikelihoodTestEnsemble(\"Jim\", [1, 3], config, 1000, False)
+        likelihood_ensemble2 = likelihood_ratios.LikelihoodTestEnsemble(\"Jim\", [1, 3], config, 1000, True )
+
+        plt.figure()
+        plt.subplot(1, 2, 1)
+        hist1, fit1 = likelihood_ensemble1.make_test_statistic_histogram(fit=True, model=\"SkewedGaussianModel\")
+        plt.subplot(1, 2, 2)
+        hist2, fit2 = likelihood_ensemble2.make_test_statistic_histogram(fit=True, model=\"GaussianModel\")
+        plt.savefig(f\"{path}/likelihood_ratios.png\")
+        if args.make_plots: plt.show()
+        plt.close()
+        
+        outfile = open(f\"{path}/likelihood_ratio_values.txt\", \"w\")
+        for i in range(len(hist1[0])):
+            outfile.write(f\"{hist1[1][i]},{hist1[0][i]},{hist2[1][i]},{hist2[0][i]}\\n\")
+        outfile.close()
+\"\"\"" code nil nil [2941 5041]))          
+      :file "run.py"
+      :pointmax 5042
+      :fsize 5041
+      :lastmodtime '(25255 14899 605654 451000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("matplotlib.pyplot" include nil nil [20 51])
+            ("lowZ" variable nil nil [53 202])
+            ("highZ" variable nil nil [203 354])
+            ("plt" code nil nil [356 368])
+            ("plt" code nil nil [369 401])
+            ("plt" code nil nil [402 436])
+            ("plt" code nil nil [437 454])
+            ("plt" code nil nil [455 465]))          
+      :file "plot_sigma_thing.py"
+      :pointmax 466
+      :fsize 465
+      :lastmodtime '(25255 14899 611681 905000)
+      :unmatched-syntax '(($EOI 466 . 466) ($EOI 466 . 466) (NAME 347 . 350) ($EOI 372 . 372)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [25 34])
+            ("math" include nil nil [35 46])
+            ("numpy" include nil nil [47 65])
+            ("matplotlib.pyplot" include nil nil [66 97])
+            ("Jeromy" include nil nil [98 111])
+            ("Jeromy.statistics.test_statistic" include nil nil [112 169])
+            ("Jeromy.statistics.test_ensemble" include nil nil [170 226])
+            ("Jeromy.statistics.run_chi2_tests" include nil nil [227 284])
+            ("Jeromy.core.true_solar" include nil nil [286 343])
+            ("Jeromy.analyzers.counting_experiment" include nil nil [344 410])
+            ("Jeromy.analyzers.likelihood_ratios" include nil nil [411 475])
+            ("Jeromy.analyzers.metallicity_separation" include nil nil [476 550])
+            ("Jeromy.IO.FileImporter" include nil nil [552 601])
+            ("Jeromy.IO.ImportDataHighZ" include nil nil [602 655])
+            ("Jeromy.IO.ImportDataLowZ" include nil nil [656 709])
+            ("Jeromy.ToyMCGenerator.ToyMonteCarlo" include nil nil [710 770])
+            ("Jeromy.IO.UncertaintyImporter" include nil nil [771 823])
+            ("Jeromy.config.configuration_loader" include nil nil [824 891])
+            ("Jeromy.plots.make_spectrum_plots" include nil nil [892 958])
+            ("Jeromy.plots.make_true_plots" include nil nil [959 1021])
+            ("Jeromy.utilities.helpers" include nil nil [1022 1070])
+            ("Jeromy.utilities.argument_parser" include nil nil [1072 1130])
+            ("scipy.integrate" include nil nil [1131 1163])
+            ("scipy.special" include nil nil [1164 1196])
+            ("lmfit.models" include nil nil [1197 1235])
+            ("tqdm" include nil nil [1236 1257])
+            ("scale_spectrum" function (:arguments 
+              ( ("spectrum" variable nil (reparse-symbol function_parameters) [1278 1286])
+                ("exposure" variable nil (reparse-symbol function_parameters) [1288 1296])
+                ("bkg_reduction" variable nil (reparse-symbol function_parameters) [1298 1311]))              ) nil [1259 1689])
+            ("gaussian" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [1703 1704])
+                ("m" variable nil (reparse-symbol function_parameters) [1706 1707])
+                ("s" variable nil (reparse-symbol function_parameters) [1709 1710])
+                ("a" variable nil (reparse-symbol function_parameters) [1712 1713]))              ) nil [1690 1841])
+            ("orderOfMagnitude" function (:arguments 
+              ( ("number" variable nil (reparse-symbol function_parameters) [1863 1869]))              ) nil [1842 1916])
+            ("if" code nil nil [1917 7571]))          
+      :file "generate_likelihood_profiles_metallicity_separation.py"
+      :pointmax 7571
+      :fsize 7570
+      :lastmodtime '(25255 14899 604867 136000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("math" include nil nil [1 12])
+            ("yaml" include nil nil [13 24])
+            ("Jeromy" include nil nil [25 38])
+            ("Jeromy.core.true_solar" include nil nil [39 82])
+            ("Jeromy.analyzers.counting_experiment" include nil nil [83 149])
+            ("Jeromy.statistics.test_statistic" include nil nil [150 207])
+            ("numpy" include nil nil [208 226])
+            ("matplotlib.pyplot" include nil nil [227 258])
+            ("tqdm" include nil nil [260 281])
+            ("math" include nil nil [282 304])
+            ("lmfit.models" include nil nil [305 364])
+            ("if" code nil nil [366 1132]))          
+      :file "cno_discovery.py"
+      :pointmax 1148
+      :fsize 1147
+      :lastmodtime '(25255 14899 611125 657000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [25 34])
+            ("numpy" include nil nil [35 53])
+            ("matplotlib.pyplot" include nil nil [54 85])
+            ("Jeromy" include nil nil [86 99])
+            ("Jeromy.statistics.test_statistic" include nil nil [100 157])
+            ("Jeromy.statistics.test_ensemble" include nil nil [158 214])
+            ("Jeromy.statistics.run_chi2_tests" include nil nil [215 272])
+            ("Jeromy.core.true_solar" include nil nil [274 331])
+            ("Jeromy.analyzers.counting_experiment" include nil nil [332 398])
+            ("Jeromy.analyzers.likelihood_ratios" include nil nil [399 463])
+            ("Jeromy.IO.FileImporter" include nil nil [465 514])
+            ("Jeromy.IO.ImportDataHighZ" include nil nil [515 568])
+            ("Jeromy.IO.ImportDataLowZ" include nil nil [569 622])
+            ("Jeromy.ToyMCGenerator.ToyMonteCarlo" include nil nil [623 683])
+            ("Jeromy.IO.UncertaintyImporter" include nil nil [684 736])
+            ("Jeromy.config.configuration_loader" include nil nil [737 804])
+            ("Jeromy.plots.make_spectrum_plots" include nil nil [805 871])
+            ("Jeromy.plots.make_true_plots" include nil nil [872 934])
+            ("Jeromy.utilities.helpers" include nil nil [935 983])
+            ("Jeromy.analyzers.cno_discovery" include nil nil [984 1045])
+            ("Jeromy.utilities.argument_parser" include nil nil [1047 1105])
+            ("scipy.integrate" include nil nil [1106 1138])
+            ("scipy.special" include nil nil [1139 1171])
+            ("lmfit.models" include nil nil [1172 1210])
+            ("tqdm" include nil nil [1211 1232])
+            ("gaussian" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [1678 1679])
+                ("m" variable nil (reparse-symbol function_parameters) [1681 1682])
+                ("s" variable nil (reparse-symbol function_parameters) [1684 1685])
+                ("a" variable nil (reparse-symbol function_parameters) [1687 1688]))              ) nil [1665 1816])
+            ("if" code nil nil [1821 7850]))          
+      :file "generate_likelihood_profiles_cno_discovery.py"
+      :pointmax 7850
+      :fsize 7850
+      :lastmodtime '(25259 5941 534994 769000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [25 34])
+            ("math" include nil nil [35 46])
+            ("numpy" include nil nil [47 65])
+            ("matplotlib.pyplot" include nil nil [66 97])
+            ("Jeromy" include nil nil [98 111])
+            ("Jeromy.statistics.test_statistic" include nil nil [112 169])
+            ("Jeromy.statistics.test_ensemble" include nil nil [170 226])
+            ("Jeromy.statistics.run_chi2_tests" include nil nil [227 284])
+            ("Jeromy.core.true_solar" include nil nil [286 343])
+            ("Jeromy.analyzers.counting_experiment" include nil nil [344 410])
+            ("Jeromy.analyzers.likelihood_ratios" include nil nil [411 475])
+            ("Jeromy.IO.FileImporter" include nil nil [477 526])
+            ("Jeromy.IO.ImportDataHighZ" include nil nil [527 580])
+            ("Jeromy.IO.ImportDataLowZ" include nil nil [581 634])
+            ("Jeromy.ToyMCGenerator.ToyMonteCarlo" include nil nil [635 695])
+            ("Jeromy.IO.UncertaintyImporter" include nil nil [696 748])
+            ("Jeromy.config.configuration_loader" include nil nil [749 816])
+            ("Jeromy.plots.make_spectrum_plots" include nil nil [817 883])
+            ("Jeromy.plots.make_true_plots" include nil nil [884 946])
+            ("Jeromy.utilities.helpers" include nil nil [947 995])
+            ("Jeromy.utilities.argument_parser" include nil nil [997 1055])
+            ("scipy.integrate" include nil nil [1056 1088])
+            ("lmfit.models" include nil nil [1089 1127])
+            ("tqdm" include nil nil [1128 1149])
+            ("yaml" include nil nil [1150 1161])
+            ("gaussian" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [1176 1177])
+                ("m" variable nil (reparse-symbol function_parameters) [1179 1180])
+                ("s" variable nil (reparse-symbol function_parameters) [1182 1183])
+                ("a" variable nil (reparse-symbol function_parameters) [1185 1186]))              ) nil [1163 1314])
+            ("with" code nil nil [1315 1425])
+            ("if" code nil nil [1427 4398]))          
+      :file "cno_discovery_likelihood.py"
+      :pointmax 4398
+      :fsize 4399
+      :lastmodtime '(25255 14899 609671 243000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("Jeromy" include nil nil [25 38])
+            ("Jeromy.utilities.helpers" include nil nil [39 75])
+            ("numpy" include nil nil [77 95])
+            ("matplotlib.pyplot" include nil nil [96 127])
+            ("true_value_highZ" variable nil nil [129 158])
+            ("true_error_highZ" variable nil nil [159 187])
+            ("true_value_lowZ" variable nil nil [189 217])
+            ("true_error_lowZ" variable nil nil [218 245])
+            ("trials_highZ" variable nil nil [247 706])
+            ("trials_lowZ" variable nil nil [708 1162])
+            ("if" code nil nil [1164 2688]))          
+      :file "metallicity_separation_stand_alone.py"
+      :pointmax 2694
+      :fsize 2693
+      :lastmodtime '(25255 14899 607801 203000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!SolarStuff!CNOFluxAnalysis!Jeromy!Jeromy!scripts!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

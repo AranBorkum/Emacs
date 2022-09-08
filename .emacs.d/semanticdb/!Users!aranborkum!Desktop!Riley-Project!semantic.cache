@@ -1,0 +1,21 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("barcode" include nil nil [1 15])
+            ("random" include nil nil [16 29])
+            ("number" variable nil nil [67 108])
+            ("EAN" variable nil nil [109 149])
+            ("fullname" variable nil nil [173 209]))          
+      :file "test.py"
+      :pointmax 210
+      :fsize 209
+      :lastmodtime '(24363 56269 997885 647000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Desktop!Riley-Project!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

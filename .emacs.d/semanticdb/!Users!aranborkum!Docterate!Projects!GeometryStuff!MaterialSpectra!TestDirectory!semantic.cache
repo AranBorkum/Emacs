@@ -1,0 +1,26 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("FillVector" function
+               (:arguments 
+                  ( ("ifile" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [37 55]))                  
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [1 437])
+            ("macro" function (:type "void") nil [440 936]))          
+      :file "macro.C"
+      :pointmax 937
+      :fsize 936
+      :lastmodtime '(24475 64895 492813 274000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!GeometryStuff!MaterialSpectra!TestDirectory!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

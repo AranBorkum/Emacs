@@ -1,0 +1,198 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode emacs-lisp-mode
+      :tags nil
+      :file "ede-projects.el"
+      :pointmax 86
+      :fsize 85
+      :lastmodtime '(25366 28232 269778 730000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode emacs-lisp-mode
+      :tags 
+        '( ("yaml" customgroup (:user-visible-flag t) nil [2349 2452])
+            ("yaml-mode-hook" variable (:user-visible-flag t) nil [2454 2543])
+            ("yaml-indent-offset" variable
+               (:user-visible-flag t
+                :default-value 2)
+                nil [2545 2674])
+            ("yaml-backspace-function" variable
+               (:user-visible-flag t
+                :default-value (quote backward-delete-char-untabify))
+                nil [2676 2906])
+            ("yaml-block-literal-search-lines" variable
+               (:user-visible-flag t
+                :default-value 100)
+                nil [2908 3055])
+            ("yaml-block-literal-electric-alist" variable
+               (:user-visible-flag t
+                :default-value (quote ((124 . "") (62 . "-"))))
+                nil [3057 3398])
+            ("yaml-tab-face" variable
+               (:default-value (quote ((((class color)) (:background "red" :foreground "red" :bold t)) (t (:reverse-video t))))
+                :type "face")
+                nil [3400 3605])
+            ("yaml-imenu-generic-expression" variable (:default-value (quote ((nil "^\\(:?[a-zA-Z_-]+\\):" 1)))) nil [3607 3784])
+            ("yaml-mode-version" variable
+               (:constant-flag t
+                :default-value "0.0.13")
+                nil [3802 3865])
+            ("yaml-blank-line-re" variable
+               (:constant-flag t
+                :default-value "^ *$")
+                nil [3867 3966])
+            ("yaml-directive-re" variable
+               (:constant-flag t
+                :default-value "^\\(?:--- \\)? *%\\(\\w+\\)")
+                nil [3968 4083])
+            ("yaml-document-delimiter-re" variable
+               (:constant-flag t
+                :default-value "^\\(?:---\\|[.][.][.]\\)")
+                nil [4085 4201])
+            ("yaml-node-anchor-alias-re" variable
+               (:constant-flag t
+                :default-value "[&*][a-zA-Z0-9_-]+")
+                nil [4203 4309])
+            ("yaml-tag-re" variable
+               (:constant-flag t
+                :default-value "!!?[^ 
+]+")
+                nil [4311 4378])
+            ("yaml-bare-scalar-re" variable
+               (:constant-flag t
+                :default-value "\\(?:[^-:,#!
+{\\[ ]\\|[^#!
+{\\[ ]\\S-\\)[^#
+]*?")
+                nil [4380 4505])
+            ("yaml-hash-key-re" variable
+               (:constant-flag t
+                :default-value (concat "\\(?:^\\(?:--- \\)?\\|{\\|\\(?:[-,] +\\)+\\) *" "\\(?:" yaml-tag-re " +\\)?" "\\(" yaml-bare-scalar-re "\\) *:" "\\(?: +\\|$\\)"))
+                nil [4507 4749])
+            ("yaml-scalar-context-re" variable
+               (:constant-flag t
+                :default-value (concat "\\(?:^\\(?:--- \\)?\\|{\\|\\(?: *[-,] +\\)+\\) *" "\\(?:" yaml-bare-scalar-re " *: \\)?"))
+                nil [4751 4952])
+            ("yaml-nested-map-re" variable
+               (:constant-flag t
+                :default-value (concat ".*: *\\(?:&.*\\|{ *\\|" yaml-tag-re " *\\)?$"))
+                nil [4954 5103])
+            ("yaml-block-literal-base-re" variable
+               (:constant-flag t
+                :default-value " *[>|][-+0-9]* *\\(?:
+\\|\\'\\)")
+                nil [5105 5237])
+            ("yaml-block-literal-re" variable
+               (:constant-flag t
+                :default-value (concat yaml-scalar-context-re "\\(?:" yaml-tag-re "\\)?" yaml-block-literal-base-re))
+                nil [5239 5438])
+            ("yaml-nested-sequence-re" variable
+               (:constant-flag t
+                :default-value (concat "^\\(?:\\(?: *- +\\)+\\|\\(:? *-$\\)\\)" "\\(?:" yaml-bare-scalar-re " *:\\(?: +.*\\)?\\)?$"))
+                nil [5440 5661])
+            ("yaml-constant-scalars-re" variable
+               (:constant-flag t
+                :default-value (concat "\\(?:^\\|\\(?::\\|-\\|,\\|{\\|\\[\\) +\\) *" (regexp-opt (quote ("~" "null" "Null" "NULL" ".nan" ".NaN" ".NAN" ".inf" ".Inf" ".INF" "-.inf" "-.Inf" "-.INF" "y" "Y" "yes" "Yes" "YES" "n" "N" "no" "No" "NO" "true" "True" "TRUE" "false" "False" "FALSE" "on" "On" "ON" "off" "Off" "OFF")) t) " *$"))
+                nil [5663 6170])
+            ("yaml-mode-map" variable (:default-value (let ((map (make-sparse-keymap))) (define-key map "|" (quote yaml-electric-bar-and-angle)) (define-key map ">" (quote yaml-electric-bar-and-angle)) (define-key map "-" (quote yaml-electric-dash-and-dot)) (define-key map "." (quote yaml-electric-dash-and-dot)) (define-key map (kbd "DEL") (quote yaml-electric-backspace)) map)) nil [6189 6568])
+            ("yaml-mode-syntax-table" variable (:default-value (let ((syntax-table (make-syntax-table))) (modify-syntax-entry 39 "\"" syntax-table) (modify-syntax-entry 34 "\"" syntax-table) (modify-syntax-entry 35 "<" syntax-table) (modify-syntax-entry 10 ">" syntax-table) (modify-syntax-entry 92 "\\" syntax-table) (modify-syntax-entry 45 "_" syntax-table) (modify-syntax-entry 95 "_" syntax-table) (modify-syntax-entry 38 "." syntax-table) (modify-syntax-entry 42 "." syntax-table) (modify-syntax-entry 40 "." syntax-table) (modify-syntax-entry 41 "." syntax-table) (modify-syntax-entry 123 "(}" syntax-table) (modify-syntax-entry 125 "){" syntax-table) (modify-syntax-entry 91 "(]" syntax-table) (modify-syntax-entry 93 ")[" syntax-table) syntax-table)) nil [6570 7418])
+            ("define-derived-mode" code nil nil [7435 8034])
+            ("yaml-font-lock-keywords" variable (:default-value (\` ((yaml-font-lock-block-literals 0 font-lock-string-face) ((\, yaml-constant-scalars-re) 1 font-lock-constant-face) ((\, yaml-tag-re) 0 font-lock-type-face) ((\, yaml-node-anchor-alias-re) 0 font-lock-function-name-face) ((\, yaml-hash-key-re) 1 font-lock-variable-name-face) ((\, yaml-document-delimiter-re) 0 font-lock-comment-face) ((\, yaml-directive-re) 1 font-lock-builtin-face) ("^[	]+" 0 (quote yaml-tab-face) t)))) nil [8060 8593])
+            ("yaml-mode-syntax-propertize-function" function (:arguments ("beg" "end")) nil [8595 10148])
+            ("yaml-font-lock-block-literals" function (:arguments ("bound")) nil [10150 12141])
+            ("yaml-compute-indentation" function nil nil [12179 12762])
+            ("yaml-indent-line" function (:user-visible-flag t) nil [12764 13548])
+            ("yaml-electric-backspace" function
+               (:user-visible-flag t
+                :arguments ("arg"))
+                nil [13550 14133])
+            ("yaml-electric-bar-and-angle" function
+               (:user-visible-flag t
+                :arguments ("arg"))
+                nil [14135 14875])
+            ("yaml-electric-dash-and-dot" function
+               (:user-visible-flag t
+                :arguments ("arg"))
+                nil [14877 15326])
+            ("yaml-narrow-to-block-literal" function (:user-visible-flag t) nil [15328 16341])
+            ("yaml-fill-paragraph" function
+               (:user-visible-flag t
+                :arguments ("justify" "region"))
+                nil [16343 16803])
+            ("yaml-set-imenu-generic-expression" function nil nil [16805 17090])
+            ("add-hook" code nil nil [17092 17153])
+            ("yaml-mode-version" function (:user-visible-flag t) nil [17156 17301])
+            ("add-to-list" code nil nil [17318 17390])
+            ("yaml-mode" package nil nil [17392 17412]))          
+      :file "yaml-mode.el"
+      :pointmax 17441
+      :fsize 17440
+      :lastmodtime '(23816 59695 103108 745000)
+      :unmatched-syntax '((symbol 1 . 13)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode emacs-lisp-mode
+      :tags 
+        '( ("my-term-shell" variable (:default-value "/bin/bash") nil [1 35])
+            ("ansi-term" function (:arguments ("before" "force-bash")) nil [36 114])
+            ("ad-activate" code nil nil [115 139])
+            ("use-package" code nil nil [141 203])
+            ("setq" code nil nil [205 233])
+            ("setq" code nil nil [234 262])
+            ("defalias" code nil nil [264 297])
+            ("global-set-key" code nil nil [299 356])
+            ("setq" code nil nil [358 391])
+            ("global-linum-mode" code nil nil [393 414])
+            ("line-number-mode" code nil nil [415 435])
+            ("column-number-mode" code nil nil [436 458])
+            ("tool-bar-mode" code nil nil [460 478])
+            ("menu-bar-mode" code nil nil [479 497])
+            ("scroll-bar-mode" code nil nil [498 518])
+            ("setq" code nil nil [520 552])
+            ("setq" code nil nil [554 625])
+            ("use-package" code nil nil [627 733])
+            ("setq" code nil nil [735 770])
+            ("setq" code nil nil [771 807])
+            ("setq" code nil nil [808 831])
+            ("ido-mode" code nil nil [832 844])
+            ("use-package" code nil nil [846 921])
+            ("setq" code nil nil [922 971])
+            ("use-package" code nil nil [973 1054])
+            ("global-set-key" code nil nil [1056 1107])
+            ("global-set-key" code nil nil [1109 1148])
+            ("use-package" code nil nil [1150 1213])
+            ("config-visit" function nil nil [1215 1292])
+            ("global-set-key" code nil nil [1293 1337])
+            ("config-reload" function nil nil [1339 1447])
+            ("global-set-key" code nil nil [1448 1493])
+            ("use-package" code nil nil [1495 1558])
+            ("use-package" code nil nil [1560 1667])
+            ("load" code nil nil [1669 1708])
+            ("add-to-list" code nil nil [1709 1769])
+            ("load-file" code nil nil [2011 2084])
+            ("add-to-list" code nil nil [2232 2309])
+            ("add-to-list" code nil nil [2310 2391])
+            ("add-to-list" code nil nil [2392 2462])
+            ("semantic-mode" code nil nil [2483 2500])
+            ("global-ede-mode" code nil nil [2546 2565])
+            ("setq" code nil nil [2599 2676])
+            ("add-to-list" code nil nil [2678 2735])
+            ("setq" code nil nil [2736 2821])
+            ("arduino-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [2822 2887])
+            ("add-to-list" code nil nil [2889 2936])
+            ("setq" code nil nil [2937 3020])
+            ("use-package" code nil nil [3022 3270]))          
+      :file "config.el"
+      :pointmax 3271
+      :fsize 3461
+      :lastmodtime '(25098 27676 320862 253000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!.emacs.d!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

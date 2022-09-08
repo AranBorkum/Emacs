@@ -1,0 +1,450 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("art/Framework/Core/EDProducer.h" include nil nil [370 412])
+            ("art/Framework/Core/ModuleMacros.h" include nil nil [413 457])
+            ("art/Framework/Principal/Event.h" include nil nil [458 500])
+            ("art/Framework/Principal/Handle.h" include nil nil [501 544])
+            ("art/Framework/Principal/Run.h" include nil nil [545 585])
+            ("art/Framework/Principal/SubRun.h" include nil nil [586 629])
+            ("art/Utilities/make_tool.h" include nil nil [630 666])
+            ("canvas/Utilities/InputTag.h" include nil nil [667 705])
+            ("fhiclcpp/ParameterSet.h" include nil nil [706 740])
+            ("messagefacility/MessageLogger/MessageLogger.h" include nil nil [741 797])
+            ("larcore/Geometry/Geometry.h" include nil nil [799 837])
+            ("lardata/ArtDataHelper/HitCreator.h" include nil nil [838 883])
+            ("dune/DAQSimAna/LinHitFinderTool.h" include nil nil [885 929])
+            ("memory" include (:system-flag t) nil [931 948])
+            ("LinHitFinder" type
+               (:prototype t
+                :type "class")
+                nil [950 969])
+            ("LinHitFinder" type
+               (:superclasses 
+                  ( ("art::EDProducer" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [1018 1025])
+                    ("LinHitFinder" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :typemodifiers ("explicit")
+                        :arguments 
+                          ( ("p" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("fhicl::ParameterSet" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1050 1080]))                          
+                        :type ("LinHitFinder" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1028 1081])
+                    ("produce" function
+                       (:prototype-flag t
+                        :override-flag t
+                        :arguments 
+                          ( ("e" variable
+                               (:reference 1
+                                :type ("art::Event" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1495 1510]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1482 1520])
+                    ("private" label nil (reparse-symbol classsubparts) [1522 1530])
+                    ("m_inputTag" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1593 1616])
+                    ("m_finder" variable (:type ("std::unique_ptr" type
+                         (:template-specifier 
+                            ( ("LinHitFinderTool" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [1690 1733]))                  
+                :type "class")
+                nil [972 1736])
+            ("LinHitFinder" function
+               (:constructor-flag t
+                :parent "LinHitFinder"
+                :arguments 
+                  ( ("p" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("fhicl::ParameterSet" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1766 1796]))                  
+                :type ("LinHitFinder" type (:type "class") nil nil))
+                nil [1739 2055])
+            ("produce" function
+               (:parent "LinHitFinder"
+                :arguments 
+                  ( ("e" variable
+                       (:reference 1
+                        :type ("art::Event" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2084 2099]))                  
+                :type "void")
+                nil [2057 5055]))          
+      :file "LinHitFinder_module.cc"
+      :pointmax 5089
+      :fsize 5088
+      :lastmodtime '(23984 5962 972748 646000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("dune/DAQSimAna/LinHitFinderPass1.h" include nil nil [380 425])
+            ("dune/DAQSimAna/AlgParts.h" include nil nil [427 463])
+            ("algorithm" include (:system-flag t) nil [465 485])
+            ("LinHitFinderPass1" function
+               (:constructor-flag t
+                :parent "LinHitFinderPass1"
+                :arguments 
+                  ( ("p" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("fhicl::ParameterSet" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [548 578]))                  
+                :type ("LinHitFinderPass1" type (:type "class") nil nil))
+                nil [511 1676])
+            ("downSample" function
+               (:parent "LinHitFinderPass1"
+                :arguments 
+                  ( ("orig" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("short" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1727 1758]))                  
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("short" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [1678 2143])
+            ("findPedestal" function
+               (:parent "LinHitFinderPass1"
+                :arguments 
+                  ( ("waveform" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("short" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2196 2231]))                  
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("short" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [2145 2704])
+            ("filter" function
+               (:parent "LinHitFinderPass1"
+                :arguments 
+                  ( ("pedsub" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("short" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2751 2784]))                  
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("short" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [2706 3375])
+            ("hitFinding" function
+               (:parent "LinHitFinderPass1"
+                :arguments 
+                  ( ("waveform" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("short" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [3412 3447])
+                    ("hits" variable
+                       (:reference 1
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("LinHitFinderTool::Hit" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [3488 3529])
+                    ("channel" variable (:type "int") (reparse-symbol arg-sub-list) [3570 3582]))                  
+                :type "void")
+                nil [3377 4634])
+            ("findHits" function
+               (:parent "LinHitFinderPass1"
+                :arguments 
+                  ( ("channel_numbers" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("unsigned int" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [4700 4749])
+                    ("collection_samples" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("std::vector" type (:template-specifier 
+                                    ( ("short" type nil nil nil))                                    ) nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [4758 4816])
+                    ("CollectionOrInduction" variable (:type "int") (reparse-symbol arg-sub-list) [4824 4850]))                  
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("LinHitFinderTool::Hit" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [4637 6044]))          
+      :file "LinHitFinderPass1_tool.cc"
+      :pointmax 6087
+      :fsize 6086
+      :lastmodtime '(23984 5922 62716 284000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("TRIGGERPRIMITIVEFINDERPASS1_H" variable (:constant-flag t) nil [47 76])
+            ("art/Framework/Services/Registry/ActivityRegistry.h" include nil nil [78 139])
+            ("art/Utilities/ToolMacros.h" include nil nil [140 177])
+            ("fhiclcpp/ParameterSet.h" include nil nil [178 212])
+            ("dune/DAQSimAna/LinHitFinderTool.h" include nil nil [214 258])
+            ("LinHitFinderPass1" type
+               (:superclasses 
+                  ( ("LinHitFinderTool" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [312 319])
+                    ("LinHitFinderPass1" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :typemodifiers ("explicit")
+                        :arguments 
+                          ( ("p" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("fhicl::ParameterSet" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [349 379]))                          
+                        :type ("LinHitFinderPass1" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [322 380])
+                    ("findHits" function
+                       (:prototype-flag t
+                        :typemodifiers ("virtual")
+                        :arguments 
+                          ( ("channel_numbers" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("unsigned int" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [560 609])
+                            ("collection_samples" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("std::vector" type (:template-specifier 
+                                            ( ("short" type nil nil nil))                                            ) nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [624 682])
+                            ("CollectionOrInduction" variable (:type "int") (reparse-symbol arg-sub-list) [689 715]))                          
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("LinHitFinderTool::Hit" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol classsubparts) [504 716])
+                    ("protected" label nil (reparse-symbol classsubparts) [723 733])
+                    ("downSample" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("orig" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("short" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [768 799]))                          
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("short" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol classsubparts) [738 800])
+                    ("findPedestal" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("orig" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("short" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [837 868]))                          
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("short" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol classsubparts) [805 869])
+                    ("filter" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("orig" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("short" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [900 931]))                          
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("short" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol classsubparts) [874 932])
+                    ("hitFinding" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("waveform" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("short" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [953 988])
+                            ("hits" variable
+                               (:reference 1
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("LinHitFinderTool::Hit" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [989 1030])
+                            ("channel" variable (:type "int") (reparse-symbol arg-sub-list) [1031 1043]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [937 1044])
+                    ("m_threshold" variable (:type "unsigned int") (reparse-symbol classsubparts) [1050 1075])
+                    ("m_useSignalKill" variable (:type "bool") (reparse-symbol classsubparts) [1081 1102])
+                    ("m_signalKillLookahead" variable (:type "short") (reparse-symbol classsubparts) [1107 1135])
+                    ("m_signalKillThreshold" variable (:type "short") (reparse-symbol classsubparts) [1140 1168])
+                    ("m_signalKillNContig" variable (:type "short") (reparse-symbol classsubparts) [1173 1199])
+                    ("m_frugalNContig" variable (:type "short") (reparse-symbol classsubparts) [1205 1227])
+                    ("m_doFiltering" variable (:type "bool") (reparse-symbol classsubparts) [1233 1252])
+                    ("m_downsampleFactor" variable (:type "unsigned int") (reparse-symbol classsubparts) [1258 1290])
+                    ("m_filterTaps" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("short" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [1295 1327])
+                    ("m_multiplier" variable (:type "int") (reparse-symbol classsubparts) [1332 1349]))                  
+                :type "class")
+                nil [260 1352]))          
+      :file "LinHitFinderPass1.h"
+      :pointmax 1361
+      :fsize 1360
+      :lastmodtime '(23984 5906 71041 756000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("TRIGGERPRIMITIVEFINDERPASS1_H")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("TriggerPrimitiveFinderTool_h" variable (:constant-flag t) nil [36 54])
+            ("vector" include (:system-flag t) nil [56 73])
+            ("iostream" include (:system-flag t) nil [74 93])
+            ("LinHitFinderTool" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [122 129])
+                    ("Hit" type
+                       (:members 
+                          ( ("Hit" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("_channel" variable (:type "int") (reparse-symbol arg-sub-list) [163 176])
+                                    ("_startTime" variable (:type "int") (reparse-symbol arg-sub-list) [177 192])
+                                    ("_charge" variable (:type "int") (reparse-symbol arg-sub-list) [193 205])
+                                    ("_timeOverThreshold" variable (:type "int") (reparse-symbol arg-sub-list) [206 229]))                                  
+                                :type ("Hit" type (:type "struct") nil nil))
+                                (reparse-symbol classsubparts) [159 397])
+                            ("channel" variable (:type "int") (reparse-symbol classsubparts) [406 418])
+                            ("startTime" variable (:type "int") (reparse-symbol classsubparts) [427 441])
+                            ("charge" variable (:type "int") (reparse-symbol classsubparts) [450 461])
+                            ("timeOverThreshold" variable (:type "int") (reparse-symbol classsubparts) [470 492]))                          
+                        :type "struct")
+                        (reparse-symbol classsubparts) [134 499])
+                    ("findHits" function
+                       (:pure-virtual-flag t
+                        :prototype-flag t
+                        :typemodifiers ("virtual")
+                        :arguments 
+                          ( ("channel_numbers" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("unsigned int" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [604 653])
+                            ("collection_samples" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("std::vector" type (:template-specifier 
+                                            ( ("short" type nil nil nil))                                            ) nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [668 726])
+                            ("CollectionOrInduction" variable (:type "int") (reparse-symbol arg-sub-list) [733 759]))                          
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("LinHitFinderTool::Hit" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol classsubparts) [548 764]))                  
+                :type "class")
+                nil [95 769]))          
+      :file "LinHitFinderTool.h"
+      :pointmax 795
+      :fsize 794
+      :lastmodtime '(23984 6377 180740 445000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("LinHitFinderTool_h")
+          )
+))
+  :file "!Users!aranborkum!Desktop!LinHit!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,34 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("waveform_utils" include nil nil [1 31])
+            ("numpy" include nil nil [32 50])
+            ("matplotlib.pyplot" include nil nil [51 82])
+            ("argparse" include nil nil [83 98])
+            ("re" include nil nil [99 108])
+            ("arrow" include nil nil [109 121])
+            ("os.path" include nil nil [122 136])
+            ("plot_with_hits" function (:arguments 
+              ( ("ax" variable nil (reparse-symbol function_parameters) [157 159])
+                ("s" variable nil (reparse-symbol function_parameters) [161 162])
+                ("hits" variable nil (reparse-symbol function_parameters) [164 168])
+                ("minmax" variable nil (reparse-symbol function_parameters) [175 181])
+                ("use_channel_number" variable nil (reparse-symbol function_parameters) [187 205]))              ) nil [138 440])
+            ("if" code nil nil [441 3714]))          
+      :file "self-trigger-evt-disp.py"
+      :pointmax 3714
+      :fsize 3713
+      :lastmodtime '(24037 9000 843622 557000)
+      :unmatched-syntax '((NAME 2790 . 2795) (IF 2798 . 2800) (ELSE 2822 . 2826)))
+    (semanticdb-table "semanticdb-table"
+      :file "waveform_utils.py"
+      :fsize 7504
+      :lastmodtime '(24037 9000 843793 581000)))
+  :file "!Users!aranborkum!Desktop!Waveform-Tools!python!protodune!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

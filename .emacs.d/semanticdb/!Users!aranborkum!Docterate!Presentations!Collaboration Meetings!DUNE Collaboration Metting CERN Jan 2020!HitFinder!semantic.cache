@@ -1,0 +1,288 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("matplotlib.pyplot" include nil nil [20 51])
+            ("pedsub" variable nil nil [53 88])
+            ("iqr" variable nil nil [89 121])
+            ("filtered" variable nil nil [122 159])
+            ("runsum" variable nil nil [160 199])
+            ("i" variable nil nil [201 206])
+            ("pedsub1" variable nil nil [208 231])
+            ("pedsub2" variable nil nil [288 311])
+            ("pedsub3" variable nil nil [368 391])
+            ("pedsub4" variable nil nil [448 471])
+            ("pedsub5" variable nil nil [528 551])
+            ("plt" code nil nil [609 621])
+            ("plt" code nil nil [622 642])
+            ("plt" code nil nil [643 681])
+            ("plt" code nil nil [682 723])
+            ("plt" code nil nil [724 766])
+            ("plt" code nil nil [767 809])
+            ("plt" code nil nil [810 852])
+            ("plt" code nil nil [854 874])
+            ("plt" code nil nil [875 917])
+            ("plt" code nil nil [918 965])
+            ("plt" code nil nil [966 1014])
+            ("plt" code nil nil [1015 1063])
+            ("plt" code nil nil [1064 1112])
+            ("plt" code nil nil [1114 1134])
+            ("plt" code nil nil [1135 1173])
+            ("plt" code nil nil [1348 1358]))          
+      :file "StagesPlotting.py"
+      :pointmax 2020
+      :fsize 2019
+      :lastmodtime '(24095 7444 17255 313000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("argparse" include nil nil [1 16])
+            ("numpy" include nil nil [17 35])
+            ("matplotlib.pyplot" include nil nil [36 67])
+            ("parser" variable nil nil [69 150])
+            ("parser" code nil nil [151 248])
+            ("parser" code nil nil [249 343])
+            ("parser" code nil nil [344 445])
+            ("args" variable nil nil [446 472])
+            ("raw" variable nil nil [474 506])
+            ("run" variable nil nil [507 539])
+            ("event_number" variable nil nil [541 557])
+            ("if" code nil nil [558 715])
+            ("plt" code nil nil [716 728])
+            ("plt" code nil nil [729 749])
+            ("xvalues" variable nil nil [750 789])
+            ("plt" code nil nil [832 870])
+            ("plt" code nil nil [871 901])
+            ("plt" code nil nil [903 923])
+            ("xvalues" variable nil nil [924 963])
+            ("plt" code nil nil [964 1000])
+            ("plt" code nil nil [1002 1044])
+            ("plt" code nil nil [1118 1128]))          
+      :file "PlotFromText.py"
+      :pointmax 1129
+      :fsize 1128
+      :lastmodtime '(24093 53369 753301 946000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("matplotlib.pyplot" include nil nil [20 51])
+            ("thresholds" variable nil nil [53 103])
+            ("induction" variable nil nil [104 149])
+            ("collection" variable nil nil [150 205])
+            ("col" variable nil nil [254 269])
+            ("plt" code nil nil [273 285])
+            ("plt" code nil nil [286 306])
+            ("plt" code nil nil [307 343])
+            ("plt" code nil nil [386 406])
+            ("plt" code nil nil [407 444])
+            ("plt" code nil nil [452 462]))          
+      :file "MCC11Plotting.py"
+      :pointmax 463
+      :fsize 462
+      :lastmodtime '(24093 59339 88474 606000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("matplotlib.pyplot" include nil nil [20 51])
+            ("scipy.optimize" include nil nil [53 95])
+            ("adc_thresholds" variable nil nil [97 143])
+            ("induction" variable nil nil [144 197])
+            ("hInduction" variable nil nil [198 265])
+            ("collection" variable nil nil [266 327])
+            ("hCollection" variable nil nil [328 403])
+            ("lCollection" variable nil nil [404 457])
+            ("neg_thresholds" variable nil nil [459 479])
+            ("neg_induction" variable nil nil [480 500])
+            ("neg_hInduction" variable nil nil [501 521])
+            ("log_collection" variable nil nil [522 542])
+            ("log_hCollection" variable nil nil [543 563])
+            ("log_lCollection" variable nil nil [564 584])
+            ("for" code nil nil [588 781])
+            ("for" code nil nil [782 1334])
+            ("Gauss" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [1354 1355])
+                ("m" variable nil (reparse-symbol function_parameters) [1356 1357])
+                ("s" variable nil (reparse-symbol function_parameters) [1358 1359])
+                ("A" variable nil (reparse-symbol function_parameters) [1360 1361]))              ) nil [1344 1406])
+            ("L" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [1413 1414])
+                ("m" variable nil (reparse-symbol function_parameters) [1415 1416])
+                ("G" variable nil (reparse-symbol function_parameters) [1417 1418])
+                ("A" variable nil (reparse-symbol function_parameters) [1419 1420]))              ) nil [1407 1466])
+            ("E" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [1473 1474])
+                ("a" variable nil (reparse-symbol function_parameters) [1476 1477])
+                ("b" variable nil (reparse-symbol function_parameters) [1479 1480]))              ) nil [1467 1512])
+            ("Lin" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [1521 1522])
+                ("a" variable nil (reparse-symbol function_parameters) [1524 1525])
+                ("b" variable nil (reparse-symbol function_parameters) [1527 1528]))              ) nil [1513 1554])
+            ("plt" code nil nil [1556 1568])
+            ("plt" code nil nil [1619 1639])
+            ("plt" code nil nil [1640 1728])
+            ("slate" variable nil nil [1731 1770])
+            ("popt, pcov" code nil nil [1771 1834])
+            ("plt" code nil nil [1835 1874])
+            ("plt" code nil nil [1876 1911])
+            ("plt" code nil nil [1912 1952])
+            ("plt" code nil nil [1953 2000])
+            ("plt" code nil nil [2001 2018])
+            ("plt" code nil nil [2019 2038])
+            ("plt" code nil nil [2089 2109])
+            ("plt" code nil nil [2110 2143])
+            ("plt" code nil nil [2144 2230])
+            ("popt, pcov" code nil nil [2324 2397])
+            ("slate" variable nil nil [2398 2432])
+            ("plt" code nil nil [2433 2472])
+            ("plt" code nil nil [2473 2490])
+            ("plt" code nil nil [3445 3481])
+            ("plt" code nil nil [3482 3522])
+            ("plt" code nil nil [3571 3588])
+            ("plt" code nil nil [3589 3610])
+            ("plt" code nil nil [3643 3653]))          
+      :file "HitTrends.py"
+      :pointmax 3654
+      :fsize 3921
+      :lastmodtime '(24230 61583 10328 287000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("matplotlib.pyplot" include nil nil [20 51])
+            ("data" variable nil nil [53 84])
+            ("events" variable nil nil [86 104])
+            ("posAverages" variable nil nil [106 122])
+            ("negAverages" variable nil nil [123 139])
+            ("for" code nil nil [142 243])
+            ("plt" code nil nil [594 606])
+            ("plt" code nil nil [607 649])
+            ("plt" code nil nil [650 688])
+            ("plt" code nil nil [720 730]))          
+      :file "Single.py"
+      :pointmax 731
+      :fsize 730
+      :lastmodtime '(24095 13891 901930 79000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("matplotlib.pyplot" include nil nil [20 51]))          
+      :file "HitMissedVSAdc.py"
+      :pointmax 65
+      :fsize 64
+      :lastmodtime '(24096 36943 335313 845000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("matplotlib.pyplot" include nil nil [20 51])
+            ("scipy.interpolate" include nil nil [52 90])
+            ("CollectionHits" variable nil nil [92 113])
+            ("InductionHits" variable nil nil [114 134])
+            ("data" variable nil nil [186 228])
+            ("plt" code nil nil [231 243])
+            ("plt" code nil nil [267 386])
+            ("plt" code nil nil [387 506])
+            ("plt" code nil nil [508 572])
+            ("plt" code nil nil [573 636])
+            ("collectionPure" variable nil nil [639 658])
+            ("inductionPure" variable nil nil [659 678])
+            ("this" variable nil nil [679 688])
+            ("that" variable nil nil [689 698])
+            ("for" code nil nil [699 1052])
+            ("plt" code nil nil [1057 1074])
+            ("plt" code nil nil [1075 1097])
+            ("plt" code nil nil [1098 1139])
+            ("plt" code nil nil [1140 1180])
+            ("plt" code nil nil [1181 1191])
+            ("plt" code nil nil [1194 1206])
+            ("plt" code nil nil [1350 1368])
+            ("plt" code nil nil [1410 1470])
+            ("plt" code nil nil [1471 1493])
+            ("plt" code nil nil [1717 1727]))          
+      :file "PurityTest.py"
+      :pointmax 1729
+      :fsize 1848
+      :lastmodtime '(24230 41712 181285 343000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("matplotlib.pyplot" include nil nil [1 32])
+            ("threshold" variable nil nil [34 80])
+            ("Other" variable nil nil [82 251])
+            ("Marl" variable nil nil [253 482])
+            ("APA" variable nil nil [484 663])
+            ("CPA" variable nil nil [665 854])
+            ("Ar39" variable nil nil [856 1097])
+            ("Neut" variable nil nil [1099 1288])
+            ("Kryp" variable nil nil [1290 1520])
+            ("Plon" variable nil nil [1522 1711])
+            ("Rdon" variable nil nil [1713 1932])
+            ("Ar42" variable nil nil [1934 2123])
+            ("Ind_Other" variable nil nil [2125 2158])
+            ("Ind_Marl" variable nil nil [2159 2192])
+            ("Ind_APA" variable nil nil [2193 2226])
+            ("Ind_CPA" variable nil nil [2227 2260])
+            ("Ind_Ar39" variable nil nil [2261 2294])
+            ("Ind_Neut" variable nil nil [2295 2328])
+            ("Ind_Kryp" variable nil nil [2329 2362])
+            ("Ind_Plon" variable nil nil [2363 2396])
+            ("Ind_Rdon" variable nil nil [2397 2430])
+            ("Ind_Ar42" variable nil nil [2431 2464])
+            ("Col_Other" variable nil nil [2466 2499])
+            ("Col_Marl" variable nil nil [2500 2533])
+            ("Col_APA" variable nil nil [2534 2567])
+            ("Col_CPA" variable nil nil [2568 2601])
+            ("Col_Ar39" variable nil nil [2602 2635])
+            ("Col_Neut" variable nil nil [2636 2669])
+            ("Col_Kryp" variable nil nil [2670 2703])
+            ("Col_Plon" variable nil nil [2704 2737])
+            ("Col_Rdon" variable nil nil [2738 2771])
+            ("Col_Ar42" variable nil nil [2772 2805])
+            ("plt" code nil nil [2807 2819])
+            ("plt" code nil nil [2820 2840])
+            ("plt" code nil nil [2841 2876])
+            ("plt" code nil nil [2877 2912])
+            ("plt" code nil nil [2913 2948])
+            ("plt" code nil nil [2949 2984])
+            ("plt" code nil nil [2985 3020])
+            ("plt" code nil nil [3021 3056])
+            ("plt" code nil nil [3057 3092])
+            ("plt" code nil nil [3093 3128])
+            ("plt" code nil nil [3129 3164])
+            ("plt" code nil nil [3165 3200])
+            ("plt" code nil nil [3220 3240])
+            ("plt" code nil nil [3241 3276])
+            ("plt" code nil nil [3277 3312])
+            ("plt" code nil nil [3313 3348])
+            ("plt" code nil nil [3349 3384])
+            ("plt" code nil nil [3385 3420])
+            ("plt" code nil nil [3421 3456])
+            ("plt" code nil nil [3457 3492])
+            ("plt" code nil nil [3493 3528])
+            ("plt" code nil nil [3529 3564])
+            ("plt" code nil nil [3565 3600])
+            ("plt" code nil nil [3601 3618])
+            ("plt" code nil nil [3619 3629]))          
+      :file "HitBreakdown.py"
+      :pointmax 3630
+      :fsize 3629
+      :lastmodtime '(24230 63814 108475 29000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Presentations!Collaboration Meetings!DUNE Collaboration Metting CERN Jan 2020!HitFinder!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

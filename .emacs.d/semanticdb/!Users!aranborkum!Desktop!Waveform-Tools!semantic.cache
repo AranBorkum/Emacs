@@ -1,0 +1,684 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("cnpy.h" include nil nil [160 177])
+            ("complex" include (:system-flag t) nil [178 196])
+            ("cstdlib" include (:system-flag t) nil [197 215])
+            ("algorithm" include (:system-flag t) nil [216 236])
+            ("cstring" include (:system-flag t) nil [237 255])
+            ("iomanip" include (:system-flag t) nil [256 274])
+            ("stdint.h" include (:system-flag t) nil [275 294])
+            ("BigEndianTest" function
+               (:parent "cnpy"
+                :type "char")
+                nil [296 379])
+            ("map_type" function
+               (:parent "cnpy"
+                :arguments 
+                  ( ("t" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::type_info" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [401 425]))                  
+                :type "char")
+                nil [381 1264])
+            ("+=" function
+               (:type ("std::vector" type
+                     (:template-specifier 
+                        ( ("char" type nil nil nil))                        
+                      :type "class")
+                      nil nil)
+                :arguments 
+                  ( ("lhs" variable
+                       (:reference 1
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("char" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1315 1338])
+                    ("rhs" variable
+                       (:constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1339 1361]))                  
+                :parent "cnpy"
+                :operator-flag t)
+                nil [1266 1426])
+            ("+=" function
+               (:type ("std::vector" type
+                     (:template-specifier 
+                        ( ("char" type nil nil nil))                        
+                      :type "class")
+                      nil nil)
+                :arguments 
+                  ( ("lhs" variable
+                       (:reference 1
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("char" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1477 1500])
+                    ("rhs" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1501 1517]))                  
+                :parent "cnpy"
+                :operator-flag t)
+                nil [1428 1686])
+            ("parse_npy_header" function
+               (:parent "cnpy"
+                :arguments 
+                  ( ("buffer" variable
+                       (:pointer 1
+                        :type "unsigned char")
+                        (reparse-symbol arg-sub-list) [1716 1738])
+                    ("word_size" variable
+                       (:reference 1
+                        :type ("size_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1738 1756])
+                    ("shape" variable
+                       (:reference 1
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("size_t" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1757 1784])
+                    ("fortran_order" variable
+                       (:reference 1
+                        :type "bool")
+                        (reparse-symbol arg-sub-list) [1785 1805]))                  
+                :type "void")
+                nil [1688 3261])
+            ("parse_npy_header" function
+               (:parent "cnpy"
+                :arguments 
+                  ( ("fp" variable
+                       (:pointer 1
+                        :type ("FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3291 3300])
+                    ("word_size" variable
+                       (:reference 1
+                        :type ("size_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3301 3319])
+                    ("shape" variable
+                       (:reference 1
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("size_t" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [3320 3347])
+                    ("fortran_order" variable
+                       (:reference 1
+                        :type "bool")
+                        (reparse-symbol arg-sub-list) [3348 3368]))                  
+                :type "void")
+                nil [3263 5081])
+            ("parse_zip_footer" function
+               (:parent "cnpy"
+                :arguments 
+                  ( ("fp" variable
+                       (:pointer 1
+                        :type ("FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5111 5120])
+                    ("nrecs" variable
+                       (:reference 1
+                        :type ("uint16_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5121 5137])
+                    ("global_header_size" variable
+                       (:reference 1
+                        :type ("size_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5138 5165])
+                    ("global_header_offset" variable
+                       (:reference 1
+                        :type ("size_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5166 5195]))                  
+                :type "void")
+                nil [5083 5937])
+            ("load_the_npy_file" function
+               (:arguments 
+                  ( ("fp" variable
+                       (:pointer 1
+                        :type ("FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5972 5981]))                  
+                :type ("cnpy::NpyArray" type (:type "class") nil nil))
+                nil [5939 6378])
+            ("load_the_npz_array" function
+               (:arguments 
+                  ( ("fp" variable
+                       (:pointer 1
+                        :type ("FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6414 6423])
+                    ("compr_bytes" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6424 6445])
+                    ("uncompr_bytes" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6446 6469]))                  
+                :type ("cnpy::NpyArray" type (:type "class") nil nil))
+                nil [6380 7595])
+            ("npz_load" function
+               (:parent "cnpy"
+                :arguments 
+                  ( ("fname" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7624 7642]))                  
+                :type ("cnpy::npz_t" type (:type "class") nil nil))
+                nil [7597 9302])
+            ("npz_load" function
+               (:parent "cnpy"
+                :arguments 
+                  ( ("fname" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9334 9352])
+                    ("varname" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9353 9373]))                  
+                :type ("cnpy::NpyArray" type (:type "class") nil nil))
+                nil [9304 11067])
+            ("npy_load" function
+               (:parent "cnpy"
+                :arguments 
+                  ( ("fname" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11099 11117]))                  
+                :type ("cnpy::NpyArray" type (:type "class") nil nil))
+                nil [11069 11338]))          
+      :file "cnpy.cpp"
+      :pointmax 11342
+      :fsize 11341
+      :lastmodtime '(24037 9521 506214 507000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("LIBCNPY_H_" variable (:constant-flag t) nil [186 196])
+            ("string" include (:system-flag t) nil [198 215])
+            ("stdexcept" include (:system-flag t) nil [216 236])
+            ("sstream" include (:system-flag t) nil [237 255])
+            ("vector" include (:system-flag t) nil [256 273])
+            ("cstdio" include (:system-flag t) nil [274 291])
+            ("typeinfo" include (:system-flag t) nil [292 311])
+            ("iostream" include (:system-flag t) nil [312 331])
+            ("cassert" include (:system-flag t) nil [332 350])
+            ("zlib.h" include (:system-flag t) nil [351 368])
+            ("map" include (:system-flag t) nil [369 383])
+            ("memory" include (:system-flag t) nil [384 401])
+            ("stdint.h" include (:system-flag t) nil [402 421])
+            ("numeric" include (:system-flag t) nil [422 440])
+            ("cnpy" type
+               (:members 
+                  ( ("NpyArray" type
+                       (:members 
+                          ( ("NpyArray" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("_shape" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("size_t" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [499 533])
+                                    ("_word_size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [534 552])
+                                    ("_fortran_order" variable (:type "bool") (reparse-symbol arg-sub-list) [553 573]))                                  
+                                :type ("NpyArray" type (:type "struct") nil nil))
+                                (reparse-symbol classsubparts) [490 898])
+                            ("NpyArray" function
+                               (:constructor-flag t
+                                :type ("NpyArray" type (:type "struct") nil nil))
+                                (reparse-symbol classsubparts) [908 978])
+                            ("data" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("T" type (:type "class") nil nil)
+                                :pointer 1)
+                                (reparse-symbol classsubparts) [988 1099])
+                            ("data" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("T" type (:type "class") nil nil)
+                                :constant-flag t
+                                :pointer 1
+                                :methodconst-flag t)
+                                (reparse-symbol classsubparts) [1109 1232])
+                            ("as_vec" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :methodconst-flag t)
+                                (reparse-symbol classsubparts) [1242 1398])
+                            ("num_bytes" function
+                               (:methodconst-flag t
+                                :type ("size_t" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1408 1484])
+                            ("data_holder" variable (:type ("std::shared_ptr" type
+                                 (:template-specifier 
+                                    ( ("std::vector" type (:template-specifier 
+                                        ( ("char" type nil nil nil))                                        ) nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [1494 1541])
+                            ("shape" variable (:type ("std::vector" type
+                                 (:template-specifier 
+                                    ( ("size_t" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [1550 1576])
+                            ("word_size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1585 1602])
+                            ("fortran_order" variable (:type "bool") (reparse-symbol classsubparts) [1611 1630])
+                            ("num_vals" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1639 1655]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [464 1662])
+                    ("BigEndianTest" function
+                       (:prototype-flag t
+                        :type "char")
+                        (reparse-symbol namespacesubparts) [1724 1745])
+                    ("map_type" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("t" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::type_info" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1764 1788]))                          
+                        :type "char")
+                        (reparse-symbol namespacesubparts) [1750 1789])
+                    ("create_npy_header" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("char" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("shape" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("size_t" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [1851 1884]))                          
+                        :prototype-flag t)
+                        (reparse-symbol namespacesubparts) [1794 1885])
+                    ("parse_npy_header" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("fp" variable
+                               (:pointer 1
+                                :type ("FILE" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1912 1921])
+                            ("word_size" variable
+                               (:reference 1
+                                :type ("size_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1921 1939])
+                            ("shape" variable
+                               (:reference 1
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("size_t" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [1940 1967])
+                            ("fortran_order" variable
+                               (:reference 1
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [1968 1988]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [1890 1989])
+                    ("parse_npy_header" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("buffer" variable
+                               (:pointer 1
+                                :type "unsigned char")
+                                (reparse-symbol arg-sub-list) [2016 2038])
+                            ("word_size" variable
+                               (:reference 1
+                                :type ("size_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2038 2056])
+                            ("shape" variable
+                               (:reference 1
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("size_t" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [2057 2084])
+                            ("fortran_order" variable
+                               (:reference 1
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [2085 2105]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [1994 2106])
+                    ("parse_zip_footer" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("fp" variable
+                               (:pointer 1
+                                :type ("FILE" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2133 2142])
+                            ("nrecs" variable
+                               (:reference 1
+                                :type ("uint16_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2143 2159])
+                            ("global_header_size" variable
+                               (:reference 1
+                                :type ("size_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2160 2187])
+                            ("global_header_offset" variable
+                               (:reference 1
+                                :type ("size_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2188 2217]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [2111 2218])
+                    ("npz_load" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("fname" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2238 2256]))                          
+                        :type ("npz_t" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2223 2257])
+                    ("npz_load" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("fname" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2280 2298])
+                            ("varname" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2299 2319]))                          
+                        :type ("NpyArray" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2262 2320])
+                    ("npy_load" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("fname" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2343 2361]))                          
+                        :type ("NpyArray" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2325 2362])
+                    ("+=" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("char" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("lhs" variable
+                               (:reference 1
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("char" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [2419 2442])
+                            ("rhs" variable
+                               (:constant-flag t
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2443 2455]))                          
+                        :operator-flag t)
+                        (reparse-symbol namespacesubparts) [2368 2660])
+                    ("+=" function
+                       (:type ("std::vector" type
+                             (:template-specifier 
+                                ( ("char" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("lhs" variable
+                               (:reference 1
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("char" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [2707 2730])
+                            ("rhs" variable
+                               (:constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2731 2753]))                          
+                        :operator-flag t
+                        :prototype-flag t)
+                        (reparse-symbol namespacesubparts) [2666 2754])
+                    ("+=" function
+                       (:type ("std::vector" type
+                             (:template-specifier 
+                                ( ("char" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("lhs" variable
+                               (:reference 1
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("char" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [2800 2823])
+                            ("rhs" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [2824 2840]))                          
+                        :operator-flag t
+                        :prototype-flag t)
+                        (reparse-symbol namespacesubparts) [2759 2841])
+                    ("npy_save" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("fname" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2883 2901])
+                            ("data" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2902 2916])
+                            ("shape" variable
+                               (:constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("size_t" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [2917 2949])
+                            ("mode" variable
+                               (:default-value "\"w\""
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2950 2973]))                          )
+                        (reparse-symbol namespacesubparts) [2848 4748])
+                    ("npz_save" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("zipname" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4789 4809])
+                            ("fname" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4810 4828])
+                            ("data" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4829 4843])
+                            ("shape" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("size_t" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [4844 4877])
+                            ("mode" variable
+                               (:default-value "\"w\""
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4878 4901]))                          )
+                        (reparse-symbol namespacesubparts) [4754 9239])
+                    ("npy_save" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("fname" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9280 9298])
+                            ("data" variable
+                               (:constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [9299 9325])
+                            ("mode" variable
+                               (:default-value "\"w\""
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [9326 9349]))                          )
+                        (reparse-symbol namespacesubparts) [9245 9478])
+                    ("npz_save" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("zipname" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9519 9539])
+                            ("fname" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9540 9558])
+                            ("data" variable
+                               (:constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [9559 9585])
+                            ("mode" variable
+                               (:default-value "\"w\""
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [9586 9609]))                          )
+                        (reparse-symbol namespacesubparts) [9484 9747])
+                    ("create_npy_header" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("char" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("shape" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("size_t" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [9810 9843]))                          )
+                        (reparse-symbol namespacesubparts) [9753 10918]))                  
+                :type "namespace")
+                nil [442 10922]))          
+      :file "cnpy.h"
+      :pointmax 10931
+      :fsize 10930
+      :lastmodtime '(24037 9547 907313 772000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("LIBCNPY_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("chrono" include (:system-flag t) nil [1 18])
+            ("functional" include (:system-flag t) nil [19 40])
+            ("iostream" include (:system-flag t) nil [41 60])
+            ("string" include (:system-flag t) nil [61 78])
+            ("vector" include (:system-flag t) nil [79 96])
+            ("fstream" include (:system-flag t) nil [97 115])
+            ("sstream" include (:system-flag t) nil [116 134])
+            ("boost/program_options.hpp" include nil nil [136 172])
+            ("canvas/Utilities/InputTag.h" include nil nil [174 212])
+            ("gallery/Event.h" include nil nil [213 239])
+            ("lardataobj/Simulation/SimChannel.h" include nil nil [241 286])
+            ("lardataobj/RawData/RawDigit.h" include nil nil [287 327])
+            ("lardataobj/RawData/RDTimeStamp.h" include nil nil [328 371])
+            ("cnpy.h" include nil nil [373 390])
+            ("art" using (:type ("art" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [392 412])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [413 433])
+            ("std::chrono" using (:type ("std::chrono" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [434 462])
+            ("po" type
+               (:kind alias
+                :members 
+                  ( ("boost::program_options" type (:type "namespace") nil nil))                  
+                :type "namespace")
+                nil [464 502])
+            ("Format" type (:type "class") nil [509 538])
+            ("save_to_file" function
+               (:template 
+                  ( ("T" type (:type "class") nil nil))                  
+                :type "void"
+                :arguments 
+                  ( ("outfile" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [577 604])
+                    ("v" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("std::vector" type (:template-specifier 
+                                ( ("T" type nil nil nil))                                ) nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [605 636])
+                    ("format" variable (:type ("Format" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [637 651])
+                    ("append" variable (:type "bool") (reparse-symbol arg-sub-list) [652 664]))                  )
+                nil [541 1412])
+            ("extract_larsoft_waveforms" function
+               (:arguments 
+                  ( ("tag" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2037 2060])
+                    ("filename" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2071 2099])
+                    ("outfile" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2110 2137])
+                    ("truth_outfile" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2148 2181])
+                    ("format" variable (:type ("Format" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2192 2206])
+                    ("nevents" variable (:type "int") (reparse-symbol arg-sub-list) [2217 2229])
+                    ("nskip" variable (:type "int") (reparse-symbol arg-sub-list) [2230 2240])
+                    ("onlySignal" variable (:type "bool") (reparse-symbol arg-sub-list) [2241 2257])
+                    ("triggerType" variable (:type "int") (reparse-symbol arg-sub-list) [2268 2284]))                  
+                :type "void")
+                nil [2006 6305])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [6316 6325])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [6326 6338]))                  
+                :type "int")
+                nil [6307 8052]))          
+      :file "extract_larsoft_waveforms.cxx"
+      :pointmax 8053
+      :fsize 8052
+      :lastmodtime '(24037 9686 148770 83000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Desktop!Waveform-Tools!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

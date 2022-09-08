@@ -1,0 +1,55 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [25 55])
+            ("matplotlib.pyplot" include nil nil [56 87])
+            ("scipy.optimize" include nil nil [89 131])
+            ("read_files" function nil nil [133 1316])
+            ("LimitRange" function (:arguments 
+              ( ("xValues" variable nil (reparse-symbol function_parameters) [1332 1339])
+                ("yValues" variable nil (reparse-symbol function_parameters) [1341 1348])
+                ("xlim" variable nil (reparse-symbol function_parameters) [1350 1354]))              ) nil [1317 1574])
+            ("gaus" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [1584 1585])
+                ("m" variable nil (reparse-symbol function_parameters) [1587 1588])
+                ("s" variable nil (reparse-symbol function_parameters) [1590 1591])
+                ("a" variable nil (reparse-symbol function_parameters) [1593 1594]))              ) nil [1575 1672])
+            ("linear" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [1684 1685])
+                ("a" variable nil (reparse-symbol function_parameters) [1687 1688])
+                ("b" variable nil (reparse-symbol function_parameters) [1690 1691])
+                ("c" variable nil (reparse-symbol function_parameters) [1693 1694]))              ) nil [1673 1725])
+            ("fit" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [1734 1735])
+                ("m" variable nil (reparse-symbol function_parameters) [1737 1738])
+                ("s" variable nil (reparse-symbol function_parameters) [1740 1741])
+                ("a" variable nil (reparse-symbol function_parameters) [1743 1744])
+                ("b" variable nil (reparse-symbol function_parameters) [1746 1747])
+                ("c" variable nil (reparse-symbol function_parameters) [1749 1750])
+                ("d" variable nil (reparse-symbol function_parameters) [1752 1753]))              ) nil [1726 1805])
+            ("guess_linear" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [1823 1824])
+                ("y" variable nil (reparse-symbol function_parameters) [1826 1827]))              ) nil [1806 1912])
+            ("guess_gaus" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [1928 1929])
+                ("y" variable nil (reparse-symbol function_parameters) [1931 1932]))              ) nil [1913 2065])
+            ("chi_sq" function (:arguments 
+              ( ("yVal" variable nil (reparse-symbol function_parameters) [2084 2088])
+                ("yFit" variable nil (reparse-symbol function_parameters) [2090 2094])
+                ("yErr" variable nil (reparse-symbol function_parameters) [2096 2100])
+                ("popt" variable nil (reparse-symbol function_parameters) [2102 2106]))              ) nil [2073 2359])
+            ("main" function nil nil [2360 9330])
+            ("if" code nil nil [9332 9370]))          
+      :file "data_run.py"
+      :pointmax 9370
+      :fsize 9369
+      :lastmodtime '(25072 7082 313255 63000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!SolarStuff!Fit!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

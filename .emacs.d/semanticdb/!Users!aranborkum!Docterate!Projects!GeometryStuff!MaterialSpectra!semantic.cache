@@ -1,0 +1,586 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("fstream" include (:system-flag t) nil [21 39])
+            ("string" include (:system-flag t) nil [40 57])
+            ("iterator" include (:system-flag t) nil [58 77])
+            ("TCanvas.h" include nil nil [79 99])
+            ("TGraph.h" include nil nil [100 119])
+            ("TFile.h" include nil nil [120 138])
+            ("FillVector" function
+               (:arguments 
+                  ( ("ifile" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [455 473]))                  
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [419 855])
+            ("FillGraph" function
+               (:pointer 1
+                :arguments 
+                  ( ("xValues" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("std::string" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [1098 1131])
+                    ("yValues" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("std::string" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [1132 1165])
+                    ("title" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1166 1184]))                  
+                :type ("TGraph" type (:type "class") nil nil))
+                nil [1080 1539])
+            ("SetTitle" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("title" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1397 1403])
+                    ("" variable (:type ("c_str" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1403 1410]))                  
+                :type "int")
+                nil [1388 1412])
+            ("SetTitle" function
+               (:prototype-flag t
+                :type "int")
+                nil [1430 1463])
+            ("SetTitle" function
+               (:prototype-flag t
+                :type "int")
+                nil [1481 1524])
+            ("g" variable (:type "int") nil [1534 1536])
+            ("f" variable
+               (:pointer 1
+                :default-value "new TFile(fname.c_str(), \"RECREATE\")"
+                :type ("TFile" type (:type "class") nil nil))
+                nil [1885 1933])
+            ("Write" function
+               (:prototype-flag t
+                :type "int")
+                nil [1939 1957])
+            ("Draw" function
+               (:prototype-flag t
+                :type "int")
+                nil [1963 1970])
+            ("Close" function
+               (:prototype-flag t
+                :type "int")
+                nil [1976 1984])
+            ("EnergyRange" variable
+               (:default-value "FillVector(\"EnergyRange.txt\"			)"
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [2229 2317])
+            ("Rock_Early_Uranium_AN" variable
+               (:default-value "FillVector(\"Rock-Early-UAlphaN.txt\"		)"
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [2320 2414])
+            ("Rock_Early_Uranium_SF" variable
+               (:default-value "FillVector(\"Rock-Early-USponFis.txt\"		)"
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [2417 2512])
+            ("Rock_Early_Uranium_Tot" variable
+               (:default-value "FillVector(\"Rock-Early-UTotal.txt\"		)"
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [2515 2608])
+            ("Rock_Late_Uranium_Tot" variable
+               (:default-value "FillVector(\"Rock-Late-UTotal.txt\"		)"
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [2611 2703])
+            ("Rock_Thorium_Tot" variable
+               (:default-value "FillVector(\"Rock-ThTotal.txt\"			)"
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [2706 2791])
+            ("S460ML_Uranium_AN" variable
+               (:default-value "FillVector(\"S460ML-UAlphaN.txt\"		)"
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [2794 2882])
+            ("S460ML_Uranium_SF" variable
+               (:default-value "FillVector(\"S460ML-USponFis.txt\"		)"
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [2885 2974])
+            ("S460ML_Uranium_Tot" variable
+               (:default-value "FillVector(\"S460ML-UTotal.txt\"			)"
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [2977 3066])
+            ("S460ML_Thorium_Tot" variable
+               (:default-value "FillVector(\"S460ML-ThTotal.txt\"		)"
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [3069 3159])
+            ("Shotcrete_Early_Uranium_AN" variable
+               (:default-value "FillVector(\"Shotcrete-Early-UAlphaN.txt\"	)"
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [3162 3260])
+            ("Shotcrete_Early_Uranium_SF" variable
+               (:default-value "FillVector(\"Shotcrete-Early-USponFis.txt\"	)"
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [3263 3362])
+            ("Shotcrete_Early_Uranium_Tot" variable
+               (:default-value "FillVector(\"Shotcrete-Early-UTotal.txt\"        )"
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [3365 3469])
+            ("Shotcrete_Late_Uranium_Tot" variable
+               (:default-value "FillVector(\"Shotcrete-Late-U.txt\"              )"
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [3472 3576])
+            ("Shotcrete_Thorium_Tot" variable
+               (:default-value "FillVector(\"Shotcrete-ThTotal.txt\"             )"
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [3579 3683])
+            ("RockEarlyUAN" variable
+               (:pointer 1
+                :default-value "FillGraph(EnergyRange, Rock_Early_Uranium_AN      , \"Neutrons from Uranium (#alpha, n)\"       )"
+                :type ("TGraph" type (:type "class") nil nil))
+                nil [3692 3817])
+            ("RockEarlyUSF" variable
+               (:pointer 1
+                :default-value "FillGraph(EnergyRange, Rock_Early_Uranium_SF      , \"Neutrons from Uranium SF\"                )"
+                :type ("TGraph" type (:type "class") nil nil))
+                nil [3820 3945])
+            ("RockEarlyUTot" variable
+               (:pointer 1
+                :default-value "FillGraph(EnergyRange, Rock_Early_Uranium_Tot     , \"Neutrons from Uranium (#alpha, n) and SF\")"
+                :type ("TGraph" type (:type "class") nil nil))
+                nil [3948 4073])
+            ("RockLateUTot" variable
+               (:pointer 1
+                :default-value "FillGraph(EnergyRange, Rock_Late_Uranium_Tot      , \"Neutrons from Uranium (#alpha, n) and SF\")"
+                :type ("TGraph" type (:type "class") nil nil))
+                nil [4076 4201])
+            ("RockThTot" variable
+               (:pointer 1
+                :default-value "FillGraph(EnergyRange, Rock_Thorium_Tot           , \"Neutrons from Thorium (#alpha, n) and SF\")"
+                :type ("TGraph" type (:type "class") nil nil))
+                nil [4204 4329])
+            ("S460MLUAN" variable
+               (:pointer 1
+                :default-value "FillGraph(EnergyRange, S460ML_Uranium_AN          , \"Neutrons from Uranium (#alpha, n)\"       )"
+                :type ("TGraph" type (:type "class") nil nil))
+                nil [4332 4457])
+            ("S460MLUSF" variable
+               (:pointer 1
+                :default-value "FillGraph(EnergyRange, S460ML_Uranium_SF          , \"Neutrons from Uranium SF\"                )"
+                :type ("TGraph" type (:type "class") nil nil))
+                nil [4460 4585])
+            ("S460MLUTot" variable
+               (:pointer 1
+                :default-value "FillGraph(EnergyRange, S460ML_Uranium_Tot         , \"Neutrons from Uranium (#alpha, n) and SF\")"
+                :type ("TGraph" type (:type "class") nil nil))
+                nil [4588 4713])
+            ("S460MLThTot" variable
+               (:pointer 1
+                :default-value "FillGraph(EnergyRange, S460ML_Thorium_Tot         , \"Neutrons from Thorium (#alpha, n) and SF\")"
+                :type ("TGraph" type (:type "class") nil nil))
+                nil [4716 4841])
+            ("ShotcreteEarlyUAN" variable
+               (:pointer 1
+                :default-value "FillGraph(EnergyRange, Shotcrete_Early_Uranium_AN , \"Neutrons from Uranium (#alpha, n)\"       )"
+                :type ("TGraph" type (:type "class") nil nil))
+                nil [4844 4969])
+            ("ShotcreteEarlyUSF" variable
+               (:pointer 1
+                :default-value "FillGraph(EnergyRange, Shotcrete_Early_Uranium_SF , \"Neutrons from Uranium SF\"                )"
+                :type ("TGraph" type (:type "class") nil nil))
+                nil [4972 5097])
+            ("ShotcreteEarlyUTot" variable
+               (:pointer 1
+                :default-value "FillGraph(EnergyRange, Shotcrete_Early_Uranium_Tot, \"Neutrons from Uranium (#alpha, n) and SF\")"
+                :type ("TGraph" type (:type "class") nil nil))
+                nil [5100 5225])
+            ("ShotcreteLateUTot" variable
+               (:pointer 1
+                :default-value "FillGraph(EnergyRange, Shotcrete_Late_Uranium_Tot , \"Neutrons from Uranium (#alpha, n) and SF\")"
+                :type ("TGraph" type (:type "class") nil nil))
+                nil [5228 5353])
+            ("ShotcreteThTot" variable
+               (:pointer 1
+                :default-value "FillGraph(EnergyRange, Shotcrete_Thorium_Tot      , \"Neutrons from Thorium (#alpha, n) and SF\")"
+                :type ("TGraph" type (:type "class") nil nil))
+                nil [5356 5481])
+            ("MakeRootFile" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("RockEarlyUAN" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5533 5552]))                  
+                :type "int")
+                nil [5491 5553])
+            ("MakeRootFile" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("RockEarlyUSF" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5595 5614]))                  
+                :type "int")
+                nil [5556 5615])
+            ("MakeRootFile" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("RockEarlyUTot" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5659 5678]))                  
+                :type "int")
+                nil [5618 5679])
+            ("MakeRootFile" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("RockLateUTot" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5723 5742]))                  
+                :type "int")
+                nil [5682 5743])
+            ("MakeRootFile" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("RockThTot" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5783 5802]))                  
+                :type "int")
+                nil [5746 5803])
+            ("MakeRootFile" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("S460MLUAN" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5845 5864]))                  
+                :type "int")
+                nil [5806 5865])
+            ("MakeRootFile" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("S460MLUSF" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5903 5922]))                  
+                :type "int")
+                nil [5868 5923])
+            ("MakeRootFile" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("S460MLUTot" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5964 5983]))                  
+                :type "int")
+                nil [5926 5984])
+            ("MakeRootFile" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("S460MLThTot" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6026 6045]))                  
+                :type "int")
+                nil [5987 6046])
+            ("MakeRootFile" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("ShotcreteEarlyUAN" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6096 6115]))                  
+                :type "int")
+                nil [6049 6116])
+            ("MakeRootFile" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("ShotcreteEarlyUSF" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6162 6181]))                  
+                :type "int")
+                nil [6119 6182])
+            ("MakeRootFile" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("ShotcreteEarlyUTot" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6233 6252]))                  
+                :type "int")
+                nil [6185 6253])
+            ("MakeRootFile" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("ShotcreteLateUTot" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6304 6323]))                  
+                :type "int")
+                nil [6256 6324])
+            ("MakeRootFile" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("ShotcreteThTot" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6375 6394]))                  
+                :type "int")
+                nil [6327 6395]))          
+      :file "LArSoftTreeMaker.C"
+      :pointmax 6411
+      :fsize 6410
+      :lastmodtime '(24575 17392 795179 428000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("matplotlib.pyplot" include nil nil [1 32])
+            ("numpy" include nil nil [33 51])
+            ("EnergyValues" include nil nil [52 78])
+            ("scipy.interpolate" include nil nil [80 126])
+            ("WriteFile" function (:arguments 
+              ( ("f" variable nil (reparse-symbol function_parameters) [241 242])
+                ("spectrum" variable nil (reparse-symbol function_parameters) [244 252])
+                ("EnergyRange" variable nil (reparse-symbol function_parameters) [254 265]))              ) nil [227 376])
+            ("UEnergy_x" code nil nil [488 518])
+            ("Uranium_Early_AlphaN" code nil nil [519 549])
+            ("Uranium_Early_SF" code nil nil [550 580])
+            ("Uranium_Early_Total" code nil nil [581 611])
+            ("Uranium_Late_Total" code nil nil [612 642])
+            ("Thorium_Total" code nil nil [643 673])
+            ("S460ML_UAlphaN" code nil nil [675 705])
+            ("S460ML_SF" code nil nil [706 736])
+            ("S460ML_Total" code nil nil [737 767])
+            ("S460ML_Thorium" code nil nil [768 798])
+            ("Shotcrete_UEarly" code nil nil [800 830])
+            ("Shotcrete_AlphaN" code nil nil [831 861])
+            ("Shotcrete_SF" code nil nil [862 892])
+            ("Shotcrete_ULate" code nil nil [893 923])
+            ("Shotcrete_Thorium" code nil nil [924 954])
+            ("print" code nil nil [956 980])
+            ("AllEnergy_y" variable nil nil [981 997])
+            ("for" code nil nil [998 1084])
+            ("EnergyRange" variable nil nil [1221 1260])
+            ("in_Rock_Uranium_Early_AlphaN" variable nil nil [1287 1369])
+            ("in_Rock_Uranium_Early_SF" variable nil nil [1370 1452])
+            ("in_Rock_Uranium_Early_Total" variable nil nil [1453 1535])
+            ("in_Rock_Uranium_Late_Total" variable nil nil [1536 1618])
+            ("in_Rock_Thorium_Total" variable nil nil [1619 1701])
+            ("in_S460ML_Uranium_AlphaN" variable nil nil [1727 1799])
+            ("in_S460ML_Uranium_SF" variable nil nil [1800 1872])
+            ("in_S460ML_Uranium_Total" variable nil nil [1873 1945])
+            ("in_S460ML_Thorium_Total" variable nil nil [1946 2018])
+            ("in_Shotcrete_UEarly" variable nil nil [2047 2118])
+            ("in_Shotcrete_AlphaN" variable nil nil [2119 2190])
+            ("in_Shotcrete_SF" variable nil nil [2191 2262])
+            ("in_Shotcrete_ULate" variable nil nil [2263 2334])
+            ("in_Shotcrete_Thorium" variable nil nil [2335 2406])
+            ("plt" code nil nil [4313 4325])
+            ("plt" code nil nil [4677 4757])
+            ("plt" code nil nil [4758 4806])
+            ("plt" code nil nil [4807 4854])
+            ("plt" code nil nil [4855 4914])
+            ("plt" code nil nil [4915 4944])
+            ("plt" code nil nil [4945 4967])
+            ("plt" code nil nil [4969 4979]))          
+      :file "MakeLArSoftSpectra.py"
+      :pointmax 9440
+      :fsize 9439
+      :lastmodtime '(24619 39019 639566 711000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("UEnergy_x" variable nil nil [1 1124])
+            ("UAlphaN" variable nil nil [1231 2352])
+            ("USFN" variable nil nil [2354 3472])
+            ("TotalUEnergy_y" variable nil nil [3474 4602])
+            ("TotalThEnergy_y" variable nil nil [4604 5733])
+            ("S460ML_UAlphaN" variable nil nil [5842 6970])
+            ("S460ML_SF" variable nil nil [6972 8095])
+            ("S460ML_Total" variable nil nil [8097 9223])
+            ("S460ML_Thorium" variable nil nil [9225 10353])
+            ("Uranium_Early_AlphaN" variable nil nil [10523 11657])
+            ("Uranium_Early_SF" variable nil nil [11659 12789])
+            ("Uranium_Early_Total" variable nil nil [12791 13924])
+            ("Uranium_Late_Total" variable nil nil [13926 15058])
+            ("Thorium_Total" variable nil nil [15060 16187])
+            ("Shotcrete_AlphaN" variable nil nil [16301 17431])
+            ("Shotcrete_UEarly" variable nil nil [18565 19695])
+            ("Shotcrete_ULate" variable nil nil [19697 20826])
+            ("Shotcrete_Thorium" variable nil nil [20828 21959]))          
+      :file "EnergyValues.py"
+      :pointmax 21960
+      :fsize 21959
+      :lastmodtime '(24360 7527 94753 107000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("matplotlib.pyplot" include nil nil [20 51])
+            ("EnergyValues" include nil nil [53 84])
+            ("scipy.interpolate" include nil nil [85 132])
+            ("LayerThickness" variable nil nil [213 256])
+            ("CaptureRate" variable nil nil [257 316])
+            ("Error" variable nil nil [317 378])
+            ("EarlyUranium" variable nil nil [380 437])
+            ("LateUranium" variable nil nil [438 495])
+            ("EarlyError" variable nil nil [497 546])
+            ("LateError" variable nil nil [547 596])
+            ("Beacom_x" variable nil nil [599 676])
+            ("Beacom_y" variable nil nil [677 750])
+            ("comp_LayerThickness" variable nil nil [831 879])
+            ("comp_CaptureRate" variable nil nil [880 935])
+            ("comp_Error" variable nil nil [936 1002])
+            ("comp_EarlyUranium" variable nil nil [1004 1062])
+            ("comp_LateUranium" variable nil nil [1063 1121])
+            ("comp_Thorium" variable nil nil [1122 1180])
+            ("comp_EarlyError" variable nil nil [1202 1260])
+            ("comp_LateError" variable nil nil [1261 1319])
+            ("comp_ThoriumError" variable nil nil [1320 1378])
+            ("layer_EarlyRate" variable nil nil [1459 1522])
+            ("layer_EarlyError" variable nil nil [1523 1584])
+            ("layer_LateRate" variable nil nil [1586 1649])
+            ("layer_LateError" variable nil nil [1650 1711])
+            ("layer_TotalRate" variable nil nil [1713 1779])
+            ("layer_TotalError" variable nil nil [1780 1841])
+            ("layer_TotalImprovement" variable nil nil [1843 1916])
+            ("layer_TotalImprovement" variable nil nil [1917 1981])
+            ("UEnergy_x" code nil nil [2062 2092])
+            ("Uranium_Late_Total" code nil nil [2174 2204])
+            ("BeacomFilePath" variable nil nil [2287 2409])
+            ("beacomSpectrum" variable nil nil [2410 2455])
+            ("xValues_beacom" variable nil nil [2457 2500])
+            ("yValues_beacom" code nil nil [2501 2557])
+            ("maxY_beacom" variable nil nil [2558 2594])
+            ("yValues_beacom" variable nil nil [2595 2651])
+            ("xValues_vitaly" variable nil nil [2653 2681])
+            ("yValues_vitaly" variable nil nil [2682 2738])
+            ("maxY_vitaly" variable nil nil [2739 2775])
+            ("yValues_vitaly" variable nil nil [2776 2832])
+            ("Beacom_x" variable nil nil [2913 2949])
+            ("plt" code nil nil [2950 2962])
+            ("plt" code nil nil [2963 3092])
+            ("plt" code nil nil [3093 3222])
+            ("plt" code nil nil [3223 3352])
+            ("plt" code nil nil [3353 3445])
+            ("plt" code nil nil [3520 3566])
+            ("plt" code nil nil [3567 3613])
+            ("plt" code nil nil [3614 3632])
+            ("plt" code nil nil [3633 3650])
+            ("plt" code nil nil [3651 3673])
+            ("plt" code nil nil [3674 3703])
+            ("plt" code nil nil [3704 3714])
+            ("plt" code nil nil [3717 3729])
+            ("plt" code nil nil [3730 3856])
+            ("plt" code nil nil [3857 3983])
+            ("plt" code nil nil [3984 4110])
+            ("plt" code nil nil [4111 4237])
+            ("plt" code nil nil [4239 4285])
+            ("plt" code nil nil [4286 4332])
+            ("plt" code nil nil [4333 4351])
+            ("plt" code nil nil [4352 4369])
+            ("plt" code nil nil [4370 4392])
+            ("plt" code nil nil [4393 4422])
+            ("plt" code nil nil [4423 4433])
+            ("plt" code nil nil [4435 4447])
+            ("x_total" variable nil nil [4449 4480])
+            ("x_early" variable nil nil [4481 4515])
+            ("x_late" variable nil nil [4516 4550])
+            ("plt" code nil nil [4551 4624])
+            ("plt" code nil nil [4625 4701])
+            ("plt" code nil nil [4702 4777])
+            ("myLabels" variable nil nil [4779 4880])
+            ("for" code nil nil [4881 5002])
+            ("plt" code nil nil [5003 5045])
+            ("plt" code nil nil [5046 5090])
+            ("plt" code nil nil [5091 5113])
+            ("plt" code nil nil [5114 5130])
+            ("plt" code nil nil [5131 5160])
+            ("plt" code nil nil [5161 5171])
+            ("plt" code nil nil [5173 5185])
+            ("plt" code nil nil [5186 5248])
+            ("plt" code nil nil [5249 5311])
+            ("plt" code nil nil [5313 5408])
+            ("plt" code nil nil [5410 5452])
+            ("plt" code nil nil [5453 5506])
+            ("plt" code nil nil [5507 5523])
+            ("plt" code nil nil [5524 5542])
+            ("plt" code nil nil [5543 5553])
+            ("plt" code nil nil [5554 5564]))          
+      :file "PlotRateByThickness.py"
+      :pointmax 5565
+      :fsize 5564
+      :lastmodtime '(24338 60285 496630 261000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("matplotlib.pyplot" include nil nil [20 51])
+            ("LarsoftFilePath" variable nil nil [53 164])
+            ("BeacomFilePath" variable nil nil [165 287])
+            ("larsoftSpectrum" variable nil nil [289 334])
+            ("beacomSpectrum" variable nil nil [335 380])
+            ("VitalyXValues" variable nil nil [494 1610])
+            ("VitalyYValues" variable nil nil [1612 2728])
+            ("VitalyThValues" variable nil nil [2730 3847])
+            ("VitalyYValues" variable nil nil [3848 3896])
+            ("VitalyThValues" variable nil nil [3897 3946])
+            ("plt" code nil nil [4062 4074])
+            ("plt" code nil nil [4075 4129])
+            ("plt" code nil nil [4130 4200])
+            ("plt" code nil nil [4201 4235])
+            ("plt" code nil nil [4236 4299])
+            ("plt" code nil nil [4300 4310])
+            ("plt" code nil nil [4312 4324])
+            ("plt" code nil nil [4325 4363])
+            ("plt" code nil nil [4364 4423])
+            ("plt" code nil nil [4424 4445])
+            ("plt" code nil nil [4446 4496])
+            ("plt" code nil nil [4497 4507])
+            ("plt" code nil nil [4509 4521])
+            ("plt" code nil nil [4522 4574])
+            ("plt" code nil nil [4575 4632])
+            ("plt" code nil nil [4633 4654])
+            ("plt" code nil nil [4655 4705])
+            ("plt" code nil nil [4706 4716])
+            ("plt" code nil nil [4718 4730])
+            ("plt" code nil nil [4731 4827])
+            ("plt" code nil nil [4828 4924])
+            ("plt" code nil nil [4925 5021])
+            ("plt" code nil nil [5022 5124])
+            ("plt" code nil nil [5126 5187])
+            ("plt" code nil nil [5188 5222])
+            ("plt" code nil nil [5223 5286])
+            ("plt" code nil nil [5287 5304])
+            ("plt" code nil nil [5305 5342])
+            ("plt" code nil nil [5343 5353]))          
+      :file "PlotAllSpectraForJuergen.py"
+      :pointmax 5355
+      :fsize 5354
+      :lastmodtime '(24313 49398 390370 400000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!GeometryStuff!MaterialSpectra!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

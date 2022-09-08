@@ -1,0 +1,34 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("config" include nil nil [24 56])
+            ("config.regions" include nil nil [57 90])
+            ("utilities" include nil nil [99 143])
+            ("itertools" include nil nil [144 173])
+            ("plotting" include nil nil [174 237])
+            ("config" include nil nil [238 262])
+            ("numpy" include nil nil [271 289])
+            ("ROOT" include nil nil [290 301])
+            ("ROOT" code nil nil [302 328])
+            ("helpers" code nil nil [330 379])
+            ("args" variable nil nil [381 403])
+            ("if" code nil nil [523 819])
+            ("if" code nil nil [820 905])
+            ("run_function" variable nil nil [947 978])
+            ("for" code nil nil [980 1018])
+            ("regions_vars_combinations" variable nil nil [1149 1219])
+            ("if" code nil nil [1220 1791])
+            ("helpers" code nil nil [1792 1829]))          
+      :file "run.py"
+      :pointmax 1830
+      :fsize 1829
+      :lastmodtime '(23566 9914 809711 294000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!PrettyPython!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

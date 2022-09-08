@@ -1,0 +1,17 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19]))          
+      :file "spectrum.py"
+      :pointmax 1606
+      :fsize 1605
+      :lastmodtime '(25203 39181 103546 13000)
+      :unmatched-syntax '((CLASS 21 . 26) (NEWLINE 37 . 38) (INDENT_BLOCK 39 . 1606))))
+  :file "!Users!aranborkum!Docterate!Projects!SolarStuff!CNOFluxAnalysis!Jeromy!Jeromy!core!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

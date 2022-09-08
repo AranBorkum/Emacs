@@ -1,0 +1,78 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 13])
+            ("" code nil nil [54 211])
+            ("unittest" include nil nil [213 228])
+            ("TestTestStatistic" type
+               (:documentation " Tests for the :class:`echidna.limit.test_statistic.TestStatistic`
+    class and it's derived classes.
+
+    "
+                :superclasses ("unittest.TestCase")
+                :members 
+                  ( ("setUp" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [408 412]))                          )
+                        (reparse-symbol indented_block_body) [398 722])
+                    ("test_abstract_base_class" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [756 760]))                          
+                        :documentation " Tests the base class
+        ")
+                        (reparse-symbol indented_block_body) [727 1255])
+                    ("test_pearson" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1277 1281]))                          
+                        :documentation " Test the Pearson chi-squared class
+        ")
+                        (reparse-symbol indented_block_body) [1260 3199])
+                    ("test_neyman" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3220 3224]))                          
+                        :documentation " Test the Neyman chi-squared class
+        ")
+                        (reparse-symbol indented_block_body) [3204 4359])
+                    ("test_log_likelihood" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4388 4392]))                          
+                        :documentation " Test the :class:`echidna.limit.test_statistic.BakerCousinLL`
+        class that calculates the log likelihood ratio.
+        ")
+                        (reparse-symbol indented_block_body) [4364 5745])
+                    ("test_poisson_likelihood_chi" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5782 5786]))                          
+                        :documentation " Test the :class:`echidna.limit.test_statistic.BakerCousinChi`
+        class that calculates the poisson likelihood chi-squared.
+        ")
+                        (reparse-symbol indented_block_body) [5750 7124])
+                    ("test_extended_log_likelihood" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7162 7166]))                          
+                        :documentation " Test the :class:`echidna.limit.test_statistic.ExtendedLL`
+        class that calculates the extended log likelihood.
+        ")
+                        (reparse-symbol indented_block_body) [7129 8522]))                  
+                :type "class")
+                nil [231 8522]))          
+      :file "test_test_statistic.py"
+      :pointmax 8522
+      :fsize 8521
+      :lastmodtime '(25202 17698 240958 276000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Desktop!echidna!echidna!test!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,85 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("math" include nil nil [1 12])
+            ("heapq" include nil nil [65 77])
+            ("product" function (:arguments 
+              ( ("arr3" variable nil (reparse-symbol function_parameters) [136 140]))              ) nil [124 225])
+            ("findMaxProduct" function (:arguments 
+              ( ("arr" variable nil (reparse-symbol function_parameters) [247 250]))              ) nil [228 564])
+            ("printInteger" function (:arguments 
+              ( ("n" variable nil (reparse-symbol function_parameters) [693 694]))              ) nil [676 734])
+            ("printIntegerList" function (:arguments 
+              ( ("array" variable nil (reparse-symbol function_parameters) [756 761]))              ) nil [735 919])
+            ("test_case_number" variable nil nil [920 940])
+            ("check" function (:arguments 
+              ( ("expected" variable nil (reparse-symbol function_parameters) [952 960])
+                ("output" variable nil (reparse-symbol function_parameters) [962 968]))              ) nil [942 1555])
+            ("if" code nil nil [1556 1846]))          
+      :file "LargestTripleProducts.py"
+      :pointmax 1881
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("math" include nil nil [1 12])
+            ("heapq" include nil nil [65 77])
+            ("maxCandies" function (:arguments 
+              ( ("arr" variable nil (reparse-symbol function_parameters) [141 144])
+                ("k" variable nil (reparse-symbol function_parameters) [146 147]))              ) nil [126 845])
+            ("printInteger" function (:arguments 
+              ( ("n" variable nil (reparse-symbol function_parameters) [973 974]))              ) nil [956 1014])
+            ("test_case_number" variable nil nil [1015 1035])
+            ("check" function (:arguments 
+              ( ("expected" variable nil (reparse-symbol function_parameters) [1047 1055])
+                ("output" variable nil (reparse-symbol function_parameters) [1057 1063]))              ) nil [1037 1480])
+            ("if" code nil nil [1481 1786]))          
+      :file "MagicalCandyBags.py"
+      :pointmax 1823
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("math" include nil nil [1 12])
+            ("heapq" include nil nil [65 77])
+            ("findMedian" function (:arguments 
+              ( ("arr" variable nil (reparse-symbol function_parameters) [144 147]))              ) nil [129 457])
+            ("printInteger" function (:arguments 
+              ( ("n" variable nil (reparse-symbol function_parameters) [1147 1148]))              ) nil [1130 1188])
+            ("printIntegerList" function (:arguments 
+              ( ("array" variable nil (reparse-symbol function_parameters) [1210 1215]))              ) nil [1189 1373])
+            ("test_case_number" variable nil nil [1374 1394])
+            ("check" function (:arguments 
+              ( ("expected" variable nil (reparse-symbol function_parameters) [1406 1414])
+                ("output" variable nil (reparse-symbol function_parameters) [1416 1422]))              ) nil [1396 2009])
+            ("if" code nil nil [2010 2276]))          
+      :file "MedianStream.py"
+      :pointmax 2314
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("math" include nil nil [1 12])
+            ("canGetExactChange" function (:arguments 
+              ( ("targetMoney" variable nil (reparse-symbol function_parameters) [135 146])
+                ("denominations" variable nil (reparse-symbol function_parameters) [148 161]))              ) nil [113 359])
+            ("printString" function (:arguments 
+              ( ("string" variable nil (reparse-symbol function_parameters) [966 972]))              ) nil [950 1021])
+            ("test_case_number" variable nil nil [1022 1042])
+            ("check" function (:arguments 
+              ( ("expected" variable nil (reparse-symbol function_parameters) [1054 1062])
+                ("output" variable nil (reparse-symbol function_parameters) [1064 1070]))              ) nil [1044 1485])
+            ("if" code nil nil [1486 1797]))          
+      :file "ChangeInAForeignCurrency_recursion.py"
+      :pointmax 1834
+      :fsize 1833
+      :lastmodtime '(25144 23153 633705 813000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!General!Facebook Application!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

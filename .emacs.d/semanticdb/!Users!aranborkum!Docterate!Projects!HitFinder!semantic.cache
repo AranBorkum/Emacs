@@ -1,0 +1,327 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("matplotlib.pyplot" include nil nil [1 32])
+            ("numpy" include nil nil [33 51])
+            ("math" include nil nil [52 63])
+            ("lin" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [73 74])
+                ("a" variable nil (reparse-symbol function_parameters) [76 77])
+                ("b" variable nil (reparse-symbol function_parameters) [79 80]))              ) nil [65 100])
+            ("y" variable nil nil [101 15763])
+            ("RunningSum" function (:arguments 
+              ( ("yValues" variable nil (reparse-symbol function_parameters) [15780 15787])
+                ("R" variable nil (reparse-symbol function_parameters) [15789 15790]))              ) nil [15765 15905])
+            ("RunningSum2" function (:arguments 
+              ( ("yValues" variable nil (reparse-symbol function_parameters) [15922 15929])
+                ("R" variable nil (reparse-symbol function_parameters) [15931 15932]))              ) nil [15906 16108])
+            ("plt" code nil nil [16111 16123])
+            ("plt" code nil nil [16124 16144])
+            ("plt" code nil nil [16145 16175])
+            ("plt" code nil nil [16176 16198])
+            ("plt" code nil nil [16199 16238])
+            ("plt" code nil nil [16239 16278])
+            ("plt" code nil nil [16280 16300])
+            ("plt" code nil nil [16301 16386])
+            ("plt" code nil nil [16387 16472])
+            ("plt" code nil nil [16473 16558])
+            ("plt" code nil nil [16559 16644])
+            ("plt" code nil nil [16645 16730])
+            ("plt" code nil nil [16731 16816])
+            ("plt" code nil nil [16817 16853])
+            ("plt" code nil nil [16854 16893])
+            ("plt" code nil nil [16894 16916])
+            ("plt" code nil nil [16917 16939])
+            ("plt" code nil nil [16941 16951])
+            ("plt" code nil nil [16953 16965])
+            ("plt" code nil nil [16966 16986])
+            ("plt" code nil nil [16987 17072])
+            ("plt" code nil nil [17073 17158])
+            ("plt" code nil nil [17159 17244])
+            ("plt" code nil nil [17245 17330])
+            ("plt" code nil nil [17331 17416])
+            ("plt" code nil nil [17417 17453])
+            ("plt" code nil nil [17454 17493])
+            ("plt" code nil nil [17494 17516])
+            ("plt" code nil nil [17517 17539])
+            ("plt" code nil nil [17541 17561])
+            ("plt" code nil nil [17562 17647])
+            ("plt" code nil nil [17648 17735])
+            ("plt" code nil nil [17736 17823])
+            ("plt" code nil nil [17824 17911])
+            ("plt" code nil nil [17912 17999])
+            ("plt" code nil nil [18000 18036])
+            ("plt" code nil nil [18037 18076])
+            ("plt" code nil nil [18077 18099])
+            ("plt" code nil nil [18100 18122])
+            ("plt" code nil nil [18124 18134]))          
+      :file "PlotForDocDB.py"
+      :pointmax 18135
+      :fsize 18134
+      :lastmodtime '(24767 31846 679259 526000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("matplotlib.pyplot" include nil nil [1 32])
+            ("numpy" include nil nil [33 51])
+            ("math" include nil nil [52 63])
+            ("scipy.signal" include nil nil [64 83])
+            ("lin" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [93 94])
+                ("a" variable nil (reparse-symbol function_parameters) [96 97])
+                ("b" variable nil (reparse-symbol function_parameters) [99 100]))              ) nil [85 120])
+            ("y" variable nil nil [121 15783])
+            ("taps" variable nil nil [15786 15834])
+            ("apply_filter" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [15857 15866])
+                ("taps" variable nil (reparse-symbol function_parameters) [15868 15872])
+                ("ntaps" variable nil (reparse-symbol function_parameters) [15874 15879]))              ) nil [15840 16125])
+            ("RunningSum_withZero" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [16150 16159])
+                ("tau" variable nil (reparse-symbol function_parameters) [16161 16164]))              ) nil [16126 16343])
+            ("RunningSum_noZero" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [16366 16375])
+                ("tau" variable nil (reparse-symbol function_parameters) [16377 16380]))              ) nil [16344 16514])
+            ("RunningSum_absolute" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [16539 16548])
+                ("tau" variable nil (reparse-symbol function_parameters) [16550 16553]))              ) nil [16515 16692])
+            ("do_frugal_update" function (:arguments 
+              ( ("median" variable nil (reparse-symbol function_parameters) [16714 16720])
+                ("diff" variable nil (reparse-symbol function_parameters) [16722 16726])
+                ("sample" variable nil (reparse-symbol function_parameters) [16728 16734])
+                ("contig" variable nil (reparse-symbol function_parameters) [16736 16742]))              ) nil [16693 16924])
+            ("frugal_iqr" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [16940 16949])
+                ("median" variable nil (reparse-symbol function_parameters) [16951 16957])
+                ("contig" variable nil (reparse-symbol function_parameters) [16959 16965]))              ) nil [16925 17479])
+            ("newY1" variable nil nil [17484 17516])
+            ("newY1" variable nil nil [17560 17600])
+            ("newY1" variable nil nil [17601 17632])
+            ("newY" variable nil nil [17633 17666])
+            ("print" code nil nil [17667 17678])
+            ("plt" code nil nil [17680 17692])
+            ("plt" code nil nil [17693 17731])
+            ("plt" code nil nil [17732 17768])
+            ("plt" code nil nil [17769 17779])
+            ("print" code nil nil [17781 17822])
+            ("plt" code nil nil [17825 17837])
+            ("plt" code nil nil [17838 17868])
+            ("plt" code nil nil [17869 17908])
+            ("plt" code nil nil [17909 17945])
+            ("plt" code nil nil [17946 17976])
+            ("plt" code nil nil [17977 17999])
+            ("plt" code nil nil [18040 18050])
+            ("plt" code nil nil [18052 18064])
+            ("plt" code nil nil [18065 18085])
+            ("plt" code nil nil [18086 18116])
+            ("plt" code nil nil [18117 18153])
+            ("plt" code nil nil [18154 18193])
+            ("plt" code nil nil [18194 18224])
+            ("plt" code nil nil [18251 18273])
+            ("plt" code nil nil [18275 18295])
+            ("plt" code nil nil [18296 18344])
+            ("plt" code nil nil [18345 18381])
+            ("newY" variable nil nil [18842 18877])
+            ("newY" variable nil nil [18934 18969])
+            ("newY" variable nil nil [19026 19061])
+            ("newY" variable nil nil [19118 19153])
+            ("newY" variable nil nil [19210 19245])
+            ("plt" code nil nil [19302 19324])
+            ("plt" code nil nil [19325 19364])
+            ("plt" code nil nil [19365 19407])
+            ("plt" code nil nil [19408 19430])
+            ("plt" code nil nil [19431 19441])
+            ("plt" code nil nil [19443 19455])
+            ("plt" code nil nil [19456 19476])
+            ("plt" code nil nil [19477 19525])
+            ("plt" code nil nil [19526 19562])
+            ("newY" variable nil nil [19931 19966])
+            ("newY" variable nil nil [20023 20058])
+            ("newY" variable nil nil [20115 20150])
+            ("newY" variable nil nil [20207 20242])
+            ("plt" code nil nil [20299 20321])
+            ("plt" code nil nil [20322 20361])
+            ("plt" code nil nil [20362 20404])
+            ("plt" code nil nil [20405 20427])
+            ("plt" code nil nil [20429 20449])
+            ("plt" code nil nil [20450 20498])
+            ("plt" code nil nil [20499 20535])
+            ("newY" variable nil nil [20912 20947])
+            ("newY" variable nil nil [21004 21039])
+            ("newY" variable nil nil [21096 21131])
+            ("newY" variable nil nil [21188 21223])
+            ("plt" code nil nil [21280 21302])
+            ("plt" code nil nil [21303 21342])
+            ("plt" code nil nil [21343 21385])
+            ("plt" code nil nil [21386 21408])
+            ("plt" code nil nil [21409 21419])
+            ("plt" code nil nil [21421 21433])
+            ("plt" code nil nil [21434 21454])
+            ("plt" code nil nil [21455 21501])
+            ("plt" code nil nil [21502 21537])
+            ("plt" code nil nil [21538 21580])
+            ("plt" code nil nil [21583 21603])
+            ("newY" variable nil nil [21604 21635])
+            ("plt" code nil nil [21636 21672])
+            ("plt" code nil nil [21673 21712])
+            ("plt" code nil nil [21713 21755])
+            ("plt" code nil nil [21756 21766])
+            ("plt" code nil nil [21768 21780])
+            ("plt" code nil nil [21781 21801])
+            ("plt" code nil nil [21802 21838])
+            ("newY" variable nil nil [21881 21919])
+            ("plt" code nil nil [21920 21940])
+            ("plt" code nil nil [21941 21977])
+            ("plt" code nil nil [21978 22020])
+            ("plt" code nil nil [22022 22042])
+            ("newY" variable nil nil [22043 22072])
+            ("plt" code nil nil [22073 22109])
+            ("plt" code nil nil [22110 22149])
+            ("plt" code nil nil [22150 22160]))          
+      :file "quick.py"
+      :pointmax 22161
+      :fsize 22160
+      :lastmodtime '(24980 54736 663327 772000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("matplotlib.pyplot" include nil nil [1 32])
+            ("numpy" include nil nil [33 51])
+            ("scipy.signal" include nil nil [52 71])
+            ("taps" variable nil nil [91 139])
+            ("apply_filter" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [162 171])
+                ("taps" variable nil (reparse-symbol function_parameters) [173 177])
+                ("ntaps" variable nil (reparse-symbol function_parameters) [179 184]))              ) nil [145 430])
+            ("RunningSum_withZero" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [455 464])
+                ("tau" variable nil (reparse-symbol function_parameters) [466 469]))              ) nil [431 648])
+            ("RunningSum_noZero" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [671 680])
+                ("tau" variable nil (reparse-symbol function_parameters) [682 685]))              ) nil [649 819])
+            ("do_frugal_update" function (:arguments 
+              ( ("median" variable nil (reparse-symbol function_parameters) [841 847])
+                ("diff" variable nil (reparse-symbol function_parameters) [849 853])
+                ("sample" variable nil (reparse-symbol function_parameters) [855 861])
+                ("contig" variable nil (reparse-symbol function_parameters) [863 869]))              ) nil [820 1051])
+            ("frugal_iqr" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [1067 1076])
+                ("median" variable nil (reparse-symbol function_parameters) [1078 1084])
+                ("contig" variable nil (reparse-symbol function_parameters) [1086 1092]))              ) nil [1052 1618])
+            ("frugal_pedestal" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [1639 1648])
+                ("contig" variable nil (reparse-symbol function_parameters) [1650 1656]))              ) nil [1619 1908])
+            ("standard_deviation" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [1932 1941]))              ) nil [1909 2122])
+            ("FindHit" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [2135 2144]))              ) nil [2123 2596])
+            ("event" variable nil nil [2621 2658])
+            ("iqr" variable nil nil [2661 2698])
+            ("filtered" variable nil nil [2701 2738])
+            ("runsum" variable nil nil [2741 2778])
+            ("eventNumber" variable nil nil [2782 2799])
+            ("event" variable nil nil [2820 2856])
+            ("iqr" variable nil nil [2859 2895])
+            ("filtered" variable nil nil [2898 2934])
+            ("runsum" variable nil nil [2937 2973])
+            ("xValues" variable nil nil [2976 3007])
+            ("print" code nil nil [3009 3031])
+            ("filtered_mean" code nil nil [3033 3078])
+            ("runsum_mean" code nil nil [3079 3122])
+            ("print" code nil nil [3124 3144])
+            ("print" code nil nil [3145 3165])
+            ("plt" code nil nil [3168 3180])
+            ("plt" code nil nil [3181 3201])
+            ("plt" code nil nil [3202 3226])
+            ("plt" code nil nil [3227 3251])
+            ("plt" code nil nil [3253 3273])
+            ("plt" code nil nil [3274 3301])
+            ("plt" code nil nil [3303 3323])
+            ("plt" code nil nil [3324 3349])
+            ("plt" code nil nil [3351 3361]))          
+      :file "SignalToNoiseRatio.py"
+      :pointmax 3363
+      :fsize 4820
+      :lastmodtime '(24979 60454 490699 611000)
+      :unmatched-syntax nil)
+
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [25 34])
+            ("argparse" include nil nil [35 50])
+            ("matplotlib.pyplot" include nil nil [51 82])
+            ("numpy" include nil nil [83 113])
+            ("tqdm" include nil nil [114 150])
+            ("WaveformAlgorithms" include nil nil [152 177])
+            ("ArgumentParser" function nil nil [179 459])
+            ("ImportFiles" function (:arguments 
+              ( ("directory" variable nil (reparse-symbol function_parameters) [481 490]))              ) nil [465 570])
+            ("GetNoiseMax" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [587 596]))              ) nil [571 724])
+            ("RunEvent" function (:arguments 
+              ( ("event" variable nil (reparse-symbol function_parameters) [738 743]))              ) nil [725 1617])
+            ("main" function nil nil [1631 1754])
+            ("if" code nil nil [1764 1802]))          
+      :file "SignalToNoise.py"
+      :pointmax 1802
+      :fsize 2777
+      :lastmodtime '(24980 58989 539181 58000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [25 43])
+            ("scipy.signal" include nil nil [44 63])
+            ("taps" variable nil nil [65 113])
+            ("ntaps" variable nil nil [118 135])
+            ("apply_filter" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [154 163]))              ) nil [137 409])
+            ("RunningSum_withZero" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [434 443])
+                ("tau" variable nil (reparse-symbol function_parameters) [445 448]))              ) nil [410 633])
+            ("RunningSum_absolute" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [658 667])
+                ("tau" variable nil (reparse-symbol function_parameters) [669 672]))              ) nil [634 964])
+            ("RunningSum_noZero" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [994 1003])
+                ("tau" variable nil (reparse-symbol function_parameters) [1005 1008]))              ) nil [972 1142])
+            ("do_frugal_update" function (:arguments 
+              ( ("median" variable nil (reparse-symbol function_parameters) [1164 1170])
+                ("diff" variable nil (reparse-symbol function_parameters) [1172 1176])
+                ("sample" variable nil (reparse-symbol function_parameters) [1178 1184])
+                ("contig" variable nil (reparse-symbol function_parameters) [1186 1192]))              ) nil [1143 1374])
+            ("frugal_iqr" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [1390 1399])
+                ("median" variable nil (reparse-symbol function_parameters) [1401 1407])
+                ("contig" variable nil (reparse-symbol function_parameters) [1409 1415]))              ) nil [1375 1941])
+            ("frugal_pedestal" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [1962 1971])
+                ("contig" variable nil (reparse-symbol function_parameters) [1973 1979]))              ) nil [1942 2231])
+            ("standard_deviation" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [2255 2264]))              ) nil [2232 2444])
+            ("FindHit" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [2457 2466])
+                ("threshold" variable nil (reparse-symbol function_parameters) [2468 2477]))              ) nil [2445 2989])
+            ("GetMaxNoiseValue" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [3011 3020])
+                ("threshold" variable nil (reparse-symbol function_parameters) [3022 3031]))              ) nil [2990 3686])
+            ("GetSignalToNoise" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [3710 3719])
+                ("iqr" variable nil (reparse-symbol function_parameters) [3721 3724])
+                ("threshold" variable nil (reparse-symbol function_parameters) [3726 3735]))              ) nil [3689 4237]))          
+      :file "WaveformAlgorithms.py"
+      :pointmax 4237
+      :fsize 4236
+      :lastmodtime '(24980 58965 451876 633000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!HitFinder!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,66 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("matplotlib.pyplot" include nil nil [20 51])
+            ("math" include nil nil [52 68])
+            ("wire_angle" variable nil nil [136 157])
+            ("first_wire_U" code nil nil [170 197])
+            ("first_wire_V" variable nil nil [198 226])
+            ("wirepitch" variable nil nil [227 335])
+            ("APAFrameX" variable nil nil [337 374])
+            ("APAFrameU" variable nil nil [375 412])
+            ("makeLowWire" function (:arguments 
+              ( ("length" variable nil (reparse-symbol function_parameters) [468 474])
+                ("angle" variable nil (reparse-symbol function_parameters) [476 481])
+                ("mid" variable nil (reparse-symbol function_parameters) [483 486])
+                ("view" variable nil (reparse-symbol function_parameters) [488 492])
+                ("drawInversion" variable nil (reparse-symbol function_parameters) [494 507]))              ) nil [452 996])
+            ("makeMiddleWires" function (:arguments 
+              ( ("length" variable nil (reparse-symbol function_parameters) [1017 1023])
+                ("angle" variable nil (reparse-symbol function_parameters) [1025 1030])
+                ("mid" variable nil (reparse-symbol function_parameters) [1032 1035])
+                ("half" variable nil (reparse-symbol function_parameters) [1037 1041])
+                ("view" variable nil (reparse-symbol function_parameters) [1043 1047])
+                ("drawInversion" variable nil (reparse-symbol function_parameters) [1049 1062]))              ) nil [997 1478])
+            ("makeTopWires" function (:arguments 
+              ( ("length" variable nil (reparse-symbol function_parameters) [1496 1502])
+                ("angle" variable nil (reparse-symbol function_parameters) [1504 1509])
+                ("mid" variable nil (reparse-symbol function_parameters) [1511 1514])
+                ("half" variable nil (reparse-symbol function_parameters) [1516 1520])
+                ("view" variable nil (reparse-symbol function_parameters) [1522 1526])
+                ("drawInversion" variable nil (reparse-symbol function_parameters) [1528 1541]))              ) nil [1479 2047])
+            ("PlotFrame" function nil nil [2434 2751])
+            ("PlotXPlane" function nil nil [3025 3738])
+            ("PlotUPlane" function nil nil [4013 6529])
+            ("PlotVPlane" function nil nil [6826 9433])
+            ("PlotAPAFrame" function (:arguments 
+              ( ("dim" variable nil (reparse-symbol function_parameters) [9451 9454]))              ) nil [9434 9682])
+            ("plt" code nil nil [9692 9704])
+            ("plt" code nil nil [9705 9725])
+            ("PlotAPAFrame" code nil nil [9726 9749])
+            ("PlotXPlane" code nil nil [9786 9798])
+            ("plt" code nil nil [9799 9819])
+            ("plt" code nil nil [9820 9840])
+            ("plt" code nil nil [9842 9862])
+            ("PlotAPAFrame" code nil nil [9863 9886])
+            ("PlotUPlane" code nil nil [9923 9935])
+            ("plt" code nil nil [9936 9956])
+            ("plt" code nil nil [9979 9999])
+            ("PlotAPAFrame" code nil nil [10000 10023])
+            ("PlotVPlane" code nil nil [10060 10072])
+            ("plt" code nil nil [10073 10093])
+            ("plt" code nil nil [10116 10126]))          
+      :file "WirePoints.py"
+      :pointmax 10127
+      :fsize 10126
+      :lastmodtime '(24096 20127 252423 145000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Desktop!Geometry Layer Testing!wire testing!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

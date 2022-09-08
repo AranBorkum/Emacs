@@ -1,0 +1,40 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("collections" include nil nil [1 36])
+            ("_all" variable nil nil [38 58])
+            ("get" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [68 73]))              ) nil [60 252])
+            ("get_all" function (:documentation "Returns a list of all variables.") nil [254 337])
+            ("Side" type
+               (:documentation " Class to store information on meat products "
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [510 528])
+                            ("self" variable nil (reparse-symbol indented_block_body) [537 555])
+                            ("self" variable nil (reparse-symbol indented_block_body) [564 584])
+                            ("_all" variable nil (reparse-symbol indented_block_body) [593 610]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [424 428])
+                            ("name" variable nil (reparse-symbol function_parameters) [447 451])
+                            ("unit" variable nil (reparse-symbol function_parameters) [470 474])
+                            ("macros" variable nil (reparse-symbol function_parameters) [493 499]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [411 611]))                  
+                :type "class")
+                nil [338 611]))          
+      :file "__init__.py"
+      :pointmax 611
+      :fsize 610
+      :lastmodtime '(24209 61707 918738 709000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!General!Food App!Config!sides!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

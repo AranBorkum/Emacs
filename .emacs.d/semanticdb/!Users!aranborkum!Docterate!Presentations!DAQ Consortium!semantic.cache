@@ -1,0 +1,90 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("scipy.special" include nil nil [20 46])
+            ("matplotlib.pyplot" include nil nil [47 78])
+            ("scipy.optimize" include nil nil [80 122])
+            ("DataFile" variable nil nil [124 493])
+            ("colors" variable nil nil [495 628])
+            ("takeFirst" function (:arguments 
+              ( ("elem" variable nil (reparse-symbol function_parameters) [644 648]))              ) nil [630 670])
+            ("sigmoid" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [683 684])
+                ("a" variable nil (reparse-symbol function_parameters) [686 687])
+                ("b" variable nil (reparse-symbol function_parameters) [689 690]))              ) nil [671 731])
+            ("func" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [741 742])
+                ("a" variable nil (reparse-symbol function_parameters) [744 745])
+                ("b" variable nil (reparse-symbol function_parameters) [747 748])
+                ("c" variable nil (reparse-symbol function_parameters) [750 751])
+                ("d" variable nil (reparse-symbol function_parameters) [753 754]))              ) nil [732 794])
+            ("tanh" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [804 805])
+                ("a" variable nil (reparse-symbol function_parameters) [807 808]))              ) nil [795 908])
+            ("func2" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [919 920])
+                ("a" variable nil (reparse-symbol function_parameters) [922 923])
+                ("b" variable nil (reparse-symbol function_parameters) [925 926])
+                ("c" variable nil (reparse-symbol function_parameters) [928 929]))              ) nil [909 960])
+            ("plt" code nil nil [961 973])
+            ("plt" code nil nil [974 994])
+            ("print" code nil nil [995 1031])
+            ("for" code nil nil [1032 2111])
+            ("plt" code nil nil [2121 2177])
+            ("plt" code nil nil [2178 2234])
+            ("plt" code nil nil [2235 2256])
+            ("plt" code nil nil [2257 2274])
+            ("plt" code nil nil [2275 2297])
+            ("plt" code nil nil [2354 2374])
+            ("data" variable nil nil [2375 2416])
+            ("print" code nil nil [2417 2462])
+            ("for" code nil nil [2463 2540])
+            ("i" variable nil nil [2540 2543])
+            ("points" code nil nil [2548 2574])
+            ("x" variable nil nil [2575 2581])
+            ("for" code nil nil [2591 2643])
+            ("threshold" variable nil nil [2644 2674])
+            ("plt" code nil nil [2675 2749])
+            ("popt, pcov" code nil nil [2751 2781])
+            ("xdata" variable nil nil [2782 2815])
+            ("ydata" variable nil nil [2816 2858])
+            ("plt" code nil nil [2859 2917])
+            ("halfMax" variable nil nil [2957 2968])
+            ("halfEff" variable nil nil [2969 2980])
+            ("for" code nil nil [2981 3084])
+            ("for" code nil nil [3084 3178])
+            ("print" code nil nil [3178 3281])
+            ("plt" code nil nil [3283 3339])
+            ("plt" code nil nil [3340 3396])
+            ("plt" code nil nil [3397 3418])
+            ("plt" code nil nil [3419 3436])
+            ("plt" code nil nil [3437 3447])
+            ("plt" code nil nil [3449 3461])
+            ("data" variable nil nil [3517 3558])
+            ("print" code nil nil [3559 3604])
+            ("for" code nil nil [3605 3682])
+            ("i" variable nil nil [3682 3685])
+            ("points" code nil nil [3690 3716])
+            ("x" variable nil nil [3717 3723])
+            ("for" code nil nil [3733 3785])
+            ("threshold" variable nil nil [3786 3816])
+            ("plt" code nil nil [3817 3891])
+            ("popt, pcov" code nil nil [3893 3923])
+            ("xdata" variable nil nil [3924 3957])
+            ("ydata" variable nil nil [3958 4000])
+            ("plt" code nil nil [4001 4059])
+            ("plt" code nil nil [4060 4070]))          
+      :file "EfficiencyPlotting.py"
+      :pointmax 4072
+      :fsize 4071
+      :lastmodtime '(24230 43070 386671 205000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Presentations!DAQ Consortium!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

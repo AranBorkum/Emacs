@@ -1,0 +1,49 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags nil
+      :file "BulkOrder.py"
+      :pointmax 45
+      :fsize 44
+      :lastmodtime '(24160 59438 450068 207000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("__author__" variable nil nil [1 51])
+            ("__copyright__" variable nil nil [52 71])
+            ("__credits__" variable nil nil [72 126])
+            ("__license__" variable nil nil [127 149])
+            ("__version__" variable nil nil [150 174])
+            ("__maintainer__" variable nil nil [175 205])
+            ("__email__" variable nil nil [206 247])
+            ("__status__" variable nil nil [248 278])
+            ("Goods" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [427 452])
+                            ("self" variable nil (reparse-symbol indented_block_body) [466 492])
+                            ("self" variable nil (reparse-symbol indented_block_body) [505 534]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [389 393])
+                            ("name" variable nil (reparse-symbol function_parameters) [395 399])
+                            ("value" variable nil (reparse-symbol function_parameters) [401 406])
+                            ("supplier" variable nil (reparse-symbol function_parameters) [408 416]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [376 535]))                  
+                :type "class")
+                nil [359 535]))          
+      :file "Goods.py"
+      :pointmax 536
+      :fsize 535
+      :lastmodtime '(24160 59841 864818 766000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!General!Random Projects!Maximize!python!Objects!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

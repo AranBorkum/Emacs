@@ -1,0 +1,33 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("MakeVisible" function
+               (:arguments 
+                  ( ("volume" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [146 165])
+                    ("color" variable (:type ("Color_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [166 180]))                  
+                :type "void")
+                nil [129 470])
+            ("MakeInvisible" function
+               (:arguments 
+                  ( ("volume" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [491 510]))                  
+                :type "void")
+                nil [472 665])
+            ("MakeDaughterVisible" function
+               (:arguments 
+                  ( ("volume" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [692 711]))                  
+                :type "void")
+                nil [667 1130])
+            ("draw" function (:type "void") nil [1133 8759]))          
+      :file "draw.C"
+      :pointmax 8761
+      :fsize 8760
+      :lastmodtime '(24107 2372 701693 565000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Desktop!GeometryNew!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

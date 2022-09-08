@@ -1,0 +1,1330 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("functional" include (:system-flag t) nil [644 665])
+            ("set" include (:system-flag t) nil [666 680])
+            ("marley/marley_utils.hh" include nil nil [682 715])
+            ("marley/InterpolationGrid.hh" include nil nil [716 754])
+            ("marley" type
+               (:members 
+                  ( ("Generator" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [778 794])
+                    ("NeutrinoSource" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1541 1548])
+                            ("NeutrinoSource" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("particle_id" variable (:type "int") (reparse-symbol arg-sub-list) [1668 1684]))                                  
+                                :type ("NeutrinoSource" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1653 1685])
+                            ("get_Emax" function
+                               (:pure-virtual-flag t
+                                :prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :type "double")
+                                (reparse-symbol classsubparts) [1837 1873])
+                            ("get_Emin" function
+                               (:pure-virtual-flag t
+                                :prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :type "double")
+                                (reparse-symbol classsubparts) [1981 2017])
+                            ("get_pid" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :type "int")
+                                (reparse-symbol classsubparts) [2129 2157])
+                            ("pdf" function
+                               (:pure-virtual-flag t
+                                :prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("E" variable (:type "double") (reparse-symbol arg-sub-list) [2569 2578]))                                  
+                                :type "double")
+                                (reparse-symbol classsubparts) [2550 2589])
+                            ("pdg_is_allowed" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("pdg" variable
+                                       (:constant-flag t
+                                        :type "int")
+                                        (reparse-symbol arg-sub-list) [2809 2823]))                                  
+                                :type "bool")
+                                (reparse-symbol classsubparts) [2789 2824])
+                            ("sample_incident_neutrino" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("pdg" variable
+                                       (:reference 1
+                                        :type "int")
+                                        (reparse-symbol arg-sub-list) [3524 3533])
+                                    ("gen" variable
+                                       (:reference 1
+                                        :type ("marley::Generator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3542 3565]))                                  
+                                :type "double")
+                                (reparse-symbol classsubparts) [3484 3572])
+                            ("protected" label nil (reparse-symbol classsubparts) [3578 3588])
+                            ("pid_" variable (:type "int") (reparse-symbol classsubparts) [3596 3605])
+                            ("private" label nil (reparse-symbol classsubparts) [3674 3682])
+                            ("pids_" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :type ("std::set" type
+                                     (:template-specifier 
+                                        ( ("int" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [3952 3985]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1514 3990])
+                    ("MonoNeutrinoSource" type
+                       (:superclasses 
+                          ( ("NeutrinoSource" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [4092 4099])
+                            ("MonoNeutrinoSource" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("particle_id" variable
+                                       (:default-value "marley_utils::ELECTRON_NEUTRINO"
+                                        :type "int")
+                                        (reparse-symbol arg-sub-list) [4227 4285])
+                                    ("E" variable
+                                       (:default-value "10."
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [4286 4301]))                                  
+                                :type ("__inline" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4201 4302])
+                            ("get_Emax" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :override-flag t
+                                :typemodifiers ("virtual")
+                                :type "double")
+                                (reparse-symbol classsubparts) [4317 4358])
+                            ("get_Emin" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :override-flag t
+                                :typemodifiers ("virtual")
+                                :type "double")
+                                (reparse-symbol classsubparts) [4373 4414])
+                            ("pdf" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :override-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("E" variable (:type "double") (reparse-symbol arg-sub-list) [4448 4457]))                                  
+                                :type "double")
+                                (reparse-symbol classsubparts) [4429 4473])
+                            ("protected" label nil (reparse-symbol classsubparts) [4479 4489])
+                            ("energy_" variable (:type "double") (reparse-symbol classsubparts) [4496 4511]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [4037 4543])
+                    ("FermiDiracNeutrinoSource" type
+                       (:superclasses 
+                          ( ("NeutrinoSource" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [5133 5140])
+                            ("FermiDiracNeutrinoSource" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("particle_id" variable
+                                       (:default-value "marley_utils::ELECTRON_NEUTRINO"
+                                        :type "int")
+                                        (reparse-symbol arg-sub-list) [5470 5528])
+                                    ("Emin" variable
+                                       (:default-value "0."
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [5529 5546])
+                                    ("Emax" variable
+                                       (:default-value "50."
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [5555 5573])
+                                    ("temp" variable
+                                       (:default-value "3.5"
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [5574 5592])
+                                    ("eta" variable
+                                       (:default-value "0."
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [5593 5609]))                                  
+                                :type ("FermiDiracNeutrinoSource" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5445 5610])
+                            ("get_Emin" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :override-flag t
+                                :typemodifiers ("virtual")
+                                :type "double")
+                                (reparse-symbol classsubparts) [5625 5666])
+                            ("get_Emax" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :override-flag t
+                                :typemodifiers ("virtual")
+                                :type "double")
+                                (reparse-symbol classsubparts) [5681 5722])
+                            ("pdf" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :override-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("E" variable (:type "double") (reparse-symbol arg-sub-list) [5749 5758]))                                  
+                                :type "double")
+                                (reparse-symbol classsubparts) [5730 5774])
+                            ("protected" label nil (reparse-symbol classsubparts) [5780 5790])
+                            ("Emin_" variable (:type "double") (reparse-symbol classsubparts) [5798 5811])
+                            ("Emax_" variable (:type "double") (reparse-symbol classsubparts) [5853 5866])
+                            ("temperature_" variable (:type "double") (reparse-symbol classsubparts) [5908 5928])
+                            ("eta_" variable (:type "double") (reparse-symbol classsubparts) [5959 5971])
+                            ("C_" variable (:type "double") (reparse-symbol classsubparts) [6016 6026]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [5072 6077])
+                    ("BetaFitNeutrinoSource" type
+                       (:superclasses 
+                          ( ("NeutrinoSource" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [6735 6742])
+                            ("BetaFitNeutrinoSource" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("particle_id" variable
+                                       (:default-value "marley_utils::ELECTRON_NEUTRINO"
+                                        :type "int")
+                                        (reparse-symbol arg-sub-list) [7088 7146])
+                                    ("Emin" variable
+                                       (:default-value "0."
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [7147 7164])
+                                    ("Emax" variable
+                                       (:default-value "50."
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [7173 7191])
+                                    ("Emean" variable
+                                       (:default-value "13."
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [7192 7211])
+                                    ("beta" variable
+                                       (:default-value "4.5"
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [7212 7230]))                                  
+                                :type ("BetaFitNeutrinoSource" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [7066 7231])
+                            ("get_Emin" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :override-flag t
+                                :typemodifiers ("virtual")
+                                :type "double")
+                                (reparse-symbol classsubparts) [7246 7287])
+                            ("get_Emax" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :override-flag t
+                                :typemodifiers ("virtual")
+                                :type "double")
+                                (reparse-symbol classsubparts) [7301 7342])
+                            ("pdf" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :override-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("E" variable (:type "double") (reparse-symbol arg-sub-list) [7369 7378]))                                  
+                                :type "double")
+                                (reparse-symbol classsubparts) [7350 7394])
+                            ("protected" label nil (reparse-symbol classsubparts) [7400 7410])
+                            ("Emin_" variable (:type "double") (reparse-symbol classsubparts) [7417 7430])
+                            ("Emax_" variable (:type "double") (reparse-symbol classsubparts) [7472 7485])
+                            ("Emean_" variable (:type "double") (reparse-symbol classsubparts) [7768 7782])
+                            ("beta_" variable (:type "double") (reparse-symbol classsubparts) [7789 7802])
+                            ("C_" variable (:type "double") (reparse-symbol classsubparts) [7833 7843]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [6677 7890])
+                    ("FunctionNeutrinoSource" type
+                       (:superclasses 
+                          ( ("NeutrinoSource" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [8074 8081])
+                            ("FunctionNeutrinoSource" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("particle_id" variable
+                                       (:default-value "marley_utils::ELECTRON_NEUTRINO"
+                                        :type "int")
+                                        (reparse-symbol arg-sub-list) [8454 8512])
+                                    ("Emin" variable
+                                       (:default-value "0."
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [8513 8530])
+                                    ("Emax" variable
+                                       (:default-value "50."
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [8531 8549])
+                                    ("" variable (:type ("std::function" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8558 8572])
+                                    ("" variable (:type "double") (reparse-symbol arg-sub-list) [8572 8586])
+                                    ("" variable (:type ("prob_dens_func" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8588 8625])
+                                    ("" variable (:type "double") (reparse-symbol arg-sub-list) [8627 8648]))                                  
+                                :type ("FunctionNeutrinoSource" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [8431 8650])
+                            ("get_Emax" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :override-flag t
+                                :typemodifiers ("virtual")
+                                :type "double")
+                                (reparse-symbol classsubparts) [8665 8706])
+                            ("get_Emin" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :override-flag t
+                                :typemodifiers ("virtual")
+                                :type "double")
+                                (reparse-symbol classsubparts) [8721 8762])
+                            ("pdf" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :override-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("E" variable (:type "double") (reparse-symbol arg-sub-list) [8796 8805]))                                  
+                                :type "double")
+                                (reparse-symbol classsubparts) [8777 8821])
+                            ("private" label nil (reparse-symbol classsubparts) [8827 8835])
+                            ("Emin_" variable (:type "double") (reparse-symbol classsubparts) [8842 8855])
+                            ("Emax_" variable (:type "double") (reparse-symbol classsubparts) [8897 8910])
+                            ("probability_density_" variable (:type "int") (reparse-symbol classsubparts) [9042 9063]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [8015 9068])
+                    ("DecayAtRestNeutrinoSource" type
+                       (:superclasses 
+                          ( ("NeutrinoSource" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [9670 9677])
+                            ("DecayAtRestNeutrinoSource" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("particle_id" variable
+                                       (:default-value "marley_utils::ELECTRON_NEUTRINO"
+                                        :type "int")
+                                        (reparse-symbol arg-sub-list) [9807 9865]))                                  
+                                :type ("DecayAtRestNeutrinoSource" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [9781 9866])
+                            ("get_Emax" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :override-flag t
+                                :typemodifiers ("virtual")
+                                :type "double")
+                                (reparse-symbol classsubparts) [9881 9922])
+                            ("get_Emin" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :override-flag t
+                                :typemodifiers ("virtual")
+                                :type "double")
+                                (reparse-symbol classsubparts) [9937 9978])
+                            ("pdf" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :override-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("E" variable (:type "double") (reparse-symbol arg-sub-list) [10005 10014]))                                  
+                                :type "double")
+                                (reparse-symbol classsubparts) [9986 10030])
+                            ("private" label nil (reparse-symbol classsubparts) [10036 10044])
+                            ("m_mu_" variable
+                               (:typemodifiers ("static" "constexpr")
+                                :default-value "marley_utils::m_mu
+        * marley_utils::micro_am"
+                                :type "double")
+                                (reparse-symbol classsubparts) [10111 10196])
+                            ("m_mu_to_the_minus_four_" variable
+                               (:typemodifiers ("static" "constexpr")
+                                :default-value "1. / (m_mu_ * m_mu_ * m_mu_ * m_mu_"
+                                :type "double")
+                                (reparse-symbol classsubparts) [10210 10305])
+                            ("Emin_" variable
+                               (:typemodifiers ("static" "constexpr")
+                                :default-value "0."
+                                :type "double")
+                                (reparse-symbol classsubparts) [10312 10347])
+                            ("Emax_" variable
+                               (:typemodifiers ("static" "constexpr")
+                                :default-value "m_mu_ / 2"
+                                :type "double")
+                                (reparse-symbol classsubparts) [10361 10404]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [9608 10416])
+                    ("GridNeutrinoSource" type
+                       (:superclasses 
+                          ( ("NeutrinoSource" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [10542 10549])
+                            ("Method" variable
+                               (:default-value "Grid::InterpolationMethod"
+                                :type "int")
+                                (reparse-symbol classsubparts) [10608 10643])
+                            ("GridNeutrinoSource" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("g" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Grid" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [10894 10908])
+                                    ("particle_id" variable
+                                       (:default-value "marley_utils::ELECTRON_NEUTRINO"
+                                        :type "int")
+                                        (reparse-symbol arg-sub-list) [10909 10967]))                                  
+                                :type ("__inline" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [10868 10968])
+                            ("GridNeutrinoSource" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("Es" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("double" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [11350 11380])
+                                    ("PDs" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("double" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [11389 11420])
+                                    ("particle_id" variable
+                                       (:default-value "marley_utils::ELECTRON_NEUTRINO"
+                                        :type "int")
+                                        (reparse-symbol arg-sub-list) [11421 11479])
+                                    ("method" variable
+                                       (:default-value "Method::LinearLinear"
+                                        :type ("Method" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [11480 11525]))                                  
+                                :type ("__inline" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [11324 11526])
+                            ("get_Emax" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :override-flag t
+                                :typemodifiers ("virtual")
+                                :type "double")
+                                (reparse-symbol classsubparts) [11541 11582])
+                            ("get_Emin" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :override-flag t
+                                :typemodifiers ("virtual")
+                                :type "double")
+                                (reparse-symbol classsubparts) [11597 11638])
+                            ("pdf" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :override-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("E" variable (:type "double") (reparse-symbol arg-sub-list) [11672 11681]))                                  
+                                :type "double")
+                                (reparse-symbol classsubparts) [11653 11697])
+                            ("protected" label nil (reparse-symbol classsubparts) [11703 11713])
+                            ("grid_" variable (:type ("Grid" type (:type "class") nil nil)) (reparse-symbol classsubparts) [11720 11731])
+                            ("private" label nil (reparse-symbol classsubparts) [11737 11745])
+                            ("check_for_errors" function
+                               (:prototype-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [11877 11901]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [10487 11906])
+                    ("get_pid" function
+                       (:methodconst-flag t
+                        :parent "NeutrinoSource"
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [11950 12002])
+                    ("pdg_is_allowed" function
+                       (:parent "NeutrinoSource"
+                        :arguments 
+                          ( ("pdg" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol arg-sub-list) [12048 12062]))                          
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [12012 12101])
+                    ("MonoNeutrinoSource" function
+                       (:constructor-flag t
+                        :parent "MonoNeutrinoSource"
+                        :arguments 
+                          ( ("particle_id" variable (:type "int") (reparse-symbol arg-sub-list) [12151 12167])
+                            ("E" variable (:type "double") (reparse-symbol arg-sub-list) [12168 12177]))                          
+                        :type ("__inline" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [12105 12226])
+                    ("get_Emax" function
+                       (:methodconst-flag t
+                        :parent "MonoNeutrinoSource"
+                        :type "double")
+                        (reparse-symbol namespacesubparts) [12236 12299])
+                    ("get_Emin" function
+                       (:methodconst-flag t
+                        :parent "MonoNeutrinoSource"
+                        :type "double")
+                        (reparse-symbol namespacesubparts) [12309 12372])
+                    ("pdf" function
+                       (:methodconst-flag t
+                        :parent "MonoNeutrinoSource"
+                        :arguments 
+                          ( ("E" variable (:type "double") (reparse-symbol arg-sub-list) [12413 12422]))                          
+                        :type "double")
+                        (reparse-symbol namespacesubparts) [12382 12481])
+                    ("get_Emax" function
+                       (:methodconst-flag t
+                        :parent "FermiDiracNeutrinoSource"
+                        :type "double")
+                        (reparse-symbol namespacesubparts) [12492 12559])
+                    ("get_Emin" function
+                       (:methodconst-flag t
+                        :parent "FermiDiracNeutrinoSource"
+                        :type "double")
+                        (reparse-symbol namespacesubparts) [12569 12636])
+                    ("get_Emax" function
+                       (:methodconst-flag t
+                        :parent "BetaFitNeutrinoSource"
+                        :type "double")
+                        (reparse-symbol namespacesubparts) [12647 12711])
+                    ("get_Emin" function
+                       (:methodconst-flag t
+                        :parent "BetaFitNeutrinoSource"
+                        :type "double")
+                        (reparse-symbol namespacesubparts) [12721 12785])
+                    ("get_Emax" function
+                       (:methodconst-flag t
+                        :parent "FunctionNeutrinoSource"
+                        :type "double")
+                        (reparse-symbol namespacesubparts) [12796 12861])
+                    ("get_Emin" function
+                       (:methodconst-flag t
+                        :parent "FunctionNeutrinoSource"
+                        :type "double")
+                        (reparse-symbol namespacesubparts) [12871 12936])
+                    ("pdf" function
+                       (:methodconst-flag t
+                        :parent "FunctionNeutrinoSource"
+                        :arguments 
+                          ( ("E" variable (:type "double") (reparse-symbol arg-sub-list) [12981 12990]))                          
+                        :type "double")
+                        (reparse-symbol namespacesubparts) [12946 13086])
+                    ("get_Emax" function
+                       (:methodconst-flag t
+                        :parent "DecayAtRestNeutrinoSource"
+                        :type "double")
+                        (reparse-symbol namespacesubparts) [13097 13165])
+                    ("get_Emin" function
+                       (:methodconst-flag t
+                        :parent "DecayAtRestNeutrinoSource"
+                        :type "double")
+                        (reparse-symbol namespacesubparts) [13175 13243])
+                    ("get_Emax" function
+                       (:methodconst-flag t
+                        :parent "GridNeutrinoSource"
+                        :type "double")
+                        (reparse-symbol namespacesubparts) [13254 13332])
+                    ("get_Emin" function
+                       (:methodconst-flag t
+                        :parent "GridNeutrinoSource"
+                        :type "double")
+                        (reparse-symbol namespacesubparts) [13342 13421])
+                    ("pdf" function
+                       (:methodconst-flag t
+                        :parent "GridNeutrinoSource"
+                        :arguments 
+                          ( ("E" variable (:type "double") (reparse-symbol arg-sub-list) [13462 13471]))                          
+                        :type "double")
+                        (reparse-symbol namespacesubparts) [13431 13514])
+                    ("GridNeutrinoSource" function
+                       (:constructor-flag t
+                        :parent "GridNeutrinoSource"
+                        :arguments 
+                          ( ("g" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Grid" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [13564 13578])
+                            ("particle_id" variable (:type "int") (reparse-symbol arg-sub-list) [13579 13595]))                          
+                        :type ("__inline" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [13518 13663])
+                    ("GridNeutrinoSource" function
+                       (:constructor-flag t
+                        :parent "GridNeutrinoSource"
+                        :arguments 
+                          ( ("Es" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("double" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [13713 13743])
+                            ("prob_densities" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("double" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [13748 13790])
+                            ("particle_id" variable (:type "int") (reparse-symbol arg-sub-list) [13791 13807])
+                            ("method" variable (:type ("Method" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13808 13822]))                          
+                        :type ("__inline" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [13667 13919]))                  
+                :type "namespace")
+                nil [756 13921]))          
+      :file "NeutrinoSource.hh"
+      :pointmax 13922
+      :fsize 13921
+      :lastmodtime '(24971 61119 506455 179000)
+      :unmatched-syntax '((symbol "__inline" 13424 . 13430) (symbol "__inline" 13335 . 13341) (symbol "__inline" 13247 . 13253) (symbol "__inline" 13168 . 13174) (symbol "__inline" 13090 . 13096) (symbol "__inline" 12939 . 12945) (symbol "__inline" 12864 . 12870) (symbol "__inline" 12789 . 12795) (symbol "__inline" 12714 . 12720) (symbol "__inline" 12640 . 12646) (symbol "__inline" 12562 . 12568) (symbol "__inline" 12485 . 12491) (symbol "__inline" 12375 . 12381) (symbol "__inline" 12302 . 12308) (symbol "__inline" 12229 . 12235) (symbol "__inline" 12005 . 12011) (symbol "__inline" 11943 . 11949) (symbol "__inline" 11646 . 11652) (symbol "__inline" 11590 . 11596) (symbol "__inline" 11534 . 11540) (USING 10602 . 10607) (punctuation 10594 . 10595) (punctuation 10593 . 10594) (DOUBLE 10587 . 10593) (punctuation 10586 . 10587) (symbol 10569 . 10586) (punctuation 10567 . 10568) (symbol 10562 . 10566) (USING 10556 . 10561) (symbol "__inline" 9930 . 9936) (symbol "__inline" 9874 . 9880) (punctuation 9040 . 9041) (semantic-list 9032 . 9040) (DOUBLE 9026 . 9032) (punctuation 9025 . 9026) (symbol 9017 . 9025) (punctuation 9016 . 9017) (punctuation 9015 . 9016) (symbol 9012 . 9015) (symbol "__inline" 8770 . 8776) (symbol "__inline" 8714 . 8720) (symbol "__inline" 8658 . 8664) (semantic-list 8634 . 8648) (punctuation 8625 . 8626) (punctuation 8624 . 8625) (punctuation 8586 . 8587) (semantic-list 8578 . 8586) (punctuation 8571 . 8572) (symbol "__inline" 7294 . 7300) (symbol "__inline" 7239 . 7245) (symbol "__inline" 5674 . 5680) (symbol "__inline" 5618 . 5624) (symbol "__inline" 4422 . 4428) (symbol "__inline" 4366 . 4372) (symbol "__inline" 4310 . 4316) (symbol "__inline" 2782 . 2788) (STATIC 2775 . 2781) (symbol "__inline" 2122 . 2128) (punctuation 1728 . 1729) (DEFAULT 1721 . 1728) (punctuation 1719 . 1720) (semantic-list 1716 . 1718) (symbol 1702 . 1716) (punctuation 1701 . 1702) (VIRTUAL 1693 . 1700) (symbol 639 . 643) (symbol 632 . 638) (punctuation 631 . 632)))
+    (semanticdb-table "semanticdb-table"
+      :file "marley_utils.hh"
+      :fsize 19215
+      :lastmodtime '(24971 61119 510562 369000))
+    (semanticdb-table "semanticdb-table"
+      :file "InterpolationGrid.hh"
+      :fsize 15305
+      :lastmodtime '(24971 61119 504185 947000))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("limits" include (:system-flag t) nil [644 661])
+            ("memory" include (:system-flag t) nil [662 679])
+            ("random" include (:system-flag t) nil [680 697])
+            ("sstream" include (:system-flag t) nil [698 716])
+            ("vector" include (:system-flag t) nil [717 734])
+            ("marley/GammaStrengthFunctionModel.hh" include nil nil [736 783])
+            ("marley/NeutrinoSource.hh" include nil nil [784 819])
+            ("marley/NuclearReaction.hh" include nil nil [820 856])
+            ("marley/LevelDensityModel.hh" include nil nil [857 895])
+            ("marley/OpticalModel.hh" include nil nil [896 929])
+            ("marley/Parity.hh" include nil nil [930 957])
+            ("marley/ProjectileDirectionRotator.hh" include nil nil [958 1005])
+            ("marley/RotationMatrix.hh" include nil nil [1006 1041])
+            ("marley/StructureDatabase.hh" include nil nil [1042 1080])
+            ("marley/Target.hh" include nil nil [1081 1108])
+            ("marley/marley_utils.hh" include nil nil [1109 1142])
+            ("marley" type
+               (:members 
+                  ( ("ChebyshevInterpolatingFunction" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1166 1203])
+                    ("JSONConfig" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1206 1223])
+                    ("Generator" type
+                       (:members 
+                          ( ("JSONConfig" friend nil (reparse-symbol classsubparts) [1379 1397])
+                            ("public" label nil (reparse-symbol classsubparts) [1403 1410])
+                            ("Generator" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :type ("Generator" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1477 1489])
+                            ("create_event" function
+                               (:prototype-flag t
+                                :type ("marley::Event" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1638 1667])
+                            ("get_seed" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :type ("uint_fast64_t" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1746 1777])
+                            ("reseed" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("seed" variable (:type ("uint_fast64_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1836 1855]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [1824 1856])
+                            ("seed_using_state_string" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("state_string" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2089 2121]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [2060 2122])
+                            ("get_state_string" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2231 2268])
+                            ("uniform_random_double" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("min" variable (:type "double") (reparse-symbol arg-sub-list) [2659 2670])
+                                    ("max" variable (:type "double") (reparse-symbol arg-sub-list) [2671 2682])
+                                    ("inclusive" variable (:type "bool") (reparse-symbol arg-sub-list) [2683 2698]))                                  
+                                :type "double")
+                                (reparse-symbol classsubparts) [2630 2699])
+                            ("rejection_sample" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:constant-flag t
+                                        :type ("std::function" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3269 3289])
+                                    ("" variable (:type "double") (reparse-symbol arg-sub-list) [3289 3303])
+                                    ("" variable (:type ("f" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3306 3308])
+                                    ("xmin" variable (:type "double") (reparse-symbol arg-sub-list) [3317 3329])
+                                    ("xmax" variable (:type "double") (reparse-symbol arg-sub-list) [3330 3342])
+                                    ("fmax" variable
+                                       (:reference 1
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [3343 3356])
+                                    ("safety_factor" variable
+                                       (:default-value "1.01"
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [3357 3385])
+                                    ("max_search_tolerance" variable
+                                       (:default-value "DEFAULT_REJECTION_SAMPLING_TOLERANCE_"
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [3394 3462]))                                  
+                                :type "double")
+                                (reparse-symbol classsubparts) [3245 3463])
+                            ("inverse_transform_sample" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("cdf" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("marley::ChebyshevInterpolatingFunction" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3866 3916])
+                                    ("xmin" variable (:type "double") (reparse-symbol arg-sub-list) [3925 3937])
+                                    ("xmax" variable (:type "double") (reparse-symbol arg-sub-list) [3938 3950])
+                                    ("bisection_tolerance" variable
+                                       (:default-value "1e-12"
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [3951 3986]))                                  
+                                :type "double")
+                                (reparse-symbol classsubparts) [3825 3987])
+                            ("inverse_transform_sample" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:constant-flag t
+                                        :type ("std::function" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4400 4420])
+                                    ("" variable (:type "double") (reparse-symbol arg-sub-list) [4420 4434])
+                                    ("" variable (:type ("f" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4437 4439])
+                                    ("xmin" variable (:type "double") (reparse-symbol arg-sub-list) [4448 4460])
+                                    ("xmax" variable (:type "double") (reparse-symbol arg-sub-list) [4461 4473])
+                                    ("bisection_tolerance" variable
+                                       (:default-value "1e-12"
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [4474 4509]))                                  
+                                :type "double")
+                                (reparse-symbol classsubparts) [4368 4510])
+                            ("get_structure_db" function
+                               (:prototype-flag t
+                                :type ("marley::StructureDatabase" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4610 4656])
+                            ("get_reactions" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("std::unique_ptr" type (:template-specifier 
+                                            ( ("marley::Reaction" type nil nil nil))                                            ) nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [4778 4864])
+                            ("add_reaction" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("reaction" variable (:type ("std::unique_ptr" type
+                                         (:template-specifier 
+                                            ( ("marley::Reaction" type nil nil nil))                                            
+                                          :type "class")
+                                          nil nil)) (reparse-symbol arg-sub-list) [5003 5046]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [4985 5047])
+                            ("clear_reactions" function
+                               (:prototype-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [5133 5156])
+                            ("sample_reaction" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("E" variable
+                                       (:reference 1
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [5426 5436]))                                  
+                                :type ("marley::Reaction" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5392 5437])
+                            ("E_pdf" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("E" variable (:type "double") (reparse-symbol arg-sub-list) [6053 6062]))                                  
+                                :type "double")
+                                (reparse-symbol classsubparts) [6040 6063])
+                            ("get_source" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :constant-flag t
+                                :type ("marley::NeutrinoSource" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [6274 6323])
+                            ("set_source" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("source" variable (:type ("std::unique_ptr" type
+                                         (:template-specifier 
+                                            ( ("marley::NeutrinoSource" type nil nil nil))                                            
+                                          :type "class")
+                                          nil nil)) (reparse-symbol arg-sub-list) [6535 6582]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [6519 6583])
+                            ("set_target" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("target" variable (:type ("std::unique_ptr" type
+                                         (:template-specifier 
+                                            ( ("marley::Target" type nil nil nil))                                            
+                                          :type "class")
+                                          nil nil)) (reparse-symbol arg-sub-list) [6779 6818]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [6763 6819])
+                            ("get_target" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :constant-flag t
+                                :type ("marley::Target" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [7014 7055])
+                            ("decltype" function
+                               (:arguments 
+                                  ( ("" variable (:type ("std::declval" type
+                                         (:template-specifier 
+                                            ( ("RandomNumberDistribution" type (:reference 1) nil nil))                                            
+                                          :type "class")
+                                          nil nil)) (reparse-symbol arg-sub-list) [7482 7523]))                                  
+                                :type "int")
+                                (reparse-symbol classsubparts) [7472 7626])
+                            ("decltype" function
+                               (:arguments 
+                                  ( ("" variable (:type ("std::declval" type
+                                         (:template-specifier 
+                                            ( ("RandomNumberDistribution" type (:reference 1) nil nil))                                            
+                                          :type "class")
+                                          nil nil)) (reparse-symbol arg-sub-list) [8055 8096]))                                  
+                                :type "int")
+                                (reparse-symbol classsubparts) [8037 8242])
+                            ("set_neutrino_direction" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("dir_vec" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::array" type
+                                             (:template-specifier 
+                                                ( ("double" type nil nil nil)
+                                                  ("3"))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [8662 8699]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [8634 8700])
+                            ("neutrino_direction" function
+                               (:prototype-flag t
+                                :constant-flag t
+                                :type ("std::array" type
+                                     (:template-specifier 
+                                        ( ("double" type nil nil nil)
+                                          ("3"))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [8823 8873])
+                            ("set_weight_flux" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("should_we_weight" variable (:type "bool") (reparse-symbol arg-sub-list) [9059 9082]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [9038 9083])
+                            ("set_do_deexcitations" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("do_them" variable (:type "bool") (reparse-symbol arg-sub-list) [9292 9306]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [9265 9307])
+                            ("flux_averaged_total_xs" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :type "double")
+                                (reparse-symbol classsubparts) [9679 9717])
+                            ("total_xs" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :arguments 
+                                  ( ("pdg_a" variable (:type "int") (reparse-symbol arg-sub-list) [10425 10435])
+                                    ("KEa" variable (:type "double") (reparse-symbol arg-sub-list) [10436 10447])
+                                    ("pdg_atom" variable (:type "int") (reparse-symbol arg-sub-list) [10448 10461]))                                  
+                                :type "double")
+                                (reparse-symbol classsubparts) [10409 10468])
+                            ("total_xs" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :arguments 
+                                  ( ("pdg_a" variable (:type "int") (reparse-symbol arg-sub-list) [11186 11196])
+                                    ("KEa" variable (:type "double") (reparse-symbol arg-sub-list) [11197 11208]))                                  
+                                :type "double")
+                                (reparse-symbol classsubparts) [11170 11215])
+                            ("create_event" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("pdg_a" variable (:type "int") (reparse-symbol arg-sub-list) [11969 11979])
+                                    ("KEa" variable (:type "double") (reparse-symbol arg-sub-list) [11980 11991])
+                                    ("pdg_atom" variable (:type "int") (reparse-symbol arg-sub-list) [11992 12005])
+                                    ("dir_vec" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::array" type
+                                             (:template-specifier 
+                                                ( ("double" type nil nil nil)
+                                                  ("3"))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [12014 12052]))                                  
+                                :type ("marley::Event" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [11941 12053])
+                            ("get_rotator" function (:type ("marley::ProjectileDirectionRotator" type (:type "class") nil nil)) (reparse-symbol classsubparts) [12141 12219])
+                            ("private" label nil (reparse-symbol classsubparts) [12225 12233])
+                            ("Generator" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("seed" variable (:type ("uint_fast64_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12417 12436]))                                  
+                                :type ("Generator" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [12407 12437])
+                            ("normalize_E_pdf" function
+                               (:prototype-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [12544 12567])
+                            ("print_logo" function
+                               (:prototype-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [12717 12735])
+                            ("seed_" variable (:type ("uint_fast64_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [12797 12817])
+                            ("rand_gen_" variable (:type ("std::mt19937_64" type (:type "class") nil nil)) (reparse-symbol classsubparts) [12890 12916])
+                            ("DEFAULT_REJECTION_SAMPLING_TOLERANCE_" variable
+                               (:typemodifiers ("static" "constexpr")
+                                :default-value "1e-8"
+                                :type "double")
+                                (reparse-symbol classsubparts) [12991 13060])
+                            ("norm_" variable
+                               (:default-value "1."
+                                :type "double")
+                                (reparse-symbol classsubparts) [13117 13135])
+                            ("source_" variable (:type ("std::unique_ptr" type
+                                 (:template-specifier 
+                                    ( ("marley::NeutrinoSource" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [13217 13265])
+                            ("target_" variable (:type ("std::unique_ptr" type
+                                 (:template-specifier 
+                                    ( ("marley::Target" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [13366 13406])
+                            ("structure_db_" variable (:type ("std::unique_ptr" type
+                                 (:template-specifier 
+                                    ( ("marley::StructureDatabase" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [13527 13584])
+                            ("reactions_" variable (:type ("std::vector" type
+                                 (:template-specifier 
+                                    ( ("std::unique_ptr" type (:template-specifier 
+                                        ( ("marley::Reaction" type nil nil nil))                                        ) nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [13663 13723])
+                            ("total_xs_values_" variable (:type ("std::vector" type
+                                 (:template-specifier 
+                                    ( ("double" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [13987 14024])
+                            ("r_index_dist_" variable (:type ("std::discrete_distribution" type
+                                 (:template-specifier 
+                                    ( ("size_t" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [14098 14147])
+                            ("weight_flux_" variable
+                               (:default-value "true"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [14371 14396])
+                            ("E_pdf_max_" variable (:type "double") (reparse-symbol classsubparts) [14692 14710])
+                            ("E_PDF_MAX_DEFAULT_" variable
+                               (:default-value "marley_utils::UNKNOWN_MAX"
+                                :type "double")
+                                (reparse-symbol classsubparts) [14928 14982])
+                            ("set_default_E_pdf_max" function
+                               (:arguments 
+                                  ( ("def_max" variable (:type "double") (reparse-symbol arg-sub-list) [15265 15281]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [15237 15329])
+                            ("dont_normalize_E_pdf_" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [15493 15528])
+                            ("rotator_" variable (:type ("marley::ProjectileDirectionRotator" type (:type "class") nil nil)) (reparse-symbol classsubparts) [15654 15698])
+                            ("do_deexcitations_" variable
+                               (:default-value "true"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [15915 15945])
+                            ("total_xs" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :arguments 
+                                  ( ("pdg_a" variable (:type "int") (reparse-symbol arg-sub-list) [17119 17129])
+                                    ("KEa" variable (:type "double") (reparse-symbol arg-sub-list) [17130 17141])
+                                    ("pdg_atom" variable (:type "int") (reparse-symbol arg-sub-list) [17142 17155])
+                                    ("index_vec" variable
+                                       (:pointer 1
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("size_t" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [17164 17195])
+                                    ("xsec_vec" variable
+                                       (:pointer 1
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("double" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [17196 17226]))                                  
+                                :type "double")
+                                (reparse-symbol classsubparts) [17103 17233]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1267 17238])
+                    ("get_seed" function
+                       (:methodconst-flag t
+                        :parent "Generator"
+                        :type ("uint_fast64_t" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [17282 17341])
+                    ("get_reactions" function
+                       (:methodconst-flag t
+                        :parent "Generator"
+                        :constant-flag t
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("std::unique_ptr" type (:template-specifier 
+                                    ( ("marley::Reaction" type nil nil nil))                                    ) nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [17352 17466])
+                    ("neutrino_direction" function
+                       (:parent "Generator"
+                        :constant-flag t
+                        :type ("std::array" type
+                             (:template-specifier 
+                                ( ("double" type nil nil nil)
+                                  ("3"))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [17477 17585])
+                    ("set_do_deexcitations" function
+                       (:parent "Generator"
+                        :arguments 
+                          ( ("do_them" variable (:type "bool") (reparse-symbol arg-sub-list) [17634 17648]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [17596 17685]))                  
+                :type "namespace")
+                nil [1144 17687]))          
+      :file "Generator.hh"
+      :pointmax 17688
+      :fsize 17687
+      :lastmodtime '(24971 61119 503623 402000)
+      :unmatched-syntax '((symbol "__inline" 17589 . 17595) (symbol "__inline" 17470 . 17476) (symbol "__inline" 17345 . 17351) (symbol "__inline" 17275 . 17281) (symbol "__inline" 15230 . 15236) (symbol "__inline" 12134 . 12140) (symbol "__inline" 9258 . 9264) (symbol "__inline" 8816 . 8822) (semantic-list 8107 . 8185) (semantic-list 8105 . 8107) (OPERATOR 8097 . 8105) (punctuation 8096 . 8097) (semantic-list 8094 . 8096) (punctuation 8035 . 8036) (punctuation 8034 . 8035) (semantic-list 7969 . 8033) (symbol 7945 . 7969) (symbol 7940 . 7944) (symbol "__inline" 7933 . 7939) (punctuation 7923 . 7924) (symbol 7914 . 7923) (TYPENAME 7905 . 7913) (punctuation 7903 . 7904) (symbol 7879 . 7903) (CLASS 7873 . 7878) (punctuation 7872 . 7873) (TEMPLATE 7863 . 7871) (semantic-list 7534 . 7577) (semantic-list 7532 . 7534) (OPERATOR 7524 . 7532) (punctuation 7523 . 7524) (semantic-list 7521 . 7523) (punctuation 7470 . 7471) (punctuation 7469 . 7470) (semantic-list 7429 . 7460) (symbol 7405 . 7429) (symbol 7400 . 7404) (symbol "__inline" 7393 . 7399) (punctuation 7383 . 7384) (symbol 7359 . 7383) (CLASS 7353 . 7358) (punctuation 7352 . 7353) (TEMPLATE 7343 . 7351) (symbol "__inline" 4771 . 4777) (punctuation 4435 . 4436) (punctuation 4434 . 4435) (semantic-list 4426 . 4434) (punctuation 4419 . 4420) (punctuation 3304 . 3305) (punctuation 3303 . 3304) (semantic-list 3295 . 3303) (punctuation 3288 . 3289) (symbol "__inline" 1739 . 1745) (symbol 639 . 643) (symbol 632 . 638) (punctuation 631 . 632)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("memory" include (:system-flag t) nil [644 661])
+            ("string" include (:system-flag t) nil [662 679])
+            ("vector" include (:system-flag t) nil [680 697])
+            ("marley/Event.hh" include nil nil [699 725])
+            ("marley/MassTable.hh" include nil nil [726 756])
+            ("marley/TargetAtom.hh" include nil nil [757 788])
+            ("marley" type
+               (:members 
+                  ( ("Generator" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [812 828])
+                    ("StructureDatabase" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [831 855])
+                    ("Reaction" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [1398 1405])
+                            ("ProcessType" type
+                               (:members 
+                                  ( ("NeutrinoCC" variable
+                                       (:constant-flag t
+                                        :default-value (1602 1603)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1589 1604])
+                                    ("AntiNeutrinoCC" variable
+                                       (:constant-flag t
+                                        :default-value (1685 1686)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1668 1687])
+                                    ("NC" variable
+                                       (:constant-flag t
+                                        :default-value (1752 1753)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1747 1754])
+                                    ("NuElectronElastic" variable
+                                       (:constant-flag t
+                                        :default-value (1846 1896)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [1826 1897]))                                  
+                                :type "enum")
+                                (reparse-symbol classsubparts) [1562 1898])
+                            ("total_xs" function
+                               (:pure-virtual-flag t
+                                :prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("pdg_a" variable (:type "int") (reparse-symbol arg-sub-list) [2303 2313])
+                                    ("KEa" variable (:type "double") (reparse-symbol arg-sub-list) [2314 2325]))                                  
+                                :type "double")
+                                (reparse-symbol classsubparts) [2279 2336])
+                            ("diff_xs" function
+                               (:pure-virtual-flag t
+                                :prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("pdg_a" variable (:type "int") (reparse-symbol arg-sub-list) [2797 2807])
+                                    ("KEa" variable (:type "double") (reparse-symbol arg-sub-list) [2808 2819])
+                                    ("cos_theta_c_cm" variable (:type "double") (reparse-symbol arg-sub-list) [2828 2850]))                                  
+                                :type "double")
+                                (reparse-symbol classsubparts) [2774 2861])
+                            ("create_event" function
+                               (:pure-virtual-flag t
+                                :prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("pdg_a" variable (:type "int") (reparse-symbol arg-sub-list) [3268 3278])
+                                    ("KEa" variable (:type "double") (reparse-symbol arg-sub-list) [3279 3290])
+                                    ("gen" variable
+                                       (:reference 1
+                                        :type ("marley::Generator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3299 3322]))                                  
+                                :type ("marley::Event" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3233 3333])
+                            ("get_description" function
+                               (:methodconst-flag t
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3422 3489])
+                            ("process_type" function
+                               (:methodconst-flag t
+                                :type ("ProcessType" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3560 3618])
+                            ("proc_type_to_string" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :arguments 
+                                  ( ("pt" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("ProcessType" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3665 3687]))                                  
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3626 3688])
+                            ("pdg_a" function
+                               (:methodconst-flag t
+                                :type "int")
+                                (reparse-symbol classsubparts) [3748 3784])
+                            ("pdg_b" function
+                               (:methodconst-flag t
+                                :type "int")
+                                (reparse-symbol classsubparts) [3840 3876])
+                            ("threshold_kinetic_energy" function
+                               (:pure-virtual-flag t
+                                :prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :type "double")
+                                (reparse-symbol classsubparts) [4070 4122])
+                            ("atomic_target" function
+                               (:pure-virtual-flag t
+                                :prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :type ("marley::TargetAtom" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4398 4451])
+                            ("load_from_file" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :arguments 
+                                  ( ("filename" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4650 4678])
+                                    ("db" variable
+                                       (:reference 1
+                                        :type ("marley::StructureDatabase" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4687 4717]))                                  
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("std::unique_ptr" type (:template-specifier 
+                                            ( ("Reaction" type nil nil nil))                                            ) nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [4579 4718])
+                            ("get_ejectile_pdg" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :arguments 
+                                  ( ("pdg_a" variable (:type "int") (reparse-symbol arg-sub-list) [4868 4878])
+                                    ("proc_type" variable (:type ("ProcessType" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4879 4901]))                                  
+                                :type "int")
+                                (reparse-symbol classsubparts) [4840 4902])
+                            ("protected" label nil (reparse-symbol classsubparts) [4908 4918])
+                            ("pdg_a_" variable (:type "int") (reparse-symbol classsubparts) [4926 4937])
+                            ("pdg_b_" variable (:type "int") (reparse-symbol classsubparts) [4977 4988])
+                            ("pdg_c_" variable (:type "int") (reparse-symbol classsubparts) [5024 5035])
+                            ("pdg_d_" variable (:type "int") (reparse-symbol classsubparts) [5073 5084])
+                            ("ma_" variable (:type "double") (reparse-symbol classsubparts) [5122 5133])
+                            ("mb_" variable (:type "double") (reparse-symbol classsubparts) [5167 5178])
+                            ("mc_" variable (:type "double") (reparse-symbol classsubparts) [5208 5219])
+                            ("md_" variable
+                               (:typemodifiers ("mutable")
+                                :type "double")
+                                (reparse-symbol classsubparts) [5401 5420])
+                            ("description_" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5524 5549])
+                            ("process_type_" variable (:type ("ProcessType" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5649 5675])
+                            ("two_two_scatter" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :arguments 
+                                  ( ("KEa" variable (:type "double") (reparse-symbol arg-sub-list) [6231 6242])
+                                    ("s" variable
+                                       (:reference 1
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [6243 6253])
+                                    ("Ec_cm" variable
+                                       (:reference 1
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [6254 6268])
+                                    ("pc_cm" variable
+                                       (:reference 1
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [6277 6291])
+                                    ("Ed_cm" variable
+                                       (:reference 1
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [6292 6306]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [6210 6313])
+                            ("make_event_object" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("KEa" variable (:type "double") (reparse-symbol arg-sub-list) [7343 7354])
+                                    ("pc_cm" variable (:type "double") (reparse-symbol arg-sub-list) [7363 7376])
+                                    ("cos_theta_c_cm" variable (:type "double") (reparse-symbol arg-sub-list) [7377 7399])
+                                    ("phi_c_cm" variable (:type "double") (reparse-symbol arg-sub-list) [7400 7416])
+                                    ("Ec_cm" variable (:type "double") (reparse-symbol arg-sub-list) [7425 7438])
+                                    ("Ed_cm" variable (:type "double") (reparse-symbol arg-sub-list) [7439 7452])
+                                    ("E_level" variable (:type "double") (reparse-symbol arg-sub-list) [7453 7468])
+                                    ("twoJ" variable (:type "int") (reparse-symbol arg-sub-list) [7469 7478])
+                                    ("P" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("marley::Parity" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7487 7511]))                                  
+                                :type ("marley::Event" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [7303 7518])
+                            ("get_projectiles" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :constant-flag t
+                                :arguments 
+                                  ( ("proc_type" variable (:type ("ProcessType" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7684 7706]))                                  
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("int" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [7637 7707]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1376 7712]))                  
+                :type "namespace")
+                nil [790 7715]))          
+      :file "Reaction.hh"
+      :pointmax 7716
+      :fsize 7715
+      :lastmodtime '(24971 61119 507955 373000)
+      :unmatched-syntax '((symbol "__inline" 3833 . 3839) (symbol "__inline" 3741 . 3747) (symbol "__inline" 3553 . 3559) (symbol "__inline" 3415 . 3421) (punctuation 1442 . 1443) (DEFAULT 1435 . 1442) (punctuation 1433 . 1434) (semantic-list 1430 . 1432) (symbol 1422 . 1430) (punctuation 1421 . 1422) (VIRTUAL 1413 . 1420) (symbol 639 . 643) (symbol 632 . 638) (punctuation 631 . 632))))
+  :file "!Users!aranborkum!Docterate!marley!include!marley!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

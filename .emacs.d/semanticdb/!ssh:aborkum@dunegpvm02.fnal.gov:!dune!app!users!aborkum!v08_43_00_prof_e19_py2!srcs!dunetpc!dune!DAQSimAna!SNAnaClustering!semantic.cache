@@ -1,0 +1,1046 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("functional" include (:system-flag t) nil [1 22])
+            ("TH1I.h" include nil nil [58 75])
+            ("TH1F.h" include nil nil [76 93])
+            ("TH2F.h" include nil nil [94 111])
+            ("TTree.h" include nil nil [112 130])
+            ("TMath.h" include nil nil [131 149])
+            ("TGeoMatrix.h" include nil nil [150 173])
+            ("larcore/Geometry/Geometry.h" include nil nil [231 269])
+            ("larcorealg/Geometry/LocalTransformationGeo.h" include nil nil [271 326])
+            ("larcorealg/Geometry/WireGeo.h" include nil nil [327 367])
+            ("larcoreobj/SimpleTypesAndConstants/RawTypes.h" include nil nil [369 425])
+            ("larcoreobj/SimpleTypesAndConstants/geo_vectors.h" include nil nil [426 485])
+            ("lardataobj/RawData/RawDigit.h" include nil nil [487 527])
+            ("lardataobj/RawData/raw.h" include nil nil [528 563])
+            ("lardataobj/RecoBase/Hit.h" include nil nil [564 600])
+            ("lardataobj/RecoBase/OpHit.h" include nil nil [601 639])
+            ("lardataobj/RecoBase/Wire.h" include nil nil [640 677])
+            ("lardataobj/Simulation/sim.h" include nil nil [678 716])
+            ("lardataobj/Simulation/SimChannel.h" include nil nil [717 762])
+            ("lardataobj/Simulation/SupernovaTruth.h" include nil nil [763 812])
+            ("lardata/DetectorInfoServices/DetectorPropertiesService.h" include nil nil [814 881])
+            ("lardata/DetectorInfoServices/DetectorClocksService.h" include nil nil [882 945])
+            ("larsim/MCCheater/BackTrackerService.h" include nil nil [947 995])
+            ("larsim/MCCheater/ParticleInventoryService.h" include nil nil [996 1050])
+            ("larsim/MCCheater/PhotonBackTrackerService.h" include nil nil [1051 1105])
+            ("art/Framework/Core/EDAnalyzer.h" include nil nil [1122 1164])
+            ("art/Framework/Core/ModuleMacros.h" include nil nil [1165 1209])
+            ("art/Framework/Principal/Event.h" include nil nil [1210 1252])
+            ("art/Framework/Principal/Handle.h" include nil nil [1253 1296])
+            ("art/Framework/Principal/Run.h" include nil nil [1297 1337])
+            ("art/Framework/Principal/SubRun.h" include nil nil [1338 1381])
+            ("art_root_io/TFileDirectory.h" include nil nil [1382 1421])
+            ("art_root_io/TFileService.h" include nil nil [1422 1459])
+            ("art/Framework/Services/Registry/ServiceHandle.h" include nil nil [1460 1518])
+            ("canvas/Utilities/InputTag.h" include nil nil [1519 1557])
+            ("canvas/Utilities/Exception.h" include nil nil [1558 1597])
+            ("canvas/Persistency/Common/FindMany.h" include nil nil [1598 1645])
+            ("canvas/Persistency/Common/FindManyP.h" include nil nil [1646 1694])
+            ("canvas/Persistency/Common/FindOneP.h" include nil nil [1695 1742])
+            ("fhiclcpp/ParameterSet.h" include nil nil [1744 1778])
+            ("messagefacility/MessageLogger/MessageLogger.h" include nil nil [1779 1835])
+            ("PType" type
+               (:members 
+                  ( ("kUnknown" variable
+                       (:constant-flag t
+                        :default-value (1857 1858)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1848 1859])
+                    ("kMarl" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1860 1866])
+                    ("kAPA" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1867 1872])
+                    ("kCPA" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1873 1878])
+                    ("kAr39" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1879 1885])
+                    ("kNeut" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1886 1892])
+                    ("kKryp" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1893 1899])
+                    ("kPlon" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1900 1906])
+                    ("kRdon" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1907 1914])
+                    ("kAr42" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1915 1921]))                  
+                :type "enum")
+                nil [1837 1922])
+            ("PTypeString" variable (:type ("std::map" type
+                 (:template-specifier 
+                    ( ("PType" type nil nil nil)
+                      ("std::string" type nil nil nil))                    
+                  :type "class")
+                  nil nil)) nil [1923 2205])
+            ("SNAna" type
+               (:superclasses 
+                  ( ("art::EDAnalyzer" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [2248 2255])
+                    ("SNAna" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :typemodifiers ("explicit")
+                        :arguments 
+                          ( ("p" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("fhicl::ParameterSet" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2273 2303]))                          
+                        :type ("SNAna" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2258 2304])
+                    ("analyze" function
+                       (:prototype-flag t
+                        :override-flag t
+                        :arguments 
+                          ( ("evt" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("art::Event" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2472 2495]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [2459 2505])
+                    ("reconfigure" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("p" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("fhicl::ParameterSet" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2525 2555]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [2508 2556])
+                    ("beginJob" function
+                       (:prototype-flag t
+                        :override-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2559 2584])
+                    ("endJob" function
+                       (:prototype-flag t
+                        :override-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2587 2610])
+                    ("private" label nil (reparse-symbol classsubparts) [2612 2620])
+                    ("ResetVariables" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2624 2646])
+                    ("FillMyMaps" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("MyMap" variable
+                               (:reference 1
+                                :type ("std::map" type
+                                     (:template-specifier 
+                                        ( ("int" type nil nil nil)
+                                          ("simb::MCParticle" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [2668 2708])
+                            ("Assn" variable (:type ("art::FindManyP" type
+                                 (:template-specifier 
+                                    ( ("simb::MCParticle" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol arg-sub-list) [2730 2768])
+                            ("Hand" variable (:type ("art::Handle" type
+                                 (:template-specifier 
+                                    ( ("std::vector" type (:template-specifier 
+                                        ( ("simb::MCTruth" type nil nil nil))                                        ) nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol arg-sub-list) [2790 2837])
+                            ("indexMap" variable
+                               (:pointer 1
+                                :default-value "nullptr"
+                                :type ("std::map" type
+                                     (:template-specifier 
+                                        ( ("int" type nil nil nil)
+                                          ("int" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [2859 2896]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [2649 2897])
+                    ("WhichParType" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("TrID" variable (:type "int") (reparse-symbol arg-sub-list) [2920 2930]))                          
+                        :type ("PType" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2900 2931])
+                    ("InMyMap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("TrID" variable (:type "int") (reparse-symbol arg-sub-list) [2954 2963])
+                            ("ParMap" variable (:type ("std::map" type
+                                 (:template-specifier 
+                                    ( ("int" type nil nil nil)
+                                      ("simb::MCParticle" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol arg-sub-list) [2964 3005]))                          
+                        :type "bool")
+                        (reparse-symbol classsubparts) [2934 3006])
+                    ("FillTruth" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("Assn" variable
+                               (:constant-flag t
+                                :type ("art::FindManyP" type
+                                     (:template-specifier 
+                                        ( ("simb::MCParticle" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [3024 3068])
+                            ("Hand" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("art::Handle" type
+                                     (:template-specifier 
+                                        ( ("std::vector" type (:template-specifier 
+                                            ( ("simb::MCTruth" type nil nil nil))                                            ) nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [3086 3138])
+                            ("type" variable
+                               (:constant-flag t
+                                :type ("PType" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [3156 3173]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [3009 3175])
+                    ("SaveNeighbourADC" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("channel" variable (:type "int") (reparse-symbol arg-sub-list) [3200 3212])
+                            ("rawDigitsVecHandle" variable (:type ("art::Handle" type
+                                 (:template-specifier 
+                                    ( ("std::vector" type (:template-specifier 
+                                        ( ("raw::RawDigit" type nil nil nil))                                        ) nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol arg-sub-list) [3237 3297])
+                            ("badChannels" variable (:type ("std::set" type
+                                 (:template-specifier 
+                                    ( ("int" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol arg-sub-list) [3322 3348])
+                            ("hits" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("recob::Hit" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [3373 3396]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [3178 3397])
+                    ("SaveIDEs" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("evt" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("art::Event" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [3415 3438]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [3401 3439])
+                    ("fname" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3442 3460])
+                    ("firstCatch" variable (:type "int") (reparse-symbol classsubparts) [3466 3481])
+                    ("secondCatch" variable (:type "int") (reparse-symbol classsubparts) [3484 3500])
+                    ("thirdCatch" variable (:type "int") (reparse-symbol classsubparts) [3503 3518])
+                    ("fRawDigitLabel" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3522 3549])
+                    ("fHitLabel" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3552 3574])
+                    ("fCalDataModuleLabel" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3577 3609])
+                    ("fOpHitModuleLabel" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3612 3642])
+                    ("fGEANTLabel" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3646 3670])
+                    ("fMARLLabel" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3673 3697])
+                    ("MarlParts" variable (:type ("std::map" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil)
+                              ("simb::MCParticle" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3698 3742])
+                    ("fAPALabel" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3745 3769])
+                    ("APAParts" variable (:type ("std::map" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil)
+                              ("simb::MCParticle" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3770 3814])
+                    ("fCPALabel" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3817 3841])
+                    ("CPAParts" variable (:type ("std::map" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil)
+                              ("simb::MCParticle" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3842 3886])
+                    ("fAr39Label" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3889 3913])
+                    ("Ar39Parts" variable (:type ("std::map" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil)
+                              ("simb::MCParticle" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3914 3958])
+                    ("fNeutLabel" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3961 3985])
+                    ("NeutParts" variable (:type ("std::map" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil)
+                              ("simb::MCParticle" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3986 4030])
+                    ("fKrypLabel" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4033 4057])
+                    ("KrypParts" variable (:type ("std::map" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil)
+                              ("simb::MCParticle" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [4058 4102])
+                    ("fPlonLabel" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4105 4129])
+                    ("PlonParts" variable (:type ("std::map" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil)
+                              ("simb::MCParticle" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [4130 4174])
+                    ("fRdonLabel" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4177 4201])
+                    ("RdonParts" variable (:type ("std::map" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil)
+                              ("simb::MCParticle" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [4202 4246])
+                    ("fAr42Label" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4249 4273])
+                    ("Ar42Parts" variable (:type ("std::map" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil)
+                              ("simb::MCParticle" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [4274 4318])
+                    ("truthmap" variable (:type ("std::map" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil)
+                              ("simb::MCParticle" type
+                                 (:pointer 1
+                                  :constant-flag t)
+                                  nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [4321 4369])
+                    ("trkIDToMarleyIndex" variable (:type ("std::map" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil)
+                              ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [4438 4476])
+                    ("trkIDToPType" variable (:type ("std::map" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil)
+                              ("PType" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [4551 4585])
+                    ("fSaveNeighbourADCs" variable (:type "bool") (reparse-symbol classsubparts) [4589 4613])
+                    ("fSaveIDEs" variable (:type "bool") (reparse-symbol classsubparts) [4616 4631])
+                    ("fSaveTruth" variable (:type "bool") (reparse-symbol classsubparts) [4634 4650])
+                    ("fSaveTPC" variable (:type "bool") (reparse-symbol classsubparts) [4653 4667])
+                    ("fSavePDS" variable (:type "bool") (reparse-symbol classsubparts) [4670 4684])
+                    ("fSNAnaTree" variable
+                       (:pointer 1
+                        :type ("TTree" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [4688 4706])
+                    ("Run" variable (:type "int") (reparse-symbol classsubparts) [4710 4718])
+                    ("SubRun" variable (:type "int") (reparse-symbol classsubparts) [4721 4732])
+                    ("Event" variable (:type "int") (reparse-symbol classsubparts) [4735 4745])
+                    ("NTotHit" variable (:type "int") (reparse-symbol classsubparts) [4749 4764])
+                    ("NColHit" variable (:type "int") (reparse-symbol classsubparts) [4767 4782])
+                    ("NIndHit" variable (:type "int") (reparse-symbol classsubparts) [4785 4800])
+                    ("NHitNoBT" variable (:type "int") (reparse-symbol classsubparts) [4803 4818])
+                    ("Hit_View" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [4822 4882])
+                    ("Hit_Size" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [4885 4945])
+                    ("Hit_TPC" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [4948 5008])
+                    ("Hit_Chan" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [5011 5071])
+                    ("Hit_X_start" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [5074 5134])
+                    ("Hit_Y_start" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [5137 5197])
+                    ("Hit_Z_start" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [5200 5260])
+                    ("Hit_X_end" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [5263 5323])
+                    ("Hit_Y_end" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [5326 5386])
+                    ("Hit_Z_end" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [5389 5449])
+                    ("Hit_Time" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [5452 5512])
+                    ("Hit_RMS" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [5515 5575])
+                    ("Hit_SADC" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [5578 5638])
+                    ("Hit_Int" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [5641 5701])
+                    ("Hit_Peak" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [5704 5764])
+                    ("Hit_True_GenType" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [5767 5827])
+                    ("Hit_True_MainTrID" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [5830 5890])
+                    ("Hit_True_TrackID" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [5893 5953])
+                    ("Hit_True_EvEnergy" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [5956 6016])
+                    ("Hit_True_MarleyIndex" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [6019 6079])
+                    ("Hit_True_X" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [6082 6142])
+                    ("Hit_True_Y" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [6145 6205])
+                    ("Hit_True_Z" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [6208 6268])
+                    ("Hit_True_Energy" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [6271 6331])
+                    ("Hit_True_nElec" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [6334 6394])
+                    ("Hit_True_nIDEs" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [6397 6457])
+                    ("Hit_AdjM5SADC" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [6460 6520])
+                    ("Hit_AdjM2SADC" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [6523 6583])
+                    ("Hit_AdjM1SADC" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [6586 6646])
+                    ("Hit_AdjP1SADC" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [6649 6709])
+                    ("Hit_AdjP2SADC" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [6712 6772])
+                    ("Hit_AdjP5SADC" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [6775 6835])
+                    ("Hit_AdjM5Chan" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [6838 6898])
+                    ("Hit_AdjM2Chan" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [6901 6961])
+                    ("Hit_AdjM1Chan" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [6964 7024])
+                    ("Hit_AdjP1Chan" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [7027 7087])
+                    ("Hit_AdjP2Chan" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [7090 7150])
+                    ("Hit_AdjP5Chan" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [7153 7213])
+                    ("PDS_OpHit_OpChannel" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [7217 7277])
+                    ("PDS_OpHit_X" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [7280 7340])
+                    ("PDS_OpHit_Y" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [7343 7403])
+                    ("PDS_OpHit_Z" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [7406 7466])
+                    ("PDS_OpHit_PeakTimeAbs" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [7469 7529])
+                    ("PDS_OpHit_PeakTime" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [7532 7592])
+                    ("PDS_OpHit_Frame" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("unsigned short" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [7595 7655])
+                    ("PDS_OpHit_Width" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [7658 7718])
+                    ("PDS_OpHit_Area" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [7721 7781])
+                    ("PDS_OpHit_Amplitude" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [7784 7844])
+                    ("PDS_OpHit_PE" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [7847 7907])
+                    ("PDS_OpHit_FastToTotal" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [7910 7970])
+                    ("PDS_OpHit_True_GenType" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [7973 8033])
+                    ("PDS_OpHit_True_Index" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [8036 8096])
+                    ("PDS_OpHit_True_Energy" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [8099 8159])
+                    ("PDS_OpHit_True_TrackID" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [8162 8222])
+                    ("PDS_OpHit_True_GenTypeAll" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [8225 8285])
+                    ("PDS_OpHit_True_EnergyAll" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [8288 8348])
+                    ("PDS_OpHit_True_TrackIDAll" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [8351 8411])
+                    ("PDS_OpHit_True_IndexAll" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [8414 8474])
+                    ("True_VertexChan" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [8478 8538])
+                    ("True_Nu_Type" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [8541 8601])
+                    ("True_Nu_Lep_Type" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [8604 8664])
+                    ("True_Mode" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [8667 8727])
+                    ("True_CCNC" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [8730 8790])
+                    ("True_HitNucleon" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [8793 8853])
+                    ("True_Target" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [8856 8916])
+                    ("True_MarlSample" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [8919 8979])
+                    ("True_MarlTime" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [8982 9042])
+                    ("True_MarlWeight" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [9045 9105])
+                    ("True_ENu" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [9108 9168])
+                    ("True_ENu_Lep" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [9171 9231])
+                    ("True_VertX" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [9234 9294])
+                    ("True_VertY" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [9297 9357])
+                    ("True_VertZ" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [9360 9420])
+                    ("True_VertexT" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [9423 9483])
+                    ("True_Px" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [9486 9546])
+                    ("True_Py" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [9549 9609])
+                    ("True_Pz" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [9612 9672])
+                    ("True_Dirx" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [9675 9735])
+                    ("True_Diry" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [9738 9798])
+                    ("True_Dirz" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [9801 9861])
+                    ("True_Time" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [9864 9924])
+                    ("True_Bck_Mode" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [9928 9988])
+                    ("True_Bck_VertX" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [9991 10051])
+                    ("True_Bck_VertY" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [10054 10114])
+                    ("True_Bck_VertZ" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [10117 10177])
+                    ("True_Bck_Time" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [10180 10240])
+                    ("True_Bck_Energy" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [10243 10303])
+                    ("True_Bck_PDG" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [10306 10366])
+                    ("True_Bck_ID" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [10369 10429])
+                    ("NTotIDEs" variable (:type "int") (reparse-symbol classsubparts) [10433 10448])
+                    ("IDEChannel" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [10451 10511])
+                    ("IDEStartTime" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [10514 10574])
+                    ("IDEEndTime" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [10577 10637])
+                    ("IDEEnergy" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [10640 10700])
+                    ("IDEElectrons" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [10703 10763])
+                    ("IDEParticle" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [10766 10826])
+                    ("TotGen_Marl" variable (:type "int") (reparse-symbol classsubparts) [10830 10848])
+                    ("TotGen_APA" variable (:type "int") (reparse-symbol classsubparts) [10851 10869])
+                    ("TotGen_CPA" variable (:type "int") (reparse-symbol classsubparts) [10872 10890])
+                    ("TotGen_Ar39" variable (:type "int") (reparse-symbol classsubparts) [10893 10911])
+                    ("TotGen_Neut" variable (:type "int") (reparse-symbol classsubparts) [10914 10932])
+                    ("TotGen_Kryp" variable (:type "int") (reparse-symbol classsubparts) [10935 10953])
+                    ("TotGen_Plon" variable (:type "int") (reparse-symbol classsubparts) [10956 10974])
+                    ("TotGen_Rdon" variable (:type "int") (reparse-symbol classsubparts) [10977 10995])
+                    ("TotGen_Ar42" variable (:type "int") (reparse-symbol classsubparts) [10998 11016])
+                    ("geo" variable (:type ("art::ServiceHandle" type
+                         (:template-specifier 
+                            ( ("geo::Geometry" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [11021 11059])
+                    ("bt_serv" variable (:type ("art::ServiceHandle" type
+                         (:template-specifier 
+                            ( ("cheat::BackTrackerService" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [11062 11116])
+                    ("pi_serv" variable (:type ("art::ServiceHandle" type
+                         (:template-specifier 
+                            ( ("cheat::ParticleInventoryService" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [11119 11179])
+                    ("pbt_serv" variable (:type ("art::ServiceHandle" type
+                         (:template-specifier 
+                            ( ("cheat::PhotonBackTrackerService" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [11182 11243]))                  
+                :type "class")
+                nil [2208 11247])
+            ("SNAna" function
+               (:constructor-flag t
+                :parent "SNAna"
+                :arguments 
+                  ( ("p" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("fhicl::ParameterSet" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11262 11292]))                  
+                :type ("SNAna" type (:type "class") nil nil))
+                nil [11249 11401])
+            ("reconfigure" function
+               (:parent "SNAna"
+                :arguments 
+                  ( ("p" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("fhicl::ParameterSet" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11428 11458]))                  
+                :type "void")
+                nil [11404 12815])
+            ("ResetVariables" function
+               (:parent "SNAna"
+                :type "void")
+                nil [12818 16843])
+            ("beginJob" function
+               (:parent "SNAna"
+                :type "void")
+                nil [16846 25813])
+            ("analyze" function
+               (:parent "SNAna"
+                :arguments 
+                  ( ("evt" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("art::Event" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [25836 25859]))                  
+                :type "void")
+                nil [25816 47654])
+            ("FillTruth" function
+               (:parent "SNAna"
+                :arguments 
+                  ( ("Assn" variable
+                       (:constant-flag t
+                        :type ("art::FindManyP" type
+                             (:template-specifier 
+                                ( ("simb::MCParticle" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [47678 47722])
+                    ("Hand" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("art::Handle" type
+                             (:template-specifier 
+                                ( ("std::vector" type (:template-specifier 
+                                    ( ("simb::MCTruth" type nil nil nil))                                    ) nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [47745 47797])
+                    ("type" variable
+                       (:constant-flag t
+                        :type ("PType" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [47820 47837]))                  
+                :type "void")
+                nil [47656 48391])
+            ("FillMyMaps" function
+               (:parent "SNAna"
+                :arguments 
+                  ( ("MyMap" variable
+                       (:reference 1
+                        :type ("std::map" type
+                             (:template-specifier 
+                                ( ("int" type nil nil nil)
+                                  ("simb::MCParticle" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [48416 48456])
+                    ("Assn" variable (:type ("art::FindManyP" type
+                         (:template-specifier 
+                            ( ("simb::MCParticle" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [48480 48518])
+                    ("Hand" variable (:type ("art::Handle" type
+                         (:template-specifier 
+                            ( ("std::vector" type (:template-specifier 
+                                ( ("simb::MCTruth" type nil nil nil))                                ) nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [48542 48589])
+                    ("indexMap" variable
+                       (:pointer 1
+                        :type ("std::map" type
+                             (:template-specifier 
+                                ( ("int" type nil nil nil)
+                                  ("int" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [48613 48642]))                  
+                :type "void")
+                nil [48393 48938])
+            ("WhichParType" function
+               (:parent "SNAna"
+                :arguments 
+                  ( ("TrID" variable (:type "int") (reparse-symbol arg-sub-list) [48968 48978]))                  
+                :type ("PType" type (:type "class") nil nil))
+                nil [48941 49135])
+            ("InMyMap" function
+               (:parent "SNAna"
+                :arguments 
+                  ( ("TrID" variable (:type "int") (reparse-symbol arg-sub-list) [49159 49168])
+                    ("ParMap" variable (:type ("std::map" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil)
+                              ("simb::MCParticle" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [49169 49210]))                  
+                :type "bool")
+                nil [49138 49373])
+            ("SaveIDEs" function
+               (:parent "SNAna"
+                :arguments 
+                  ( ("evt" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("art::Event" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [49453 49476]))                  
+                :type "void")
+                nil [49432 52728])
+            ("SaveNeighbourADC" function
+               (:parent "SNAna"
+                :arguments 
+                  ( ("channel" variable (:type "int") (reparse-symbol arg-sub-list) [52760 52772])
+                    ("rawDigitsVecHandle" variable (:type ("art::Handle" type
+                         (:template-specifier 
+                            ( ("std::vector" type (:template-specifier 
+                                ( ("raw::RawDigit" type nil nil nil))                                ) nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [52802 52862])
+                    ("badChannels" variable (:type ("std::set" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [52892 52917])
+                    ("ThisHit" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("recob::Hit" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [52947 52973]))                  
+                :type "void")
+                nil [52731 56106])
+            ("endJob" function
+               (:parent "SNAna"
+                :type "void")
+                nil [56109 56226]))          
+      :file "SNAna_module.cc"
+      :pointmax 56253
+      :fsize 62315
+      :lastmodtime '(24184 36339)
+      :unmatched-syntax '((semantic-list 56245 . 56252) (symbol 56228 . 56245) (punctuation 2454 . 2455) (DELETE 2448 . 2454) (punctuation 2446 . 2447) (semantic-list 2435 . 2445) (punctuation 2433 . 2434) (OPERATOR 2424 . 2432) (punctuation 2443 . 2444) (punctuation 2422 . 2423) (symbol 2416 . 2421) (punctuation 2443 . 2444) (punctuation 2412 . 2413) (DELETE 2406 . 2412) (punctuation 2404 . 2405) (semantic-list 2388 . 2403) (punctuation 2386 . 2387) (OPERATOR 2377 . 2385) (punctuation 2375 . 2376) (symbol 2369 . 2374) (punctuation 2365 . 2366) (DELETE 2359 . 2365) (punctuation 2357 . 2358) (semantic-list 2346 . 2356) (symbol 2341 . 2346) (punctuation 2354 . 2355) (punctuation 2337 . 2338) (DELETE 2331 . 2337) (punctuation 2329 . 2330) (semantic-list 2313 . 2328) (symbol 2308 . 2313))))
+  :file "!ssh:aborkum@dunegpvm02.fnal.gov:!dune!app!users!aborkum!v08_43_00_prof_e19_py2!srcs!dunetpc!dune!DAQSimAna!SNAnaClustering!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

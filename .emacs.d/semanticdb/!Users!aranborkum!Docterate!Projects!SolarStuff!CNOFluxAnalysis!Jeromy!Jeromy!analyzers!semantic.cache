@@ -1,0 +1,402 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("matplotlib.pyplot" include nil nil [20 51])
+            ("Jeromy.core.true_solar" include nil nil [53 96])
+            ("Jeromy.IO.FileImporter" include nil nil [97 132])
+            ("Jeromy.IO.ImportDataHighZ" include nil nil [133 175])
+            ("Jeromy.IO.ImportDataLowZ" include nil nil [176 217])
+            ("Jeromy.utilities.helpers" include nil nil [218 254])
+            ("tqdm" include nil nil [256 277])
+            ("math" include nil nil [278 300])
+            ("lmfit.models" include nil nil [301 339])
+            ("CountingExperiment" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [453 476])
+                            ("self" variable nil (reparse-symbol indented_block_body) [485 510])
+                            ("self" variable nil (reparse-symbol indented_block_body) [519 544])
+                            ("self" variable nil (reparse-symbol indented_block_body) [553 578])
+                            ("self" variable nil (reparse-symbol indented_block_body) [587 613])
+                            ("self" variable nil (reparse-symbol indented_block_body) [622 650])
+                            ("self" variable nil (reparse-symbol indented_block_body) [659 701])
+                            ("if" code nil (reparse-symbol indented_block_body) [711 2232])
+                            ("if" code nil (reparse-symbol indented_block_body) [2241 3763])
+                            ("rate, uncertainty" code nil (reparse-symbol indented_block_body) [3772 3813])
+                            ("self" variable nil (reparse-symbol indented_block_body) [3822 3842])
+                            ("self" variable nil (reparse-symbol indented_block_body) [3851 3885]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [387 391])
+                            ("name" variable nil (reparse-symbol function_parameters) [393 397])
+                            ("roi" variable nil (reparse-symbol function_parameters) [399 402])
+                            ("config" variable nil (reparse-symbol function_parameters) [404 410])
+                            ("shuffle" variable nil (reparse-symbol function_parameters) [412 419])
+                            ("unc_table" variable nil (reparse-symbol function_parameters) [427 436]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [374 3886])
+                    ("_calculate_epsilon" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3926 3930])
+                            ("spectrum" variable nil (reparse-symbol function_parameters) [3932 3940])
+                            ("exposure" variable nil (reparse-symbol function_parameters) [3942 3950])
+                            ("background_reduction" variable nil (reparse-symbol function_parameters) [3952 3972]))                          )
+                        (reparse-symbol indented_block_body) [3903 4528])
+                    ("calculate_rate" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [4552 4556])
+                            ("print_table" variable nil (reparse-symbol function_parameters) [4558 4569]))                          )
+                        (reparse-symbol indented_block_body) [4533 9204]))                  
+                :type "class")
+                nil [341 9204])
+            ("CountingExperimentEnsemble" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [8589 8606])
+                            ("self" variable nil (reparse-symbol indented_block_body) [8615 8634])
+                            ("self" variable nil (reparse-symbol indented_block_body) [8643 8662])
+                            ("self" variable nil (reparse-symbol indented_block_body) [8671 8691])
+                            ("self" variable nil (reparse-symbol indented_block_body) [8700 8742])
+                            ("self" variable nil (reparse-symbol indented_block_body) [8751 8773])
+                            ("cno_rates" variable nil (reparse-symbol indented_block_body) [8783 8797])
+                            ("cno_uncertainties" variable nil (reparse-symbol indented_block_body) [8806 8828])
+                            ("print" code nil (reparse-symbol indented_block_body) [8838 8861])
+                            ("for" code nil (reparse-symbol indented_block_body) [8870 9186])
+                            ("self" variable nil (reparse-symbol indented_block_body) [9207 9229])
+                            ("self" variable nil (reparse-symbol indented_block_body) [9238 9276]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [9267 9271])
+                            ("name" variable nil (reparse-symbol function_parameters) [9273 9277])
+                            ("roi" variable nil (reparse-symbol function_parameters) [9279 9282])
+                            ("config" variable nil (reparse-symbol function_parameters) [9284 9290])
+                            ("ntrials" variable nil (reparse-symbol function_parameters) [9292 9299]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [9254 10003])
+                    ("make_histogram" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [10035 10039])
+                            ("bins" variable nil (reparse-symbol function_parameters) [10041 10045])
+                            ("fit" variable nil (reparse-symbol function_parameters) [10050 10053]))                          )
+                        (reparse-symbol indented_block_body) [10016 10682])
+                    ("fit_histogram" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [10705 10709])
+                            ("bins" variable nil (reparse-symbol function_parameters) [10711 10715])
+                            ("fit" variable nil (reparse-symbol function_parameters) [10720 10723]))                          )
+                        (reparse-symbol indented_block_body) [10687 11346])
+                    ("evaluate" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [11369 11373]))                          )
+                        (reparse-symbol indented_block_body) [11356 12136]))                  
+                :type "class")
+                nil [9213 12136])
+            ("CountingExperiment_B8" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [11510 11533])
+                            ("self" variable nil (reparse-symbol indented_block_body) [11542 11567])
+                            ("self" variable nil (reparse-symbol indented_block_body) [11576 11601])
+                            ("self" variable nil (reparse-symbol indented_block_body) [11610 11635])
+                            ("self" variable nil (reparse-symbol indented_block_body) [11644 11670])
+                            ("self" variable nil (reparse-symbol indented_block_body) [11679 11721])
+                            ("if" code nil (reparse-symbol indented_block_body) [11731 12932])
+                            ("if" code nil (reparse-symbol indented_block_body) [12941 14143])
+                            ("rate, uncertainty" code nil (reparse-symbol indented_block_body) [14152 14193])
+                            ("self" variable nil (reparse-symbol indented_block_body) [14202 14221])
+                            ("self" variable nil (reparse-symbol indented_block_body) [14230 14263]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [12187 12191])
+                            ("name" variable nil (reparse-symbol function_parameters) [12193 12197])
+                            ("roi" variable nil (reparse-symbol function_parameters) [12199 12202])
+                            ("config" variable nil (reparse-symbol function_parameters) [12204 12210])
+                            ("shuffle" variable nil (reparse-symbol function_parameters) [12212 12219]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [12174 14990])
+                    ("_calculate_epsilon" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [15030 15034])
+                            ("spectrum" variable nil (reparse-symbol function_parameters) [15036 15044])
+                            ("exposure" variable nil (reparse-symbol function_parameters) [15046 15054])
+                            ("background_reduction" variable nil (reparse-symbol function_parameters) [15056 15076]))                          )
+                        (reparse-symbol indented_block_body) [15007 15632])
+                    ("calculate_rate" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [15656 15660])
+                            ("print_table" variable nil (reparse-symbol function_parameters) [15662 15673]))                          )
+                        (reparse-symbol indented_block_body) [15637 18852]))                  
+                :type "class")
+                nil [12138 18852]))          
+      :file "counting_experiment.py"
+      :pointmax 18852
+      :fsize 18889
+      :lastmodtime '(25222 46776 249897 568000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("math" include nil nil [1 12])
+            ("Jeromy" include nil nil [25 38])
+            ("Jeromy.core.true_solar" include nil nil [39 82])
+            ("Jeromy.analyzers.counting_experiment" include nil nil [83 149])
+            ("Jeromy.statistics.test_statistic" include nil nil [150 207])
+            ("numpy" include nil nil [208 226])
+            ("matplotlib.pyplot" include nil nil [227 258])
+            ("tqdm" include nil nil [260 281])
+            ("math" include nil nil [282 304])
+            ("lmfit.models" include nil nil [305 364])
+            ("gaussian" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [379 380])
+                ("m" variable nil (reparse-symbol function_parameters) [382 383])
+                ("s" variable nil (reparse-symbol function_parameters) [385 386])
+                ("a" variable nil (reparse-symbol function_parameters) [388 389]))              ) nil [366 517])
+            ("with" code nil nil [518 628])
+            ("standard_deviation" function (:arguments 
+              ( ("mean" variable nil (reparse-symbol function_parameters) [652 656])
+                ("values" variable nil (reparse-symbol function_parameters) [658 664]))              ) nil [629 782])
+            ("LikelihoodTest" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [862 888])
+                            ("self" variable nil (reparse-symbol indented_block_body) [897 919])
+                            ("self" variable nil (reparse-symbol indented_block_body) [928 952])
+                            ("self" variable nil (reparse-symbol indented_block_body) [961 983])
+                            ("self" variable nil (reparse-symbol indented_block_body) [992 1037])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1046 1098])
+                            ("solar_true" variable nil (reparse-symbol indented_block_body) [1108 1154])
+                            ("if" code nil (reparse-symbol indented_block_body) [1163 1259])
+                            ("if" code nil (reparse-symbol indented_block_body) [1267 1358])
+                            ("if" code nil (reparse-symbol indented_block_body) [1366 1460])
+                            ("if" code nil (reparse-symbol indented_block_body) [1468 1559])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1568 1606])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1615 1653])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1662 1700])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1709 1771])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1780 1830])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1839 1889]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [829 833])
+                            ("observed" variable nil (reparse-symbol function_parameters) [835 843])
+                            ("test" variable nil (reparse-symbol function_parameters) [845 849])
+                            ("config" variable nil (reparse-symbol function_parameters) [851 857])
+                            ("anti" variable nil (reparse-symbol function_parameters) [859 863]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [816 1902])
+                    ("test_stat" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1921 1925])
+                            ("obs" variable nil (reparse-symbol function_parameters) [1927 1930])
+                            ("pre" variable nil (reparse-symbol function_parameters) [1932 1935]))                          )
+                        (reparse-symbol indented_block_body) [1907 2152])
+                    ("pre_process" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2186 2190]))                          )
+                        (reparse-symbol indented_block_body) [2170 2702])
+                    ("true_predicted_spectrum" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2735 2739]))                          )
+                        (reparse-symbol indented_block_body) [2707 3024]))                  
+                :type "class")
+                nil [787 3024])
+            ("LikelihoodTestEnsemble" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [3149 3168])
+                            ("self" variable nil (reparse-symbol indented_block_body) [3177 3195])
+                            ("self" variable nil (reparse-symbol indented_block_body) [3204 3225])
+                            ("self" variable nil (reparse-symbol indented_block_body) [3234 3256])
+                            ("self" variable nil (reparse-symbol indented_block_body) [3265 3284])
+                            ("chi2_values" variable nil (reparse-symbol indented_block_body) [3294 3310])
+                            ("for" code nil (reparse-symbol indented_block_body) [3319 3662])
+                            ("self" variable nil (reparse-symbol indented_block_body) [3670 3700]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3089 3093])
+                            ("name" variable nil (reparse-symbol function_parameters) [3095 3099])
+                            ("roi" variable nil (reparse-symbol function_parameters) [3101 3104])
+                            ("config" variable nil (reparse-symbol function_parameters) [3106 3112])
+                            ("ntrials" variable nil (reparse-symbol function_parameters) [3114 3121])
+                            ("anti" variable nil (reparse-symbol function_parameters) [3128 3132]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [3076 3701])
+                    ("plot_test_statistic" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3730 3734])
+                            ("bins" variable nil (reparse-symbol function_parameters) [3736 3740])
+                            ("title" variable nil (reparse-symbol function_parameters) [3745 3750]))                          )
+                        (reparse-symbol indented_block_body) [3706 3927])
+                    ("make_test_statistic_histogram" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3974 3978])
+                            ("bins" variable nil (reparse-symbol function_parameters) [3980 3984])
+                            ("fit" variable nil (reparse-symbol function_parameters) [3989 3992])
+                            ("model" variable nil (reparse-symbol function_parameters) [4000 4005]))                          )
+                        (reparse-symbol indented_block_body) [3940 4859]))                  
+                :type "class")
+                nil [3039 4859]))          
+      :file "likelihood_ratios.py"
+      :pointmax 4859
+      :fsize 4858
+      :lastmodtime '(25219 52450 837807 529000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("matplotlib.pyplot" include nil nil [20 51])
+            ("Jeromy.core.true_solar" include nil nil [53 96])
+            ("Jeromy.IO.FileImporter" include nil nil [97 132])
+            ("Jeromy.IO.ImportDataHighZ" include nil nil [133 175])
+            ("Jeromy.IO.ImportDataLowZ" include nil nil [176 217])
+            ("Jeromy.utilities.helpers" include nil nil [218 254])
+            ("tqdm" include nil nil [256 277])
+            ("math" include nil nil [278 300])
+            ("lmfit.models" include nil nil [301 339])
+            ("DiscoveryCNO" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [422 442])
+                            ("self" variable nil (reparse-symbol indented_block_body) [451 468])
+                            ("self" variable nil (reparse-symbol indented_block_body) [477 496])
+                            ("self" variable nil (reparse-symbol indented_block_body) [505 544])
+                            ("if" code nil (reparse-symbol indented_block_body) [554 1546])
+                            ("if" code nil (reparse-symbol indented_block_body) [1554 2545])
+                            ("self" variable nil (reparse-symbol indented_block_body) [2554 2604])
+                            ("self" variable nil (reparse-symbol indented_block_body) [2613 2663])
+                            ("self" code nil (reparse-symbol indented_block_body) [2685 3045])
+                            ("self" code nil (reparse-symbol indented_block_body) [3054 3478])
+                            ("cno_injected_likelihood" variable nil (reparse-symbol indented_block_body) [3489 3533])
+                            ("background_only_likelihood" variable nil (reparse-symbol indented_block_body) [3542 3591]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [381 385])
+                            ("config" variable nil (reparse-symbol function_parameters) [387 393])
+                            ("roi" variable nil (reparse-symbol function_parameters) [395 398])
+                            ("nToys" variable nil (reparse-symbol function_parameters) [400 405]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [368 3592])
+                    ("run_toys" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6326 6330])
+                            ("SignalToys" variable nil (reparse-symbol function_parameters) [6332 6342]))                          )
+                        (reparse-symbol indented_block_body) [6313 9795]))                  
+                :type "class")
+                nil [341 9795]))          
+      :file "cno_discovery.py"
+      :pointmax 9795
+      :fsize 9794
+      :lastmodtime '(25232 47642 37705 615000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("matplotlib.pyplot" include nil nil [20 51])
+            ("Jeromy.core.true_solar" include nil nil [53 96])
+            ("Jeromy.IO.FileImporter" include nil nil [97 132])
+            ("Jeromy.IO.ImportDataHighZ" include nil nil [133 175])
+            ("Jeromy.IO.ImportDataLowZ" include nil nil [176 217])
+            ("Jeromy.utilities.helpers" include nil nil [218 254])
+            ("tqdm" include nil nil [256 277])
+            ("math" include nil nil [278 300])
+            ("lmfit.models" include nil nil [301 339])
+            ("MetallicitySplit" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [425 451])
+                            ("self" variable nil (reparse-symbol indented_block_body) [460 503])
+                            ("self" variable nil (reparse-symbol indented_block_body) [512 537])
+                            ("self" variable nil (reparse-symbol indented_block_body) [546 569])
+                            ("self" variable nil (reparse-symbol indented_block_body) [578 623])
+                            ("if" code nil (reparse-symbol indented_block_body) [641 4649])
+                            ("self" variable nil (reparse-symbol indented_block_body) [4671 4723])
+                            ("self" code nil (reparse-symbol indented_block_body) [4732 5174])
+                            ("total_signal" variable nil (reparse-symbol indented_block_body) [5184 5200])
+                            ("for" code nil (reparse-symbol indented_block_body) [5209 5340])
+                            ("self" variable nil (reparse-symbol indented_block_body) [5349 5381])
+                            ("null_hypothesis" variable nil (reparse-symbol indented_block_body) [5390 5423])
+                            ("test_hypothesis" variable nil (reparse-symbol indented_block_body) [5432 5470])
+                            ("null_hist" variable nil (reparse-symbol indented_block_body) [5479 5525])
+                            ("test_hist" variable nil (reparse-symbol indented_block_body) [5534 5580])
+                            ("self" variable nil (reparse-symbol indented_block_body) [5589 5615])
+                            ("self" variable nil (reparse-symbol indented_block_body) [5624 5650])
+                            ("plt" code nil (reparse-symbol indented_block_body) [5659 5670])
+                            ("null_normalised_likelihoods" variable nil (reparse-symbol indented_block_body) [5680 5753])
+                            ("null_bin_values" variable nil (reparse-symbol indented_block_body) [5762 5809])
+                            ("test_normalised_likelihoods" variable nil (reparse-symbol indented_block_body) [5818 5891])
+                            ("test_bin_values" variable nil (reparse-symbol indented_block_body) [5900 5947])
+                            ("self" variable nil (reparse-symbol indented_block_body) [5969 6039])
+                            ("self" variable nil (reparse-symbol indented_block_body) [6048 6118])
+                            ("self" variable nil (reparse-symbol indented_block_body) [6127 6162])
+                            ("self" variable nil (reparse-symbol indented_block_body) [6171 6206]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [385 389])
+                            ("config" variable nil (reparse-symbol function_parameters) [391 397])
+                            ("roi" variable nil (reparse-symbol function_parameters) [399 402])
+                            ("nToys" variable nil (reparse-symbol function_parameters) [404 409]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [372 6207])
+                    ("mean_and_sigma" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6241 6245])
+                            ("x_values" variable nil (reparse-symbol function_parameters) [6247 6255])
+                            ("y_values" variable nil (reparse-symbol function_parameters) [6257 6265]))                          )
+                        (reparse-symbol indented_block_body) [6222 6618])
+                    ("fit_model" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6637 6641]))                          )
+                        (reparse-symbol indented_block_body) [6623 7421])
+                    ("poisson_likelihood" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7460 7464])
+                            ("signal" variable nil (reparse-symbol function_parameters) [7466 7472])
+                            ("background" variable nil (reparse-symbol function_parameters) [7474 7484]))                          )
+                        (reparse-symbol indented_block_body) [7437 7907])
+                    ("run_toys" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7934 7938])
+                            ("H0" variable nil (reparse-symbol function_parameters) [7940 7942]))                          )
+                        (reparse-symbol indented_block_body) [7921 11728]))                  
+                :type "class")
+                nil [341 11728]))          
+      :file "metallicity_separation.py"
+      :pointmax 11728
+      :fsize 11727
+      :lastmodtime '(25237 63083 63710 90000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!SolarStuff!CNOFluxAnalysis!Jeromy!Jeromy!analyzers!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,47 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_BSD_MACHINE__LIMITS_H_" variable (:constant-flag t) nil [1366 1389]))          
+      :file "_limits.h"
+      :pointmax 1620
+      :fsize 1619
+      :lastmodtime '(24516 46028 0 0)
+      :unmatched-syntax '((symbol 1565 . 1574) (symbol 1561 . 1564) (symbol 1548 . 1560) (symbol 1542 . 1547) (punctuation 1541 . 1542))
+      :lexical-table 
+        '(("_BSD_MACHINE__LIMITS_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_BSD_MACHINE__TYPES_H_" variable (:constant-flag t) nil [1365 1387]))          
+      :file "_types.h"
+      :pointmax 1544
+      :fsize 1614
+      :lastmodtime '(24516 46028 0 0)
+      :unmatched-syntax '((symbol 1490 . 1499) (symbol 1486 . 1489) (symbol 1473 . 1485) (symbol 1467 . 1472) (punctuation 1466 . 1467))
+      :lexical-table 
+        '(("_BSD_MACHINE__TYPES_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_BSD_MACHINE_TYPES_H_" variable (:constant-flag t) nil [1430 1451]))          
+      :file "types.h"
+      :pointmax 1606
+      :fsize 1675
+      :lastmodtime '(24516 46028 0 0)
+      :unmatched-syntax '((symbol 1553 . 1562) (symbol 1549 . 1552) (symbol 1536 . 1548) (symbol 1530 . 1535) (punctuation 1529 . 1530))
+      :lexical-table 
+        '(("_BSD_MACHINE_TYPES_H_")
+          )
+))
+  :file "!Applications!Xcode.app!Contents!Developer!Platforms!MacOSX.platform!Developer!SDKs!MacOSX.sdk!usr!include!machine!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

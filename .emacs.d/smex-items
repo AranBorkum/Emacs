@@ -1,0 +1,23 @@
+
+;; ----- smex-history -----
+(
+ linum-mode
+ replace-regexp
+ whitespace-cleanup
+ align-regexp
+ ansi-term
+ revert-buffer
+ customize
+)
+
+;; ----- smex-data -----
+(
+ (customize . 1)
+ (tramp-cleanup-this-connection . 2)
+ (revert-buffer . 2)
+ (whitespace-cleanup . 13)
+ (ansi-term . 2)
+ (replace-regexp . 39)
+ (align-regexp . 62)
+ (linum-mode . 1)
+)

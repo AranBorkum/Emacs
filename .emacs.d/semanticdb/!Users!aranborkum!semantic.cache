@@ -1,0 +1,53 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("matplotlib.pyplot" include nil nil [20 51])
+            ("wires" variable nil nil [53 89]))          
+      :file "PlotWires.py"
+      :pointmax 90
+      :fsize 89
+      :lastmodtime '(24105 31021 963444 748000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode emacs-lisp-mode
+      :tags 
+        '( ("package" include nil nil [1 19])
+            ("setq" code nil nil [20 56])
+            ("setq" code nil nil [57 78])
+            ("add-to-list" code nil nil [79 159])
+            ("package-initialize" code nil nil [161 181])
+            ("unless" code nil nil [183 288])
+            ("load-theme" code nil nil [290 314])
+            ("org-babel-load-file" code nil nil [316 380])
+            ("custom-set-variables" code nil nil [382 2287])
+            ("custom-set-faces" code nil nil [2288 2527]))          
+      :file ".emacs"
+      :pointmax 2528
+      :fsize 2527
+      :lastmodtime '(25098 23794 875499 424000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("data" variable nil nil [1 3518])
+            ("matplotlib.pyplot" include nil nil [3520 3551])
+            ("data1" variable nil nil [3553 3563])
+            ("data2" variable nil nil [3564 3574])
+            ("for" code nil nil [3576 3642])
+            ("plt" code nil nil [3643 3655])
+            ("plt" code nil nil [3656 3678])
+            ("plt" code nil nil [3679 3689]))          
+      :file "RockThorium.py"
+      :pointmax 3690
+      :fsize 3689
+      :lastmodtime '(24363 49190 74297 919000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

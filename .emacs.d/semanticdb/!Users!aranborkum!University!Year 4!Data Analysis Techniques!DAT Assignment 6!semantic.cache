@@ -1,0 +1,113 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("random" include nil nil [20 40])
+            ("matplotlib.pyplot" include nil nil [41 72])
+            ("numPoints" variable nil nil [144 181])
+            ("generatedMasses" variable nil nil [182 232])
+            ("predictedLine" variable nil nil [233 287])
+            ("rangeOfMasses" variable nil nil [288 355])
+            ("rangeOfGamma" variable nil nil [356 420])
+            ("massLikelihood, gammaLikelihood" code nil nil [421 496])
+            ("deltaM, deltaG" code nil nil [497 583])
+            ("calcM, calcM, calcG, calcG" code nil nil [584 654])
+            ("gamma1sigmapoint, m1sigmapoint" code nil nil [655 696])
+            ("gamma1sigma, m1sigma" code nil nil [697 738])
+            ("contour" variable nil nil [739 805])
+            ("fmt, strs" code nil nil [806 871])
+            ("rnd" code nil nil [873 884])
+            ("Colour" type
+               (:members 
+                  ( ("RED" variable nil (reparse-symbol indented_block_body) [978 994])
+                    ("BOLD" variable nil (reparse-symbol indented_block_body) [999 1015])
+                    ("END" variable nil (reparse-symbol indented_block_body) [1020 1035]))                  
+                :type "class")
+                nil [960 1036])
+            ("BreitWigner" function (:arguments 
+              ( ("m" variable nil (reparse-symbol function_parameters) [1053 1054])
+                ("m0" variable nil (reparse-symbol function_parameters) [1056 1058])
+                ("Gamma" variable nil (reparse-symbol function_parameters) [1060 1065]))              ) nil [1037 1147])
+            ("m" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [1154 1155])
+                ("m0" variable nil (reparse-symbol function_parameters) [1157 1159])
+                ("Gamma" variable nil (reparse-symbol function_parameters) [1161 1166]))              ) nil [1148 1220])
+            ("logLikelihood" function (:arguments 
+              ( ("m" variable nil (reparse-symbol function_parameters) [1239 1240])
+                ("m0" variable nil (reparse-symbol function_parameters) [1242 1244])
+                ("Gamma" variable nil (reparse-symbol function_parameters) [1246 1251]))              ) nil [1221 1327])
+            ("makeData" function nil nil [1328 1453])
+            ("makePrediction" function nil nil [1454 1592])
+            ("l" function (:arguments 
+              ( ("m" variable nil (reparse-symbol function_parameters) [1599 1600])
+                ("Gamma" variable nil (reparse-symbol function_parameters) [1602 1607]))              ) nil [1593 1761])
+            ("mStar" function (:arguments 
+              ( ("m" variable nil (reparse-symbol function_parameters) [1772 1773])
+                ("G" variable nil (reparse-symbol function_parameters) [1775 1776]))              ) nil [1762 1908])
+            ("gStar" function (:arguments 
+              ( ("m" variable nil (reparse-symbol function_parameters) [1919 1920])
+                ("G" variable nil (reparse-symbol function_parameters) [1922 1923]))              ) nil [1909 2055])
+            ("makeData" code nil nil [2124 2134])
+            ("makePrediction" code nil nil [2135 2151])
+            ("for" code nil nil [2153 2289])
+            ("for" code nil nil [2290 2397])
+            ("print" code nil nil [2470 2563])
+            ("print" code nil nil [2564 2657])
+            ("print" code nil nil [2658 2751])
+            ("print" code nil nil [2752 2814])
+            ("for" code nil nil [2815 2955])
+            ("x, y" code nil nil [3018 3111])
+            ("X, Y" code nil nil [3112 3136])
+            ("Z" variable nil nil [3137 3148])
+            ("Z" code nil nil [3149 3175])
+            ("print" code nil nil [3177 3191])
+            ("print" code nil nil [3192 3206])
+            ("print" code nil nil [3207 3221])
+            ("plt" code nil nil [3297 3342])
+            ("plt" code nil nil [3343 3359])
+            ("plt" code nil nil [3360 3387])
+            ("cbar" variable nil nil [3388 3409])
+            ("cbar" code nil nil [3410 3472])
+            ("CS" variable nil nil [3473 3563])
+            ("plt" code nil nil [3564 3629])
+            ("plt" code nil nil [3630 3657])
+            ("plt" code nil nil [3658 3686])
+            ("for" code nil nil [3687 3736])
+            ("plt" code nil nil [3736 3801])
+            ("plt" code nil nil [3803 3819])
+            ("plt" code nil nil [3820 3892])
+            ("plt" code nil nil [3893 4003])
+            ("plt" code nil nil [4004 4048])
+            ("plt" code nil nil [4049 4079])
+            ("plt" code nil nil [4080 4103])
+            ("plt" code nil nil [4104 4124])
+            ("plt" code nil nil [4125 4143])
+            ("plt" code nil nil [4144 4168])
+            ("plt" code nil nil [4170 4186])
+            ("plt" code nil nil [4187 4271])
+            ("plt" code nil nil [4272 4310])
+            ("plt" code nil nil [4311 4331])
+            ("plt" code nil nil [4332 4359])
+            ("plt" code nil nil [4360 4386])
+            ("plt" code nil nil [4387 4411])
+            ("plt" code nil nil [4413 4429])
+            ("plt" code nil nil [4430 4515])
+            ("plt" code nil nil [4516 4555])
+            ("plt" code nil nil [4556 4576])
+            ("plt" code nil nil [4577 4605])
+            ("plt" code nil nil [4606 4630])
+            ("plt" code nil nil [4631 4657])
+            ("plt" code nil nil [4658 4668]))          
+      :file "monteCarlo.py"
+      :pointmax 4669
+      :fsize 4668
+      :lastmodtime '(24777 57747 535938 314000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!University!Year 4!Data Analysis Techniques!DAT Assignment 6!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

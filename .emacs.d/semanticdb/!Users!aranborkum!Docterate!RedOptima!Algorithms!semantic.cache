@@ -1,0 +1,51 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("Algorithms.MapGenerationAlgorithms" include nil nil [1 86])
+            ("__all__" variable nil nil [88 149]))          
+      :file "__init__.py"
+      :pointmax 150
+      :fsize 149
+      :lastmodtime '(24722 19778 51552 36000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("shapely.geometry" include nil nil [25 80])
+            ("math" include nil nil [81 114])
+            ("numpy" include nil nil [116 146])
+            ("matplotlib.pyplot" include nil nil [147 178])
+            ("FloodFill" function (:arguments 
+              ( ("mask" variable nil (reparse-symbol function_parameters) [194 198])
+                ("x" variable nil (reparse-symbol function_parameters) [200 201])
+                ("y" variable nil (reparse-symbol function_parameters) [203 204])
+                ("c1" variable nil (reparse-symbol function_parameters) [206 208])
+                ("c2" variable nil (reparse-symbol function_parameters) [210 212]))              ) nil [180 424])
+            ("make_new_polygon" function (:arguments 
+              ( ("InputPolygon" variable nil (reparse-symbol function_parameters) [450 462])
+                ("xValMin" variable nil (reparse-symbol function_parameters) [485 492])
+                ("yValMin" variable nil (reparse-symbol function_parameters) [520 527])
+                ("xInc" variable nil (reparse-symbol function_parameters) [555 559])
+                ("yInc" variable nil (reparse-symbol function_parameters) [590 594])
+                ("nPixelsX" variable nil (reparse-symbol function_parameters) [625 633])
+                ("nPixelsY" variable nil (reparse-symbol function_parameters) [660 668])
+                ("OutputMap" variable nil (reparse-symbol function_parameters) [695 704]))              ) nil [429 1820])
+            ("make_mask_for_region" function (:arguments 
+              ( ("region" variable nil (reparse-symbol function_parameters) [1846 1852])
+                ("sf_data" variable nil (reparse-symbol function_parameters) [1854 1861])
+                ("GeoObject" variable nil (reparse-symbol function_parameters) [1863 1872])
+                ("OutputDirectory" variable nil (reparse-symbol function_parameters) [1874 1889])
+                ("makeImage" variable nil (reparse-symbol function_parameters) [1891 1900]))              ) nil [1821 6083]))          
+      :file "MapGenerationAlgorithms.py"
+      :pointmax 6083
+      :fsize 6082
+      :lastmodtime '(24723 58748 533628 831000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!RedOptima!Algorithms!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

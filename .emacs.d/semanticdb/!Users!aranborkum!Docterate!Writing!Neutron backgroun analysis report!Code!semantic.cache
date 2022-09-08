@@ -1,0 +1,37 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("matplotlib.pyplot" include nil nil [1 32])
+            ("numpy" include nil nil [33 51])
+            ("Thickness" variable nil nil [53 94])
+            ("UraniumEarly" variable nil nil [95 170])
+            ("UraniumLate" variable nil nil [171 246])
+            ("Thorium" variable nil nil [247 322])
+            ("Total" variable nil nil [323 398])
+            ("UraniumEarly_err" variable nil nil [400 479])
+            ("UraniumLate_err" variable nil nil [480 559])
+            ("Thorium_err" variable nil nil [560 639])
+            ("plt" code nil nil [642 669])
+            ("plt" code nil nil [670 745])
+            ("plt" code nil nil [746 820])
+            ("plt" code nil nil [821 890])
+            ("plt" code nil nil [891 965])
+            ("plt" code nil nil [966 984])
+            ("plt" code nil nil [985 1014])
+            ("plt" code nil nil [1015 1074])
+            ("plt" code nil nil [1075 1134])
+            ("plt" code nil nil [1135 1170])
+            ("plt" code nil nil [1171 1181]))          
+      :file "AllAirCapturePlots.py"
+      :pointmax 1182
+      :fsize 1181
+      :lastmodtime '(24369 13540 683016 570000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Writing!Neutron backgroun analysis report!Code!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

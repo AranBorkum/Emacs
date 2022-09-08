@@ -1,0 +1,17 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("drawLArFD" function (:type "void") nil [127 3011]))          
+      :file "drawLArFD.C"
+      :pointmax 3013
+      :fsize 3012
+      :lastmodtime '(23953 56683 199715 346000)
+      :unmatched-syntax '((string 10 . 25) (symbol 3 . 9) (punctuation 2 . 3))))
+  :file "!Users!aranborkum!Docterate!Projects!duneggd-old!python!duneggd!larfd!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

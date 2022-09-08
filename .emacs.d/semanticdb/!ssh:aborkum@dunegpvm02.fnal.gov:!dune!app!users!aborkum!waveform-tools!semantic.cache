@@ -1,0 +1,105 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("chrono" include (:system-flag t) nil [1 18])
+            ("functional" include (:system-flag t) nil [19 40])
+            ("iostream" include (:system-flag t) nil [41 60])
+            ("string" include (:system-flag t) nil [61 78])
+            ("vector" include (:system-flag t) nil [79 96])
+            ("fstream" include (:system-flag t) nil [97 115])
+            ("sstream" include (:system-flag t) nil [116 134])
+            ("boost/program_options.hpp" include nil nil [136 172])
+            ("canvas/Utilities/InputTag.h" include nil nil [174 212])
+            ("gallery/Event.h" include nil nil [213 239])
+            ("lardataobj/Simulation/SimChannel.h" include nil nil [241 286])
+            ("lardataobj/RawData/RawDigit.h" include nil nil [287 327])
+            ("lardataobj/RawData/RDTimeStamp.h" include nil nil [328 371])
+            ("lardataobj/RecoBase/Hit.h" include nil nil [372 408])
+            ("cnpy.h" include nil nil [410 427])
+            ("art" using (:type ("art" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [429 449])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [450 470])
+            ("std::chrono" using (:type ("std::chrono" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [471 499])
+            ("po" type
+               (:kind alias
+                :members 
+                  ( ("boost::program_options" type (:type "namespace") nil nil))                  
+                :type "namespace")
+                nil [501 539])
+            ("Format" type (:type "class") nil [546 575])
+            ("save_to_file" function
+               (:template 
+                  ( ("T" type (:type "class") nil nil))                  
+                :type "void"
+                :arguments 
+                  ( ("outfile" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [754 781])
+                    ("v" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("std::vector" type (:template-specifier 
+                                ( ("T" type nil nil nil))                                ) nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [800 831])
+                    ("format" variable (:type ("Format" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [850 864])
+                    ("append" variable (:type "bool") (reparse-symbol arg-sub-list) [883 895]))                  )
+                nil [718 1753])
+            ("extract_larsoft_waveforms" function
+               (:arguments 
+                  ( ("tag" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2378 2401])
+                    ("filename" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2428 2456])
+                    ("outfile" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2483 2510])
+                    ("format" variable (:type ("Format" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2537 2551])
+                    ("nevents" variable (:type "int") (reparse-symbol arg-sub-list) [2578 2590])
+                    ("nskip" variable (:type "int") (reparse-symbol arg-sub-list) [2591 2601])
+                    ("triggerType" variable (:type "int") (reparse-symbol arg-sub-list) [2628 2644]))                  
+                :type "void")
+                nil [2347 6200])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [6211 6220])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [6221 6233]))                  
+                :type "int")
+                nil [6202 7973]))          
+      :file "extract_larsoft_hits.cxx"
+      :pointmax 7974
+      :fsize 7312
+      :lastmodtime '(24021 12496)
+      :unmatched-syntax '((symbol 567 . 572) (punctuation 565 . 566) (symbol 561 . 565) (ENUM 541 . 545)))
+    (semanticdb-table "semanticdb-table"
+      :file "cnpy.h"
+      :fsize 10917
+      :lastmodtime '(24021 9750)))
+  :file "!ssh:aborkum@dunegpvm02.fnal.gov:!dune!app!users!aborkum!waveform-tools!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

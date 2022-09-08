@@ -1,0 +1,78 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("ROOT" include nil nil [1 12])
+            ("ROOT" variable nil nil [118 163])
+            ("ROOT" variable nil nil [185 214])
+            ("ROOT" code nil nil [396 432])
+            ("ROOT" code nil nil [433 471])
+            ("ROOT" code nil nil [501 527])
+            ("ROOT" code nil nil [574 601])
+            ("ROOT" code nil nil [649 674])
+            ("ROOT" code nil nil [675 701])
+            ("ROOT" code nil nil [702 726])
+            ("ROOT" code nil nil [747 781])
+            ("ROOT" code nil nil [782 815])
+            ("ROOT" code nil nil [816 847])
+            ("ROOT" code nil nil [848 880])
+            ("ROOT" code nil nil [903 935])
+            ("ROOT" code nil nil [936 965])
+            ("ROOT" code nil nil [966 992])
+            ("ROOT" code nil nil [993 1020])
+            ("ROOT" code nil nil [1049 1082])
+            ("ROOT" code nil nil [1083 1118])
+            ("ROOT" code nil nil [1119 1154])
+            ("ROOT" code nil nil [1155 1188])
+            ("ROOT" code nil nil [1214 1244])
+            ("ROOT" code nil nil [1245 1275])
+            ("ROOT" code nil nil [1322 1348])
+            ("ROOT" code nil nil [1349 1375])
+            ("font_style" variable nil nil [1404 1419])
+            ("font_size" variable nil nil [1420 1434])
+            ("ROOT" code nil nil [1436 1473])
+            ("try" code nil nil [1474 1556])
+            ("for" code nil nil [1557 1768])
+            ("ROOT" code nil nil [1769 1800])
+            ("set_style" function (:arguments 
+              ( ("style" variable nil (reparse-symbol function_parameters) [1868 1873]))              ) nil [1854 2057])
+            ("set_style" code nil nil [2071 2093])
+            ("if" code nil nil [2125 2174]))          
+      :file "style.py"
+      :pointmax 2174
+      :fsize 2173
+      :lastmodtime '(23889 28648 399581 800000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("inputs" include nil nil [8 44])
+            ("vars" include nil nil [8 44])
+            ("regions" include nil nil [8 44])
+            ("config" include nil nil [8 44])
+            ("__all__" variable nil nil [46 73]))          
+      :file "__init__.py"
+      :pointmax 74
+      :fsize 73
+      :lastmodtime '(23889 28685 134045 901000)
+      :unmatched-syntax '((PERIOD 6 . 7) (NAME 46 . 53) ($EOI 68 . 68) (PERIOD 6 . 7) (NAME 46 . 53) ($EOI 53 . 53) (PERIOD 6 . 7) ($EOI 44 . 44) (PERIOD 6 . 7) ($EOI 38 . 38) (PERIOD 6 . 7) ($EOI 36 . 36) (PERIOD 6 . 7)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("ratio_color" variable nil nil [1 24])
+            ("output_prefix" variable nil nil [26 50])
+            ("sort_stack_by_integral" variable nil nil [51 81])
+            ("output_types" variable nil nil [82 111])
+            ("use_conf_syst_convention" variable nil nil [136 167]))          
+      :file "config.py"
+      :pointmax 199
+      :fsize 198
+      :lastmodtime '(23889 35214 371671 950000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!DUNE-Plot!Python!config!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

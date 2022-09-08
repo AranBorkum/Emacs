@@ -1,0 +1,31 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("networkx" include nil nil [1 22])
+            ("pandas" include nil nil [23 42])
+            ("matplotlib.pyplot" include nil nil [43 74])
+            ("numpy" include nil nil [75 93])
+            ("data" variable nil nil [234 323])
+            ("data_tuples" variable nil nil [325 341])
+            ("degrees" variable nil nil [342 367])
+            ("G" variable nil nil [368 382])
+            ("FillDataTuples" function nil nil [524 3533])
+            ("FillGraph" function nil nil [3709 3806])
+            ("DrawGraph" function nil nil [3808 3879])
+            ("PlotDegreeDistribution" function (:arguments 
+              ( ("G" variable nil (reparse-symbol function_parameters) [3908 3909]))              ) nil [3881 4060])
+            ("main" function nil nil [4061 4148])
+            ("main" code nil nil [4150 4156]))          
+      :file "network.py"
+      :pointmax 4157
+      :fsize 4156
+      :lastmodtime '(23819 45911 732566 886000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Other!DISCnet!Network!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

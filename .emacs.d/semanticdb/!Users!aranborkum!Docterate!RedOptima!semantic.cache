@@ -1,0 +1,151 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "image_shapes.json"
+      :pointmax 115847
+      :fsize 115846
+      :lastmodtime '(24308 27408 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("Utilities" include nil nil [91 154])
+            ("Algorithms" include nil nil [155 224])
+            ("tqdm" include nil nil [225 260])
+            ("geopandas" include nil nil [261 295])
+            ("args" variable nil nil [368 409])
+            ("sf_data" variable nil nil [492 561])
+            ("if" code nil nil [562 704])
+            ("if" code nil nil [770 1015])
+            ("if" code nil nil [1028 1251]))          
+      :file "MakeBinaryMap.py"
+      :pointmax 1251
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("shapely.geometry" include nil nil [25 80])
+            ("descartes.patch" include nil nil [81 122])
+            ("Utilities" include nil nil [123 184])
+            ("math" include nil nil [185 218])
+            ("tqdm" include nil nil [219 252])
+            ("geopandas" include nil nil [254 285])
+            ("numpy" include nil nil [286 316])
+            ("matplotlib.pyplot" include nil nil [317 348])
+            ("shapefile" include nil nil [349 365])
+            ("random" include nil nil [366 379])
+            ("sf_data" variable nil nil [381 442])
+            ("sf_buildings" variable nil nil [443 537])
+            ("region" variable nil nil [539 549])
+            ("buildings" variable nil nil [551 565])
+            ("for" code nil nil [566 733])
+            ("RegionPolygon" variable nil nil [738 782])
+            ("ImageRangeX" variable nil nil [783 870])
+            ("ImageRangeY" variable nil nil [871 958])
+            ("nPixlesX" variable nil nil [959 1042])
+            ("nPixlesY" variable nil nil [1043 1126])
+            ("xInc" variable nil nil [1127 1168])
+            ("yInc" variable nil nil [1169 1210])
+            ("OutputMap" variable nil nil [1211 1258])
+            ("newPolygons" variable nil nil [1268 1284])
+            ("for" code nil nil [1285 1703])
+            ("for" code nil nil [1709 1889])
+            ("plt" code nil nil [2943 2955])
+            ("plt" code nil nil [2956 2977])
+            ("plt" code nil nil [2978 2988]))          
+      :file "test.py"
+      :pointmax 2989
+      :fsize 2988
+      :lastmodtime '(24723 53402 502338 337000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [25 34])
+            ("print" code nil nil [36 109])
+            ("choice" variable nil nil [110 136])
+            ("if" code nil nil [138 355]))          
+      :file "NTMF.py"
+      :pointmax 355
+      :fsize 354
+      :lastmodtime '(24721 9863 809915 909000)
+      :unmatched-syntax nil)
+
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("shapely.geometry" include nil nil [25 80])
+            ("descartes.patch" include nil nil [81 122])
+            ("Utilities" include nil nil [123 213])
+            ("math" include nil nil [214 247])
+            ("tqdm" include nil nil [248 281])
+            ("geopandas" include nil nil [283 314])
+            ("numpy" include nil nil [315 345])
+            ("matplotlib.pyplot" include nil nil [346 377])
+            ("shapefile" include nil nil [378 394])
+            ("ConvertRegionToFileName" function (:arguments 
+              ( ("region" variable nil (reparse-symbol function_parameters) [424 430])
+                ("sf_data" variable nil (reparse-symbol function_parameters) [432 439]))              ) nil [396 1213])
+            ("GetFile" function (:arguments 
+              ( ("df" variable nil (reparse-symbol function_parameters) [1226 1228])
+                ("myList" variable nil (reparse-symbol function_parameters) [1230 1236]))              ) nil [1214 1510])
+            ("ConvertToPixel" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [1530 1531])
+                ("y" variable nil (reparse-symbol function_parameters) [1533 1534])
+                ("region" variable nil (reparse-symbol function_parameters) [1536 1542])
+                ("sf_data" variable nil (reparse-symbol function_parameters) [1544 1551]))              ) nil [1511 2197])
+            ("FloodFill" function (:arguments 
+              ( ("mask" variable nil (reparse-symbol function_parameters) [2212 2216])
+                ("x" variable nil (reparse-symbol function_parameters) [2218 2219])
+                ("y" variable nil (reparse-symbol function_parameters) [2221 2222])
+                ("outputList" variable nil (reparse-symbol function_parameters) [2224 2234]))              ) nil [2198 2547])
+            ("print" code nil nil [2557 2581])
+            ("sf_data" variable nil nil [2582 2643])
+            ("sf_traffic" variable nil nil [2644 2734])
+            ("sf_trafficA" variable nil nil [2735 2827])
+            ("df_masks" variable nil nil [2828 2877])
+            ("print" code nil nil [2879 2968])
+            ("regionNumbers" variable nil nil [3023 3041])
+            ("regToStation" variable nil nil [3042 3060])
+            ("regToStationP" variable nil nil [3061 3079])
+            ("for" code nil nil [3080 3371])
+            ("for" code nil nil [3405 4181])
+            ("regToMask" variable nil nil [4230 4244])
+            ("for" code nil nil [4245 4453])
+            ("maskToLabel" variable nil nil [4454 4470])
+            ("for" code nil nil [4475 9832])
+            ("if" code nil nil [9833 9900])
+            ("for" code nil nil [9900 10027]))          
+      :file "FuelStationLabelling.py"
+      :pointmax 10027
+      :fsize 10026
+      :lastmodtime '(24723 59437 101354 427000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [91 100])
+            ("Utilities" include nil nil [101 164])
+            ("Algorithms" include nil nil [165 234])
+            ("tqdm" include nil nil [235 270])
+            ("geopandas" include nil nil [271 305])
+            ("args" variable nil nil [378 419])
+            ("sf_data" variable nil nil [502 571])
+            ("if" code nil nil [572 714])
+            ("if" code nil nil [715 782])
+            ("if" code nil nil [782 845])
+            ("if" code nil nil [910 1155])
+            ("if" code nil nil [1168 1391]))          
+      :file "MakeBinaryMask.py"
+      :pointmax 1391
+      :fsize 1390
+      :lastmodtime '(24723 58539 782289 425000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!RedOptima!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,97 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("fstream" include (:system-flag t) nil [660 678])
+            ("iostream" include (:system-flag t) nil [679 698])
+            ("string" include (:system-flag t) nil [699 716])
+            ("marley/DecayScheme.hh" include nil nil [737 769])
+            ("marley/Generator.hh" include nil nil [770 800])
+            ("marley/JSON.hh" include nil nil [801 826])
+            ("marley/NeutrinoSource.hh" include nil nil [827 862])
+            ("marley/NuclearReaction.hh" include nil nil [863 899])
+            ("marley/StructureDatabase.hh" include nil nil [900 938])
+            ("marley/marley_utils.hh" include nil nil [939 972])
+            ("marley/JSONConfig.hh" include nil nil [1034 1067])
+            ("unnamed" type
+               (:members 
+                  ( ("DEFAULT_KE_MIN" variable
+                       (:typemodifiers ("constexpr")
+                        :default-value "0."
+                        :type "double")
+                        (reparse-symbol namespacesubparts) [1210 1247])
+                    ("DEFAULT_KE_MAX" variable
+                       (:typemodifiers ("constexpr")
+                        :default-value "25."
+                        :type "double")
+                        (reparse-symbol namespacesubparts) [1250 1288])
+                    ("DEFAULT_NUM_STEPS" variable
+                       (:typemodifiers ("constexpr")
+                        :default-value "10000"
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [1291 1331])
+                    ("DEFAULT_PDG" variable
+                       (:typemodifiers ("constexpr")
+                        :default-value "marley_utils::ELECTRON_NEUTRINO"
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [1368 1428])
+                    ("get_double_dump_param" function
+                       (:arguments 
+                          ( ("json" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("marley::JSON" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1617 1642])
+                            ("param_key" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1647 1676])
+                            ("value" variable
+                               (:reference 1
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [1677 1692]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [1589 2168])
+                    ("get_int_dump_param" function
+                       (:arguments 
+                          ( ("json" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("marley::JSON" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2197 2222])
+                            ("param_key" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2227 2256])
+                            ("value" variable
+                               (:reference 1
+                                :type "int")
+                                (reparse-symbol arg-sub-list) [2257 2269]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [2172 2743]))                  
+                :type "namespace")
+                nil [1076 2746])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [2757 2766])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2767 2780]))                  
+                :type "int")
+                nil [2748 5784]))          
+      :file "mardumpxs.cc"
+      :pointmax 5785
+      :fsize 5784
+      :lastmodtime '(25011 12956 69046 531000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!marley!examples!executables!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

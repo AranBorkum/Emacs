@@ -1,0 +1,51 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("argparse" include nil nil [1 16])
+            ("create_parser" function (:documentation "Argument parser for the main script
+    ") nil [18 1456]))          
+      :file "argument_parser.py"
+      :pointmax 1456
+      :fsize 1455
+      :lastmodtime '(25218 23911 938150 632000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [1 10])
+            ("math" include nil nil [11 22])
+            ("numpy" include nil nil [23 41])
+            ("poisson_likelihood" function (:arguments 
+              ( ("exp" variable nil (reparse-symbol function_parameters) [66 69])
+                ("obs" variable nil (reparse-symbol function_parameters) [71 74]))              ) nil [43 335])
+            ("gaussian" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [349 350])
+                ("m" variable nil (reparse-symbol function_parameters) [352 353])
+                ("s" variable nil (reparse-symbol function_parameters) [355 356])
+                ("a" variable nil (reparse-symbol function_parameters) [358 359]))              ) nil [336 487])
+            ("add_in_quadrature" function (:arguments 
+              ( ("list" variable nil (reparse-symbol function_parameters) [510 514]))              ) nil [488 621])
+            ("directory_exists" function (:arguments 
+              ( ("path" variable nil (reparse-symbol function_parameters) [643 647]))              ) nil [622 682])
+            ("ensure_directory_exists" function (:arguments 
+              ( ("path" variable nil (reparse-symbol function_parameters) [711 715]))              ) nil [683 812])
+            ("get_systematics" function (:arguments 
+              ( ("config" variable nil (reparse-symbol function_parameters) [833 839]))              ) nil [813 3579])
+            ("dump_systematics" function (:arguments 
+              ( ("config" variable nil (reparse-symbol function_parameters) [3619 3625]))              ) nil [3598 6558])
+            ("p_to_sigma" variable nil nil [6560 6811])
+            ("p_value_to_sigma" function (:arguments 
+              ( ("value" variable nil (reparse-symbol function_parameters) [6838 6843]))              ) nil [6817 6969]))          
+      :file "helpers.py"
+      :pointmax 6970
+      :fsize 6969
+      :lastmodtime '(25236 47610 182720 851000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!SolarStuff!CNOFluxAnalysis!Jeromy!Jeromy!utilities!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,30 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("bigaus_function" function
+               (:arguments 
+                  ( ("x" variable
+                       (:pointer 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [24 34])
+                    ("p" variable
+                       (:pointer 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [35 45]))                  
+                :type "double")
+                nil [1 312])
+            ("exampleBigaus" function (:type "void") nil [314 1469]))          
+      :file "exampleBigaus.C"
+      :pointmax 1470
+      :fsize 1469
+      :lastmodtime '(24777 54979 979139 83000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Downloads!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,55 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [25 34])
+            ("math" include nil nil [35 46])
+            ("numpy" include nil nil [47 65])
+            ("matplotlib.pyplot" include nil nil [66 97])
+            ("Jeromy" include nil nil [98 111])
+            ("Jeromy.statistics.test_statistic" include nil nil [112 169])
+            ("Jeromy.statistics.test_ensemble" include nil nil [170 226])
+            ("Jeromy.statistics.run_chi2_tests" include nil nil [227 284])
+            ("Jeromy.core.true_solar" include nil nil [286 343])
+            ("Jeromy.analyzers.counting_experiment" include nil nil [344 410])
+            ("Jeromy.analyzers.likelihood_ratios" include nil nil [411 475])
+            ("Jeromy.analyzers.metallicity_separation" include nil nil [476 550])
+            ("Jeromy.IO.FileImporter" include nil nil [552 601])
+            ("Jeromy.IO.ImportDataHighZ" include nil nil [602 655])
+            ("Jeromy.IO.ImportDataLowZ" include nil nil [656 709])
+            ("Jeromy.ToyMCGenerator.ToyMonteCarlo" include nil nil [710 770])
+            ("Jeromy.IO.UncertaintyImporter" include nil nil [771 823])
+            ("Jeromy.config.configuration_loader" include nil nil [824 891])
+            ("Jeromy.plots.make_spectrum_plots" include nil nil [892 958])
+            ("Jeromy.plots.make_true_plots" include nil nil [959 1021])
+            ("Jeromy.utilities.helpers" include nil nil [1022 1070])
+            ("Jeromy.utilities.argument_parser" include nil nil [1072 1130])
+            ("scipy.integrate" include nil nil [1131 1163])
+            ("scipy.special" include nil nil [1164 1196])
+            ("lmfit.models" include nil nil [1197 1235])
+            ("lmfit.models" include nil nil [1236 1280])
+            ("tqdm" include nil nil [1281 1302])
+            ("scale_spectrum" function (:arguments 
+              ( ("spectrum" variable nil (reparse-symbol function_parameters) [1323 1331])
+                ("exposure" variable nil (reparse-symbol function_parameters) [1333 1341])
+                ("bkg_reduction" variable nil (reparse-symbol function_parameters) [1343 1356]))              ) nil [1304 1734])
+            ("gaussian" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [1748 1749])
+                ("m" variable nil (reparse-symbol function_parameters) [1751 1752])
+                ("s" variable nil (reparse-symbol function_parameters) [1754 1755])
+                ("a" variable nil (reparse-symbol function_parameters) [1757 1758]))              ) nil [1735 1886])
+            ("orderOfMagnitude" function (:arguments 
+              ( ("number" variable nil (reparse-symbol function_parameters) [1908 1914]))              ) nil [1887 1961])
+            ("if" code nil nil [1962 8168]))          
+      :file "generate_likelihood_profiles_metallicity_separation.py"
+      :pointmax 8168
+      :fsize 8167
+      :lastmodtime '(25360 41612 776383 467000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!SolarStuff!CNOFluxAnalysis!_Jeromy!Jeromy!scripts!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

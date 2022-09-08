@@ -1,0 +1,143 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'''
+Subbuilder of CryostatBuilder
+'''" code nil nil [23 60])
+            ("gegede.builder" include nil nil [62 83])
+            ("gegede" include nil nil [84 116])
+            ("TPCBuilder" type
+               (:superclasses ("gegede.builder.Builder")
+                :members 
+                  ( ("'''
+    Build the Cryostat.
+    '''" code nil (reparse-symbol indented_block_body) [165 200])
+                    ("configure" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [298 302])
+                            ("driftDistance" variable nil (reparse-symbol function_parameters) [323 336])
+                            ("APAGap_y" variable nil (reparse-symbol function_parameters) [406 414])
+                            ("APAGap_z" variable nil (reparse-symbol function_parameters) [453 461])
+                            ("wirePlanePitch" variable nil (reparse-symbol function_parameters) [500 514])
+                            ("kwds" variable nil (reparse-symbol function_parameters) [549 555]))                          )
+                        (reparse-symbol indented_block_body) [284 950])
+                    ("construct" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1048 1052])
+                            ("geom" variable nil (reparse-symbol function_parameters) [1054 1058]))                          )
+                        (reparse-symbol indented_block_body) [1034 5454]))                  
+                :type "class")
+                nil [119 5454]))          
+      :file "TPC.py"
+      :pointmax 5454
+      :fsize 5453
+      :lastmodtime '(24104 33397 604166 712000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'''
+Subbuilder of TPCBuilder
+'''" code nil nil [23 55])
+            ("math" include nil nil [57 68])
+            ("gegede.builder" include nil nil [69 90])
+            ("gegede" include nil nil [91 123])
+            ("gegede" include nil nil [124 148])
+            ("pandas" include nil nil [149 168])
+            ("pandas" include nil nil [169 199])
+            ("pandas" include nil nil [200 228])
+            ("TPCPlaneBuilder" type
+               (:superclasses ("gegede.builder.Builder")
+                :members 
+                  ( ("'''
+    Build the TPCPlane.
+    '''" code nil (reparse-symbol indented_block_body) [281 316])
+                    ("configure" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [413 417])
+                            ("wireDiam" variable nil (reparse-symbol function_parameters) [438 446])
+                            ("wirePitch" variable nil (reparse-symbol function_parameters) [488 497])
+                            ("wireAngle" variable nil (reparse-symbol function_parameters) [538 547])
+                            ("nChannels" variable nil (reparse-symbol function_parameters) [588 597])
+                            ("nowires" variable nil (reparse-symbol function_parameters) [638 645])
+                            ("APAFrameDim" variable nil (reparse-symbol function_parameters) [688 699])
+                            ("G10ThicknessFoot" variable nil (reparse-symbol function_parameters) [738 754])
+                            ("G10ThicknessSide" variable nil (reparse-symbol function_parameters) [788 804])
+                            ("HeadBoardScrewCentre" variable nil (reparse-symbol function_parameters) [838 858])
+                            ("HeadAPAFrameScrewCentre" variable nil (reparse-symbol function_parameters) [888 911])
+                            ("SideWrappingBoardOffset" variable nil (reparse-symbol function_parameters) [938 961])
+                            ("SideBoardScrewCentre" variable nil (reparse-symbol function_parameters) [988 1008])
+                            ("SideAPAFrameScrewCentre" variable nil (reparse-symbol function_parameters) [1038 1061])
+                            ("wrapCover" variable nil (reparse-symbol function_parameters) [1088 1097])
+                            ("view" variable nil (reparse-symbol function_parameters) [1138 1142])
+                            ("kwds" variable nil (reparse-symbol function_parameters) [1188 1194]))                          )
+                        (reparse-symbol indented_block_body) [399 2458])
+                    ("ParseExcel" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2478 2482])
+                            ("sheet_name" variable nil (reparse-symbol function_parameters) [2503 2513])
+                            ("header" variable nil (reparse-symbol function_parameters) [2515 2521])
+                            ("usecols" variable nil (reparse-symbol function_parameters) [2523 2530])
+                            ("filename" variable nil (reparse-symbol function_parameters) [2551 2559]))                          )
+                        (reparse-symbol indented_block_body) [2463 5766])
+                    ("construct" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5870 5874])
+                            ("geom" variable nil (reparse-symbol function_parameters) [5876 5880]))                          )
+                        (reparse-symbol indented_block_body) [5856 7963])
+                    ("MakeCollectionPlane" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [8070 8074])
+                            ("geom" variable nil (reparse-symbol function_parameters) [8076 8080])
+                            ("readPlane_lv" variable nil (reparse-symbol function_parameters) [8082 8094]))                          )
+                        (reparse-symbol indented_block_body) [8045 9811])
+                    ("MakeInductionPlane" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [9844 9848])
+                            ("geom" variable nil (reparse-symbol function_parameters) [9850 9854])
+                            ("plane_lv" variable nil (reparse-symbol function_parameters) [9856 9864]))                          )
+                        (reparse-symbol indented_block_body) [9821 12880])
+                    ("MakeAndPlaceWire" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [12989 12993])
+                            ("geom" variable nil (reparse-symbol function_parameters) [12995 12999])
+                            ("num" variable nil (reparse-symbol function_parameters) [13001 13004])
+                            ("plane_lv" variable nil (reparse-symbol function_parameters) [13006 13014])
+                            ("wirePos" variable nil (reparse-symbol function_parameters) [13042 13049])
+                            ("wireRot" variable nil (reparse-symbol function_parameters) [13051 13058])
+                            ("wireLen" variable nil (reparse-symbol function_parameters) [13060 13067]))                          )
+                        (reparse-symbol indented_block_body) [12967 13666])
+                    ("PlaceWire" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [13772 13776])
+                            ("geom" variable nil (reparse-symbol function_parameters) [13778 13782])
+                            ("num" variable nil (reparse-symbol function_parameters) [13784 13787])
+                            ("plane_lv" variable nil (reparse-symbol function_parameters) [13789 13797])
+                            ("wirePos" variable nil (reparse-symbol function_parameters) [13818 13825])
+                            ("wireRot" variable nil (reparse-symbol function_parameters) [13827 13834])
+                            ("wire_lv" variable nil (reparse-symbol function_parameters) [13836 13843]))                          )
+                        (reparse-symbol indented_block_body) [13757 14483]))                  
+                :type "class")
+                nil [230 14483]))          
+      :file "TPCPlane.py"
+      :pointmax 14486
+      :fsize 14485
+      :lastmodtime '(24104 33444 52067 162000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!GeometryStuff!duneggd!python!duneggd!aran-larfd!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

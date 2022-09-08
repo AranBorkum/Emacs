@@ -1,0 +1,375 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("iomanip" include (:system-flag t) nil [21 39])
+            ("string" include (:system-flag t) nil [40 57])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [58 78])
+            ("TGeoManager.h" include nil nil [80 104])
+            ("gDumpRot" variable
+               (:default-value "false"
+                :type "bool")
+                nil [106 129])
+            ("gPrintDs" variable
+               (:default-value "true"
+                :type "bool")
+                nil [130 152])
+            ("gPrintMed" variable
+               (:default-value "true"
+                :type "bool")
+                nil [153 175])
+            ("gPrintMom" variable
+               (:default-value "true"
+                :type "bool")
+                nil [176 198])
+            ("gStripNum" variable
+               (:default-value "false"
+                :type "bool")
+                nil [199 222])
+            ("gPrevPos" variable
+               (:dereference 1
+                :default-value "{ 0, 0, 0 }"
+                :type "double")
+                nil [224 257])
+            ("print_status" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("s" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [277 286])
+                    ("i" variable (:type "int") (reparse-symbol arg-sub-list) [287 293]))                  
+                :type "void")
+                nil [259 294])
+            ("remove_trailing_nums" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("instr" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [328 346]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [295 347])
+            ("gDumpRot" variable
+               (:default-value "dumpRot"
+                :type "int")
+                nil [1168 1188])
+            ("gPrintDs" variable
+               (:default-value "printDs"
+                :type "int")
+                nil [1191 1211])
+            ("gPrintMed" variable
+               (:default-value "printMed"
+                :type "int")
+                nil [1214 1235])
+            ("gPrintMom" variable
+               (:default-value "printMom"
+                :type "int")
+                nil [1238 1259])
+            ("gStripNum" variable
+               (:default-value "stripNum"
+                :type "int")
+                nil [1262 1283])
+            ("Import" function
+               (:prototype-flag t
+                :parent "TGeoManager"
+                :arguments 
+                  ( ("" variable (:type ("fname" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1307 1313])
+                    ("" variable (:type ("c_str" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1313 1320]))                  
+                :type "int")
+                nil [1287 1322])
+            ("endl" variable (:type "int") nil [1461 1466])
+            ("topnode" variable
+               (:pointer 1
+                :default-value "gGeoManager->GetTopNode()"
+                :type ("TGeoNode" type (:type "class") nil nil))
+                nil [1470 1516])
+            ("endl" variable (:type "int") nil [1574 1579])
+            ("gPrevPos" variable
+               (:dereference 1
+                :default-value "x"
+                :type "int")
+                nil [1583 1599])
+            ("gPrevPos" variable
+               (:dereference 1
+                :default-value "y"
+                :type "int")
+                nil [1602 1618])
+            ("gPrevPos" variable
+               (:dereference 1
+                :default-value "z"
+                :type "int")
+                nil [1621 1637])
+            ("SetCurrentPoint" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("x" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1670 1672])
+                    ("" variable (:type ("y" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1672 1674])
+                    ("" variable (:type ("z" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1674 1676]))                  
+                :type "int")
+                nil [1654 1677])
+            ("SetCurrentDirection" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("px" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1742 1745])
+                    ("" variable (:type ("py" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1745 1748])
+                    ("" variable (:type ("pz" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1748 1751]))                  
+                :type "int")
+                nil [1722 1752])
+            ("node" variable
+               (:pointer 1
+                :default-value "0"
+                :type ("TGeoNode" type (:type "class") nil nil))
+                nil [1756 1775])
+            ("node" variable
+               (:default-value "gGeoManager->FindNextBoundary(0.00001)"
+                :type "int")
+                nil [1935 1981])
+            ("printf" function
+               (:prototype-flag t
+                :type "int")
+                nil [1987 2036])
+            ("printf" function
+               (:prototype-flag t
+                :type "int")
+                nil [2055 2084])
+            ("printf" function
+               (:prototype-flag t
+                :type "int")
+                nil [2087 2119])
+            ("printf" function
+               (:prototype-flag t
+                :type "int")
+                nil [2139 2170])
+            ("printf" function
+               (:prototype-flag t
+                :type "int")
+                nil [2190 2229])
+            ("printf" function
+               (:prototype-flag t
+                :type "int")
+                nil [2232 2245])
+            ("printf" function
+               (:prototype-flag t
+                :type "int")
+                nil [2248 2399])
+            ("print_status" function
+               (:prototype-flag t
+                :type "int")
+                nil [2402 2426])
+            ("PointWalk" function
+               (:arguments 
+                  ( ("x" variable
+                       (:default-value "-10000"
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [364 381])
+                    ("y" variable
+                       (:default-value "10"
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [382 395])
+                    ("z" variable
+                       (:default-value "100"
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [396 410])
+                    ("px" variable
+                       (:default-value "1"
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [427 439])
+                    ("py" variable
+                       (:default-value "0"
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [440 452])
+                    ("pz" variable
+                       (:default-value "0"
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [453 465])
+                    ("fname" variable
+                       (:default-value "\"../python/duneggd/larfd/larfd_new_nowires.gdml\""
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [917 984])
+                    ("dumpRot" variable
+                       (:default-value "false"
+                        :type "bool")
+                        (reparse-symbol arg-sub-list) [1001 1020])
+                    ("printDs" variable
+                       (:default-value "true"
+                        :type "bool")
+                        (reparse-symbol arg-sub-list) [1037 1055])
+                    ("printMed" variable
+                       (:default-value "true"
+                        :type "bool")
+                        (reparse-symbol arg-sub-list) [1072 1091])
+                    ("printMom" variable
+                       (:default-value "true"
+                        :type "bool")
+                        (reparse-symbol arg-sub-list) [1108 1127])
+                    ("stripNum" variable
+                       (:default-value "true"
+                        :type "bool")
+                        (reparse-symbol arg-sub-list) [1144 1163]))                  
+                :type "void")
+                nil [349 2782])
+            ("endl" variable (:type "int") nil [2932 2937])
+            ("node" variable
+               (:pointer 1
+                :default-value "gGeoManager->GetCurrentNode()"
+                :type ("TGeoNode" type (:type "class") nil nil))
+                nil [2940 2987])
+            ("pos" variable
+               (:pointer 1
+                :constant-flag t
+                :default-value "gGeoManager->GetCurrentPoint()"
+                :type "double")
+                nil [2990 3044])
+            ("mom" variable
+               (:pointer 1
+                :default-value "gGeoManager->GetMother()"
+                :type ("TGeoNode" type (:type "class") nil nil))
+                nil [3049 3091])
+            ("nname" variable
+               (:default-value "\"nowhere\""
+                :type ("string" type (:type "class") nil nil))
+                nil [3094 3119])
+            ("mname" variable
+               (:default-value "\"no-mom\""
+                :type ("string" type (:type "class") nil nil))
+                nil [3122 3146])
+            ("mednm" variable
+               (:default-value "\"no-medium\""
+                :type ("string" type (:type "class") nil nil))
+                nil [3149 3176])
+            ("mname" variable
+               (:default-value "mom->GetName()"
+                :type "int")
+                nil [3319 3342])
+            ("v3pos" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("pos" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3480 3484]))                  
+                :type ("TVector3" type (:type "class") nil nil))
+                nil [3465 3485])
+            ("v3prev" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("gPrevPos" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3504 3513]))                  
+                :type ("TVector3" type (:type "class") nil nil))
+                nil [3488 3514])
+            ("v3diff" variable
+               (:default-value "v3pos - v3pre"
+                :type ("TVector3" type (:type "class") nil nil))
+                nil [3517 3550])
+            ("printf" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("s" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3604 3606])
+                    ("" variable (:type ("c_str" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3606 3613])
+                    ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3614 3616])
+                    ("" variable (:type ("pos" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3616 3622])
+                    ("" variable (:type ("pos" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3623 3629])
+                    ("" variable (:type ("pos" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3630 3636]))                  
+                :type "int")
+                nil [3554 3638])
+            ("printf" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("v3diff" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3677 3684])
+                    ("" variable (:type ("Mag" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3684 3689]))                  
+                :type "int")
+                nil [3657 3691])
+            ("printf" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("nname" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3716 3722])
+                    ("" variable (:type ("c_str" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3722 3729]))                  
+                :type "int")
+                nil [3694 3731])
+            ("printf" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("mednm" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3770 3776])
+                    ("" variable (:type ("c_str" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3776 3783]))                  
+                :type "int")
+                nil [3751 3785])
+            ("printf" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("mname" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3826 3832])
+                    ("" variable (:type ("c_str" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3832 3839]))                  
+                :type "int")
+                nil [3805 3841])
+            ("printf" function
+               (:prototype-flag t
+                :type "int")
+                nil [3844 3857])
+            ("gPrevPos" variable
+               (:dereference 1
+                :default-value "pos[0]"
+                :type "int")
+                nil [4240 4261])
+            ("gPrevPos" variable
+               (:dereference 1
+                :default-value "pos[1]"
+                :type "int")
+                nil [4264 4285])
+            ("gPrevPos" variable
+               (:dereference 1
+                :default-value "pos[2]"
+                :type "int")
+                nil [4288 4309])
+            ("lu" variable
+               (:default-value "instr.find_last_of('_')"
+                :type ("size_t" type (:type "class") nil nil))
+                nil [4370 4406])
+            ("instr" variable (:type "int") nil [4447 4453])
+            ("substr" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("lu" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4604 4607]))                  
+                :type "int")
+                nil [4595 4608]))          
+      :file "PointWalk.C"
+      :pointmax 4612
+      :fsize 4599
+      :lastmodtime '(24614 37297 513214 891000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("CheckOverlaps" function (:type "void") nil [47 836]))          
+      :file "CheckOverlaps.C"
+      :pointmax 840
+      :fsize 829
+      :lastmodtime '(24614 37297 512786 471000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [25 44])
+            ("unistd.h" include (:system-flag t) nil [45 64])
+            ("MakeVisible" function
+               (:arguments 
+                  ( ("volume" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [183 202])
+                    ("color" variable (:type ("Color_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [203 217]))                  
+                :type "void")
+                nil [166 507])
+            ("MakeInvisible" function
+               (:arguments 
+                  ( ("volume" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [528 547]))                  
+                :type "void")
+                nil [509 702])
+            ("MakeDaughterVisible" function
+               (:arguments 
+                  ( ("volume" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [729 748]))                  
+                :type "void")
+                nil [704 1167])
+            ("DrawGeometry" function (:type "void") nil [1170 1914]))          
+      :file "DrawGeometry.C"
+      :pointmax 1916
+      :fsize 1915
+      :lastmodtime '(24614 40462 713882 961000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!GeometryStuff!TestGeometryGGD!duneggd!root!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

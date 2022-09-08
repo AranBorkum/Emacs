@@ -1,0 +1,64 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("ROOT" include nil nil [1 12])
+            ("config" include nil nil [13 36])
+            ("config" include nil nil [37 62])
+            ("utilities" include nil nil [63 92])
+            ("plotting.utils" include nil nil [93 170])
+            ("plotting.utils" include nil nil [171 237])
+            ("plotting" include nil nil [238 264])
+            ("plotting" include nil nil [265 293])
+            ("numpy" include nil nil [294 312])
+            ("logging" include nil nil [313 334])
+            ("config" include nil nil [335 360])
+            ("plotting.stack_plotting" include nil nil [361 405])
+            ("make_n_minus_one_plots" function (:arguments 
+              ( ("allowed_inputs" variable nil (reparse-symbol function_parameters) [467 481])
+                ("var" variable nil (reparse-symbol function_parameters) [483 486])
+                ("region" variable nil (reparse-symbol function_parameters) [488 494])
+                ("sm_sums" variable nil (reparse-symbol function_parameters) [496 503]))              ) nil [440 7993])
+            ("zn_calc" function
+               (:decorators 
+                  ( ("np.vectorize" function (:type "decorator") nil nil))                  
+                :arguments 
+                  ( ("bY" variable nil (reparse-symbol function_parameters) [8021 8023])
+                    ("sY" variable nil (reparse-symbol function_parameters) [8025 8027]))                  )
+                nil [7995 8101])
+            ("zn_plot" function (:arguments 
+              ( ("var" variable nil (reparse-symbol function_parameters) [8115 8118])
+                ("total_sm" variable nil (reparse-symbol function_parameters) [8120 8128])
+                ("sg_ipt" variable nil (reparse-symbol function_parameters) [8130 8136]))              ) nil [8103 10398])
+            ("make_arrow" function (:arguments 
+              ( ("position" variable nil (reparse-symbol function_parameters) [10414 10422])
+                ("length" variable nil (reparse-symbol function_parameters) [10424 10430])
+                ("height" variable nil (reparse-symbol function_parameters) [10434 10440])
+                ("right" variable nil (reparse-symbol function_parameters) [10444 10449]))              ) nil [10399 10955])
+            ("make_arrow_double" function (:arguments 
+              ( ("position" variable nil (reparse-symbol function_parameters) [10978 10986])
+                ("length" variable nil (reparse-symbol function_parameters) [10988 10994])
+                ("height" variable nil (reparse-symbol function_parameters) [10998 11004])
+                ("right" variable nil (reparse-symbol function_parameters) [11008 11013]))              ) nil [10956 11784])
+            ("make_zn_line" function (:arguments 
+              ( ("position" variable nil (reparse-symbol function_parameters) [11802 11810]))              ) nil [11785 12043]))          
+      :file "n_minus_one_plotting.py"
+      :pointmax 12043
+      :fsize 12042
+      :lastmodtime '(23566 9916 98429 410000)
+      :unmatched-syntax '((NAME 10243 . 10249) (IF 10263 . 10265) (ELSE 10278 . 10282) (NAME 10162 . 10168) (IF 10182 . 10184) (ELSE 10197 . 10201) (NAME 6393 . 6399) (IF 6405 . 6407) (ELSE 6420 . 6424) (NAME 6346 . 6352) (IF 6358 . 6360) (ELSE 6373 . 6377)))
+    (semanticdb-table "semanticdb-table"
+      :file "utils.py"
+      :fsize 8702
+      :lastmodtime '(23566 9916 241592 323000))
+    (semanticdb-table "semanticdb-table"
+      :file "stack_plotting.py"
+      :fsize 13746
+      :lastmodtime '(23566 9916 33909 308000)))
+  :file "!Users!aranborkum!Docterate!Projects!PrettyPython!plotting!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

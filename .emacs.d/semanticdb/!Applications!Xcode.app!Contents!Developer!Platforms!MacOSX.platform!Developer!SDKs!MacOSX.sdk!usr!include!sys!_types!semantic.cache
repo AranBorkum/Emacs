@@ -1,0 +1,104 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_CLOCK_T" variable (:constant-flag t) nil [1351 1359])
+            ("machine/types.h" include (:system-flag t) nil [1360 1386])
+            ("clock_t" type
+               (:typedef ("__darwin_clock_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [1410 1450]))          
+      :file "_clock_t.h"
+      :pointmax 1473
+      :fsize 1472
+      :lastmodtime '(24316 50137 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_CLOCK_T")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("sys/_types.h" include (:system-flag t) nil [1339 1362])
+            ("NULL" variable (:constant-flag t) nil [1391 1395]))          
+      :file "_null.h"
+      :pointmax 1430
+      :fsize 1429
+      :lastmodtime '(24316 50136 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("NULL" . ((symbol "__DARWIN_NULL" 1397 . 1410)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_SIZE_T" variable (:constant-flag t) nil [1350 1357])
+            ("machine/_types.h" include (:system-flag t) nil [1358 1385])
+            ("size_t" type
+               (:typedef ("__darwin_size_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [1408 1446]))          
+      :file "_size_t.h"
+      :pointmax 1469
+      :fsize 1468
+      :lastmodtime '(24316 50137 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_SIZE_T")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_TIME_T" variable (:constant-flag t) nil [1350 1357])
+            ("machine/types.h" include (:system-flag t) nil [1358 1384])
+            ("time_t" type
+               (:typedef ("__darwin_time_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [1407 1446]))          
+      :file "_time_t.h"
+      :pointmax 1469
+      :fsize 1468
+      :lastmodtime '(24316 50137 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_TIME_T")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_STRUCT_TIMESPEC" variable (:constant-flag t) nil [1359 1375])
+            ("machine/types.h" include (:system-flag t) nil [1400 1426])
+            ("timespec" type
+               (:members 
+                  ( ("tv_sec" variable (:type ("__darwin_time_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1470 1493])
+                    ("tv_nsec" variable (:type "long") (reparse-symbol classsubparts) [1495 1519]))                  
+                :type "struct")
+                nil [1450 1522]))          
+      :file "_timespec.h"
+      :pointmax 1553
+      :fsize 1552
+      :lastmodtime '(24316 50137 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_STRUCT_TIMESPEC" . ((STRUCT "struct" 1383 . 1389) (symbol "timespec" 1390 . 1398)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags nil
+      :file "_wchar_t.h"
+      :pointmax 1548
+      :fsize 1547
+      :lastmodtime '(24316 50136 0 0)
+      :unmatched-syntax nil))
+  :file "!Applications!Xcode.app!Contents!Developer!Platforms!MacOSX.platform!Developer!SDKs!MacOSX.sdk!usr!include!sys!_types!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

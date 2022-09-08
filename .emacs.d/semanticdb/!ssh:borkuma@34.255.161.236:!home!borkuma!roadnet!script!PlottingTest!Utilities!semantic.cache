@@ -1,0 +1,18 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("argparse" include nil nil [1 16])
+            ("create_parser" function nil nil [18 698]))          
+      :file "parser.py"
+      :pointmax 698
+      :fsize 697
+      :lastmodtime '(23882 55896)
+      :unmatched-syntax nil))
+  :file "!ssh:borkuma@34.255.161.236:!home!borkuma!roadnet!script!PlottingTest!Utilities!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

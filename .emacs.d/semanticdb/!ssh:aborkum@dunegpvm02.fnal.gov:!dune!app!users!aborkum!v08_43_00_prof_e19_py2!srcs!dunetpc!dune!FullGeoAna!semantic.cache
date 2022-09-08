@@ -1,0 +1,358 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("functional" include (:system-flag t) nil [1 22])
+            ("TH1I.h" include nil nil [40 57])
+            ("TH1F.h" include nil nil [58 75])
+            ("TH2F.h" include nil nil [76 93])
+            ("TTree.h" include nil nil [94 112])
+            ("TMath.h" include nil nil [113 131])
+            ("TGeoMatrix.h" include nil nil [132 155])
+            ("TGeoManager.h" include nil nil [156 180])
+            ("larcore/Geometry/Geometry.h" include nil nil [201 239])
+            ("larcorealg/Geometry/LocalTransformationGeo.h" include nil nil [240 295])
+            ("larcorealg/Geometry/WireGeo.h" include nil nil [296 336])
+            ("larcoreobj/SimpleTypesAndConstants/RawTypes.h" include nil nil [337 393])
+            ("larcoreobj/SimpleTypesAndConstants/geo_vectors.h" include nil nil [394 453])
+            ("lardataobj/RawData/RawDigit.h" include nil nil [454 494])
+            ("lardataobj/RawData/raw.h" include nil nil [495 530])
+            ("lardataobj/RecoBase/Hit.h" include nil nil [531 567])
+            ("lardataobj/RecoBase/OpHit.h" include nil nil [568 606])
+            ("lardataobj/RecoBase/Wire.h" include nil nil [607 644])
+            ("lardataobj/Simulation/sim.h" include nil nil [645 683])
+            ("lardataobj/Simulation/SimChannel.h" include nil nil [684 729])
+            ("lardataobj/Simulation/SupernovaTruth.h" include nil nil [730 779])
+            ("lardata/DetectorInfoServices/DetectorPropertiesService.h" include nil nil [780 847])
+            ("lardata/DetectorInfoServices/DetectorClocksService.h" include nil nil [848 911])
+            ("larsim/MCCheater/BackTrackerService.h" include nil nil [912 960])
+            ("larsim/MCCheater/ParticleInventoryService.h" include nil nil [961 1015])
+            ("larsim/MCCheater/PhotonBackTrackerService.h" include nil nil [1016 1070])
+            ("art/Framework/Core/EDAnalyzer.h" include nil nil [1087 1129])
+            ("art/Framework/Core/ModuleMacros.h" include nil nil [1130 1174])
+            ("art/Framework/Principal/Event.h" include nil nil [1175 1217])
+            ("art/Framework/Principal/Handle.h" include nil nil [1218 1261])
+            ("art/Framework/Principal/Run.h" include nil nil [1262 1302])
+            ("art/Framework/Principal/SubRun.h" include nil nil [1303 1346])
+            ("art_root_io/TFileDirectory.h" include nil nil [1347 1386])
+            ("art_root_io/TFileService.h" include nil nil [1387 1424])
+            ("art/Framework/Services/Registry/ServiceHandle.h" include nil nil [1425 1483])
+            ("canvas/Utilities/InputTag.h" include nil nil [1484 1522])
+            ("canvas/Persistency/Common/FindMany.h" include nil nil [1523 1570])
+            ("canvas/Persistency/Common/FindManyP.h" include nil nil [1571 1619])
+            ("canvas/Persistency/Common/FindOneP.h" include nil nil [1620 1667])
+            ("fhiclcpp/ParameterSet.h" include nil nil [1668 1702])
+            ("messagefacility/MessageLogger/MessageLogger.h" include nil nil [1703 1759])
+            ("FullGeoAna" type
+               (:superclasses 
+                  ( ("art::EDAnalyzer" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [1806 1813])
+                    ("FullGeoAna" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :typemodifiers ("explicit")
+                        :arguments 
+                          ( ("p" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("fhicl::ParameterSet" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1836 1866]))                          
+                        :type ("FullGeoAna" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1816 1867])
+                    ("analyze" function
+                       (:prototype-flag t
+                        :override-flag t
+                        :arguments 
+                          ( ("evt" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("art::Event" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2085 2108]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [2072 2118])
+                    ("reconfigure" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("p" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("fhicl::ParameterSet" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2138 2168]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [2121 2169])
+                    ("beginJob" function
+                       (:prototype-flag t
+                        :override-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2172 2197])
+                    ("endJob" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2200 2214])
+                    ("private" label nil (reparse-symbol classsubparts) [2216 2224])
+                    ("ResetVariables" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2227 2249])
+                    ("fHitLabel" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2253 2275])
+                    ("fRawDigitLabel" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2278 2305])
+                    ("fGEANTLabel" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2308 2332])
+                    ("fGenLabel" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2335 2357])
+                    ("fFullGeoAnaTree" variable
+                       (:pointer 1
+                        :type ("TTree" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2361 2384])
+                    ("Run" variable (:type "int") (reparse-symbol classsubparts) [2388 2399])
+                    ("SubRun" variable (:type "int") (reparse-symbol classsubparts) [2402 2413])
+                    ("Event" variable (:type "int") (reparse-symbol classsubparts) [2416 2427])
+                    ("True_Bck_PDG" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [2431 2472])
+                    ("True_Bck_Mother" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [2475 2518])
+                    ("True_Bck_EndProcess" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [2521 2568])
+                    ("True_Bck_ID" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [2571 2611])
+                    ("True_Bck_VertX" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [2614 2656])
+                    ("True_Bck_VertY" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [2659 2701])
+                    ("True_Bck_VertZ" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [2704 2746])
+                    ("True_Bck_Time" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [2749 2790])
+                    ("True_Bck_Energy" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [2793 2836])
+                    ("True_Bck_EndE" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [2839 2880])
+                    ("True_Bck_EndX" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [2883 2924])
+                    ("True_Bck_EndY" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [2927 2968])
+                    ("True_Bck_EndZ" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [2971 3012])
+                    ("True_Bck_EndT" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3015 3056])
+                    ("True_Bck_StartMaterial" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("std::string" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3059 3108])
+                    ("True_Bck_EndMaterial" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("std::string" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3111 3159])
+                    ("PDS_OpHit_OpChannel" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3163 3223])
+                    ("PDS_OpHit_X" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3226 3286])
+                    ("PDS_OpHit_Y" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3289 3349])
+                    ("PDS_OpHit_Z" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3352 3412])
+                    ("PDS_OpHit_PeakTimeAbs" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3415 3475])
+                    ("PDS_OpHit_PeakTime" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3478 3538])
+                    ("PDS_OpHit_Frame" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("unsigned short" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3541 3601])
+                    ("PDS_OpHit_Width" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3604 3664])
+                    ("PDS_OpHit_Area" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3667 3727])
+                    ("PDS_OpHit_Amplitude" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3730 3790])
+                    ("PDS_OpHit_PE" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3793 3853])
+                    ("PDS_OpHit_FastToTotal" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3856 3916])
+                    ("PDS_OpHit_True_GenType" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3919 3979])
+                    ("PDS_OpHit_True_Index" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3982 4042])
+                    ("PDS_OpHit_True_Energy" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [4045 4105])
+                    ("PDS_OpHit_True_TrackID" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [4108 4168])
+                    ("PDS_OpHit_True_GenTypeAll" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [4171 4231])
+                    ("PDS_OpHit_True_EnergyAll" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [4234 4294])
+                    ("PDS_OpHit_True_TrackIDAll" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [4297 4357])
+                    ("PDS_OpHit_True_IndexAll" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [4360 4420])
+                    ("geo" variable (:type ("art::ServiceHandle" type
+                         (:template-specifier 
+                            ( ("geo::Geometry" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [4425 4463])
+                    ("bt_serv" variable (:type ("art::ServiceHandle" type
+                         (:template-specifier 
+                            ( ("cheat::BackTrackerService" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [4466 4520]))                  
+                :type "class")
+                nil [1761 4524])
+            ("FullGeoAna" function
+               (:constructor-flag t
+                :parent "FullGeoAna"
+                :arguments 
+                  ( ("p" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("fhicl::ParameterSet" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4549 4579]))                  
+                :type ("FullGeoAna" type (:type "class") nil nil))
+                nil [4526 4623])
+            ("reconfigure" function
+               (:parent "FullGeoAna"
+                :arguments 
+                  ( ("p" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("fhicl::ParameterSet" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4654 4684]))                  
+                :type "void")
+                nil [4625 4934])
+            ("ResetVariables" function
+               (:parent "FullGeoAna"
+                :type "void")
+                nil [4936 5469])
+            ("beginJob" function
+               (:parent "FullGeoAna"
+                :type "void")
+                nil [5471 7073])
+            ("analyze" function
+               (:parent "FullGeoAna"
+                :arguments 
+                  ( ("evt" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("art::Event" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7100 7123]))                  
+                :type "void")
+                nil [7075 10309])
+            ("endJob" function
+               (:parent "FullGeoAna"
+                :type "void")
+                nil [10311 10341]))          
+      :file "FullGeoAna_module.cc"
+      :pointmax 10373
+      :fsize 10372
+      :lastmodtime '(24157 5170)
+      :unmatched-syntax '((semantic-list 10360 . 10372) (symbol 10343 . 10360) (punctuation 2067 . 2068) (DELETE 2061 . 2067) (punctuation 2059 . 2060) (semantic-list 2038 . 2058) (punctuation 2036 . 2037) (OPERATOR 2027 . 2035) (punctuation 2056 . 2057) (punctuation 2025 . 2026) (symbol 2014 . 2024) (punctuation 2056 . 2057) (punctuation 2010 . 2011) (DELETE 2004 . 2010) (punctuation 2002 . 2003) (semantic-list 1981 . 2001) (punctuation 1979 . 1980) (OPERATOR 1970 . 1978) (punctuation 1968 . 1969) (symbol 1957 . 1967) (punctuation 1953 . 1954) (DELETE 1947 . 1953) (punctuation 1945 . 1946) (semantic-list 1924 . 1944) (symbol 1914 . 1924) (punctuation 1942 . 1943) (punctuation 1910 . 1911) (DELETE 1904 . 1910) (punctuation 1902 . 1903) (semantic-list 1881 . 1901) (symbol 1871 . 1881))))
+  :file "!ssh:aborkum@dunegpvm02.fnal.gov:!dune!app!users!aborkum!v08_43_00_prof_e19_py2!srcs!dunetpc!dune!FullGeoAna!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

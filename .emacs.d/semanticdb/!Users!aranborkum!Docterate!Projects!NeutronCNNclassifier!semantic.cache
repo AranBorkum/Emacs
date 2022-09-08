@@ -1,0 +1,208 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("argparse" include nil nil [1 16])
+            ("numpy" include nil nil [17 35])
+            ("matplotlib.pyplot" include nil nil [36 67])
+            ("parser" variable nil nil [69 135])
+            ("parser" code nil nil [136 205])
+            ("args" variable nil nil [207 233])
+            ("ED" variable nil nil [235 266])
+            ("plt" code nil nil [268 280])
+            ("plt" code nil nil [281 311])
+            ("plt" code nil nil [312 326])
+            ("plt" code nil nil [327 353])
+            ("plt" code nil nil [376 386]))          
+      :file "PlotEventDisply.py"
+      :pointmax 387
+      :fsize 386
+      :lastmodtime '(24577 50411 519731 203000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("tensorflow" include nil nil [1 24])
+            ("tensorflow.keras" include nil nil [26 69])
+            ("matplotlib.pyplot" include nil nil [70 101])
+            ("glob" include nil nil [102 113])
+            ("numpy" include nil nil [114 132])
+            ("random" include nil nil [133 146])
+            ("sklearn.model_selection" include nil nil [147 199])
+            ("tensorflow" include nil nil [200 228])
+            ("tensorflow.keras.models" include nil nil [229 275])
+            ("tensorflow.keras.layers" include nil nil [276 357])
+            ("tensorflow.keras.optimizers" include nil nil [358 405])
+            ("tensorflow.keras.preprocessing.image" include nil nil [406 473])
+            ("pandas" include nil nil [474 493])
+            ("MakeImage" function (:arguments 
+              ( ("textFile" variable nil (reparse-symbol function_parameters) [509 517]))              ) nil [495 594])
+            ("histplot" function (:arguments 
+              ( ("history" variable nil (reparse-symbol function_parameters) [608 615]))              ) nil [595 1243])
+            ("ProcessData" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [1260 1261]))              ) nil [1244 1333])
+            ("OneLayerModel" function nil nil [1334 1693])
+            ("TwoLayerModel" function nil nil [1694 2147])
+            ("TwoLaterWithDropOut" function nil nil [2148 2638])
+            ("OneConvIntoStandard" function nil nil [2639 3097])
+            ("StandardNN" function nil nil [3098 3359])
+            ("NeutronImages" variable nil nil [3516 3559])
+            ("MarleyImages" variable nil nil [3560 3601])
+            ("AllData" variable nil nil [3603 3615])
+            ("for" code nil nil [3616 3674])
+            ("for" code nil nil [3674 3732])
+            ("random" code nil nil [3733 3756])
+            ("x_train" variable nil nil [3762 3827])
+            ("y_train" variable nil nil [3828 3893])
+            ("x_test" variable nil nil [3894 3959])
+            ("y_test" variable nil nil [3960 4025])
+            ("x_test, x_val, y_test, y_val" code nil nil [4027 4105])
+            ("num_classes" variable nil nil [4108 4123])
+            ("y_train" variable nil nil [4124 4186])
+            ("y_test" variable nil nil [4187 4249])
+            ("y_val" variable nil nil [4250 4312])
+            ("x_train" variable nil nil [4314 4354])
+            ("x_test" variable nil nil [4355 4394])
+            ("OneLayerModel" variable nil nil [4479 4522])
+            ("TwoLayerModel" variable nil nil [4523 4566])
+            ("TwoLaterWithDropOut" variable nil nil [4567 4610])
+            ("OneConvIntoStandard" variable nil nil [4611 4654])
+            ("StandardNN" variable nil nil [4655 4698])
+            ("batch_size" variable nil nil [4700 4715])
+            ("datagen" variable nil nil [4729 5006])
+            ("gen" variable nil nil [5008 5058])
+            ("OneLayerModel" code nil nil [5060 5163])
+            ("TwoLayerModel" code nil nil [5164 5267])
+            ("TwoLaterWithDropOut" code nil nil [5268 5371])
+            ("OneConvIntoStandard" code nil nil [5372 5475])
+            ("StandardNN" code nil nil [5476 5579])
+            ("h_OneLayerModel" variable nil nil [5581 5930])
+            ("h_TwoLayerModel" variable nil nil [5931 6280])
+            ("h_TwoLaterWithDropOut" variable nil nil [6281 6630])
+            ("h_OneConvIntoStandard" variable nil nil [6631 6980])
+            ("h_StandardNN" variable nil nil [6981 7398])
+            ("s_OneLayerModel" variable nil nil [7400 7477])
+            ("s_TwoLayerModel" variable nil nil [7478 7555])
+            ("s_TwoLaterWithDropOut" variable nil nil [7556 7633])
+            ("s_OneConvIntoStandard" variable nil nil [7634 7711])
+            ("s_StandardNN" variable nil nil [7712 7807])
+            ("print" code nil nil [7809 7833])
+            ("print" code nil nil [7834 7887])
+            ("print" code nil nil [7888 7945])
+            ("print" code nil nil [7946 7955])
+            ("print" code nil nil [7957 7981])
+            ("print" code nil nil [7982 8035])
+            ("print" code nil nil [8036 8093])
+            ("print" code nil nil [8094 8103])
+            ("print" code nil nil [8105 8136])
+            ("print" code nil nil [8137 8196])
+            ("print" code nil nil [8197 8260])
+            ("print" code nil nil [8261 8270])
+            ("print" code nil nil [8272 8309])
+            ("print" code nil nil [8310 8369])
+            ("print" code nil nil [8370 8433])
+            ("print" code nil nil [8434 8443])
+            ("print" code nil nil [8445 8479])
+            ("print" code nil nil [8480 8530])
+            ("print" code nil nil [8531 8585])
+            ("print" code nil nil [8586 8595]))          
+      :file "EventClassifier.py"
+      :pointmax 8596
+      :fsize 8595
+      :lastmodtime '(24581 30910 395906 478000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("matplotlib.pyplot" include nil nil [20 51])
+            ("random" include nil nil [52 65])
+            ("NormalizeSADC" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [85 94]))              ) nil [67 160])
+            ("ListRange" function (:arguments 
+              ( ("myList" variable nil (reparse-symbol function_parameters) [175 181]))              ) nil [161 221])
+            ("NormalizeLists" function (:arguments 
+              ( ("inputList" variable nil (reparse-symbol function_parameters) [241 250]))              ) nil [222 419])
+            ("MakeEventDisplays" function (:arguments 
+              ( ("tempString" variable nil (reparse-symbol function_parameters) [442 452]))              ) nil [420 1555])
+            ("InputData1" variable nil nil [1556 1611])
+            ("EventDisplays1" variable nil nil [1612 1703])
+            ("for" code nil nil [1705 1885])
+            ("for" code nil nil [2037 2214]))          
+      :file "MakeCNNinputs.py"
+      :pointmax 2214
+      :fsize 2213
+      :lastmodtime '(24577 50373 88528 24000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("matplotlib.pyplot" include nil nil [20 51])
+            ("random" include nil nil [52 65])
+            ("InputData1" variable nil nil [67 122]))          
+      :file "test.py"
+      :pointmax 123
+      :fsize 122
+      :lastmodtime '(24577 46949 286197 33000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("matplotlib" include nil nil [1 37])
+            ("numpy" include nil nil [38 56])
+            ("pandas" include nil nil [57 76])
+            ("tensorflow" include nil nil [78 101])
+            ("tensorflow" include nil nil [103 131])
+            ("tensorflow.keras.datasets" include nil nil [132 175])
+            ("tensorflow.keras.models" include nil nil [176 222])
+            ("tensorflow.keras.layers" include nil nil [223 304])
+            ("tensorflow.keras.optimizers" include nil nil [305 352])
+            ("process_data" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [371 372]))              ) nil [354 456])
+            ("histplot" function (:arguments 
+              ( ("history" variable nil (reparse-symbol function_parameters) [470 477]))              ) nil [457 1090])
+            (", " code nil nil [1106 1168])
+            ("idx" variable nil nil [1170 1230])
+            ("x_train" variable nil nil [1231 1253])
+            ("y_train" variable nil nil [1254 1276])
+            ("sklearn.model_selection" include nil nil [1278 1330])
+            ("x_test, x_val, y_test, y_val" code nil nil [1331 1463])
+            ("num_classes" variable nil nil [1465 1481])
+            ("y_train" variable nil nil [1482 1540])
+            ("y_test" variable nil nil [1541 1597])
+            ("y_val" variable nil nil [1598 1652])
+            ("x_train" variable nil nil [1654 1694])
+            ("x_test" variable nil nil [1695 1733])
+            ("x_val" variable nil nil [1734 1770])
+            ("tensorflow.keras.preprocessing.image" include nil nil [1772 1839])
+            ("batch_size" variable nil nil [1842 1857])
+            ("epochs" variable nil nil [1858 1869])
+            ("datagen" variable nil nil [1871 2023])
+            ("gen" variable nil nil [2024 2074])
+            ("cnnmodel" variable nil nil [2076 2099])
+            ("cnnmodel" code nil nil [2100 2175])
+            ("cnnmodel" code nil nil [2176 2210])
+            ("cnnmodel" code nil nil [2211 2262])
+            ("cnnmodel" code nil nil [2263 2297])
+            ("cnnmodel" code nil nil [2371 2394])
+            ("cnnmodel" code nil nil [2395 2449])
+            ("cnnmodel" code nil nil [2451 2575])
+            ("history" variable nil nil [2578 2827])
+            ("x_val_1d" variable nil nil [2829 2859])
+            ("x_val_2d" variable nil nil [2860 2902])
+            ("cnnscore" variable nil nil [2903 2959])
+            ("print" code nil nil [2960 3024])
+            ("histplot" code nil nil [3026 3043]))          
+      :file "Numbers.py"
+      :pointmax 3044
+      :fsize 3043
+      :lastmodtime '(24581 33581 719904 160000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!NeutronCNNclassifier!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

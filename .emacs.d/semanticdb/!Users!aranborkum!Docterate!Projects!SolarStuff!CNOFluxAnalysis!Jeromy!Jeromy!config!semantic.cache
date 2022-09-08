@@ -1,0 +1,56 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("yaml" include nil nil [1 12])
+            ("Jeromy" include nil nil [13 26])
+            ("Jeromy.IO.UncertaintyImporter" include nil nil [27 86])
+            ("with" code nil nil [89 214])
+            ("dump_configurations" function nil nil [215 382])
+            ("ConfigurationLoader" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("if" code nil (reparse-symbol indented_block_body) [528 1368])
+                            ("if" code nil (reparse-symbol indented_block_body) [1390 1502])
+                            ("if" code nil (reparse-symbol indented_block_body) [1510 1620]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [434 438])
+                            ("name" variable nil (reparse-symbol function_parameters) [440 444])
+                            ("systematics" variable nil (reparse-symbol function_parameters) [449 460])
+                            ("metallicity" variable nil (reparse-symbol function_parameters) [465 476])
+                            ("exposure" variable nil (reparse-symbol function_parameters) [481 489])
+                            ("background_reduction" variable nil (reparse-symbol function_parameters) [494 514]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [421 1620])
+                    ("set_name" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [1638 1642]))                      ) (reparse-symbol indented_block_body) [1625 1668])
+                    ("set_systematic_uncertainties" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1705 1709])
+                            ("sys" variable nil (reparse-symbol function_parameters) [1711 1714]))                          )
+                        (reparse-symbol indented_block_body) [1672 1793])
+                    ("set_metallicity" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [1817 1821]))                      ) (reparse-symbol indented_block_body) [1797 1852])
+                    ("set_exposure" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [1873 1877]))                      ) (reparse-symbol indented_block_body) [1856 1905])
+                    ("set_background_reduction" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [1938 1942]))                      ) (reparse-symbol indented_block_body) [1909 1982]))                  
+                :type "class")
+                nil [387 2250])
+            ("load_configuration" function (:arguments 
+              ( ("configuration" variable nil (reparse-symbol function_parameters) [2279 2292]))              ) nil [2256 2342]))          
+      :file "configuration_loader.py"
+      :pointmax 2342
+      :fsize 2341
+      :lastmodtime '(25219 51156 581254 351000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!SolarStuff!CNOFluxAnalysis!Jeromy!Jeromy!config!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

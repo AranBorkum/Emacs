@@ -1,0 +1,945 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("echidna.output.store" include nil nil [1 37])
+            ("echidna.fit.minimise" include nil nil [38 81])
+            ("echidna.errors.custom_errors" include nil nil [82 141])
+            ("echidna.core.config" include nil nil [142 189])
+            ("numpy" include nil nil [191 203])
+            ("logging" include nil nil [204 218])
+            ("collections" include nil nil [219 237])
+            ("os" include nil nil [238 247])
+            ("yaml" include nil nil [248 259])
+            ("copy" include nil nil [260 271])
+            ("Fit" type
+               (:documentation " Class to handle fitting.
+
+    .. warning:: The :class:`Fit` initialisation will try to set
+      atrributes using the values provided. If a value is not provided
+      echidna will attempt to set the default. If this is not possible
+      a warning will be raised and you will have to set this attribute
+      manually before calling :meth:`fit`.
+
+    Args:
+      roi (dictionary): Region Of Interest you want to fit in. The format of
+        roi is e.g. {\"energy\": (2.4, 2.6), \"radial3\": (0., 0.2)}
+      test_statistic (:class:`echidna.limit.test_statistic.TestStatistic`): An
+        appropriate class for calculating test statistics.
+      fit_config (:class:`FitConfig`, optional): Config class for fit -
+        usually loaded from file.
+      data (:class:`echidna.core.spectra.Spectra`): Data spectrum you want to
+        fit.
+      fixed_background (dict, optional): Dictionary containing all fixed
+        backgrounds, with :class:`echidna.core.spectra.Spectra` as keys
+        and priors (float) as values.
+      floating_backgrounds (list, optional): one
+        :class:`echidna.core.spectra.Spectra` for each background to float.
+      signal (:class:`echidna.core.spectra.Spectra`):
+        A spectrum of the signal that you are fitting.
+      shrink (bool, optional): If set to True (default),
+        :meth:`shrink` method is called on all spectra shrinking them to
+        the ROI.
+      minimiser (:class:`echidna.limit.minimiser.Minimiser`, optional): Object
+        to handle the minimisation.
+      use_pre_made (bool, optional): Flag whether to load a pre-made spectrum
+        for each systematic value, or apply convolutions on the fly.
+      pre_made_dir (string, optional): Directory in which pre-made convolved
+        spectra are stored.
+      single_bin (bool, optional): Flag for a single bin fit (e.g. simple
+        counting experiment).
+      per_bin (bool, optional): Flag to monitor values of test
+        statistic, per bin included in the fit (ROI)
+
+    Attributes:
+      _logger (loggging.Logger): Logger for :class:`Fit` class.
+      _checked
+      _roi (dictionary): Region Of Interest you want to fit in. The format of
+        roi is e.g. {\"energy\": (2.4, 2.6), \"radial3\": (0., 0.2)}
+      _test_statistic (:class:`echidna.limit.test_statistic.TestStatistic`): An
+        appropriate class for calculating test statistics.
+      _fit_config (:class:`FitConfig`): Config class for fit -
+        usually loaded from file.
+      _data (:class:`echidna.core.spectra.Spectra`): Data spectrum you want to
+        fit.
+      _fixed_background (:class:`echidna.core.spectra.Spectra`):
+        A spectrum containing all fixed backgrounds.
+      _floating_backgrounds (list): one :class:`echidna.core.spectra.Spectra`
+        for each background to float.
+      _signal (:class:`echidna.core.spectra.Spectra`):
+        A spectrum of the signal that you are fitting.
+      _minimiser (:class:`echidna.limit.minimiser.Minimiser)`: Object to
+        handle the minimisation.
+      _checked (bool): If True then the fit class is ready to be used.
+      _use_pre_made (bool): Flag whether to load a pre-made spectrum
+        for each systematic value, or apply convolutions on the fly.
+      _pre_made_dir (string): Directory in which pre-made convolved
+        spectra are stored.
+    "
+                :superclasses ("object")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [3919 3958])
+                            ("self" variable nil (reparse-symbol indented_block_body) [3967 3988])
+                            ("self" code nil (reparse-symbol indented_block_body) [3997 4014])
+                            ("self" code nil (reparse-symbol indented_block_body) [4024 4063])
+                            ("if" code nil (reparse-symbol indented_block_body) [4073 4219])
+                            ("self" code nil (reparse-symbol indented_block_body) [4227 4258])
+                            ("if" code nil (reparse-symbol indented_block_body) [4268 4561])
+                            ("if" code nil (reparse-symbol indented_block_body) [4570 5041])
+                            ("if" code nil (reparse-symbol indented_block_body) [5050 5488])
+                            ("self" variable nil (reparse-symbol indented_block_body) [5497 5519])
+                            ("for" code nil (reparse-symbol indented_block_body) [5601 5730])
+                            ("if" code nil (reparse-symbol indented_block_body) [5739 5957])
+                            ("if" code nil (reparse-symbol indented_block_body) [5966 6007])
+                            ("self" variable nil (reparse-symbol indented_block_body) [6016 6039])
+                            ("self" variable nil (reparse-symbol indented_block_body) [6575 6608])
+                            ("self" variable nil (reparse-symbol indented_block_body) [6617 6660])
+                            ("self" variable nil (reparse-symbol indented_block_body) [6669 6698]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3634 3638])
+                            ("roi" variable nil (reparse-symbol function_parameters) [3640 3643])
+                            ("test_statistic" variable nil (reparse-symbol function_parameters) [3645 3659])
+                            ("fit_config" variable nil (reparse-symbol function_parameters) [3661 3671])
+                            ("data" variable nil (reparse-symbol function_parameters) [3678 3682])
+                            ("fixed_backgrounds" variable nil (reparse-symbol function_parameters) [3706 3723])
+                            ("floating_backgrounds" variable nil (reparse-symbol function_parameters) [3730 3750])
+                            ("signal" variable nil (reparse-symbol function_parameters) [3774 3780])
+                            ("shrink" variable nil (reparse-symbol function_parameters) [3787 3793])
+                            ("per_bin" variable nil (reparse-symbol function_parameters) [3800 3807])
+                            ("minimiser" variable nil (reparse-symbol function_parameters) [3815 3824])
+                            ("use_pre_made" variable nil (reparse-symbol function_parameters) [3848 3860])
+                            ("pre_made_base_dir" variable nil (reparse-symbol function_parameters) [3868 3885])
+                            ("single_bin" variable nil (reparse-symbol function_parameters) [3892 3902]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [3621 6699])
+                    ("append_fixed_background" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6732 6736])
+                            ("spectra_dict" variable nil (reparse-symbol function_parameters) [6738 6750])
+                            ("shrink" variable nil (reparse-symbol function_parameters) [6752 6758]))                          )
+                        (reparse-symbol indented_block_body) [6704 7415])
+                    ("check_all_spectra" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7442 7446]))                          
+                        :documentation " Ensures that all spectra can be used for fitting.
+
+        Raises:
+          CompatibilityError: If the data spectra exists and its roi pars have
+            not been set.
+          CompatibilityError: If the data spectrum has not been set.
+          CompatibilityError: If neither fixed background nor at least
+            one floating background, has been set.
+          CompatibilityError: If the fixed background spectra exists and its
+            roi pars have not been set.
+          CompatibilityError: If the signal spectra exists and its
+            roi pars have not been set.
+          CompatibilityError: If the floating backgrounds spectra exists and
+            their roi pars have not been set.
+          CompatibilityError: If the floating backgrounds spectra exists and
+            their roi pars have not been set.
+          CompatibilityError: If the floating backgrounds spectra exists and
+            length of their roi pars is different to the number of floating
+            backgrounds.
+        ")
+                        (reparse-symbol indented_block_body) [7420 10166])
+                    ("check_fit_config" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [10192 10196])
+                            ("spectra" variable nil (reparse-symbol function_parameters) [10198 10205]))                          
+                        :documentation " Checks that a spectra has a fit config.
+
+        Args:
+          spectra (:class:`echidna.core.spectra.Spectra`): Spectra you want to
+            check.
+
+        Raises:
+          CompatibilityError: If spectra has no fit config
+        ")
+                        (reparse-symbol indented_block_body) [10171 10734])
+                    ("check_fitter" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [10756 10760]))                          
+                        :documentation " Checks that the Fit class is ready to be used for fitting.
+
+        Raises:
+          IndexError: If fit config contains no parameters
+          AttributeError: If :attr:`_minimiser` has not been set.
+          ValueError: If (un)expected per_bin flag in minimiser.
+          ValueError: If (un)expected integer value for num_bins, in
+            fit_results.
+          ValueError: If (un)expected per_bin flag in test_statistic.
+        ")
+                        (reparse-symbol indented_block_body) [10739 12819])
+                    ("check_roi" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [12838 12842])
+                            ("roi" variable nil (reparse-symbol function_parameters) [12844 12847]))                          
+                        :documentation " Checks the ROI used to fit.
+
+        Args:
+          roi (dict): roi you want to check.
+
+        Raises:
+          TypeError: If roi is not a dict
+          TypeError: If value in roi dict is not a list or a tuple
+          CompatibilityError: If the length of a value in the roi dict is
+            not 2.
+        ")
+                        (reparse-symbol indented_block_body) [12824 13852])
+                    ("check_spectra" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [13875 13879])
+                            ("spectra" variable nil (reparse-symbol function_parameters) [13881 13888]))                          
+                        :documentation " Checks the spectra you want to fit.
+
+        Args:
+          spectra (:class:`echidna.core.spectra.Spectra`): Spectra you want to
+            check.
+
+        Raises:
+          ValueError: If roi low value and spectra low value are not equal.
+          ValueError: If roi high value and spectra high value are not equal.
+        ")
+                        (reparse-symbol indented_block_body) [13857 15146])
+                    ("get_data" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [15164 15168]))                          
+                        :documentation " Gets the data you are fitting.
+
+        Returns:
+          :class:`echidna.core.spectra.Spectra`: The data you are fitting.
+        ")
+                        (reparse-symbol indented_block_body) [15151 15345])
+                    ("get_fit_config" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [15369 15373]))                          
+                        :documentation "
+        ")
+                        (reparse-symbol indented_block_body) [15350 15432])
+                    ("get_fixed_background" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [15462 15466]))                          
+                        :documentation " Gets the fixed background you are fitting.
+
+        Returns:
+          :class:`echidna.core.spectra.Spectra`: The fixed background you are
+            fitting.
+        ")
+                        (reparse-symbol indented_block_body) [15437 15691])
+                    ("get_floating_backgrounds" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [15725 15729]))                          
+                        :documentation " Gets the floating backgrounds you are fitting.
+
+        Returns:
+          list: The floating backgrounds you are fitting.
+        ")
+                        (reparse-symbol indented_block_body) [15696 15921])
+                    ("get_minimiser" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [15944 15948]))                          
+                        :documentation " Gets the minimiser you are using.
+
+        Returns:
+          :class:`echidna.limit.minimise.Minimiser`: The minimiser
+        ")
+                        (reparse-symbol indented_block_body) [15926 16125])
+                    ("get_test_statistic" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [16153 16157]))                          
+                        :documentation " Gets the class instance you are using to calculate the test
+        statistic used in the fit.
+
+        Returns:
+          (:class:`echidna.limit.test_statistic.TestStatistic`): The class
+            instance used to calculate test statistics.
+        ")
+                        (reparse-symbol indented_block_body) [16130 16464])
+                    ("get_roi" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [16481 16485]))                          
+                        :documentation " Gets the region of interest (roi)
+
+        Returns:
+          dict: The region of interest
+        ")
+                        (reparse-symbol indented_block_body) [16469 16628])
+                    ("get_roi_pars" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [16650 16654])
+                            ("spectra" variable nil (reparse-symbol function_parameters) [16656 16663]))                          
+                        :documentation " Get the parameters of a spectra that contain the roi.
+
+        Args:
+          :class:`echidna.core.spectra.Spectra`: The spectra you want to obtain
+            the roi parameters for.
+
+        Returns:
+          list: Of the names of the spectra parameters which contain the roi.
+        ")
+                        (reparse-symbol indented_block_body) [16633 17169])
+                    ("get_signal" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [17189 17193]))                          
+                        :documentation " Gets the signal you are fitting.
+
+        Returns:
+          :class:`echidna.core.spectra.Spectra`: The fixed background you are
+            fitting.
+        ")
+                        (reparse-symbol indented_block_body) [17174 17398])
+                    ("fit" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [17411 17415]))                          
+                        :documentation " Gets the value of the test statistic used for fitting.
+
+        Returns:
+          float: The resulting test statisic.
+        ")
+                        (reparse-symbol indented_block_body) [17403 18417])
+                    ("_funct" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [18433 18437])
+                            ("args" variable nil (reparse-symbol function_parameters) [18439 18444]))                          
+                        :documentation " Callable to pass to minimiser.
+
+        Args:
+          args (list): List of fit parameter values to test in the
+            current iteration.
+
+        Returns:
+          tuple: containing:
+
+            :class:`numpy.ndrray`: Values of the test statistic given
+              the current values of the fit parameters.
+            float: Total penalty term to be applied to the test
+              statistic.
+
+        Raises:
+          ValueError: If :attr:`_floating_backgrounds` is None. This
+            method requires at least one floating background.
+
+        .. note:: This method should not be called directly, it is
+          intended to be passed to an appropriate minimiser and
+          called from within the minimisation algorithm.
+
+        .. note:: This method should not be used if there are no
+          floating backgrounds.
+
+        ")
+                        (reparse-symbol indented_block_body) [18422 24222])
+                    ("load_pre_made" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [24245 24249])
+                            ("spectrum" variable nil (reparse-symbol function_parameters) [24251 24259])
+                            ("global_pars" variable nil (reparse-symbol function_parameters) [24261 24272]))                          
+                        :documentation " Load pre-made convolved spectra.
+
+        This method is used to load a pre-made spectra convolved with
+        certain resolution, energy-scale or shift values, or a
+        combination of two or more at given values.
+
+        The method loads the loads the correct spectra from HDF5s,
+        stored in the given directory.
+
+        Args:
+          spectrum (:class:`echidna.core.spectra.Spectra`): Spectrum
+            to convolve.
+
+        Returns:
+          (:class:`echidna.core.spectra.Spectra`): Convolved spectrum,
+            ready for applying further systematics or fitting.
+        ")
+                        (reparse-symbol indented_block_body) [24227 26079])
+                    ("make_fixed_background" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [26110 26114])
+                            ("spectra_dict" variable nil (reparse-symbol function_parameters) [26116 26128])
+                            ("shrink" variable nil (reparse-symbol function_parameters) [26130 26136]))                          )
+                        (reparse-symbol indented_block_body) [26084 27498])
+                    ("remove_signal" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [27521 27525]))                          
+                        :documentation " Removes the signal spectra from the class.
+        ")
+                        (reparse-symbol indented_block_body) [27503 27623])
+                    ("set_data" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [27641 27645])
+                            ("data" variable nil (reparse-symbol function_parameters) [27647 27651])
+                            ("shrink" variable nil (reparse-symbol function_parameters) [27653 27659]))                          
+                        :documentation " Sets the data you want to fit.
+
+        Args:
+          data (:class:`echidna.core.spectra.Spectra`): Data spectrum you
+            want to fit.
+          shrink (bool, optional): If set to True (default), :meth:`shrink`
+            method is called on the spectra shrinking it to the ROI.
+        ")
+                        (reparse-symbol indented_block_body) [27628 28277])
+                    ("set_fit_config" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [28301 28305])
+                            ("fit_config" variable nil (reparse-symbol function_parameters) [28307 28317]))                          
+                        :documentation "
+        Args:
+          fit_config (:class:`echidna.core.spectra.FitConfig`): Config
+            for fit.
+
+        Raises:
+          TypeError: If fit_config is not of type :class:`FitConfig`.
+        ")
+                        (reparse-symbol indented_block_body) [28282 28755])
+                    ("set_fixed_background" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [28785 28789])
+                            ("fixed_background" variable nil (reparse-symbol function_parameters) [28791 28807])
+                            ("shrink" variable nil (reparse-symbol function_parameters) [28809 28815]))                          
+                        :documentation " Sets the fixed background you want to fit.
+
+        Args:
+          fixed_background (:class:`echidna.core.spectra.Spectra`): The
+            fixed background spectrum you want to fit.
+          shrink (bool, optional): If set to True (default) :meth:`shrink`
+            method is called on the spectra shrinking it to the ROI.
+        ")
+                        (reparse-symbol indented_block_body) [28760 29421])
+                    ("set_floating_backgrounds" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [29455 29459])
+                            ("floating_backgrounds" variable nil (reparse-symbol function_parameters) [29461 29481])
+                            ("shrink" variable nil (reparse-symbol function_parameters) [29483 29489]))                          
+                        :documentation " Sets the floating backgrounds you want to fit.
+
+        Args:
+          floating_backgrounds (list): List of backgrounds you want to float
+            in the fit.
+          shrink (bool, optional): If set to True (default), :meth:`shrink`
+            method is called on the spectra shrinking it to the ROI.
+        ")
+                        (reparse-symbol indented_block_body) [29426 30592])
+                    ("set_minimiser" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [30615 30619])
+                            ("minimiser" variable nil (reparse-symbol function_parameters) [30621 30630]))                          
+                        :documentation " Sets the minimiser to use in fitting.
+
+        Args:
+          minimiser (:class:`echidna.limit.minimise.Minimiser`, optional): The
+            minimiser to use in the fit.
+
+        Raises:
+          IndexError: If fit config contains no parameters.
+        ")
+                        (reparse-symbol indented_block_body) [30597 32435])
+                    ("set_test_statistic" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [32463 32467])
+                            ("test_statistic" variable nil (reparse-symbol function_parameters) [32469 32483]))                          
+                        :documentation " Sets the method you want to use to calculate test statistics in
+          the fit.
+
+        Args:
+          test_statistic (:class:`echidna.limit.test_statistic.TestStatistic`):
+            An appropriate class for calculating test statistics.
+        ")
+                        (reparse-symbol indented_block_body) [32440 32878])
+                    ("set_roi" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [32895 32899])
+                            ("roi" variable nil (reparse-symbol function_parameters) [32901 32904]))                          
+                        :documentation " Sets the region of interest you want to fit in.
+
+        Args:
+          roi (dictionary): The Region Of Interest you want to fit in.
+            The format of roi is
+            e.g. {\"energy\": (2.4, 2.6), \"radial3\": (0., 0.2)}
+        ")
+                        (reparse-symbol indented_block_body) [32883 33332])
+                    ("set_signal" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [33352 33356])
+                            ("signal" variable nil (reparse-symbol function_parameters) [33358 33364])
+                            ("shrink" variable nil (reparse-symbol function_parameters) [33366 33372]))                          
+                        :documentation " Sets the signal you want to fit.
+
+        Args:
+          signal (:class:`echidna.core.spectra.Spectra`): The signal
+            spectrum you want to fit.
+          shrink (bool, optional): If set to True (default)
+            :meth:`shrink` method is called on the spectra shrinking
+            it to the ROI.
+        ")
+                        (reparse-symbol indented_block_body) [33337 33971])
+                    ("set_pre_made_dir" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [33997 34001])
+                            ("directory" variable nil (reparse-symbol function_parameters) [34003 34012]))                          
+                        :documentation " Sets the directory in which pre-made convolved spectra are
+        stored.
+
+        Args:
+          directory (string): Directory in which pre-made spectra are
+            located.
+        ")
+                        (reparse-symbol indented_block_body) [33976 34461])
+                    ("shrink_all" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [34481 34485]))                          
+                        :documentation " Shrinks all the spectra used in the fit to the roi.
+        ")
+                        (reparse-symbol indented_block_body) [34466 34938])
+                    ("shrink_spectra" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [34962 34966])
+                            ("spectra" variable nil (reparse-symbol function_parameters) [34968 34975]))                          
+                        :documentation " Shrinks the spectra used in the fit to the roi.
+
+        Args:
+          spectra (:class:`echidna.core.spectra.Spectra`): Spectra you want to
+            shrink to the roi.
+        ")
+                        (reparse-symbol indented_block_body) [34943 35489])
+                    ("shrink_to_data" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [35513 35517])
+                            ("spectra" variable nil (reparse-symbol function_parameters) [35519 35526]))                          
+                        :documentation " Shrinks the spectra used in the fit to the data.
+
+        Args:
+          spectra (:class:`echidna.core.spectra.Spectra`): Spectra you want to
+            shrink to the roi.
+        ")
+                        (reparse-symbol indented_block_body) [35494 36254]))                  
+                :type "class")
+                nil [274 36254]))          
+      :file "fit.py"
+      :pointmax 36254
+      :fsize 36253
+      :lastmodtime '(25202 17698 229953 171000)
+      :unmatched-syntax '((INDENT_BLOCK 6415 . 6567) (NEWLINE 6414 . 6415) (COLON 6413 . 6414) (AS 6404 . 6406) (EXCEPT 6386 . 6392) (INDENT_BLOCK 6226 . 6378) (NEWLINE 6225 . 6226) (COLON 6224 . 6225) (TRY 6134 . 6137) (AS 6215 . 6217)))
+    (semanticdb-table "semanticdb-table"
+      :file "minimise.py"
+      :fsize 28290
+      :lastmodtime '(25202 17698 230788 864000))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\" Fit results module, containing ``FitResults`` class.
+\"\"\"" code nil nil [1 61])
+            ("numpy" include nil nil [62 74])
+            ("copy" include nil nil [75 86])
+            ("itertools" include nil nil [87 103])
+            ("collections" include nil nil [104 139])
+            ("FitResults" type
+               (:documentation " Base class for handling results of the fit.
+
+    Args:
+      fit_config (:class:`echidna.core.spectra.GlobalFitConfig`): The
+        configuration for fit. This should be a direct copy of the
+        ``FitConfig`` in :class:`echidna.limit.fit.Fit`.
+      spectra_config (:class:`echidna.core.spectra.SpectraConfig`): The
+        for spectra configuration. The recommended spectrum config to
+        include here is the one from the data spectrum, to which you
+        are fitting.
+      name (str, optional): Name of this :class:`FitResults` class
+        instance. If no name is supplied, name from fit_results will be
+        taken and appended with \"_results\".
+
+    Attributes:
+      _fit_config (:class:`echidna.core.spectra.GlobalFitConfig`): The
+        configuration for fit. This should be a direct copy of the
+        ``FitConfig`` in :class:`echidna.limit.fit.Fit`.
+      _spectra_config (:class:`echidna.core.spectra.SpectraConfig`): The
+        for spectra configuration. The recommended spectrum config to
+        include here is the one from the data spectrum, to which you
+        are fitting.
+      _name (string): Name of this :class:`FitResults` class instance.
+
+    Examples:
+
+        >>> fit_results = FitResults(fitter.get_config(), data.get_config())
+    "
+                :superclasses ("object")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [1528 1557])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1566 1603])
+                            ("if" code nil (reparse-symbol indented_block_body) [1612 1683])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1691 1708]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1474 1478])
+                            ("fit_config" variable nil (reparse-symbol function_parameters) [1480 1490])
+                            ("spectra_config" variable nil (reparse-symbol function_parameters) [1492 1506])
+                            ("name" variable nil (reparse-symbol function_parameters) [1508 1512]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [1461 1709])
+                    ("get_fit_config" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1733 1737]))                          
+                        :documentation "
+        Returns:
+          (:class:`echidna.core.config.GlobalFitConfig`): Configuration
+            of fit.
+        ")
+                        (reparse-symbol indented_block_body) [1714 1905])
+                    ("get_name" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1923 1927]))                          
+                        :documentation "
+        Returns:
+          string: Name of fit results object.
+        ")
+                        (reparse-symbol indented_block_body) [1910 2043])
+                    ("get_spectra_config" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2071 2075]))                          
+                        :documentation "
+        Returns:
+          (:class:`echidna.core.config.SpectraConfig`): Configuration
+            spectrum.
+        ")
+                        (reparse-symbol indented_block_body) [2048 2247])
+                    ("get_summary" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2268 2272]))                          
+                        :documentation " Get a summary of the fit parameters.
+
+        Returns:
+          dict: Results of fit. Dictionary with fit parameter names as
+            keys and a nested dictionary as values containing the keys
+            best_fit and penalty_term with the corresponding values for the
+            parameter.
+        ")
+                        (reparse-symbol indented_block_body) [2252 2910])
+                    ("set_fit_config" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2934 2938])
+                            ("fit_config" variable nil (reparse-symbol function_parameters) [2940 2950]))                          
+                        :documentation " Set the fit config.
+
+        Args:
+          fit_config (:class:`echidna.core.spectra.GlobalFitConfig`): The
+            configuration for fit. This should be a direct copy of the
+            :class:`echidna.core.spectra.GlobalFitConfig` object in
+            :class:`echidna.limit.fit.Fit`.
+        ")
+                        (reparse-symbol indented_block_body) [2915 3307])
+                    ("set_spectra_config" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3335 3339])
+                            ("spectra_config" variable nil (reparse-symbol function_parameters) [3341 3355]))                          
+                        :documentation " Set the spectra config.
+
+        Args:
+          spectra_config (:class:`echidna.core.spectra.SpectraConfig`): The
+            configuration for the spectra. This should usually be a
+            direct copy of the :class:`echidna.core.spectra.SpectraConfig`
+            in the data spectrum.
+        ")
+                        (reparse-symbol indented_block_body) [3312 3720]))                  
+                :type "class")
+                nil [142 3720])
+            ("LimitResults" type
+               (:documentation " Base class for handling results of limit setting.
+
+    Args:
+      fit_config (:class:`echidna.core.spectra.GlobalFitConfig`): The
+        configuration for fit. This should be a direct copy of the
+        ``FitConfig`` in :class:`echidna.limit.fit.Fit`.
+      signal_config (:class:`echidna.core.spectra.SpectraConfig`): The
+        spectra configuration. The recommended spectrum config to
+        include here is the one from the data spectrum, to which you
+        are fitting.
+      limit_config (:class:`echidna.core.spectra.SpectraFitConfig`): The
+        ``FitConfig`` of the signal you are setting a limit with.
+      name (str, optional): Name of this :class:`FitResults` class
+        instance. If no name is supplied, name from fit_results will be
+        taken and appended with \"_results\".
+
+    Attributes:
+      _limit_config (:class:`echidna.core.spectra.SpectraFitConfig`): The
+        ``FitConfig`` of the signal you are setting a limit with.
+      _stats (:class:`numpy.ndarray`): Array of values of the test
+        statistic calculated during limit setting.
+      _penalty_terms (:class:`numpy.ndarray`): Array of values of the
+        penalty terms calculated during limit setting.
+      _best_fits (:class:`numpy.ndarray`): Array of values of the
+        best fits calculated during limit setting.
+      _fit_results (:class:`echidna.fit.fit_results.FitResults`): An array of
+        fit results for each signal scaling.
+    "
+                :superclasses ("FitResults")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("if" code nil (reparse-symbol indented_block_body) [5298 5378])
+                            ("super" code nil (reparse-symbol indented_block_body) [5386 5453])
+                            ("self" variable nil (reparse-symbol indented_block_body) [5462 5495])
+                            ("scales" variable nil (reparse-symbol indented_block_body) [5504 5552])
+                            ("shape" variable nil (reparse-symbol indented_block_body) [5561 5605])
+                            ("self" variable nil (reparse-symbol indented_block_body) [5614 5654])
+                            ("self" variable nil (reparse-symbol indented_block_body) [5663 5699])
+                            ("self" variable nil (reparse-symbol indented_block_body) [5708 5741])
+                            ("self" variable nil (reparse-symbol indented_block_body) [5750 5803]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5231 5235])
+                            ("fit_config" variable nil (reparse-symbol function_parameters) [5237 5247])
+                            ("signal_config" variable nil (reparse-symbol function_parameters) [5249 5262])
+                            ("limit_config" variable nil (reparse-symbol function_parameters) [5264 5276])
+                            ("name" variable nil (reparse-symbol function_parameters) [5278 5282]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [5218 5804])
+                    ("get_best_fit" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5826 5830])
+                            ("i" variable nil (reparse-symbol function_parameters) [5832 5833])
+                            ("par" variable nil (reparse-symbol function_parameters) [5835 5838]))                          
+                        :documentation "Gets the best fit at scale index i.
+
+        Args:
+          i (int): Index of scaling.
+          par (string): Name of parameter.
+
+        Returns:
+          numpy.ndarray: The best fits array.
+        ")
+                        (reparse-symbol indented_block_body) [5809 6152])
+                    ("get_best_fits" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6175 6179])
+                            ("par" variable nil (reparse-symbol function_parameters) [6181 6184]))                          
+                        :documentation "Gets the best fit array.
+
+        Args:
+          par (string): Name of parameter.
+
+        Returns:
+          numpy.ndarray: The best fits array.
+        ")
+                        (reparse-symbol indented_block_body) [6157 6450])
+                    ("get_full_stat" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6473 6477])
+                            ("i" variable nil (reparse-symbol function_parameters) [6479 6480]))                          
+                        :documentation "Gets the test statistic with penalty terms added for the signal
+          scale at index i.
+
+        Args:
+          i (int): Index of stat.
+
+        Returns:
+          float: The test statistic with penalty terms addded.
+        ")
+                        (reparse-symbol indented_block_body) [6455 6864])
+                    ("get_full_stats" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6888 6892]))                          
+                        :documentation "Gets the test statistics with penalty terms added for each signal
+          scale.
+
+        Returns:
+          numpy.ndarray: The test statistics array with penalty terms addded.
+        ")
+                        (reparse-symbol indented_block_body) [6869 7358])
+                    ("get_limit_stat" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7382 7386])
+                            ("i" variable nil (reparse-symbol function_parameters) [7388 7389]))                          
+                        :documentation "Gets the test statistic with penalty terms added for the signal
+          scale at index i.
+
+        Args:
+          i (int): Index of stat.
+
+        Returns:
+          float: The test statistic without the penalty contribution.
+        ")
+                        (reparse-symbol indented_block_body) [7363 7679])
+                    ("get_stats" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7698 7702]))                          
+                        :documentation "Gets the test statistics without the penalty contribution.
+
+        Returns:
+          numpy.ndarray: The test statistics array without the
+            penalty contribution.
+        ")
+                        (reparse-symbol indented_block_body) [7684 7929])
+                    ("get_penalty_terms_at_scale" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [7965 7969])
+                            ("i" variable nil (reparse-symbol function_parameters) [7971 7972]))                          
+                        :documentation "Get the penalty terms for signal scaling at position i.
+
+        Args:
+          i (int): Array index of signal scale.
+
+        Returns:
+          numpy.ndarray: The penalty terms
+        ")
+                        (reparse-symbol indented_block_body) [7934 8216])
+                    ("get_penalty_terms" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [8243 8247])
+                            ("par" variable nil (reparse-symbol function_parameters) [8249 8252]))                          
+                        :documentation "Get the set of penalty terms for a parameter for all scales.
+
+        Args:
+          par (string): The name of the parameter.
+
+        Returns:
+          numpy.ndarray: Set of penalty terms for all signal scales.
+        ")
+                        (reparse-symbol indented_block_body) [8221 8577])
+                    ("get_penalty_term" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [8603 8607])
+                            ("scale_idx" variable nil (reparse-symbol function_parameters) [8609 8618])
+                            ("par" variable nil (reparse-symbol function_parameters) [8620 8623]))                          
+                        :documentation "Get the set of penalty terms for a parameter for all scales.
+
+        Args:
+          scale_idx (int): Index of signal scaling.
+          par (string): The name of the parameter.
+
+        Returns:
+          numpy.ndarray: Set of penalty terms for all signal scales.
+        ")
+                        (reparse-symbol indented_block_body) [8582 9008])
+                    ("get_scales" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [9028 9032]))                          
+                        :documentation "Gets the signal scales used in limit setting
+
+        Returns:
+          numpy.ndarray: Signal scales.
+        ")
+                        (reparse-symbol indented_block_body) [9013 9224])
+                    ("set_best_fit" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [9246 9250])
+                            ("scale_idx" variable nil (reparse-symbol function_parameters) [9252 9261])
+                            ("best_fit" variable nil (reparse-symbol function_parameters) [9263 9271])
+                            ("par" variable nil (reparse-symbol function_parameters) [9273 9276]))                          
+                        :documentation " Sets the best fit for parameter with index par_idx and scale
+        with index scale_idx.
+
+        Args:
+          best_fit (float): Best fit.
+          scale_idx (int): Scale index.
+          par_idx (int): Fit parameter index.
+        ")
+                        (reparse-symbol indented_block_body) [9229 9638])
+                    ("set_penalty_term" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [9664 9668])
+                            ("scale_idx" variable nil (reparse-symbol function_parameters) [9670 9679])
+                            ("penalty_term" variable nil (reparse-symbol function_parameters) [9681 9693])
+                            ("par" variable nil (reparse-symbol function_parameters) [9695 9698]))                          
+                        :documentation " Sets the penalty term for parameter with index par_idx and scale
+        with index scale_idx.
+
+        Args:
+          penalty_term (float): Penalty term.
+          scale_idx (int): Scale index.
+          par (str): Fit parameter name.
+        ")
+                        (reparse-symbol indented_block_body) [9643 10075])
+                    ("set_limit_stat" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [10099 10103])
+                            ("scale_idx" variable nil (reparse-symbol function_parameters) [10105 10114])
+                            ("stat" variable nil (reparse-symbol function_parameters) [10116 10120]))                          
+                        :documentation " Set the test statistic at scale with index scale_idx
+
+        Args:
+          stat (float): Test statitstic.
+          scale_idx (int): Scale index.
+       ")
+                        (reparse-symbol indented_block_body) [10080 10333])
+                    ("set_fit_result" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [10357 10361])
+                            ("scale_idx" variable nil (reparse-symbol function_parameters) [10363 10372])
+                            ("fit_result" variable nil (reparse-symbol function_parameters) [10374 10384]))                          
+                        :documentation " Sets the fit results object for a given signal scaling.
+
+        Args:
+          scale_idx (int): Scale index.
+          fit_result (:class:`echidna.fit.fit_results.FitResults`): Results
+            from fitting a given signal scale.
+        ")
+                        (reparse-symbol indented_block_body) [10338 10695]))                  
+                :type "class")
+                nil [3722 10695]))          
+      :file "fit_results.py"
+      :pointmax 10695
+      :fsize 10694
+      :lastmodtime '(25202 17698 230405 464000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Desktop!echidna!echidna!fit!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

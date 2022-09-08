@@ -1,0 +1,91 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("FillVector" function
+               (:arguments 
+                  ( ("ifile" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [38 56]))                  
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [2 438])
+            ("FillGraph" function
+               (:pointer 1
+                :arguments 
+                  ( ("xValues" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("std::string" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [458 491])
+                    ("yValues" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("std::string" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [492 525])
+                    ("title" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [526 544]))                  
+                :type ("TGraph" type (:type "class") nil nil))
+                nil [440 781])
+            ("ConvertToHist" function
+               (:pointer 1
+                :arguments 
+                  ( ("graph" variable
+                       (:pointer 1
+                        :type ("TGraph" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [803 817])
+                    ("start" variable (:type "double") (reparse-symbol arg-sub-list) [818 831])
+                    ("end" variable (:type "double") (reparse-symbol arg-sub-list) [832 843])
+                    ("incr" variable (:type "double") (reparse-symbol arg-sub-list) [844 856]))                  
+                :type ("TH1D" type (:type "class") nil nil))
+                nil [783 1103])
+            ("ReadXSEC" function
+               (:arguments 
+                  ( ("xsec_file" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1119 1150])
+                    ("energy" variable
+                       (:reference 1
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("double" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1158 1186])
+                    ("xsec_value" variable
+                       (:reference 1
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("double" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1194 1226]))                  
+                :type "void")
+                nil [1105 1588])
+            ("CalculateRate" function
+               (:pointer 1
+                :arguments 
+                  ( ("flux" variable
+                       (:pointer 1
+                        :type ("TH1D" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1610 1621])
+                    ("xsec" variable
+                       (:pointer 1
+                        :type ("TH1D" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1622 1633])
+                    ("start" variable (:type "double") (reparse-symbol arg-sub-list) [1634 1647])
+                    ("end" variable (:type "double") (reparse-symbol arg-sub-list) [1648 1659])
+                    ("incr" variable (:type "double") (reparse-symbol arg-sub-list) [1660 1672]))                  
+                :type ("TH1D" type (:type "class") nil nil))
+                nil [1590 1930])
+            ("RatePrediction" function (:type "void") nil [1932 4939]))          
+      :file "RatePrediction.C"
+      :pointmax 4940
+      :fsize 4939
+      :lastmodtime '(25051 57721 691700 292000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!SolarStuff!CalculatedInteractionRates!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

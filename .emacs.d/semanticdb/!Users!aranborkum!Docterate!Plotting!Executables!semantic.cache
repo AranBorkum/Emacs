@@ -1,0 +1,29 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("string" include (:system-flag t) nil [21 38])
+            ("Objects/Plot.hh" include nil nil [40 66])
+            ("Utils/CLI11.hpp" include nil nil [68 94])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [105 114])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [115 127]))                  
+                :type "int")
+                nil [96 550]))          
+      :file "run.cxx"
+      :pointmax 551
+      :fsize 550
+      :lastmodtime '(24816 6507 572099 941000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Plotting!Executables!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

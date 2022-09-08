@@ -1,0 +1,120 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("psycopg2" include nil nil [373 388])
+            ("psycopg2" include nil nil [389 417])
+            ("os" include nil nil [418 432])
+            ("sys" include nil nil [418 432])
+            ("numpy" include nil nil [433 451])
+            ("pandas" include nil nil [452 471])
+            ("pandas.io.sql" include nil nil [472 500])
+            ("networkit" include nil nil [501 523])
+            ("yaml_helpers" include nil nil [524 567])
+            ("number_of_nodes" variable nil nil [635 655])
+            ("G" variable nil nil [657 671])
+            ("print" code nil nil [672 711])
+            ("for" code nil nil [713 762])
+            ("print" code nil nil [764 780]))          
+      :file "example_psql.py"
+      :pointmax 781
+      :fsize 780
+      :lastmodtime '(23818 1408)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("yaml" include nil nil [1 12])
+            ("get_from_yaml_file" function (:arguments 
+              ( ("filename" variable nil (reparse-symbol function_parameters) [37 45])
+                ("key" variable nil (reparse-symbol function_parameters) [47 50]))              ) nil [14 1096]))          
+      :file "yaml_helpers.py"
+      :pointmax 1096
+      :fsize 1095
+      :lastmodtime '(23816 59364)
+      :unmatched-syntax '((INDENT_BLOCK 690 . 1096) (NEWLINE 689 . 690) (COLON 688 . 689) (TRY 66 . 69) (AS 682 . 684) (INDENT_BLOCK 690 . 1096) (NEWLINE 689 . 690) (COLON 688 . 689) (TRY 66 . 69) (AS 682 . 684) (INDENT_BLOCK 693 . 1098) (NEWLINE 692 . 693) (COLON 691 . 692) (AS 685 . 687) (EXCEPT 663 . 669) (INDENT_BLOCK 510 . 659) (NEWLINE 509 . 510) (COLON 508 . 509) (EXCEPT 494 . 500) (TRY 66 . 69) (INDENT_BLOCK 278 . 490) (DEF 14 . 17) ($EOI 64 . 64) (DEF 14 . 17) ($EOI 59 . 59) (DEF 14 . 17) (NAME 38 . 46) ($EOI 56 . 56) (DEF 14 . 17) (NAME 38 . 46) ($EOI 46 . 46) (DEF 14 . 17) ($EOI 32 . 32) (DEF 14 . 17) ($EOI 26 . 26) (DEF 14 . 17) ($EOI 18 . 18) ($EOI 12 . 12)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("sys" include nil nil [1 11])
+            ("psycopg2" include nil nil [12 27])
+            ("networkit" include nil nil [29 51])
+            ("networkx" include nil nil [52 74])
+            ("pandas" include nil nil [75 97])
+            ("numpy" include nil nil [98 120])
+            ("matplotlib.pyplot" include nil nil [121 152])
+            ("Utilities" include nil nil [154 187])
+            ("PlotBox" function (:arguments 
+              ( ("box" variable nil (reparse-symbol function_parameters) [337 340])
+                ("color" variable nil (reparse-symbol function_parameters) [342 347]))              ) nil [325 666])
+            ("MakeSideBySidePlots" function (:arguments 
+              ( ("graph1_nx" variable nil (reparse-symbol function_parameters) [691 700])
+                ("graph2_nx" variable nil (reparse-symbol function_parameters) [702 711]))              ) nil [667 957])
+            ("GetDistanceBetweenNodes" function (:arguments 
+              ( ("g_dict1" variable nil (reparse-symbol function_parameters) [986 993])
+                ("g_dict2" variable nil (reparse-symbol function_parameters) [995 1002])
+                ("i" variable nil (reparse-symbol function_parameters) [1004 1005])
+                ("j" variable nil (reparse-symbol function_parameters) [1007 1008]))              ) nil [958 1212])
+            ("StitchGraphs" function (:arguments 
+              ( ("g_dict1" variable nil (reparse-symbol function_parameters) [1230 1237])
+                ("g_dict2" variable nil (reparse-symbol function_parameters) [1239 1246])
+                ("graph1" variable nil (reparse-symbol function_parameters) [1248 1254])
+                ("graph2" variable nil (reparse-symbol function_parameters) [1256 1262]))              ) nil [1213 4809])
+            ("data" variable nil nil [5013 5045])
+            ("node1_param" variable nil nil [5111 5155])
+            ("node1_box" variable nil nil [5156 5294])
+            ("node2_param" variable nil nil [5295 5339])
+            ("node2_box" variable nil nil [5340 5478])
+            ("node3_param" variable nil nil [5479 5523])
+            ("node3_box" variable nil nil [5524 5662])
+            ("graph1, graph1_dict" code nil nil [5664 5718])
+            ("graph2, graph2_dict" code nil nil [5719 5773])
+            ("stitched1, graph_dict_new1, new_g1" code nil nil [5775 5866])
+            ("nodes1_x" variable nil nil [5868 5881])
+            ("nodes1_y" variable nil nil [5882 5895])
+            ("edges1" variable nil nil [5896 5909])
+            ("nodes2_x" variable nil nil [5910 5923])
+            ("nodes2_y" variable nil nil [5924 5937])
+            ("edges2" variable nil nil [5938 5951])
+            ("nodes_x" variable nil nil [5952 5965])
+            ("nodes_y" variable nil nil [5966 5979])
+            ("edges" variable nil nil [5980 5993]))          
+      :file "main.py"
+      :pointmax 8358
+      :fsize 4662
+      :lastmodtime '(23821 1121)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("sys" include nil nil [1 11])
+            ("psycopg2" include nil nil [12 27])
+            ("networkit" include nil nil [29 51])
+            ("networkx" include nil nil [52 74])
+            ("pandas" include nil nil [75 97])
+            ("numpy" include nil nil [98 120])
+            ("matplotlib.pyplot" include nil nil [121 152])
+            ("time" include nil nil [154 175])
+            ("Utilities" include nil nil [176 209])
+            ("data" variable nil nil [552 584])
+            ("node1_box" variable nil nil [696 834])
+            ("graph1, graph1_dict" code nil nil [836 890])
+            ("nodes1_x" variable nil nil [892 905])
+            ("nodes1_y" variable nil nil [906 919])
+            ("edges1" variable nil nil [920 933])
+            ("for" code nil nil [935 1066])
+            ("plt" code nil nil [1067 1095])
+            ("plt" code nil nil [1096 1130])
+            ("plt" code nil nil [1155 1165]))          
+      :file "test.py"
+      :pointmax 1166
+      :fsize 1165
+      :lastmodtime '(23824 36138)
+      :unmatched-syntax nil))
+  :file "!ssh:borkuma@54.154.11.78:!home!borkuma!PSQL-Tests!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

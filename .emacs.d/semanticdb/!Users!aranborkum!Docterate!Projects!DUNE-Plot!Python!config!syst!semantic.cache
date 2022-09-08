@@ -1,0 +1,63 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("collections" include nil nil [1 36])
+            ("sys" include nil nil [37 47])
+            ("_central" variable nil nil [49 64])
+            ("get_central" function nil nil [67 106])
+            ("_all" variable nil nil [108 128])
+            ("get" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [140 145]))              ) nil [132 324])
+            ("get_all" function (:documentation "Returns a list of all regions. Skips blinded if specified.") nil [326 435])
+            ("syst" type
+               (:documentation "Class acting as a wrapper around the systematic input ttree's. Knows all
+    the files and the tree name in the file and can store the label and
+    plotting informations like color etc"
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("\"\"\"Creates input dataset and sets all the necessary informations.
+        Needs some more documentation. If isWeight is specified, the
+        systematic is looked for in the nominal tree and added as an
+        additional weight. If replaces is defined, the weight replaces a
+        previously defined weight.\"\"\"" code nil (reparse-symbol indented_block_body) [775 1089])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1098 1114])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1123 1145])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1154 1176])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1185 1209])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1218 1242])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1251 1269])
+                            ("_all" variable nil (reparse-symbol indented_block_body) [1278 1295])
+                            ("if" code nil (reparse-symbol indented_block_body) [1304 1366]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [664 668])
+                            ("name" variable nil (reparse-symbol function_parameters) [670 674])
+                            ("up_down" variable nil (reparse-symbol function_parameters) [676 683])
+                            ("central" variable nil (reparse-symbol function_parameters) [690 697])
+                            ("isWeight" variable nil (reparse-symbol function_parameters) [705 713])
+                            ("replaces" variable nil (reparse-symbol function_parameters) [738 746])
+                            ("method" variable nil (reparse-symbol function_parameters) [753 759]))                          
+                        :documentation "Creates input dataset and sets all the necessary informations.
+        Needs some more documentation. If isWeight is specified, the
+        systematic is looked for in the nominal tree and added as an
+        additional weight. If replaces is defined, the weight replaces a
+        previously defined weight."
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [651 1366]))                  
+                :type "class")
+                nil [437 1366])
+            ("__all__" variable nil nil [1367 1396]))          
+      :file "__init__.py"
+      :pointmax 1397
+      :fsize 1396
+      :lastmodtime '(23889 28567 29308 83000)
+      :unmatched-syntax '((RETURN 222 . 228) (IF 243 . 245) (ELSE 262 . 266))))
+  :file "!Users!aranborkum!Docterate!Projects!DUNE-Plot!Python!config!syst!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

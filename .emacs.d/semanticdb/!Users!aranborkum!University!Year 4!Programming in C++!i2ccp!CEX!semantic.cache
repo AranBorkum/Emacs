@@ -1,0 +1,149 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [2020 2039])
+            ("string" include (:system-flag t) nil [2040 2057])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [2059 2079])
+            ("Atom" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [2094 2102])
+                    ("element" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2346 2361])
+                    ("symbol" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2366 2380])
+                    ("atomicNumber" variable (:type "double") (reparse-symbol classsubparts) [2385 2405])
+                    ("atomicMass" variable (:type "double") (reparse-symbol classsubparts) [2410 2428])
+                    ("public" label nil (reparse-symbol classsubparts) [2434 2441])
+                    ("Atom" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("Element" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2715 2730])
+                            ("Symbol" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2731 2745])
+                            ("AtomicNumber" variable (:type "double") (reparse-symbol arg-sub-list) [2746 2766])
+                            ("AtomicMass" variable (:type "double") (reparse-symbol arg-sub-list) [2767 2785]))                          
+                        :type ("Atom" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2709 2922])
+                    ("Atom" function
+                       (:destructor-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [3166 3178])
+                    ("getElement" function
+                       (:prototype-flag t
+                        :type ("string" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [3446 3466])
+                    ("getSymbol" function
+                       (:prototype-flag t
+                        :type ("string" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [3471 3490])
+                    ("getNumber" function
+                       (:prototype-flag t
+                        :type "double")
+                        (reparse-symbol classsubparts) [3495 3514])
+                    ("getMass" function
+                       (:prototype-flag t
+                        :type "double")
+                        (reparse-symbol classsubparts) [3519 3536])
+                    ("massRatio" function
+                       (:prototype-flag t
+                        :type "double")
+                        (reparse-symbol classsubparts) [3541 3560])
+                    ("<<" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("os" variable
+                               (:reference 1
+                                :type ("ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [3918 3930])
+                            ("a" variable (:type ("Atom" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3931 3938]))                          
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [3891 3939]))                  
+                :type "class")
+                nil [2081 3942])
+            ("getElement" function
+               (:parent "Atom"
+                :type ("string" type (:type "class") nil nil))
+                nil [4449 4492])
+            ("getSymbol" function
+               (:parent "Atom"
+                :type ("string" type (:type "class") nil nil))
+                nil [4493 4535])
+            ("getNumber" function
+               (:parent "Atom"
+                :type "double")
+                nil [4536 4584])
+            ("getMass" function
+               (:parent "Atom"
+                :type "double")
+                nil [4585 4631])
+            ("massRatio" function
+               (:parent "Atom"
+                :type "double")
+                nil [4632 4691])
+            ("<<" function
+               (:operator-flag t
+                :arguments 
+                  ( ("os" variable
+                       (:reference 1
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5091 5103])
+                    ("a" variable (:type ("Atom" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5104 5111]))                  
+                :type ("ostream" type (:type "class") nil nil))
+                nil [5071 5345]))          
+      :file "Atom.hpp"
+      :pointmax 5347
+      :fsize 5346
+      :lastmodtime '(23460 61888 265447 391000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [2307 2326])
+            ("string" include (:system-flag t) nil [2327 2344])
+            ("fstream" include (:system-flag t) nil [2345 2363])
+            ("sstream" include (:system-flag t) nil [2364 2382])
+            ("vector" include (:system-flag t) nil [2383 2400])
+            ("Atom.hpp" include nil nil [2401 2420])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [2422 2442])
+            ("atoms" variable (:type ("vector" type
+                 (:template-specifier 
+                    ( ("Atom" type nil nil nil))                    
+                  :type "class")
+                  nil nil)) nil [2444 2463])
+            ("readData" function (:type "int") nil [2465 3735])
+            ("searchAtoms" function
+               (:arguments 
+                  ( ("a" variable (:type ("vector" type
+                         (:template-specifier 
+                            ( ("Atom" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [3753 3768]))                  
+                :type "int")
+                nil [3737 5037])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [5048 5057])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [5058 5070]))                  
+                :type "int")
+                nil [5039 5992]))          
+      :file "CEX.cpp"
+      :pointmax 5994
+      :fsize 5993
+      :lastmodtime '(23717 51034 253387 74000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!University!Year 4!Programming in C++!i2ccp!CEX!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

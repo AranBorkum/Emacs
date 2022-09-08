@@ -1,0 +1,17 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("SolarSpectra" function (:type "void") nil [2 792]))          
+      :file "SolarSpectra.C"
+      :pointmax 793
+      :fsize 792
+      :lastmodtime '(25274 59316 648434 271000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Thesis!RootFiles!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

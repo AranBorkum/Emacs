@@ -1,0 +1,85 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [2 21])
+            ("fstream" include (:system-flag t) nil [22 40])
+            ("vector" include (:system-flag t) nil [42 59])
+            ("TFile.h" include nil nil [61 79])
+            ("TTree.h" include nil nil [80 98])
+            ("TCanvas.h" include nil nil [99 119])
+            ("TH1D.h" include nil nil [120 137])
+            ("TH2D.h" include nil nil [138 155])
+            ("TProfile.h" include nil nil [156 177])
+            ("TGraph.h" include nil nil [178 197])
+            ("xlowlim" variable
+               (:default-value "-1117"
+                :type "double")
+                nil [248 271])
+            ("xhighlim" variable
+               (:default-value "1117"
+                :type "double")
+                nil [272 295])
+            ("ylowlim" variable
+               (:default-value "-658"
+                :type "double")
+                nil [296 319])
+            ("yhighlim" variable
+               (:default-value "660"
+                :type "double")
+                nil [320 343])
+            ("zlowlim" variable
+               (:default-value "-312"
+                :type "double")
+                nil [344 367])
+            ("zhighlim" variable
+               (:default-value "5870"
+                :type "double")
+                nil [368 391])
+            ("progress" function
+               (:arguments 
+                  ( ("prog" variable (:type "float") (reparse-symbol arg-sub-list) [407 418]))                  
+                :type "void")
+                nil [393 822])
+            ("StaysInside" function
+               (:arguments 
+                  ( ("xend" variable (:type "double") (reparse-symbol arg-sub-list) [842 854])
+                    ("yend" variable (:type "double") (reparse-symbol arg-sub-list) [855 867])
+                    ("zend" variable (:type "double") (reparse-symbol arg-sub-list) [868 880]))                  
+                :type "bool")
+                nil [825 1072])
+            ("in" function
+               (:arguments 
+                  ( ("value" variable (:type "int") (reparse-symbol arg-sub-list) [1082 1092])
+                    ("vector_check" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [1093 1123]))                  
+                :type "bool")
+                nil [1074 1276])
+            ("numberOfNCaptures" variable
+               (:default-value "0"
+                :type "int")
+                nil [1278 1310])
+            ("numberOfEvents" variable
+               (:default-value "0"
+                :type "int")
+                nil [1311 1343])
+            ("numberOfCapturesInAr" variable
+               (:default-value "0"
+                :type "int")
+                nil [1344 1376])
+            ("neutron" function (:type "int") nil [1383 22964]))          
+      :file "neutron.C"
+      :pointmax 22965
+      :fsize 22964
+      :lastmodtime '(23810 10864)
+      :unmatched-syntax nil))
+  :file "!ssh:aborkum@dunegpvm02.fnal.gov:!dune!app!users!aborkum!farDetTests!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

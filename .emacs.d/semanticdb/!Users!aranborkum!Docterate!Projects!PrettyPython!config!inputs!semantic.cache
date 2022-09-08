@@ -1,0 +1,82 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("collections" include nil nil [1 36])
+            ("_all" variable nil nil [38 58])
+            ("get" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [69 74]))              ) nil [61 253])
+            ("get_all" function (:documentation "Returns a list of all variables.") nil [255 338])
+            ("merge" function
+               (:documentation "Easy function to set the correct merging information for plots.
+    First listed input is taken as the master input and subsequent inputs
+    will be added after all histrograms have been filled."
+                :arguments 
+                  ( ("inputs" variable nil (reparse-symbol function_parameters) [350 357]))                  )
+                nil [340 812])
+            ("MissingInputError" type
+               (:superclasses ("Exception")
+                :members 
+                  ( ("pass" code nil (reparse-symbol indented_block_body) [854 858]))                  
+                :type "class")
+                nil [814 859])
+            ("input" type
+               (:documentation "Class acting as a wrapper around the input ttree's. Knows all
+    the files and the tree name in the file and can store the label and
+    plotting informations like color etc"
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("\"\"\"Creates input dataset and sets all the necessary informations.
+        Needs some more documentation\"\"\"" code nil (reparse-symbol indented_block_body) [1442 1548])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1557 1573])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1582 1600])
+                            ("if" code nil (reparse-symbol indented_block_body) [1609 1700])
+                            ("if" code nil (reparse-symbol indented_block_body) [1708 1823])
+                            ("label" code nil (reparse-symbol indented_block_body) [1871 1876])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1885 1905])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1914 1938])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1947 1983])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1992 2010])
+                            ("self" variable nil (reparse-symbol indented_block_body) [2019 2043])
+                            ("self" variable nil (reparse-symbol indented_block_body) [2052 2070])
+                            ("self" variable nil (reparse-symbol indented_block_body) [2079 2101])
+                            ("self" variable nil (reparse-symbol indented_block_body) [2110 2136])
+                            ("self" variable nil (reparse-symbol indented_block_body) [2145 2168])
+                            ("self" variable nil (reparse-symbol indented_block_body) [2212 2237])
+                            ("_all" variable nil (reparse-symbol indented_block_body) [2284 2301]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1091 1095])
+                            ("name" variable nil (reparse-symbol function_parameters) [1109 1113])
+                            ("files" variable nil (reparse-symbol function_parameters) [1127 1132])
+                            ("treename" variable nil (reparse-symbol function_parameters) [1151 1159])
+                            ("color" variable nil (reparse-symbol function_parameters) [1178 1183])
+                            ("scale" variable nil (reparse-symbol function_parameters) [1202 1207])
+                            ("weights" variable nil (reparse-symbol function_parameters) [1224 1231])
+                            ("label" variable nil (reparse-symbol function_parameters) [1250 1255])
+                            ("isData" variable nil (reparse-symbol function_parameters) [1274 1280])
+                            ("isSignal" variable nil (reparse-symbol function_parameters) [1300 1308])
+                            ("rel_unc" variable nil (reparse-symbol function_parameters) [1328 1335])
+                            ("region_scales" variable nil (reparse-symbol function_parameters) [1354 1367])
+                            ("force_positive" variable nil (reparse-symbol function_parameters) [1386 1400])
+                            ("linestyle" variable nil (reparse-symbol function_parameters) [1420 1429]))                          
+                        :documentation "Creates input dataset and sets all the necessary informations.
+        Needs some more documentation"
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [1065 2302]))                  
+                :type "class")
+                nil [861 2302])
+            ("__all__" variable nil nil [2303 2320]))          
+      :file "__init__.py"
+      :pointmax 2321
+      :fsize 2320
+      :lastmodtime '(23566 9915 284600 901000)
+      :unmatched-syntax '((NAME 1831 . 1835) (IF 1849 . 1851) (ELSE 1866 . 1870) (RETURN 151 . 157) (IF 172 . 174) (ELSE 191 . 195))))
+  :file "!Users!aranborkum!Docterate!Projects!PrettyPython!config!inputs!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

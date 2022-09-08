@@ -1,0 +1,114 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("matplotlib.pyplot" include nil nil [20 51])
+            ("directory" variable nil nil [53 138])
+            ("standard_x" variable nil nil [699 745])
+            ("standard_y" variable nil nil [746 761])
+            ("for" code nil nil [762 881])
+            ("optimistic_x" variable nil nil [882 932])
+            ("optimistic_y" variable nil nil [933 950])
+            ("for" code nil nil [951 1078])
+            ("betterBoron_x" variable nil nil [1079 1131])
+            ("betterBoron_y" variable nil nil [1132 1150])
+            ("for" code nil nil [1151 1282])
+            ("bestBoron_x" variable nil nil [1283 1331])
+            ("bestBoron_y" variable nil nil [1332 1348])
+            ("for" code nil nil [1349 1472])
+            ("perfect_x" variable nil nil [1473 1517])
+            ("perfect_y" variable nil nil [1518 1532])
+            ("for" code nil nil [1533 1648])
+            ("standard1000_x" variable nil nil [1649 1703])
+            ("standard1000_y" variable nil nil [1704 1723])
+            ("for" code nil nil [1724 1859])
+            ("plt" code nil nil [1865 1877])
+            ("plt" code nil nil [1937 2014])
+            ("plt" code nil nil [2414 2431])
+            ("plt" code nil nil [2432 2449])
+            ("plt" code nil nil [2450 2507])
+            ("plt" code nil nil [2508 2518])
+            ("test" variable nil nil [2041 2041])
+            ("reduction" variable nil nil [2041 2041])
+            ("exposure" variable nil nil [2041 2041])
+            ("weights" variable nil nil [2041 2041]))          
+      :file "plot_unc_as_func_of_bg_reduction.py"
+      :pointmax 2519
+      :fsize 2518
+      :lastmodtime '(25255 14899 615445 228000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("matplotlib.pyplot" include nil nil [1 32])
+            ("Jeromy" include nil nil [34 47])
+            ("Jeromy.IO.ImportDataHighZ" include nil nil [48 87])
+            ("Jeromy.IO.ImportDataLowZ" include nil nil [88 126])
+            ("make_spectra" function (:arguments 
+              ( ("configuration" variable nil (reparse-symbol function_parameters) [146 159]))              ) nil [129 10724]))          
+      :file "make_spectrum_plots.py"
+      :pointmax 10724
+      :fsize 10723
+      :lastmodtime '(25257 50606 123773 216000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("matplotlib.pyplot" include nil nil [1 32])
+            ("numpy" include nil nil [33 51])
+            ("gaussian" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [66 67])
+                ("m" variable nil (reparse-symbol function_parameters) [69 70])
+                ("s" variable nil (reparse-symbol function_parameters) [72 73])
+                ("a" variable nil (reparse-symbol function_parameters) [75 76]))              ) nil [53 204])
+            ("mean" variable nil nil [212 238])
+            ("sigma" variable nil nil [239 268])
+            ("optimisitic_unc_br10_high" variable nil nil [270 318])
+            ("better_boron_unc_br10_high" variable nil nil [319 366])
+            ("x_values" variable nil nil [368 428])
+            ("y_values" variable nil nil [429 487])
+            ("plot_line" function (:arguments 
+              ( ("value" variable nil (reparse-symbol function_parameters) [503 508]))              ) nil [489 570])
+            ("plt" code nil nil [572 584])
+            ("plt" code nil nil [585 613])
+            ("plot_line" code nil nil [614 650])
+            ("plt" code nil nil [689 699]))          
+      :file "test_statistic_for_CNO_discovery.py"
+      :pointmax 700
+      :fsize 699
+      :lastmodtime '(25255 14899 616046 430000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("matplotlib.pyplot" include nil nil [1 32])
+            ("background_reduction" variable nil nil [34 92])
+            ("lowZ_standard" variable nil nil [93 164])
+            ("highZ_standard" variable nil nil [165 236])
+            ("lowZ_optimistic" variable nil nil [238 309])
+            ("highZ_optimistic" variable nil nil [310 381])
+            ("lowZ_better_boron" variable nil nil [383 454])
+            ("highZ_better_boron" variable nil nil [455 526])
+            ("plt" code nil nil [528 540])
+            ("plt" code nil nil [541 610])
+            ("plt" code nil nil [611 680])
+            ("plt" code nil nil [682 753])
+            ("plt" code nil nil [754 825])
+            ("plt" code nil nil [827 897])
+            ("plt" code nil nil [898 968])
+            ("plt" code nil nil [1005 1022])
+            ("plt" code nil nil [1041 1058])
+            ("plt" code nil nil [1059 1069]))          
+      :file "discovery_significance.py"
+      :pointmax 1071
+      :fsize 1070
+      :lastmodtime '(25255 14899 614593 170000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!SolarStuff!CNOFluxAnalysis!Jeromy!Jeromy!plots!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

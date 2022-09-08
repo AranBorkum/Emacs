@@ -1,0 +1,40 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("drawLArND" function
+               (:arguments 
+                  ( ("volName" variable
+                       (:default-value "\"\""
+                        :type ("TString" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [112 131]))                  
+                :type "int")
+                nil [102 2471]))          
+      :file "drawLArND.C"
+      :pointmax 2473
+      :fsize 2472
+      :lastmodtime '(23955 9888 276683 63000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("drawFGT" function
+               (:arguments 
+                  ( ("volName" variable
+                       (:default-value "\"\""
+                        :type ("TString" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [110 129]))                  
+                :type "int")
+                nil [102 3743]))          
+      :file "drawFGT.C"
+      :pointmax 3745
+      :fsize 3744
+      :lastmodtime '(23782 58733 506179 482000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!duneggd-old!root!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,19 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("TFile.h" include nil nil [1 19])
+            ("TH1D.h" include nil nil [20 37])
+            ("PlotSpectra" function (:type "int") nil [39 220]))          
+      :file "PlotSpectra.cxx"
+      :pointmax 221
+      :fsize 220
+      :lastmodtime '(24836 1263 286412 937000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Desktop!Neutron spectra!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

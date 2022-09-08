@@ -1,0 +1,335 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'''
+Subbuilder of DetEncBuilder
+'''" code nil nil [23 58])
+            ("gegede.builder" include nil nil [60 81])
+            ("math" include nil nil [82 93])
+            ("gegede" include nil nil [94 126])
+            ("pint" include nil nil [127 156])
+            ("pandas" include nil nil [157 176])
+            ("ureg" variable nil nil [177 198])
+            ("CryostatBuilder" type
+               (:superclasses ("gegede.builder.Builder")
+                :members 
+                  ( ("'''
+    Build the Cryostat.
+    '''" code nil (reparse-symbol indented_block_body) [251 286])
+                    ("configure" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [383 387])
+                            ("CryostatInnerDim" variable nil (reparse-symbol function_parameters) [407 423])
+                            ("cathodeThickness" variable nil (reparse-symbol function_parameters) [489 505])
+                            ("outerAPAs" variable nil (reparse-symbol function_parameters) [543 552])
+                            ("nAPAs" variable nil (reparse-symbol function_parameters) [590 595])
+                            ("IgnoredAPAs" variable nil (reparse-symbol function_parameters) [636 647])
+                            ("sideLAr" variable nil (reparse-symbol function_parameters) [682 689])
+                            ("APAToFloor" variable nil (reparse-symbol function_parameters) [733 743])
+                            ("LArLevel" variable nil (reparse-symbol function_parameters) [786 794])
+                            ("APAToUpstreamWall" variable nil (reparse-symbol function_parameters) [832 849])
+                            ("APAToDownstreamWall" variable nil (reparse-symbol function_parameters) [886 905])
+                            ("Layer1Thickness" variable nil (reparse-symbol function_parameters) [939 954])
+                            ("Layer2Thickness" variable nil (reparse-symbol function_parameters) [992 1007])
+                            ("Layer3Thickness" variable nil (reparse-symbol function_parameters) [1045 1060])
+                            ("Layer1Material" variable nil (reparse-symbol function_parameters) [1098 1112])
+                            ("Layer2Material" variable nil (reparse-symbol function_parameters) [1144 1158])
+                            ("Layer3Material" variable nil (reparse-symbol function_parameters) [1190 1204])
+                            ("DSSClearance" variable nil (reparse-symbol function_parameters) [1236 1248])
+                            ("nDSSBeam" variable nil (reparse-symbol function_parameters) [1282 1290])
+                            ("DSSBeamHeight" variable nil (reparse-symbol function_parameters) [1328 1341])
+                            ("DSSBeamBase" variable nil (reparse-symbol function_parameters) [1374 1385])
+                            ("DSSBeamThickW" variable nil (reparse-symbol function_parameters) [1420 1433])
+                            ("DSSBeamThickF" variable nil (reparse-symbol function_parameters) [1466 1479])
+                            ("nBeamX" variable nil (reparse-symbol function_parameters) [1512 1518])
+                            ("BeamSeparationX" variable nil (reparse-symbol function_parameters) [1558 1573])
+                            ("nBeamY" variable nil (reparse-symbol function_parameters) [1604 1610])
+                            ("BeamSeparationY" variable nil (reparse-symbol function_parameters) [1650 1665])
+                            ("nBeamZ" variable nil (reparse-symbol function_parameters) [1696 1702])
+                            ("BeamSeparationZ" variable nil (reparse-symbol function_parameters) [1742 1757])
+                            ("IPEBeamHeight" variable nil (reparse-symbol function_parameters) [1788 1801])
+                            ("IPEBeamBase" variable nil (reparse-symbol function_parameters) [1834 1845])
+                            ("IPEBeamThickW" variable nil (reparse-symbol function_parameters) [1880 1893])
+                            ("IPEBeamThickF" variable nil (reparse-symbol function_parameters) [1926 1939])
+                            ("IPEBeamRoofHeight" variable nil (reparse-symbol function_parameters) [1972 1989])
+                            ("IPEBeamRoofBase" variable nil (reparse-symbol function_parameters) [2018 2033])
+                            ("IPEBeamRoofThickW" variable nil (reparse-symbol function_parameters) [2064 2081])
+                            ("IPEBeamRoofThickF" variable nil (reparse-symbol function_parameters) [2110 2127])
+                            ("BeamFloors" variable nil (reparse-symbol function_parameters) [2156 2166])
+                            ("HoleDiam" variable nil (reparse-symbol function_parameters) [2202 2210])
+                            ("TopBeam" variable nil (reparse-symbol function_parameters) [2248 2255])
+                            ("SteelThickness" variable nil (reparse-symbol function_parameters) [2294 2308])
+                            ("doWaterShielding" variable nil (reparse-symbol function_parameters) [2340 2356])
+                            ("waterThickness" variable nil (reparse-symbol function_parameters) [2387 2401])
+                            ("kwds" variable nil (reparse-symbol function_parameters) [2438 2444]))                          )
+                        (reparse-symbol indented_block_body) [369 5186])
+                    ("construct" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5284 5288])
+                            ("geom" variable nil (reparse-symbol function_parameters) [5290 5294]))                          )
+                        (reparse-symbol indented_block_body) [5270 19109])
+                    ("ConstructOnion" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [19133 19137])
+                            ("geom" variable nil (reparse-symbol function_parameters) [19139 19143])
+                            ("cryo_lv" variable nil (reparse-symbol function_parameters) [19145 19152]))                          )
+                        (reparse-symbol indented_block_body) [19114 26393])
+                    ("ConstructDSS" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [26424 26428])
+                            ("geom" variable nil (reparse-symbol function_parameters) [26430 26434])
+                            ("cryo_lv" variable nil (reparse-symbol function_parameters) [26436 26443])
+                            ("beamInfo" variable nil (reparse-symbol function_parameters) [26445 26453]))                          )
+                        (reparse-symbol indented_block_body) [26407 27636])
+                    ("PlaceCPA" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [27737 27741])
+                            ("geom" variable nil (reparse-symbol function_parameters) [27743 27747])
+                            ("cryo_lv" variable nil (reparse-symbol function_parameters) [27749 27756])
+                            ("cathode_lv" variable nil (reparse-symbol function_parameters) [27758 27768])
+                            ("CPANum" variable nil (reparse-symbol function_parameters) [27770 27776])
+                            ("cpaPos" variable nil (reparse-symbol function_parameters) [27778 27784])
+                            ("cathodeBox" variable nil (reparse-symbol function_parameters) [27786 27796])
+                            ("LArBox" variable nil (reparse-symbol function_parameters) [27798 27804])
+                            ("kwds" variable nil (reparse-symbol function_parameters) [27806 27812]))                          )
+                        (reparse-symbol indented_block_body) [27723 28654])
+                    ("IsIgnoredAPAs" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [28678 28682])
+                            ("APANum" variable nil (reparse-symbol function_parameters) [28684 28690]))                          )
+                        (reparse-symbol indented_block_body) [28660 28809])
+                    ("BuildBeamShape" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [28834 28838])
+                            ("geom" variable nil (reparse-symbol function_parameters) [28840 28844])
+                            ("name" variable nil (reparse-symbol function_parameters) [28846 28850])
+                            ("length" variable nil (reparse-symbol function_parameters) [28852 28858])
+                            ("base" variable nil (reparse-symbol function_parameters) [28860 28864])
+                            ("height" variable nil (reparse-symbol function_parameters) [28866 28872])
+                            ("thickf" variable nil (reparse-symbol function_parameters) [28874 28880])
+                            ("thickw" variable nil (reparse-symbol function_parameters) [28882 28888]))                          )
+                        (reparse-symbol indented_block_body) [28815 30523])
+                    ("ConstructBeam" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [30554 30558])
+                            ("geom" variable nil (reparse-symbol function_parameters) [30560 30564])
+                            ("length" variable nil (reparse-symbol function_parameters) [30566 30572])
+                            ("pos" variable nil (reparse-symbol function_parameters) [30574 30577])
+                            ("rot" variable nil (reparse-symbol function_parameters) [30579 30582])
+                            ("box_lv" variable nil (reparse-symbol function_parameters) [30584 30590])
+                            ("plane" variable nil (reparse-symbol function_parameters) [30592 30597]))                          )
+                        (reparse-symbol indented_block_body) [30536 31548])
+                    ("ConstructBeamFloor" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [31576 31580])
+                            ("geom" variable nil (reparse-symbol function_parameters) [31582 31586])
+                            ("length" variable nil (reparse-symbol function_parameters) [31588 31594])
+                            ("pos" variable nil (reparse-symbol function_parameters) [31596 31599])
+                            ("rot" variable nil (reparse-symbol function_parameters) [31601 31604])
+                            ("box_lv" variable nil (reparse-symbol function_parameters) [31606 31612])
+                            ("plane" variable nil (reparse-symbol function_parameters) [31614 31619]))                          )
+                        (reparse-symbol indented_block_body) [31553 33404])
+                    ("ConstructSmallBeam" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [33432 33436])
+                            ("geom" variable nil (reparse-symbol function_parameters) [33438 33442])
+                            ("length" variable nil (reparse-symbol function_parameters) [33444 33450])
+                            ("pos" variable nil (reparse-symbol function_parameters) [33452 33455])
+                            ("rot" variable nil (reparse-symbol function_parameters) [33457 33460])
+                            ("box_lv" variable nil (reparse-symbol function_parameters) [33462 33468])
+                            ("plane" variable nil (reparse-symbol function_parameters) [33470 33475]))                          )
+                        (reparse-symbol indented_block_body) [33409 34340])
+                    ("GetPosBeam" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [34361 34365])
+                            ("x" variable nil (reparse-symbol function_parameters) [34386 34387])
+                            ("y" variable nil (reparse-symbol function_parameters) [34413 34414])
+                            ("z" variable nil (reparse-symbol function_parameters) [34440 34441])
+                            ("opposite" variable nil (reparse-symbol function_parameters) [34467 34475]))                          )
+                        (reparse-symbol indented_block_body) [34346 35584])
+                    ("GetPosBeamFloor" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [35621 35625])
+                            ("x" variable nil (reparse-symbol function_parameters) [35651 35652])
+                            ("y" variable nil (reparse-symbol function_parameters) [35683 35684])
+                            ("z" variable nil (reparse-symbol function_parameters) [35715 35716])
+                            ("floor" variable nil (reparse-symbol function_parameters) [35747 35752])
+                            ("opposite" variable nil (reparse-symbol function_parameters) [35783 35791]))                          )
+                        (reparse-symbol indented_block_body) [35601 36554])
+                    ("ConstructAllBeam" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [36588 36592])
+                            ("geom" variable nil (reparse-symbol function_parameters) [36594 36598])
+                            ("box_lv" variable nil (reparse-symbol function_parameters) [36600 36606]))                          )
+                        (reparse-symbol indented_block_body) [36567 41182])
+                    ("PlaceWaterLayer" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [41208 41212])
+                            ("geom" variable nil (reparse-symbol function_parameters) [41214 41218])
+                            ("cryo_lv" variable nil (reparse-symbol function_parameters) [41220 41227])
+                            ("waterThickness" variable nil (reparse-symbol function_parameters) [41229 41243])
+                            ("beamInfo" variable nil (reparse-symbol function_parameters) [41245 41253]))                          )
+                        (reparse-symbol indented_block_body) [41188 44447]))                  
+                :type "class")
+                nil [200 44447]))          
+      :file "Cryostat.py"
+      :pointmax 44447
+      :fsize 52773
+      :lastmodtime '(24217 38871 800399 661000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'''
+Subbuilder of CryostatBuilder
+'''" code nil nil [23 60])
+            ("gegede.builder" include nil nil [62 83])
+            ("gegede" include nil nil [84 116])
+            ("TPCBuilder" type
+               (:superclasses ("gegede.builder.Builder")
+                :members 
+                  ( ("'''
+    Build the Cryostat.
+    '''" code nil (reparse-symbol indented_block_body) [165 200])
+                    ("configure" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [298 302])
+                            ("driftDistance" variable nil (reparse-symbol function_parameters) [323 336])
+                            ("APAGap_y" variable nil (reparse-symbol function_parameters) [406 414])
+                            ("APAGap_z" variable nil (reparse-symbol function_parameters) [453 461])
+                            ("wirePlanePitch" variable nil (reparse-symbol function_parameters) [500 514])
+                            ("kwds" variable nil (reparse-symbol function_parameters) [549 555]))                          )
+                        (reparse-symbol indented_block_body) [284 950])
+                    ("construct" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1048 1052])
+                            ("geom" variable nil (reparse-symbol function_parameters) [1054 1058]))                          )
+                        (reparse-symbol indented_block_body) [1034 5454]))                  
+                :type "class")
+                nil [119 5454]))          
+      :file "TPC.py"
+      :pointmax 5454
+      :fsize 5461
+      :lastmodtime '(24217 38871 797476 649000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("MakeVisible" function
+               (:arguments 
+                  ( ("volume" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [148 167])
+                    ("color" variable (:type ("Color_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [168 182]))                  
+                :type "void")
+                nil [131 472])
+            ("MakeInvisible" function
+               (:arguments 
+                  ( ("volume" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [493 512]))                  
+                :type "void")
+                nil [474 667])
+            ("MakeDaughterVisible" function
+               (:arguments 
+                  ( ("volume" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [694 713]))                  
+                :type "void")
+                nil [669 1132])
+            ("drawLArFD" function (:type "void") nil [1135 10427]))          
+      :file "drawLArFD.C"
+      :pointmax 10429
+      :fsize 10428
+      :lastmodtime '(24217 38871 779753 327000)
+      :unmatched-syntax '((string 14 . 29) (symbol 7 . 13) (punctuation 6 . 7)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'''
+Subbuilder of APAFrame
+'''" code nil nil [23 53])
+            ("math" include nil nil [55 85])
+            ("gegede.builder" include nil nil [86 107])
+            ("gegede" include nil nil [108 140])
+            ("gegede" include nil nil [141 165])
+            ("APAFrameBuilder" type
+               (:superclasses ("gegede.builder.Builder")
+                :members 
+                  ( ("'''
+    Build the FRAME.
+    '''" code nil (reparse-symbol indented_block_body) [218 250])
+                    ("configure" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [348 352])
+                            ("size" variable nil (reparse-symbol function_parameters) [373 377])
+                            ("footsize" variable nil (reparse-symbol function_parameters) [426 434])
+                            ("headsize" variable nil (reparse-symbol function_parameters) [479 487])
+                            ("footthickness" variable nil (reparse-symbol function_parameters) [532 545])
+                            ("nribs" variable nil (reparse-symbol function_parameters) [585 590])
+                            ("ribsize" variable nil (reparse-symbol function_parameters) [638 645])
+                            ("ribthickness" variable nil (reparse-symbol function_parameters) [691 703])
+                            ("APAGap_y" variable nil (reparse-symbol function_parameters) [744 752])
+                            ("APAGap_z" variable nil (reparse-symbol function_parameters) [797 805])
+                            ("APAFrameZSide_y" variable nil (reparse-symbol function_parameters) [850 865])
+                            ("APAFrameZSide_z" variable nil (reparse-symbol function_parameters) [903 918])
+                            ("LightPaddle_x" variable nil (reparse-symbol function_parameters) [956 969])
+                            ("LightPaddle_y" variable nil (reparse-symbol function_parameters) [1009 1022])
+                            ("LightPaddle_z" variable nil (reparse-symbol function_parameters) [1062 1075])
+                            ("nLightPaddlePerAPA" variable nil (reparse-symbol function_parameters) [1115 1133])
+                            ("LightPaddleHeadOffset" variable nil (reparse-symbol function_parameters) [1168 1189])
+                            ("LightPaddleVerticalSpacing" variable nil (reparse-symbol function_parameters) [1221 1247])
+                            ("kwds" variable nil (reparse-symbol function_parameters) [1274 1280]))                          )
+                        (reparse-symbol indented_block_body) [334 2226])
+                    ("ConstructHollowBeam" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2333 2337])
+                            ("geom" variable nil (reparse-symbol function_parameters) [2339 2343])
+                            ("name" variable nil (reparse-symbol function_parameters) [2345 2349])
+                            ("sizeouter" variable nil (reparse-symbol function_parameters) [2351 2360])
+                            ("thickness" variable nil (reparse-symbol function_parameters) [2362 2371]))                          )
+                        (reparse-symbol indented_block_body) [2309 3401])
+                    ("ConstructMiddleBeam" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3508 3512])
+                            ("geom" variable nil (reparse-symbol function_parameters) [3514 3518])
+                            ("name" variable nil (reparse-symbol function_parameters) [3520 3524])
+                            ("sizeouter" variable nil (reparse-symbol function_parameters) [3526 3535])
+                            ("thickness" variable nil (reparse-symbol function_parameters) [3537 3546])
+                            ("paddle" variable nil (reparse-symbol function_parameters) [3548 3554])
+                            ("spacing" variable nil (reparse-symbol function_parameters) [3556 3563]))                          )
+                        (reparse-symbol indented_block_body) [3484 5216])
+                    ("construct" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5313 5317])
+                            ("geom" variable nil (reparse-symbol function_parameters) [5319 5323]))                          )
+                        (reparse-symbol indented_block_body) [5299 12017]))                  
+                :type "class")
+                nil [167 12017]))          
+      :file "APAFrame.py"
+      :pointmax 12019
+      :fsize 18360
+      :lastmodtime '(24217 38871 797874 928000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Desktop!duneggd!python!duneggd!larfd!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

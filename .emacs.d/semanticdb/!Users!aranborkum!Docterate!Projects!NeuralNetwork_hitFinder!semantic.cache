@@ -1,0 +1,21 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("matplotlib.pyplot" include nil nil [20 51])
+            ("data" variable nil nil [53 110])
+            ("for" code nil nil [112 221])
+            ("plt" code nil nil [221 231]))          
+      :file "plotRawWaveforms.py"
+      :pointmax 232
+      :fsize 231
+      :lastmodtime '(23992 8550 940547 267000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!NeuralNetwork_hitFinder!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

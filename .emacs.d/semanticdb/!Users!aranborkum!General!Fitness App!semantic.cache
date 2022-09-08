@@ -1,0 +1,21 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("Config" include nil nil [1 28])
+            ("Utilities" include nil nil [29 64])
+            ("args" variable nil nil [66 88])
+            ("exec" code nil nil [90 120])
+            ("Exersize" code nil nil [123 141]))          
+      :file "run.py"
+      :pointmax 142
+      :fsize 141
+      :lastmodtime '(24201 47339 219459 555000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!General!Fitness App!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

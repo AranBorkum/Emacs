@@ -1,0 +1,257 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("string" include (:system-flag t) nil [21 38])
+            ("unistd.h" include (:system-flag t) nil [39 58])
+            ("vector" include (:system-flag t) nil [59 76])
+            ("limits.h" include (:system-flag t) nil [77 96])
+            ("fstream" include (:system-flag t) nil [97 115])
+            ("cmath" include (:system-flag t) nil [116 132])
+            ("iomanip" include (:system-flag t) nil [133 151])
+            ("ArbitraryAnaInputManager.hh" include nil nil [153 191])
+            ("Helper.h" include nil nil [192 211])
+            ("ClusterEngine.hh" include nil nil [212 239])
+            ("Trigger.hh" include nil nil [240 261])
+            ("TFile.h" include nil nil [263 281])
+            ("TTree.h" include nil nil [282 300])
+            ("TCanvas.h" include nil nil [301 321])
+            ("TEfficiency.h" include nil nil [322 346])
+            ("TProfile.h" include nil nil [347 368])
+            ("TH1D.h" include nil nil [369 386])
+            ("TH1F.h" include nil nil [387 404])
+            ("TGraph.h" include nil nil [405 424])
+            ("TStyle.h" include nil nil [425 444])
+            ("TMath.h" include nil nil [445 463])
+            ("xlowlim" variable
+               (:default-value "-740"
+                :type "double")
+                nil [1131 1153])
+            ("xhighlim" variable
+               (:default-value "740"
+                :type "double")
+                nil [1154 1177])
+            ("ylowlim" variable
+               (:default-value "-650"
+                :type "double")
+                nil [1178 1200])
+            ("yhighlim" variable
+               (:default-value "650"
+                :type "double")
+                nil [1201 1224])
+            ("zlowlim" variable
+               (:default-value "-290"
+                :type "double")
+                nil [1225 1247])
+            ("zhighlim" variable
+               (:default-value "5850"
+                :type "double")
+                nil [1248 1271])
+            ("xlen" variable
+               (:default-value "xhighlim - xlowli"
+                :type "double")
+                nil [1424 1457])
+            ("ylen" variable
+               (:default-value "yhighlim - ylowli"
+                :type "double")
+                nil [1458 1491])
+            ("zlen" variable
+               (:default-value "zhighlim - zlowli"
+                :type "double")
+                nil [1492 1525])
+            ("progress" function
+               (:arguments 
+                  ( ("prog" variable (:type "float") (reparse-symbol arg-sub-list) [1541 1552]))                  
+                :type "void")
+                nil [1527 1956])
+            ("StaysInside" function
+               (:arguments 
+                  ( ("xend" variable (:type "double") (reparse-symbol arg-sub-list) [2199 2211])
+                    ("yend" variable (:type "double") (reparse-symbol arg-sub-list) [2212 2224])
+                    ("zend" variable (:type "double") (reparse-symbol arg-sub-list) [2225 2237]))                  
+                :type "bool")
+                nil [2182 2435])
+            ("IsOutside" function
+               (:arguments 
+                  ( ("xend" variable (:type "double") (reparse-symbol arg-sub-list) [2452 2464])
+                    ("yend" variable (:type "double") (reparse-symbol arg-sub-list) [2465 2477])
+                    ("zend" variable (:type "double") (reparse-symbol arg-sub-list) [2478 2490]))                  
+                :type "bool")
+                nil [2437 2719])
+            ("SetColour" function
+               (:arguments 
+                  ( ("x" variable (:type "double") (reparse-symbol arg-sub-list) [2735 2744])
+                    ("y" variable (:type "double") (reparse-symbol arg-sub-list) [2745 2754])
+                    ("z" variable (:type "double") (reparse-symbol arg-sub-list) [2755 2764]))                  
+                :type "int")
+                nil [2721 2948])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [2959 2968])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2969 2981]))                  
+                :type "int")
+                nil [2950 12507]))          
+      :file "NeutronStudyInd.cxx"
+      :pointmax 12511
+      :fsize 12510
+      :lastmodtime '(23790 34151)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :file "ArbitraryAnaInputManager.hh"
+      :fsize 13212
+      :lastmodtime '(23790 26266))
+    (semanticdb-table "semanticdb-table"
+      :file "Helper.h"
+      :fsize 19815
+      :lastmodtime '(23790 26266))
+    (semanticdb-table "semanticdb-table"
+      :file "ClusterEngine.hh"
+      :fsize 3068
+      :lastmodtime '(23599 16223))
+    (semanticdb-table "semanticdb-table"
+      :file "Trigger.hh"
+      :fsize 3377
+      :lastmodtime '(23599 16223))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("string" include (:system-flag t) nil [21 38])
+            ("unistd.h" include (:system-flag t) nil [39 58])
+            ("vector" include (:system-flag t) nil [59 76])
+            ("limits.h" include (:system-flag t) nil [77 96])
+            ("fstream" include (:system-flag t) nil [97 115])
+            ("cmath" include (:system-flag t) nil [116 132])
+            ("iomanip" include (:system-flag t) nil [133 151])
+            ("ArbitraryAnaInputManager.hh" include nil nil [153 191])
+            ("Helper.h" include nil nil [192 211])
+            ("ClusterEngine.hh" include nil nil [212 239])
+            ("Trigger.hh" include nil nil [240 261])
+            ("TFile.h" include nil nil [263 281])
+            ("TTree.h" include nil nil [282 300])
+            ("TCanvas.h" include nil nil [301 321])
+            ("TEfficiency.h" include nil nil [322 346])
+            ("TProfile.h" include nil nil [347 368])
+            ("TH1D.h" include nil nil [369 386])
+            ("TH1F.h" include nil nil [387 404])
+            ("TGraph.h" include nil nil [405 424])
+            ("TStyle.h" include nil nil [425 444])
+            ("TMath.h" include nil nil [445 463])
+            ("xlowlim" variable
+               (:default-value "-740"
+                :type "double")
+                nil [1131 1153])
+            ("xhighlim" variable
+               (:default-value "740"
+                :type "double")
+                nil [1154 1177])
+            ("ylowlim" variable
+               (:default-value "-650"
+                :type "double")
+                nil [1178 1200])
+            ("yhighlim" variable
+               (:default-value "650"
+                :type "double")
+                nil [1201 1224])
+            ("zlowlim" variable
+               (:default-value "-290"
+                :type "double")
+                nil [1225 1247])
+            ("zhighlim" variable
+               (:default-value "5850"
+                :type "double")
+                nil [1248 1271])
+            ("xlen" variable
+               (:default-value "xhighlim - xlowli"
+                :type "double")
+                nil [1424 1457])
+            ("ylen" variable
+               (:default-value "yhighlim - ylowli"
+                :type "double")
+                nil [1458 1491])
+            ("zlen" variable
+               (:default-value "zhighlim - zlowli"
+                :type "double")
+                nil [1492 1525])
+            ("progress" function
+               (:arguments 
+                  ( ("prog" variable (:type "float") (reparse-symbol arg-sub-list) [1541 1552]))                  
+                :type "void")
+                nil [1527 1956])
+            ("StaysInside" function
+               (:arguments 
+                  ( ("xend" variable (:type "double") (reparse-symbol arg-sub-list) [2199 2211])
+                    ("yend" variable (:type "double") (reparse-symbol arg-sub-list) [2212 2224])
+                    ("zend" variable (:type "double") (reparse-symbol arg-sub-list) [2225 2237]))                  
+                :type "bool")
+                nil [2182 2435])
+            ("IsOutside" function
+               (:arguments 
+                  ( ("xend" variable (:type "double") (reparse-symbol arg-sub-list) [2452 2464])
+                    ("yend" variable (:type "double") (reparse-symbol arg-sub-list) [2465 2477])
+                    ("zend" variable (:type "double") (reparse-symbol arg-sub-list) [2478 2490]))                  
+                :type "bool")
+                nil [2437 2719])
+            ("SetColour" function
+               (:arguments 
+                  ( ("x" variable (:type "double") (reparse-symbol arg-sub-list) [2735 2744])
+                    ("y" variable (:type "double") (reparse-symbol arg-sub-list) [2745 2754])
+                    ("z" variable (:type "double") (reparse-symbol arg-sub-list) [2755 2764]))                  
+                :type "int")
+                nil [2721 2948])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [2959 2968])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2969 2981]))                  
+                :type "int")
+                nil [2950 12024]))          
+      :file "NeutronStudy.cxx"
+      :pointmax 12028
+      :fsize 12027
+      :lastmodtime '(23790 36127)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("ArbitraryAnaInputManager.hh" include nil nil [2 40])
+            ("ClusterEngine.hh" include nil nil [41 68])
+            ("Trigger.hh" include nil nil [69 90])
+            ("Helper.h" include nil nil [92 111])
+            ("TCanvas.h" include nil nil [113 133])
+            ("TEfficiency.h" include nil nil [134 158])
+            ("TFile.h" include nil nil [159 177])
+            ("TPad.h" include nil nil [178 195])
+            ("TH2D.h" include nil nil [196 213])
+            ("TLegend.h" include nil nil [214 234])
+            ("TProfile.h" include nil nil [235 256])
+            ("TTree.h" include nil nil [257 275])
+            ("iostream" include (:system-flag t) nil [277 296])
+            ("unistd.h" include (:system-flag t) nil [297 316])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [328 337])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [338 350]))                  
+                :type "int")
+                nil [318 9369]))          
+      :file "EfficiencyCalculator.cxx"
+      :pointmax 9370
+      :fsize 9369
+      :lastmodtime '(23790 26266)
+      :unmatched-syntax nil))
+  :file "!ssh:aborkum@dunegpvm02.fnal.gov:!dune!app!users!aborkum!Clustering!clustering!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

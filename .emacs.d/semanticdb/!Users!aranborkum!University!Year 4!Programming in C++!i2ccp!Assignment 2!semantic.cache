@@ -1,0 +1,39 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("iomanip" include (:system-flag t) nil [21 39])
+            ("cmath" include (:system-flag t) nil [40 56])
+            ("vector" include (:system-flag t) nil [57 74])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [76 96])
+            ("Rn" function
+               (:arguments 
+                  ( ("" variable (:type "long long") (reparse-symbol arg-sub-list) [113 126])
+                    ("x" variable (:type "int") (reparse-symbol arg-sub-list) [123 129])
+                    ("" variable (:type "long long") (reparse-symbol arg-sub-list) [129 142])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [139 145]))                  
+                :type "long double")
+                nil [98 216])
+            ("series" function (:type "int") nil [218 1128])
+            ("G" function
+               (:arguments 
+                  ( ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1136 1142]))                  
+                :type "int")
+                nil [1130 1263])
+            ("main" function (:type "int") nil [1265 1332]))          
+      :file "Assignment_2a.cpp"
+      :pointmax 1333
+      :fsize 1332
+      :lastmodtime '(23460 61888 815065 491000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!University!Year 4!Programming in C++!i2ccp!Assignment 2!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

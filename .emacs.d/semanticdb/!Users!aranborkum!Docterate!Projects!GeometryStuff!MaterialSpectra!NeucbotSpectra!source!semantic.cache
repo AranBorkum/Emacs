@@ -1,0 +1,45 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("fstream" include (:system-flag t) nil [21 39])
+            ("string" include (:system-flag t) nil [40 57])
+            ("iterator" include (:system-flag t) nil [58 77])
+            ("stdlib.h" include (:system-flag t) nil [78 97])
+            ("unistd.h" include (:system-flag t) nil [98 117])
+            ("cmath" include (:system-flag t) nil [118 134])
+            ("TCanvas.h" include nil nil [136 156])
+            ("TGraph.h" include nil nil [157 176])
+            ("TFile.h" include nil nil [177 195])
+            ("TAxis.h" include nil nil [196 214])
+            ("FillVector" function
+               (:arguments 
+                  ( ("ifile" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [531 549]))                  
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [495 936])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [947 956])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [957 969]))                  
+                :type "int")
+                nil [938 1902]))          
+      :file "MakeLArsoftSpectrum.cxx"
+      :pointmax 1903
+      :fsize 1902
+      :lastmodtime '(24378 28554 469913 866000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!GeometryStuff!MaterialSpectra!NeucbotSpectra!source!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

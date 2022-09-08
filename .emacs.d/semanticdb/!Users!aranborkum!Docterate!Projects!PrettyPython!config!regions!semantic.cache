@@ -1,0 +1,94 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("StupidCuts" type
+               (:superclasses ("Exception")
+                :members 
+                  ( ("pass" code nil (reparse-symbol indented_block_body) [34 38]))                  
+                :type "class")
+                nil [1 39])
+            ("combine_cut_strings" function (:arguments 
+              ( ("args" variable nil (reparse-symbol function_parameters) [64 69]))              ) nil [40 1164]))          
+      :file "utils.py"
+      :pointmax 1164
+      :fsize 1163
+      :lastmodtime '(23881 22829 362685 393000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("config.regions" include nil nil [1 33])
+            ("collections" include nil nil [34 69])
+            ("_all" variable nil nil [71 91])
+            ("get" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [102 107]))              ) nil [94 286])
+            ("get_all" function (:documentation "Returns a list of all regions. Skips blinded if specified.") nil [288 397])
+            ("region" type
+               (:documentation "Class to store regions for the analysis, specified by their name.
+    Defined classes are automatically added to the module and are accessible
+    by regions.<name>. Region can be marked marked blinded which will ignore
+    any data being plotted for them."
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("\"\"\"Constructor for a region. Optionally, a list of cuts can be
+        specified which select this region. Cuts are specified in the in tuples
+        of ('varname', min, max). One-sided intervals are set by specifying
+        min or max as None. Equality is set by ('varname', value).
+        Blinded flag to steer plotting.
+        behaviour involving data. Optional labels are used to specify a plot
+        label. If none is given, name is used.\"\"\"" code nil (reparse-symbol indented_block_body) [827 1279])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1288 1304])
+                            ("" code nil (reparse-symbol indented_block_body) [1382 1384])
+                            ("" code nil (reparse-symbol indented_block_body) [1450 1452])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1461 1556])
+                            ("label" code nil (reparse-symbol indented_block_body) [1605 1610])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1619 1635])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1644 1666])
+                            ("_all" variable nil (reparse-symbol indented_block_body) [1675 1692]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [698 702])
+                            ("name" variable nil (reparse-symbol function_parameters) [704 708])
+                            ("cuts" variable nil (reparse-symbol function_parameters) [710 714])
+                            ("label" variable nil (reparse-symbol function_parameters) [721 726])
+                            ("blinded" variable nil (reparse-symbol function_parameters) [750 757])
+                            ("banned_inputs" variable nil (reparse-symbol function_parameters) [765 778])
+                            ("n_mo_cuts" variable nil (reparse-symbol function_parameters) [802 811]))                          
+                        :documentation "Constructor for a region. Optionally, a list of cuts can be
+        specified which select this region. Cuts are specified in the in tuples
+        of ('varname', min, max). One-sided intervals are set by specifying
+        min or max as None. Equality is set by ('varname', value).
+        Blinded flag to steer plotting.
+        behaviour involving data. Optional labels are used to specify a plot
+        label. If none is given, name is used."
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [685 1693])
+                    ("all_cuts" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1711 1715])
+                            ("var" variable nil (reparse-symbol function_parameters) [1717 1721]))                          
+                        :documentation "Specified variable is ignored from the n_mp_cuts")
+                        (reparse-symbol indented_block_body) [1698 2051])
+                    ("cut_vars" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2069 2073]))                          )
+                        (reparse-symbol indented_block_body) [2056 2117]))                  
+                :type "class")
+                nil [399 2117])
+            ("__all__" variable nil nil [2118 2136]))          
+      :file "__init__.py"
+      :pointmax 2137
+      :fsize 2136
+      :lastmodtime '(23566 9915 16151 711000)
+      :unmatched-syntax '((NAME 1565 . 1569) (IF 1583 . 1585) (ELSE 1600 . 1604) (NAME 1393 . 1397) (IF 1420 . 1422) (ELSE 1445 . 1449) (NAME 1313 . 1317) (IF 1348 . 1350) (ELSE 1377 . 1381) (RETURN 184 . 190) (IF 205 . 207) (ELSE 224 . 228))))
+  :file "!Users!aranborkum!Docterate!Projects!PrettyPython!config!regions!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

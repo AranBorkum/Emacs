@@ -1,0 +1,42 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("collections" include nil nil [1 36])
+            ("_all" variable nil nil [38 58])
+            ("get" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [68 73]))              ) nil [60 252])
+            ("get_all" function (:documentation "Returns a list of all variables.") nil [254 337])
+            ("FruitAndVeg" type
+               (:documentation " Class to store information on meat products "
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [546 568])
+                            ("self" variable nil (reparse-symbol indented_block_body) [577 605])
+                            ("self" variable nil (reparse-symbol indented_block_body) [614 636])
+                            ("self" variable nil (reparse-symbol indented_block_body) [645 669])
+                            ("_all" variable nil (reparse-symbol indented_block_body) [678 700]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [431 435])
+                            ("name" variable nil (reparse-symbol function_parameters) [454 458])
+                            ("fruitOrVeg" variable nil (reparse-symbol function_parameters) [477 487])
+                            ("unit" variable nil (reparse-symbol function_parameters) [506 510])
+                            ("macros" variable nil (reparse-symbol function_parameters) [529 535]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [418 701]))                  
+                :type "class")
+                nil [338 701]))          
+      :file "__init__.py"
+      :pointmax 701
+      :fsize 700
+      :lastmodtime '(24209 59124 962485 705000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!General!Food App!Config!fruit_and_veg!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

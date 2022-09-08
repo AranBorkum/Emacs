@@ -1,0 +1,472 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/_Jeromy/Jeromy/scripts/" . "__pycache__/")
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/_Jeromy/Jeromy/" . "scripts/")
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/_Jeromy/" . "Jeromy/")
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/Jeromy/config/" . "__pycache__/")
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/Jeromy/scripts/" . "__pycache__/")
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/" . "Jeromy/")
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/Jeromy/" . "config/")
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/data/" . "Efficiency/")
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/" . "_Jeromy/")
+ ("/Users/aranborkum/University/Year 4/Data Analysis Techniques/" . "DAT Assignment 6/")
+ ("/Users/aranborkum/Docterate/Thesis/" . "Scripts/")
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/data/" . "survival/")
+ ("/Users/aranborkum/Docterate/marley/data/" . "structure/")
+ ("/Users/aranborkum/Docterate/marley/examples/" . "executables/")
+ ("/Users/aranborkum/Docterate/marley/include/" . "marley/")
+ ("/Users/aranborkum/Docterate/marley/" . "examples/")
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/duneggd/python/duneggd/Low-Background-Module-Water/" . "Configurations/")
+ ("/Users/aranborkum/Docterate/rdecay02/" . "macros/")
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/" . "CNOFluxAnalysis/")
+ ("/Users/aranborkum/Docterate/RedOptima/" . "Utilities/")
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/TestGeometryGGD/duneggd/" . "root/")
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/TestGeometryGGD/" . "duneggd/")
+ ("/Users/aranborkum/Desktop/LAr Flux Spectra/" . "Digitized/")
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/MaterialSpectra/NeucbotSpectra/" . "NeuCBOTOutput/")
+ ("/Users/aranborkum/Docterate/Writing/Neutron backgroun analysis report/" . "Code/")
+ ("/Users/aranborkum/Docterate/Writing/" . "Neutron backgroun analysis report/")
+ ("/Users/aranborkum/Docterate/Presentations/Background Task Force/" . "Background Task Force Review/")
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/MaterialSpectra/" . "TestDirectory/")
+ ("/Users/aranborkum/Docterate/Projects/HitFinder/" . "HitMatchingBDT/")
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/duneggd/python/duneggd/larfd/" . "FullGeoGDML/")
+ ("/Users/aranborkum/ggdvenv/lib/python2.7/site-packages/gegede/export/" . "gdml/")
+ ("/Users/aranborkum/General/Food App/Config/" . "sides/")
+ ("/Users/aranborkum/General/Food App/" . "Configurations/")
+ ("/Users/aranborkum/General/Fitness App/Config/exersizes/" . "__pycache__/")
+ ("/Users/aranborkum/General/Fitness App/Config/" . "exersizes/")
+ ("/Users/aranborkum/General/Fitness App/" . "Configurations/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/v08_43_00_prof_e19_py2/srcs/dunetpc/dune/DAQSimAna/" . "SNAnaClustering/")
+ ("/Users/aranborkum/Desktop/Latex-Template/" . "sections/")
+ ("/Users/aranborkum/.emacs.d/" . "auto-save-list/")
+ ("/Users/aranborkum/General/Random Projects/Maximize/python/config/" . "Items/")
+ ("/Users/aranborkum/General/Random Projects/Maximize/python/Objects/" . "Item/")
+ ("/Users/aranborkum/General/Random Projects/Maximize/python/" . "config/")
+ ("/Users/aranborkum/General/Random Projects/Maximize/" . "MonteCarlo/")
+ ("/Users/aranborkum/General/Random Projects/" . "Maximize/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/v08_43_00_prof_e19_py2/srcs/dunetpc/dune/" . "DAQSimAna/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/v08_43_00_prof_e19_py2/srcs/dunetpc/" . "dune/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/v08_43_00_prof_e19_py2/srcs/" . "dunetpc/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/v08_43_00_prof_e19_py2/" . "srcs/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/data/users/aborkum/study_FullGeometry/FullSizeGeometry/" . "NormalMaterials/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/data/users/aborkum/study_FullGeometry/" . "Sources4/")
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/duneggd/python/duneggd/Develop-Area/" . "MaterialDefinitions/")
+ ("/Users/aranborkum/Desktop/duneggd/python/duneggd/" . "larfd/")
+ ("/Users/aranborkum/Desktop/duneggd/python/" . "duneggd/")
+ ("/Users/aranborkum/Desktop/duneggd/" . "root/")
+ ("/Users/aranborkum/Docterate/Presentations/Collaboration Meetings/DUNE Collaboration Metting CERN Jan 2020/" . "HitFinder/")
+ ("/Users/aranborkum/Docterate/Presentations/Collaboration Meetings/" . "DUNE Collaboration Metting VIRTUAL Jan 2021/")
+ ("/Users/aranborkum/ggdvenv/lib/python2.7/site-packages/gegede/" . "export/")
+ ("/Users/aranborkum/ggdvenv/lib/python2.7/site-packages/" . "gegede/")
+ ("/Users/aranborkum/ggdvenv/lib/python2.7/" . "site-packages/")
+ ("/Users/aranborkum/ggdvenv/lib/" . "python2.7/")
+ ("/Users/aranborkum/ggdvenv/" . "lib/")
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/New Geometry Neutron/Latex-Template/" . "sections/")
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/New Geometry Neutron/" . "Latex-Template/")
+ ("/Users/aranborkum/Desktop/Geometry Layer Testing/" . "wire testing/")
+ ("/Users/aranborkum/Desktop/Waveform-Tools/python/" . "protodune/")
+ ("/Users/aranborkum/Desktop/Waveform-Tools/" . "python/")
+ ("/Users/aranborkum/Docterate/Presentations/" . "Collaboration Meetings/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/TestRelease/srcs/dunetpc/dune/" . "DAQSimAna/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/TestRelease/srcs/dunetpc/" . "dune/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/TestRelease/srcs/" . "dunetpc/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/TestRelease/" . "srcs/")
+ ("/Users/aranborkum/Docterate/Projects/duneggd-old/python/duneggd/" . "larfd/")
+ ("/Users/aranborkum/Docterate/Projects/duneggd-old/python/" . "duneggd/")
+ ("/Users/aranborkum/Docterate/Projects/duneggd-old/" . "root/")
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/duneggd/python/duneggd/test/" . "ggdex/")
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/duneggd/python/duneggd/" . "Low-Background-Module-Water/")
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/duneggd/python/" . "duneggd/")
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/duneggd/" . "python/")
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/" . "duneggd/")
+ ("/Users/aranborkum/Docterate/Plotting/config/" . "inputs/")
+ ("/Users/aranborkum/Docterate/Plotting/" . "Objects/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/PlottingPackage/" . "config/")
+ ("/ssh:borkuma@34.254.177.131:roadnet/script/" . "Scripts/")
+ ("/ssh:borkuma@34.254.177.131:roadnet/" . "script/")
+ ("/ssh:borkuma@34.254.177.131:" . "roadnet/")
+ ("/ssh:borkuma@34.249.111.180:/home/borkuma/roadnet/script/" . "Scripts/")
+ ("/ssh:borkuma@34.249.111.180:/home/borkuma/roadnet/" . "script/")
+ ("/ssh:borkuma@34.249.111.180:/home/borkuma/" . "roadnet/")
+ ("/ssh:borkuma@34.249.111.180:/home/" . "borkuma/")
+ ("/ssh:borkuma@34.249.111.180:/" . "home/")
+ ("/Users/aranborkum/Docterate/Projects/PrettyPython/config/" . "vars/")
+ ("/Users/aranborkum/Docterate/Projects/DUNE-Plot/Python/config/" . "vars/")
+ ("/Users/aranborkum/Docterate/Projects/PrettyPython/" . "utilities/")
+ ("/ssh:borkuma@34.255.161.236:roadnet/script/PlottingTest/" . "Utilities/")
+ ("/ssh:borkuma@34.255.161.236:roadnet/script/" . "PlottingTest/")
+ ("/ssh:borkuma@34.255.161.236:roadnet/" . "script/")
+ ("/ssh:borkuma@34.255.161.236:" . "roadnet/")
+ ("/Users/aranborkum/Docterate/Projects/DUNE-Plot/Python/" . "plotting/")
+ ("/Users/aranborkum/Docterate/Projects/DUNE-Plot/" . "Python/")
+ ("/ssh:borkuma@54.154.11.78:roadnet/script/" . "PSQL-Tests/")
+ ("/ssh:borkuma@54.154.11.78:roadnet/" . "script/")
+ ("/ssh:borkuma@54.154.11.78:/home/borkuma/PSQL-Tests/" . "Utilities/")
+ ("/ssh:borkuma@54.154.11.78:/home/borkuma/" . "PSQL-Tests/")
+ ("/ssh:borkuma@54.154.11.78:PSQL-Tests/" . "Utilities/")
+ ("/Users/aranborkum/Red-Optima/" . "PSQL-Tests/")
+ ("/ssh:borkuma@54.154.11.78:" . "roadnet/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/data2/users/aborkum/" . "Water10cm/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/data2/users/" . "aborkum/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/data2/" . "users/")
+ ("/Users/aranborkum/University/Year 3/MPhys Labs/" . "HPGe/")
+ ("/Users/aranborkum/University/Year 3/" . "MPhys Labs/")
+ ("/Users/aranborkum/Docterate/Projects/duneggd/python/duneggd/Aran-example/" . "ggdex/")
+ ("/Users/aranborkum/Docterate/Projects/duneggd/python/duneggd/gegede-example/" . "ggdex/")
+ ("/Users/aranborkum/Docterate/Projects/duneggd/python/duneggd/" . "larfd/")
+ ("/Users/aranborkum/Docterate/Projects/duneggd/python/" . "duneggd/")
+ ("/Users/aranborkum/Docterate/Projects/duneggd/" . "python/")
+ ("/Users/aranborkum/Docterate/Other/DISCnet/" . "Network/")
+ ("/Users/aranborkum/General/MCMoney-Maker/MCCPP/" . "source/")
+ ("/Users/aranborkum/General/MCMoney-Maker/" . "Utilities/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/DuneFresh/srcs/dunetpc/fcl/dunefd/gen/" . "background/")
+ ("/Users/aranborkum/Docterate/Projects/Neutrons/" . "NewRadiologicalModel/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/DuneFresh/srcs/dunetpc/dune/LinHitFinder/" . "HitDumper/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/DuneFresh/srcs/dunetpc/fcl/dunefd/" . "gen/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/DuneFresh/srcs/dunetpc/fcl/" . "dunefd/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/Neutrons/" . "SimplePGuns/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/DuneFresh/localProducts_larsoft_v08_09_00_e17_prof/" . "larreco/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/DuneFresh/srcs/dunetpc/dune/DAQSimAna/" . "SNAnaClustering/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/DuneFresh/srcs/dunetpc/dune/" . "TestGeoAna/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/DuneFresh/srcs/dunetpc/" . "dune/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/DuneFresh/srcs/larreco/larreco/" . "HitFinder/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/DuneFresh/srcs/larreco/" . "larreco/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/DuneFresh/srcs/" . "dunetpc/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/DuneFresh/" . "srcs/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/v08_08_00_prof_e17/srcs/dunetpc/dune/DAQSimAna/" . "SNAnaClustering/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/v08_08_00_prof_e17/srcs/dunetpc/dune/" . "DAQSimAna/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/v08_08_00_prof_e17/srcs/dunetpc/" . "dune/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/v08_08_00_prof_e17/srcs/" . "dunetpc/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/v08_08_00_prof_e17/" . "srcs/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/Dune-Fresh/srcs/dunetpc/dune/DAQSimAna/" . "SNAnaClustering/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/Dune-Fresh/srcs/larreco/larreco/" . "HitFinder/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/Dune-Fresh/srcs/larreco/" . "larreco/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/TriggerStudies/" . "Parameters/")
+ ("/Users/aranborkum/Docterate/Projects/" . "SolarStuff/")
+ ("/Users/aranborkum/General/ComaSimulator/src/" . "ObjectDefinition/")
+ ("/Users/aranborkum/General/ComaSimulator/" . "src/")
+ ("/Users/aranborkum/General/" . "Facebook Application/")
+ ("/Users/aranborkum/Docterate/Other/Starting To Teach/Starting To Teach Written Assignment/" . "sections/")
+ ("/Users/aranborkum/Docterate/Other/Starting To Teach/" . "Starting To Teach Written Assignment/")
+ ("/Users/aranborkum/Docterate/Other/" . "DISCnet/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/Dune-Fresh/srcs/dunetpc/dune/" . "DAQSimAna/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/Dune-Fresh/srcs/dunetpc/" . "dune/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/Dune-Fresh/srcs/" . "dunetpc/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/Dune-Fresh/" . "srcs/")
+ ("/ssh:aborkum@dunegpvm08.fnal.gov:/dune/app/users/aborkum/Clustering/" . "clustering/")
+ ("/ssh:aborkum@dunegpvm08.fnal.gov:/dune/app/users/aborkum/" . "Clustering/")
+ ("/ssh:aborkum@dunegpvm08.fnal.gov:/dune/app/users/" . "aborkum/")
+ ("/ssh:aborkum@dunegpvm08.fnal.gov:/dune/app/" . "users/")
+ ("/ssh:aborkum@dunegpvm08.fnal.gov:/dune/" . "app/")
+ ("/ssh:aborkum@dunegpvm08.fnal.gov:/" . "dune/")
+ ("/ssh:aborkum@dunegpvm03.fnal.gov:/dune/app/users/aborkum/Clustering/" . "clustering/")
+ ("/ssh:aborkum@dunegpvm03.fnal.gov:/dune/app/users/aborkum/" . "Clustering/")
+ ("/ssh:aborkum@dunegpvm03.fnal.gov:/dune/app/users/" . "aborkum/")
+ ("/ssh:aborkum@dunegpvm03.fnal.gov:/dune/app/" . "users/")
+ ("/ssh:aborkum@dunegpvm03.fnal.gov:/dune/" . "app/")
+ ("/ssh:aborkum@dunegpvm03.fnal.gov:/" . "dune/")
+ ("/Users/aranborkum/Desktop/ComaSimulator/src/" . "ObjectDefinition/")
+ ("/Users/aranborkum/University/Year 4/Programming in C++/i2ccp/" . "CEX/")
+ ("/Users/aranborkum/University/Year 4/Programming in C++/" . "i2ccp/")
+ ("/Users/aranborkum/University/Year 4/" . "Data Analysis Techniques/")
+ ("/Users/aranborkum/University/" . "Year 3/")
+ ("/Users/aranborkum/Desktop/ComaSimulator/" . "src/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/plasorak/Clustering/" . "clustering/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/plasorak/" . "Clustering/")
+ ("/Users/aranborkum/Desktop/Threshold Table/" . "sections/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/data/users/aborkum/" . "study_FullGeometry/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/data/users/" . "aborkum/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/data/" . "users/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:" . "days/")
+ ("/Users/aranborkum/Desktop/Threshold/" . "build/")
+ ("/Users/aranborkum/Desktop/" . "Riley-Project/")
+ ("/Users/" . "aranborkum/")
+ ("/" . "Users/")
+ ("/Users/aranborkum/Docterate/Scripts/Clustering/" . "clustering/")
+ ("/Users/aranborkum/Docterate/Scripts/" . "Plotting/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/Clustering/" . "clustering/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/aborkum/" . "v08_43_00_prof_e19_py2/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/users/" . "aborkum/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/app/" . "users/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/dune/" . "data/")
+ ("/ssh:aborkum@dunegpvm02.fnal.gov:/" . "dune/")
+ ("/Users/aranborkum/Docterate/Clustering/" . "clustering/")
+ ("/Users/aranborkum/Docterate/" . "Thesis/")
+ ("/Users/aranborkum/" . "General/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/aranborkum/Docterate/Thesis/Scripts/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/_Jeromy/Jeromy/scripts/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/_Jeromy/Jeromy/config/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/_Jeromy/Jeromy/plots/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/_Jeromy/Jeromy/analyzers/"
+ "/Users/aranborkum/Docterate/Projects/GeometryStuff/duneggd/python/duneggd/larfd/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/Jeromy/scripts/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/Jeromy/config/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/data/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/Jeromy/plots/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/Jeromy/analyzers/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/Jeromy/utilities/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/Jeromy/IO/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/Jeromy/core/"
+ "/Users/aranborkum/Docterate/Projects/PrettyPython/utilities/"
+ "/Users/aranborkum/General/Facebook Application/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/Python/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/Macros/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/data/Efficiency/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/data/"
+ "/Users/aranborkum/.emacs.d/"
+ "/Users/aranborkum/"
+ "/Users/aranborkum/University/Year 3/MPhys Labs/HPGe/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/Fit/"
+ "/Users/aranborkum/University/Year 4/Data Analysis Techniques/DAT Assignment 6/"
+ "/Users/aranborkum/Docterate/Thesis/Sections/"
+ "/Users/aranborkum/Docterate/Projects/PrettyPython/plotting/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/data/survival/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/CalculatedInteractionRates/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/data/xsec/"
+ "/Users/aranborkum/Docterate/marley/examples/executables/"
+ "/Users/aranborkum/Docterate/marley/data/structure/"
+ "/Users/aranborkum/Docterate/marley/src/"
+ "/Users/aranborkum/Docterate/marley/include/marley/"
+ "/Users/aranborkum/Docterate/marley/examples/config/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/data/flux/"
+ "/Users/aranborkum/Docterate/marley/data/react/"
+ "/Users/aranborkum/Docterate/marley/"
+ "/Users/aranborkum/Docterate/Projects/GeometryStuff/duneggd/python/duneggd/Low-Background-Module-Water/Configurations/"
+ "/Users/aranborkum/Docterate/Projects/GeometryStuff/duneggd/python/duneggd/larfd/FullGeoGDML/"
+ "/etc/"
+ "/Users/aranborkum/Docterate/Projects/GeometryStuff/duneggd/python/duneggd/Low-Background-Module-Water/"
+ "/Users/aranborkum/Docterate/Projects/HitFinder/"
+ "/Users/aranborkum/Docterate/Projects/GeometryStuff/duneggd/python/duneggd/Low-Background-Module/"
+ "/Users/aranborkum/Docterate/rdecay02/macros/"
+ "/Users/aranborkum/Docterate/rdecay02/"
+ "/Users/aranborkum/Docterate/Projects/SolarStuff/SolarSpectra/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "PassiveShielding.py"
+ "RockThicknessPlot.py"
+ "SurvivalProbability.py"
+ "generate_likelihood_profiles_metallicity_separation.py"
+ "my_config.yml"
+ "make_true_plots.py"
+ "make_spectrum_plots.py"
+ "EnergyReconstruction_old.py"
+ "CalcRateWithOsc.C"
+ "plot_unc_as_func_of_bg_reduction.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/aranborkum/Docterate/Thesis/Scripts/" (25366 2276 821094 47000) "PlotNeutrinoFlux.py" "zenith.txt" "O15flux.txt" "SurvivalProbability.txt" "zenith.py" "RockThicknessPlot.py" "PassiveShielding.py" "SurvivalProbability.py" ".#PassiveShielding.py" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Thesis/" (25366 1952 769758 793000) "Thesis_commments_4.pdf" ".git/" "bibliography.bib" "Thesis.alg" "Thesis_commets_2.pdf" "Thesis-mpgraph.mp" "Scripts/" "RootFiles/" "Thesis.lof" ".gitignore" "Wallbank-Thesis-ReconstructionAndAnalysisForTheDUNE35tonLiquidArgonPrototype-Feb2018.pdf" "Thesis.lot" "Thesis.aux" "Thesis.log" "README.md" "Thesis.blg" "Thesis.bbl" "Thesis.glg" "Pictures/" "Thesis.pdf" "Thesis.acr" "Thesis.glo" "supplemental_material.pdf" "Thesis.acn" "Thesis.gls" "Section by section/" "compile.sh" "Thesis.toc" "Thesis.tex" ".DS_Store" "Thesis_coments_3.pdf" "Sections/" "Thesis.out" "Thesis.ist" "Thesis_comments.pdf" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/_Jeromy/Jeromy/plots/" (25366 1318 342981 330000) "__pycache__/" "make_spectrum_plots.py" "test_statistic_for_CNO_discovery.py" "plot_unc_as_func_of_bg_reduction.py" "discovery_significance.py" "make_true_plots.py" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/_Jeromy/Jeromy/scripts/__pycache__/" (25202 32920 820161 33000) "run.cpython-39.pyc" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/_Jeromy/Jeromy/scripts/" (25360 41612 777632 526000) "plot_sigma_thing.py" "cno_discovery.py" "generate_likelihood_profiles.py" "cno_discovery_likelihood.py" "__pycache__/" "metallicity_separation_stand_alone.py" "generate_likelihood_profiles_cno_discovery.py" "run.py" "generate_likelihood_profiles_metallicity_separation.py" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/_Jeromy/Jeromy/config/" (25222 23414 130472 416000) "configuration_loader.py" "my_config.yml" "__pycache__/" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/" (25363 28789 69767 249000) "PrintTotalSolarRate.C" "Jeromy/" "CNO reconstruction.png" "Radiological_backgrounds.png" "radon_neutron_ar42.png" "data/" "radon_100kt.txt" "c.pdf" "Fitting_to_the_background.png" "InterpolateEfficiency.C" "SolarRates.root" "CountingExperient.py" "ReconstructEnergy.py" "Every_signal_displayed_low_background.png" "EnergyReconstructionHeatmap.py" "SystematicChanges.py" "signal minus background, scale = 3.png" "Baseline_values.png" "Energy Reconstruction Heat Map.png" "Fitting_to_the_background_chi1.png" "Signal and background event rate.png" "EventRates.png" "neutron_100kt.txt" "signal minus background, scale = 2.png" "VariableByVariablePlots.C" "Total Event rate.png" "DiscoveryByExposure.py" "efficiency_vs_purity.png" "signal minus background, scale = 0.png" "SinglePlot.py" "B8_CC_smooth.txt" "ToyMC.C" "signal minus background, scale = 1.png" "Every_signal_displayed_zoomed.png" "HEP_ES_smooth.txt" "CNO_neutrino_sources.png" "test.pdf" "reduction_changes_on_fit.png" "Effect of toggling exposure and background reduction.png" "SignalMinusBackground.py" "NeuralNetworkEnergyReconstruction.py" "Every_signal_displayed.png" "Exposure_changes_on_fit_100xreduction.png" "reduction_changes_on_fit_1kty.png" "CNO.png" "EnergyReconstruction_old.py" "README" "Excess over background for no background reduction.png" "ExportSolarTextFiles.C" "Excess over background for order 3 reduction.png" "SystematicConfigurations.json" "solar-neutrino-rates.pdf" "TestStatisticPlots.py" "ConvertCSVtoRecoEnergySpectrum.py" "CNO_signals.png" "ar42_100kt.txt" "Chi1_background_fit.png" "EnergyReconstruction.py" "SolarRatesHighZ.root" "ToyMC.py" "TenKiloTonneYear.py" "ExportBackgroundTextFiles.C" "Exposure_changes_on_fit.png" "Fitting the background.png" "PlotEventRates.py" "CalcRateWithOsc.C" "solar_minus_fit_sf3.txt" ".DS_Store" "efficiency_and_purity.png" "Signal_minus_fit.png" "_Jeromy/" "ProbabilityDistributions.py" "HEP_CC_smooth.txt" "B8_ES_smooth.txt" "finalized_model.sav" "GetTrueTotalCNORate.C" "B8_and_HEP.png" "ReconstructCNOflux.py" "NoScalingDump.pdf" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/_Jeromy/Jeromy/analyzers/" (25360 41449 217637 937000) "counting_experiment.py" "cno_discovery.py" "likelihood_ratios.py" "__pycache__/" "metallicity_separation.py" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/_Jeromy/Jeromy/" (25205 4732 685139 246000) "plots/" "scripts/" "ToyMCGenerator/" "utilities/" "__pycache__/" "__init__.py" "IO/" "config/" "core/" ".DS_Store" "analyzers/" "statistics/" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/_Jeromy/" (25222 22551 997956 35000) "CNOdiscoveryPerfect.txt" "Jeromy/" "standard_unc_lowZ_varBkgRed.txt" "outputs/" "data/" "StandardTo1000.txt" "test.txt" "CNOdiscoveryBetterBoron.txt" "CNOdiscoveryStandard.txt" "RunCNODiscovery.sh" "standard_unc_highZ_varBkgRed.txt" "CNOdiscoveryOptimistic.txt" "CNOdiscovery.txt" "CNOdiscoveryBestBoron.txt" "RunMultiConfigurations.sh" ".DS_Store" "temp_outputs/" "out.txt" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/" (25129 55178 978678 247000) "Neutrons/" "DUNE-Plot/" "WaveformPortfolio/" "PrettyPython/" "DeleteMe/" "SuperNovaStuff/" "Low Energy Threshold/" "neucbot/" "NeuralNetwork_hitFinder/" "HitFinder/" "Plotting/" "SolarStuff/" "WaterShielding/" "GeometryStuff/" "Snowglobes/" "NeutronCNNclassifier/" "Clustering/" "Other/" "Latex-Template/" "Python/" "EnergyFitter/" "j4bgexp_updated.py" ".DS_Store" "EventDisplay/" "ExaminationOfDecayModes/" "../" "./")
+
+ ("/Users/aranborkum/Docterate/" (25356 59513 414674 278000) "Writing/" "geant4_10_07_p02-build/" "NPL/" "SOURCES4C/" "deleteme/" "Thesis/" "Visiting PNNL/" "Plotting/" "Presentations/" "statements/" "LTA/" "LArSoft workshop/" "Progression Reviews/" "snowglobes/" "Other/" "Projects/" "SuperNovaSensitivities/" "geant4_10_07_p02/" ".DS_Store" "marley/" "geant4_10_07_p02-install/" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Thesis/RootFiles/" (25274 59316 649043 119000) "N13_spectrum.root" "Argon_39.root" "SolarSpectra.C" "F17_spectrum.root" "B8_spectrum.root" "O15_spectrum.root" "hep_spectrum.root" ".DS_Store" "Argon_42_1.root" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/Jeromy/scripts/" (25259 6360 969641 139000) ".#generate_likelihood_profiles_cno_discovery.py" "plot_sigma_thing.py" "cno_discovery.py" ".#run.py" "generate_likelihood_profiles.py" "cno_discovery_likelihood.py" "__pycache__/" "metallicity_separation_stand_alone.py" "generate_likelihood_profiles_cno_discovery.py" "run.py" "generate_likelihood_profiles_metallicity_separation.py" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/Jeromy/config/__pycache__/" (25257 50428 679819 219000) "configuration_loader.cpython-39.pyc" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/Jeromy/config/" (25255 14899 591869 293000) "configuration_loader.py" "my_config.yml" "__pycache__/" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/data/" (25257 62343 3542 164000) "solar_fluxes.yml" "B8_CC_smooth_lowZ.txt" "O15_smooth_highZ.txt" "HEP_ES_smooth_highZ.txt" "radon_100kt.txt" "B8_CC_smooth_highZ.txt" "F17_smooth_highZ.txt" "neutron_100kt.txt" "O15_smooth_lowZ.txt" "HEP_CC_smooth_highZ.txt" "B8_ES_smooth_lowZ.txt" "B8_ES_smooth_highZ.txt" "F17_smooth_lowZ.txt" "systematic_uncertainties.yml" "ar42_100kt.txt" "HEP_CC_smooth_lowZ.txt" "HEP_ES_smooth_lowZ.txt" "solar_rates.yml" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/" (25255 14956 409120 785000) "Jeromy/" "outputs/" "data/" ".git/" "RunCNODiscovery.sh" "README.md" "RunMultiConfigurations.sh" ".DS_Store" "temp_outputs/" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/Jeromy/plots/" (25257 50606 124740 949000) "__pycache__/" "make_spectrum_plots.py" "test_statistic_for_CNO_discovery.py" "plot_unc_as_func_of_bg_reduction.py" "discovery_significance.py" "make_true_plots.py" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/Jeromy/" (25255 14899 611883 56000) "plots/" "scripts/" "ToyMCGenerator/" "utilities/" "__pycache__/" "__init__.py" "IO/" "config/" "core/" ".DS_Store" "analyzers/" "statistics/" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/Jeromy/analyzers/" (25237 63083 64346 49000) "counting_experiment.py" "cno_discovery.py" "likelihood_ratios.py" "__pycache__/" "metallicity_separation.py" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/Jeromy/utilities/" (25236 47610 183364 455000) "argument_parser.py" "helpers.py" "__pycache__/" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/Jeromy/statistics/" (25211 62593 312572 624000) "test_ensemble.py" "__pycache__/" "__init__.py" "run_chi2_tests.py" "test_statistic.py" "../" "./")
+
+ ("/etc/" (25214 58946 842275 597000) "notify.conf" "mail.rc" "bashrc~previous" "newsyslog.conf" "afpovertcp.cfg" "zprofile" "passwd" "uucp/" "mail.rc~orig" "services" "man.conf" "cups/" "protocols" "shells~orig" "wfs/" "com.apple.screensharing.agent.launchd" "paths~orig" "aliases" "openldap/" "master.passwd" "rpc" "gettytab~orig" "ntp.conf" "krb5.conf" "inputrc" "pf.anchors/" "pf.os" "postfix/" "hosts" "kern_loader.conf~previous" "nfs.conf~orig" "hosts~orig" "afpovertcp.cfg~orig" "rc.netboot" "asl.conf" "sudo_lecture" "sudoers~orig" "nfs.conf" "resolv.conf" "locate.rc" "profile~orig" "ntp_opendirectory.conf" "fstab.hd~previous" "csh.cshrc" "profile" "ftpusers" "ssh/" "autofs.conf" "apache2/" "rpc~previous" "find.codes" "networks" "hosts.equiv" "defaults/" "zshrc" "pam.d/" "irbrc" "newsyslog.d/" "auto_master~orig" "find.codes~orig" "bashrc" "ftpusers~orig" "sudoers" "pf.conf" "localtime" "xtab" "csh.cshrc~orig" "rmtab" "paths" "group~previous" "ttys" "rc.common~previous" "shells" "ppp/" "manpaths.d/" "php.ini.default-previous" "auto_home" "group" "protocols~previous" "security/" "rtadvd.conf" "csh.login~orig" "asl/" "paths.d/" "networks~orig" "kern_loader.conf" "master.passwd~orig" "gettytab" "zshrc_Apple_Terminal" "snmp/" "racoon/" "bashrc_Apple_Terminal" "aliases.db" "csh.logout" "ttys~previous" "nanorc" "ssl/" "sudoers.d/" "krb5.keytab" "syslog.conf~previous" "rtadvd.conf~previous" "syslog.conf" "csh.login" "auto_master" "csh.logout~orig" "rc.common" "services~previous" "manpaths" "periodic/" "emond.d/" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/" (25194 44123 971117 883000) "eff_val.txt" "Plots/" "Flux.pdf" "Systematic Uncertainties on CNO analysis.numbers" "N13_spectrum.root" "data/" "SolarSpectra/" "F17_spectrum.root" "ve40ArCC_Bhattacharya2009.react" "Rate.pdf" "output.pdf" "SurvivalProbability.py" "NeutrinoInteractionRate.py" "Analysis Systematics.numbers" "eff.txt" "veAr40_xsec_N13.root" "CalculatedInteractionRates/" "PlotXsec.py" "Macros/" "neutron_triggering.pdf" "Screenshot 2021-12-07 at 13.25.06 1.png" "veAr40_xsec_F17.root" "veAr40_xsec.root" "SolarFlux.root" "O15_rate.pdf" "F17_rate.pdf" "Ar39_triggering.pdf" "O15_spectrum.root" "veAr40_xsec_O15.root" "SolarLightThings/" "Python/" "Fit/" "outfile.pdf" "Ar42_triggering.pdf" ".DS_Store" "RunSolar.sh" "eff_eng.txt" "Screenshot 2021-12-07 at 17.51.05.png" "CNOFluxAnalysis/" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Thesis/Sections/" (25185 28864 418021 878000) "packages.tex" "solar.tex" "frontPage.tex" "neutrinoPhysics.log" "declaration.tex" "preface.tex" "radiologicals.log" "introduction.tex" "neutrinoPhysics.tex" "test_packages.tex" "abstract.tex" "packages.log" "conclusion.tex" "appendixA.tex" ".DS_Store" "radiologicals.tex" "feynman.sty" "acknowledgments.tex" "DUNEExperiment.tex" "../" "./")
+
+ ("/Users/aranborkum/" (25214 32350 904322 567000) "tot_rates_livermore_halo2.pdf" "B8_fancyLight.pdf" "mcc11_100_detsim_threshold.root" ".serverauth.69632" ".cmake/" ".conda/" ".serverauth.89623" "ThresholdClusterMatching_SADCCut400.pdf" ".viminfo" "tot_rates_livermore_halo1.pdf" ".bash_history" "BackgroundEventRate.pdf" "IDEs.pdf" "o_get_eff_calib_dump.pdf" "calibration.pdf" "FlatCalibration.pdf" "lxml/" "SNB.pdf" "1000_1MeV_Betas_gen.root" ".serverauth.2137" ".serverauth.24236" ".serverauth.66048" "PlotWires.py" ".serverauth.15744" "FullGeometry_test.pdf" "SignalAndBackground.pdf" ".gitconfig" "SignalAndBackgroundUVZ.pdf" ".inputrc" ".cache/" ".python_history" "Downloads/" ".Xauthority" "legacy_oldRock_4inShot.pdf" "Collection.pdf" "EventIndices.pdf" "SignalAndBackgroundOr.pdf" ".bash_profile" ".root_hist" "EventDisplay_Neut.pdf" ".mono/" "CutFlowPlaneMatching.pdf" "O15_TriggerEff.root" "NeutronEnergySpectrum.pdf" "NeutronRates.png" "virtualenv-1.11.tar.gz" "Documents/" "Research-Feynman/" "FullGeometry-tpc9.pdf" ".serverauth.25201" ".serverauth.99794" "FullGeometry-tpc8.pdf" ".keras/" ".jupyter/" ".serverauth.60418" ".Trash/" "output.pdf" ".serverauth.1440" ".serverauth.12406" "Applications/" "wavedump.pdf" ".emacs" "Movies/" ".ssh/" "SignalAndBackgroundZ.pdf" "test.org" ".pip/" "RegressionFit.pdf" ".anaconda/" ".serverauth.1441" "1000_1MeV_Neutrons_gen.root" "eventDisplay.pdf" "sammy.root" "tot_rates_livermore_ar40kt.pdf" "ClusterParameters.pdf" ".cisco/" "PrettyPlots.pdf" "SysUncOnEnergyReco.pdf" ".idlerc/" "GEANTCutOff.pdf" ".serverauth.4485" "HitAngularDistribution.pdf" ".bash_profile-anaconda3.bak" "legacy_newRock_newShot.pdf" "HEP_ES_eff.pdf" ".serverauth.60190" ".serverauth.5532" "Public/" ".bash_profile-anaconda2.bak" "BackgroundEnergies.pdf" "200cm.pdf" ".serverauth.4287" "test.pdf" "DumpForCalib.pdf" "SNBana.pdf" "neutron-FullGeo-OneCM_ValidationAna.pdf" ".bash_sessions/" ".serverauth.89601" "O15_ES_eff.pdf" "test.png" ".cups/" "O15ES_EnergyCalibration.pdf" "FullGeometry-tpc33.pdf" ".emacs.d/" ".bash_profile.pysave" "test2.png" "pleaseWork.pdf" "N13_ES_eff.pdf" ".oracle_jre_usage/" "University/" "F17_ES_eff.pdf" ".lesshst" "SignalAndBackgroundOr_old.pdf" "fBtest.py" ".matplotlib/" "Waveforms-with-hits.pdf" ".mputils/" "test1.png" "Library/" "Desktop/" ".serverauth.52087" ".ipython/" ".serverauth.15120" "RockThorium.dat" "git-cola/" "F17Or.pdf" "FullGeometry.pdf" ".serverauth.28209" "duneggd/" "RegReco.pdf" ".km-vm-store/" "OxygenCalibration.pdf" "legacy_oldRock_6inShot.pdf" "Waveform.png" "ElectronHitFinderEfficiency.pdf" "Pictures/" "O15_calibration.pdf" "RockThorium.py" "email.txt" ".serverauth.1468" "RegressionFit.root" ".bash_profile~" "balls.pdf" "ggdvenv/" "EventDisplay_Ar42.pdf" "General/" ".subversion/" "ConvertGraphToHist.pdf" ".serverauth.2633" ".g4_hist" "B8_test.pdf" "Please.pdf" "mcc11.pdf" "oxygen_test.pdf" ".wget-hsts" "sammy.pdf" "prodmarley_singles_gen.root" ".CFUserTextEncoding" "xscns_lead.pdf" "VirtualBox VMs/" "virtualenv-1.11/" "Red-Optima/" "Ar42_triggering.pdf" ".serverauth.11616" "10MeV_cal.pdf" "FullBackgroundReco.pdf" "Data-Fermilab/" ".DS_Store" ".serverauth.28357" "ParticleEndProcess.pdf" "Scaled1.pdf" "CollectionHits.pdf" ".serverauth.50764" ".distlib/" "OneDrive - University of Sussex/" "O15_ES_eff.root" "InductionHits.pdf" ".spyder/" "neutron-FullGeo-200CM_CaptureAna.pdf" ".docker/" "FullGeometry_normalInsulation.pdf" "nice_pdf.pdf" "deleteme.pdf" "App-Fermilab/" "UVZ.pdf" "new_calibration.pdf" "Music/" "B8_ES_eff.pdf" ".config/" "Docterate/" "B8ES_EnergyCalibration.pdf" "HEP_CC_eff.pdf" ".serverauth.89261" "FullGeoAna_hist.root" "FullBackgroundReco.root" "tradi.pdf" "../" "./")
+
+ ("/Users/aranborkum/.emacs.d/" (25218 51030 285547 443000) "vendor/" "ede-projects.el" "yaml-mode.el" "elpa/" "fcl-mode.el" "semanticdb/" "init.el" "auto-save-list/" "config.el" "tramp" "config.org" "srecode-map.el" "smex-items" ".DS_Store" "ido.last" "snippets/" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/data/" (25201 5834 866798 452000) "survival/" "Efficiency.root" "TextFilesSolar/" "SolarRates.root" "TestStatistics/" "TwoColumnTextFiles/" "xsec/" "flux/" "EnergyReco/" "Efficiency/" ".DS_Store" "solar/" "background/" "MSW_LMA.root" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/data/Efficiency/" (25191 61236 952452 862000) "Merge.C" "MakeTextFile.C" "CNO_efficiency.txt" "F17_TriggerEff.root" "eff_values.txt" "B8_ES_TriggerEff.root" "O15_TriggerEff.root" "N13_TriggerEff.root" "B8_CC_TriggerEff.root" "HEP_Efficiency.root" "HEP_ES_TriggerEff.root" "O15_eff_unc.py" "CNO_Efficiency.root" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/Macros/" (25127 20859 369520 779000) "Flux.pdf" "SignalAndBackground.pdf" "SolarRates.root" "B8_ES_det.txt" "BackgroundRates.root" "HEP_CC_det.txt" "N13_ES_det.txt" "Output.pdf" "ExportSolarRateTextFiles.C" "F17_ES_det.txt" "AddBackgroundsToSignal.C" "MakeEfficiency.C" "test.pdf" "LarsoftTreeMaker.C" "MakeXsec.C" "SolarFlux.root" "HEP_ES_det.txt" "SurvivalProbabilities.C" "XSECRootFile.C" "B8_CC_det.txt" "FluxRootFile.C" "O15_ES_det.txt" "CalcRateWithOsc.C" "../" "./")
+
+ ("/Users/aranborkum/General/Facebook Application/" (25153 44351 535952 20000) "GreedyAlgorithms/" "LinkedLists/" "Heaps/" "Stack/" "Graphs/" ".ipynb_checkpoints/" "test.txt" "Queues/" "Sorting/" "Arrays/" "Search/" "HashTables/" "NN.py" "Recursion/" "Trees/" ".DS_Store" "Strings/" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/Jeromy/scripts/__pycache__/" (25202 32920 820161 33000) "run.cpython-39.pyc" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/Jeromy/IO/" (25214 37636 640503 686000) "UncertaintyImporter.py" "__pycache__/" "ImportDataHighZ.py" "ImportDataLowZ.py" "FileImporter.py" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CNOFluxAnalysis/Jeromy/Jeromy/core/" (25211 53715 166631 233000) "spectrum.py" "true_solar.py" "__pycache__/" "../" "./")
+
+ ("/Users/aranborkum/General/" (25144 20636 599144 838000) "Presuming Eds/" "Travel/" "Facebook Application/" "Exersize Tracking/" "Stanley Street/" "Fitness App/" "Random Projects/" "Movies/" "Travel, November 2021/" "Riley-Project/" "Food App/" "Videos/" "Journey/" "YouTube/" "University/" "Pictures/" "CV and Personal Statement/" ".DS_Store" "Banjo Tabs/" "Car/" "quote_generator/" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/duneggd/python/duneggd/larfd/" (25027 34720 278236 85000) "larfd.cfg" "TPCPlane.py" "LayersGDML/" "CheckOverlaps.C" "WirePosU.txt" "Cryostat.py" "volume_beam.txt" "WirePosV.txt" "TPC.pyc" "TPCPlane.pyc" "APAFrame.py" "TPC.py" "DetEncLAr.pyc" "MaterialDefinitions/" "WirePoints.py" "GDML/" "MaterialDefinitions.numbers" "drawLArND.C" "GenerateGeometry.sh" "MakeGeometries.sh" "Cryostat.pyc" "README.md" "draw.root" "__pycache__/" "Sources50cm.pdf" "PointWalk.C" "larfd_nowires.cfg" "FullGeoGDML/" "overlaps_nowires.root" "Aran-Sheet.xlsx" "CalculateVolume.C" "DrawGeometry.C" "APAFrame.pyc" "WirePosZ.txt" "AllAirGDML/" "World.pyc" ".DS_Store" "DetEncLAr.py" "WaterGeometries/" "World.py" "volume_sampler.C" "Configurations/" "overlaps.root" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/duneggd/python/duneggd/larfd/FullGeoGDML/" (25113 2354 847518 470000) "larfd_rn60cm_noOpDet_v3_nowires.gdml" "larfd_rn80cm_noOpDet_v3.gdml" "larfd_rn200cm_noOpDet_v3_nowires.gdml" "larfd_rn60cm_noOpDet_v3.gdml" "larfd_rn20cm_noOpDet_v3_nowires.gdml" "larfd_rn40cm_noOpDet_v3.gdml" "larfd_rn100cm_noOpDet_v3_nowires.gdml" "larfd_rn20cm_noOpDet_v3.gdml" "larfd_rn200cm_noOpDet_v3.gdml" "larfd_rn40cm_noOpDet_v3_nowires.gdml" "larfd_rn100cm_noOpDet_v3.gdml" "larfd_rn80cm_noOpDet_v3_nowires.gdml" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/data/flux/" (25054 42002 475389 406000) "hep_eng.txt" "N13_pro.txt" "F17_pro.txt" "015_pro.txt" "O15_eng.txt" "B8_pro.txt" "test_pro.txt" "N13_eng.txt" "hep_pro.txt" "SolarFlux.root" "015_eng.txt" "F17_eng.txt" "test_eng.txt" "O15_pro.txt" "B8_eng.txt" "../" "./")
+
+ ("/Users/aranborkum/Docterate/marley/examples/config/" (25042 48250 157731 680000) "minimal.js" "annotated.js" "elastic_scattering.js" "COPY_ME.js" "../" "./")
+
+ ("/Users/aranborkum/Docterate/marley/examples/executables/" (25011 12956 69396 519000) "build/" "mardumpxs.cc" "minimal/" "marprint.cc" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/data/xsec/" (25054 41898 54920 78000) "es_xsec_table.txt" "xsec_table.txt" "xsec_cc_eng.txt" "veAr40_trunk_xsec.txt" "xsec_cc_xsec.txt" "veAr40_xsec.root" "xsec_es_eng.txt" "xsec_es_xsec.txt" "veAr40_xsec.txt" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/CalculatedInteractionRates/" (25052 11903 676932 311000) "output.pdf" "RatePrediction.C" "test.pdf" "neutron_triggering.pdf" "Ar42_triggering.pdf" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/data/survival/" (25054 43333 728011 160000) "MSWprobabilities.txt" "MSW-LMA.root" "sur_prop_values.txt" "SurvivalProbabilities.txt" "sur_prop_energy.txt" "MSW_LMA.root" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/Python/" (25127 15817 728260 301000) "HEP_ESval_eff.txt" "eff_val.txt" "B8_CCval_eff.txt" "MakeEfficiency.py" "PlotIndividualBackground.py" "MakeCrossSection.py" "Neutron.png" "CalcSolarFlux/" "B8_ESeng_eff.txt" "F17val_eff.txt" "N13val_eff.txt" "HEP_CCeng_eff.txt" "TotalSignalTriggered_plots.py" "Ar39.png" "PlotBackgroundsOnly.py" "TotalSignalTriggered_functions.py" "SurvivalProbability.py" "TotalSignalTriggered.py" "O15eng_eff.txt" "InterpolateEfficiency.py" "MakeSolarSpectrum.py" "Digitized/" "TotalLowBackground.txt" "Ar42.png" "__pycache__/" "HEP_ESeng_eff.txt" "TotalSignalTriggered_data.py" "MakeSolarRates.py" "B8_CCeng_eff.txt" "Probabilities.py" "F17eng_eff.txt" "B8_ESval_eff.txt" "InterpolateSignal/" "HEP_CCval_eff.txt" "N13eng_eff.txt" "FitBackground.py" "Radon.png" "Individual Plots/" "Triggered/" ".DS_Store" "O15val_eff.txt" "PlotSolarOnly.py" "CPA.png" "eff_eng.txt" "Krypton.png" "APA.png" "../" "./")
+
+ ("/Users/aranborkum/University/Year 3/MPhys Labs/HPGe/" (23460 61902 747991 217000) "Na-22 Spectrum (Channel).png" "peak data (channel)/" "peak data (energy)/" "Analysis Background/" "unknown.py" "unknown_err.txt" "Peak figures noise with shield/" "pull_and_hist.png" "noise_no_shield.txt" "Background spectrum with shield.png" "find.py" "Ba-133.txt" "fitting.py" "Co-60 Spectrum.png" "Unknown Sample Spectrum with peak reference.png" "Peak figures with channel axis/" "Co-60-long.txt" "peak data noise with shield/" "unknown_sample.txt" "Ba-133 Spectrum.png" "machine.jpeg" "Na-22 Spectrum.png" "Analysis Unknown Sample/" "real_energies.txt" "test.py" "data overload.jpeg" "peak figures (unknown sample) with energy axis/" "Na-22 Spectrum (Energy).png" "HPGe Detector Presentation.pptx" "Peak figures with energy axis/" "peak data (unknown sample) (energy)/" "Example Spectrum copy.png" "noise_shield.txt" "Co-60.txt" "unknown_energies.txt" "pitchblende.jpeg" "compton.png" "fresh outa compton.png" "trend.py" "Channel to Energy Conversion.png" "Background spectrum no shield.png" "Na-22.txt" "Na-22-long.txt" "blackrocks.jpeg" ".DS_Store" "Example Spectrum.png" "Bandssosimple.jpeg" "conversion.png" "Unknown Sample Spectrum.png" "../" "./")
+
+ ("/Users/aranborkum/University/Year 3/MPhys Labs/" (23460 61905 651676 28000) "PNMR_T1.py" "fitting.py" "Laser/" "T1 file.txt" "HPGe/" "Long Report/" "star.py" "PNMR/" "cunt/" "PNMR 1/" "HPGe_1/" ".DS_Store" "HPGe.pdf" "../" "./")
+
+ ("/Users/aranborkum/University/Year 3/" (24157 4862 55487 717000) "Condenced State Physics/" "Nuclear and Particle Physics/" "Atomic Physics/" "Advanced Condenced State Physics/" "Quantum Mechanics 2/" "FYP-2.docx" "Particle Physics/" ".DS_Store" "MPhys Labs/" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/Fit/" (25072 7082 314048 949000) "FitData/" "data_run.py" "run.py" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/PrettyPython/plotting/" (23881 27448 730043 282000) "utils.pyc" "n_minus_one_plotting.py" "input_plotting.py" "plot_it.pyc" "__init__.pyc" "stack_plotting.py" "utils.py" "compute_unc.pyc" "n_minus_one_plotting.pyc" "stack_plotting.pyc" "__init__.py" "input_plotting.pyc" "plot_it.py" "._n_minus_one_plotting.py" "compute_unc.py" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/data/" (25053 39279 919849 793000) "eff/" "survival/" "xsec/" "flux/" ".DS_Store" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/InterpolateEfficiency.py/" (25044 11691 425623 219000) "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/SolarStuff/SolarSpectra/" (25008 54719 743867 458000) "N13_spectrum.csv" "O15_spectrum.csv" "hep_spectrum.csv" "B8_spectrum.csv" ".DS_Store" "F17_spectrum.csv" "../" "./")
+
+ ("/Users/aranborkum/Docterate/marley/data/structure/" (24971 61119 478620 991000) "Tm.dat" "Cd.dat" "V.dat" "Al.dat" "Cs.dat" "Mo.dat" "Mn.dat" "Nb.dat" "Cr.dat" "Am.dat" "W.dat" "Ce.dat" "Ba.dat" "Tl.dat" "Zr.dat" "U.dat" "B.dat" "Os.dat" "Li.dat" "Na.dat" "C.dat" "Cf.dat" "Cu.dat" "P.dat" "Ne.dat" "Nd.dat" "F.dat" "Th.dat" "Br.dat" "Be.dat" "Ca.dat" "S.dat" "Np.dat" "nuclide_index.txt" "Ti.dat" "Rn.dat" "Ir.dat" "Db.dat" "Si.dat" "Pr.dat" "Es.dat" "Er.dat" "Pd.dat" "Rh.dat" "Fm.dat" "Hf.dat" "Hg.dat" "Ds.dat" "Pa.dat" "Sm.dat" "Pt.dat" "Eu.dat" "He.dat" "Hs.dat" "Pb.dat" "Pu.dat" "Sn.dat" "README.md" "Sc.dat" "Po.dat" "Kr.dat" "Sb.dat" "Rf.dat" "Ge.dat" "In.dat" "Gd.dat" "Pm.dat" "Re.dat" "Sr.dat" "Se.dat" "Ra.dat" "Ho.dat" "Fe.dat" "Ga.dat" "Fr.dat" "TALYS-CITATION.bib" "Ru.dat" "Rb.dat" "Dy.dat" "Sg.dat" "H.dat" "Cm.dat" "Ar.dat" "Bi.dat" "Lu.dat" "Mg.dat" "Bh.dat" "As.dat" "Cl.dat" "I.dat" "Te.dat" "Zn.dat" "Yb.dat" "K.dat" "La.dat" "Ni.dat" "Md.dat" "Co.dat" "Bk.dat" "Ag.dat" "Xe.dat" "Tb.dat" "At.dat" "Y.dat" "Ac.dat" "N.dat" "Lr.dat" "O.dat" "Au.dat" "Tc.dat" "Ta.dat" "No.dat" "Mt.dat" "Nn.dat" "../" "./")
+
+ ("/Users/aranborkum/Docterate/marley/data/react/" (24971 61119 405080 661000) "ve40ArCC_Bhattacharya1998.react" "ve40ArCC_Bhattacharya2009.react" "ES.react" "ve40ArCC_Liu1998.react" "CEvNS40Ar.react" "../" "./")
+
+ ("/Users/aranborkum/Docterate/marley/data/" (25007 24223 177229 943000) "react/" "structure/" "mass_table.js" "tests/" "gs_spin_parity_table.txt" ".DS_Store" "../" "./")
+
+ ("/Users/aranborkum/Docterate/marley/src/" (25007 24223 172557 773000) "Error.cc" "NuclearReaction.cc" "Integrator.cc" "Parity.cc" "marley_root.cc" "OutputFile.cc" "DecayScheme.cc" "JSONConfig.cc" "Event.cc" "MacroEventFileReader.cc" "scripts/" "Logger.cc" "marsum.cc" "ProjectileDirectionRotator.cc" "coulomb_wavefunctions.cc" "KoningDelarocheOpticalModel.cc" "StructureDatabase.cc" "MassTable.cc" "marley_utils.cc" "Particle.cc" "GammaStrengthFunctionModel.cc" "Level.cc" "RootOutputFile.cc" "Target.cc" "marley_kinematics.cc" "BackshiftedFermiGasModel.cc" "tests/" "ChebyshevInterpolatingFunction.cc" "NucleusDecayer.cc" "RotationMatrix.cc" "HauserFeshbachDecay.cc" "marley.cc" "RootJSONConfig.cc" "Generator.cc" "fftpack4.cc" "TargetAtom.cc" "RootEventFileReader.cc" "ElectronReaction.cc" "Reaction.cc" ".DS_Store" "Gamma.cc" "WeisskopfSingleParticleModel.cc" "EventFileReader.cc" "NeutrinoSource.cc" "StandardLorentzianModel.cc" "FileManager.cc" "ExitChannel.cc" "../" "./")
+
+ ("/Users/aranborkum/Docterate/marley/examples/" (25007 24223 174021 273000) "macros/" "executables/" "config/" "marg4/" ".DS_Store" "../" "./")
+
+ ("/Users/aranborkum/Docterate/marley/include/marley/" (24971 61119 510725 341000) "coulomb_wavefunctions.hh" "ProjectileDirectionRotator.hh" "StructureDatabase.hh" "KoningDelarocheOpticalModel.hh" "marley_utils.hh" "MassTable.hh" "OpticalModel.hh" "Logger.hh" "EventProcessor.hh" "JSONConfig.hh" "Event.hh" "MacroEventFileReader.hh" "NuclearReaction.hh" "Error.hh" "Integrator.hh" "IteratorToMember.hh" "Parity.hh" "marley_root.hh" "MatrixElement.hh" "IteratorToPointerMember.hh" "OutputFile.hh" "DecayScheme.hh" "LevelDensityModel.hh" "NeutrinoSource.hh" "EventFileReader.hh" "WeisskopfSingleParticleModel.hh" "FileManager.hh" "StandardLorentzianModel.hh" "ExitChannel.hh" "tests/" "TargetAtom.hh" "ElectronReaction.hh" "JSON.hh" "RootEventFileReader.hh" "InterpolationGrid.hh" "Reaction.hh" "Gamma.hh" "marley_linkdef.hh" "ChebyshevInterpolatingFunction.hh" "NucleusDecayer.hh" "HauserFeshbachDecay.hh" "RotationMatrix.hh" "Fragment.hh" "Generator.hh" "RootJSONConfig.hh" "Particle.hh" "GammaStrengthFunctionModel.hh" "RootOutputFile.hh" "Level.hh" "Target.hh" "BackshiftedFermiGasModel.hh" "marley_kinematics.hh" "../" "./")
+
+ ("/Users/aranborkum/Docterate/marley/include/" (25007 24223 171112 427000) "catch2/" "fftpack4/" ".DS_Store" "marley/" "../" "./")
+
+ ("/Users/aranborkum/Docterate/marley/" (25007 24223 178553 66000) "src/" "setup_marley.sh" ".travis.yml" "data/" ".git/" "README.rst" "build/" "GUIDELINES" "examples/" ".gitignore" "COPYING" "CITATION.bib" "docs/" "FILEMAP" "include/" ".DS_Store" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/" (25005 58994 781103 432000) "TestGeometryGGD/" "virtualenv-1.11.tar.gz" "Element breakdown for vitaly/" "MaterialEliminationTesting/" "LAr Flux Spectra/" "MaterialSpectra/" "Geometry Layer Testing/" "New Geometry Neutron/" "Old_duneggd/" "duneggd/" "Fluxes/" ".DS_Store" "NeutronCapture-MeasuredPU.numbers" "../" "./")
+
+ ("/Users/" (24076 20864 0 0) "Guest/" "aranborkum/" "Shared/" ".localized" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/duneggd/python/duneggd/Low-Background-Module-Water/Configurations/" (24999 24889 794350 82000) "larfd_15cm.cfg" "larfd_25cm_nowires.cfg" "larfd_10cm.cfg" "larfd_5cm_nowires.cfg" "larfd_1cm_nowires.cfg" "larfd_30cm.cfg" "larfd_15cm_nowires.cfg" "copy_files.sh" "larfd_25cm.cfg" "larfd_3cm.cfg" "larfd_1cm.cfg" "larfd_10cm_nowires.cfg" "larfd_5cm.cfg" "larfd_3cm_nowires.cfg" "larfd_20cm_nowires.cfg" "larfd_30cm_nowires.cfg" "larfd_20cm.cfg" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/duneggd/python/duneggd/Low-Background-Module-Water/" (24999 29276 993245 32000) "larfd.cfg" "TPCPlane.py" "CheckOverlaps.C" "WirePosU.txt" "Cryostat.py" "volume_beam.txt" "WirePosV.txt" "TPC.pyc" "TPCPlane.pyc" "APAFrame.py" "TPC.py" "DetEncLAr.pyc" "MaterialDefinitions/" "Geometries/" "MaterialDefinitions.numbers" "MakeGeometries.sh" "Cryostat.pyc" "PointWalk.C" "larfd_nowires.cfg" "Aran-Sheet.xlsx" "DrawGeometry.C" "APAFrame.pyc" "WirePosZ.txt" "World.pyc" ".DS_Store" "DetEncLAr.py" "World.py" "Configurations/" "overlaps.root" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/duneggd/python/duneggd/larfd/AllAirGDML/" (24619 63634 162306 201000) "larfd_rn40cm_noOpDet_AllAir_v3_nowires.gdml" "larfd_rn40cm_noOpDet_AllAir_v3.gdml" "larfd_rn60cm_noOpDet_AllAir_v3_nowires.gdml" "larfd_rn200cm_noOpDet_AllAir_v3.gdml" "larfd_rn100cm_noOpDet_AllAir_v3_nowires.gdml" "larfd_rn60cm_noOpDet_AllAir_v3.gdml" "larfd_rn80cm_noOpDet_AllAir_v3_nowires.gdml" "larfd_rn80cm_noOpDet_AllAir_v3.gdml" "larfd_rn200cm_noOpDet_AllAir_v3_nowires.gdml" "larfd_rn20cm_noOpDet_AllAir_v3.gdml" "larfd_rn100cm_noOpDet_AllAir_v3.gdml" "larfd_rn20cm_noOpDet_AllAir_v3_nowires.gdml" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/neucbot/" (24815 55636 56870 604000) "Data/" "Chains/" "License.txt" ".git/" "Scripts/" "neucbot.py" "README.md" "AlphaLists/" "fuckyou" ".DS_Store" "Materials/" "runscript_temp.sh" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Writing/Neutron backgroun analysis report/" (24620 60137 563481 84000) "main.log" "main.aux" "main.lof" ".git/" "main.out" "Code/" "main.tex" "Pictures/" "main.toc" ".DS_Store" "sections/" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/MaterialSpectra/TestDirectory/" (24594 58056 402164 574000) "macro.C" "SURF Rock.png" "Shotcrete.png" "S460ML.png" "test.root" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/NeutronCNNclassifier/" (24815 55636 90098 866000) "Neutrons/" "MarleyNeutrinos.txt" "SingleNeutron.txt" "MakeCNNinputs.py" "test.py" "Numbers.py" "EventClassifier.py" ".DS_Store" "PlotEventDisply.py" "Marley/" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/Neutrons/NewRadiologicalModel/" (24602 52751 200723 657000) "macro.C" "200cmTh.txt" "Concrete_Th_U.root" "NeutronEnergySpectra.py" "200cmGraphs.root" "ShotcreteTh.txt" "Shotcrete.txt" "Shotcrete_Early_U.root" "Rock-Th-LAr.txt" "RN200CMTh.png" "Concrete_Late_U.root" "RN200cmEarly.png" "ShotcreteTh.png" "Concrete-Th-LAr.txt" "Shotcrete.png" "200cmEarly.txt" "Rock_Early_U.root" "Concrete-Late-LAr.txt" "LArSoftTreeMaker.C" "Rock-Late-LAr.txt" "Concrete_Early_U.root" "Rock_Late_U.root" "ShotcreteEarly.txt" "ConcreteEarly.txt" "ConcreteTh.txt" "Concrete.png" "Rock_Th_U.root" "NeutronEnergySpectra.pyc" "MakeNeutronSpectrum.py" "Shotcrete_Late_U.root" "EnergyRange.txt" "Shotcrete_Th_U.root" "figure_1.png" "ConcreteEarly.png" "Concrete-Early-LAr.txt" "ConcreteTh.png" ".DS_Store" "ShotcreteEarly.png" "Shotcrete-Th-LAr.txt" "Concrete.txt" "Rock-Early-LAr.txt" "Shotcrete-Early-LAr.txt" "MakeNeutronSpectrum copy.py" "Shotcrete-Late-LAr.txt" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Presentations/Collaboration Meetings/DUNE Collaboration Metting VIRTUAL Jan 2021/" (24609 4982 218892 251000) "DUNE collaboration meeting Neutron Update.key" "Hydrogen.py" "DUNE collaboration meeting Neutron Update.pdf" "Screenshot 2021-01-27 at 10.09.09.png" "Screenshot 2021-01-27 at 10.27.40.png" "Screenshot 2021-01-27 at 10.47.19.png" "DUNE collaboration meeting Neutron Update.pptx" "PUPlots.py" "figure_1.png" ".DS_Store" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/MaterialSpectra/" (24619 39019 640089 579000) "Rock Data from SURF Breakdown/" "nspec-u-s460ml.dat" "S460ML_U_AlphaN.root" "Concrete-Shotcrete.xlsx" "NeucbotSpectra/" "S460ML-UAlphaN.txt" "LArSoftNeutronSpectrum.png" "EnergyValues.pyc" "S460ML_U_SF.root" "S460ML_Th_Total.root" "Shotcrete_Early_U_SF.root" "Shotcrete-Late-U.txt" "Shotcrete-Early-UAlphaN.txt" "nspec-th-s460ml.dat" "OldSpectraForNeutronInput.png" "Shotcrete_Th_Total.root" "Shotcrete_Early_U_AlphaN.root" "Shotcrete-Early-UTotal.txt" "Rock_Th_Total.root" "S460ML-UTotal.txt" "TestDirectory/" "PlotRateByThickness.py" "LArSoftTreeMaker.C" "EnergyValues.py" "Rock-Early-UTotal.txt" "Shotcrete_Late_U_Total.root" "S460ML-ThTotal.txt" "__pycache__/" "Rock-ThTotal.txt" "InputRootSpectra/" "rock-concrete-composition.xlsx" "S460ML-USponFis.txt" "S460ML_U_Total.root" "Rock-Early-USponFis.txt" "Rock_Late_U_Total.root" "Shotcrete-Early-USponFis.txt" "New Rock Breakdowns.xlsx" "Rock_Early_U_AlphaN.root" "Shotcrete_Early_U_Total.root" "EnergyRange.txt" "Rock_Early_U_Total.root" "figure_1.png" "Rock_Early_U_SF.root" ".DS_Store" "Shotcrete-ThTotal.txt" "MakeLArSoftSpectra.py" "Rock-Late-UTotal.txt" "PlotAllSpectraForJuergen.py" "Rock-Early-UAlphaN.txt" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/TestGeometryGGD/duneggd/root/" (24614 40462 714187 402000) "CheckOverlaps.C" "drawLArND.C" "PointWalk.C" "DrawGeometry.C" "drawFGT.C" "drawSite.C" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/TestGeometryGGD/duneggd/python/duneggd/larfd/" (24615 39282 693927 936000) "larfd.cfg" "TPCPlane.py" "WirePosU.txt" "Cryostat.py" "volume_beam.txt" "WirePosV.txt" "TPC.pyc" "TPCPlane.pyc" "APAFrame.py" "TPC.py" "DetEncLAr.pyc" "MaterialDefinitions/" "WirePoints.py" "MakeGeometries.sh" "Cryostat.pyc" "larfd_nowires.cfg" "Aran-Sheet.xlsx" "APAFrame.pyc" "larfd_new.gdml" "WirePosZ.txt" "World.pyc" ".DS_Store" "DetEncLAr.py" "larfd_new_nowires.gdml" "World.py" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Plotting/Executables/" (24816 6507 573437 816000) "run.cxx" "CMakeLists.txt" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Plotting/Objects/" (24816 6655 854297 31000) "Plot.cc" "Object.cc" "Plot.hh" "Object.hh" ".DS_Store" "CMakeLists.txt" "../" "./")
+
+ ("/Users/aranborkum/ggdvenv/lib/python2.7/site-packages/gegede/schema/" (24855 48792 817300 760000) "types.pyc" "__init__.pyc" "types.py" "__init__.py" "tools.py" "tools.pyc" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/duneggd/python/duneggd/Low-Background-Module/" (24979 32169 221329 778000) "larfd.cfg" "TPCPlane.py" "CheckOverlaps.C" "WirePosU.txt" "Cryostat.py" "volume_beam.txt" "WirePosV.txt" "TPC.pyc" "TPCPlane.pyc" "APAFrame.py" "TPC.py" "DetEncLAr.pyc" "MaterialDefinitions/" "test_nowires.gdml" "MaterialDefinitions.numbers" "Cryostat.pyc" "larfd_nowires.cfg" "test.gdml" "Aran-Sheet.xlsx" "DrawGeometry.C" "APAFrame.pyc" "WirePosZ.txt" "World.pyc" ".DS_Store" "DetEncLAr.py" "World.py" "overlaps.root" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/HitFinder/" (24981 4495 628314 426000) "runsum.txt" "Hit.py" "Screenshot 2019-02-20 at 14.31.13.png" "filtered_nonoise.txt" "How fasthit works.pages" "fil_iqr.txt" "HitDumpComma.txt" "SimplifiedInductionHit.png" "HitFinder.pdf" "HitDump.txt" "Standard_Sine_Wave.png" "Collection_Comparison.png" "TrackLenReco/" "runsumabs.txt" "More_complicated_shape.png" "HitDumpData.txt" "StandardRunningSum/" "MCC11File1/" "Collection_hit_finder.png" "HitDumpPrims.txt" "Hit.pyc" "HitMatchingBDT/" "quick.pyc" "Noise averaging.png" "HitFinder.tex" "SignalToNoiseRatio.py" "LinHitFinder/" "event_nonoise.txt" "iqr.txt" "Induction_Comparison.png" "Pedistal calculation.png" "WaveformAlgorithms.py" "test.py" "__pycache__/" "InductionHit.png" "filt_iqr.txt" "PedestalTest/" "WireHitComparison.png" "DetSimmed/" "InductionWireHitWithLabels.png" "LinHitFinder.key" "event.txt" "SignalToNoise.py" "HitFinder.py" "quick.py" "MCC11File2/" "HitFinder.log" "HitFinder.aux" "InductionHitWithLabels.png" "runsum_nonoise.txt" "Figure_1.png" "PlotForDocDB.py" "Hit of sine function.png" "iqr_nonoise.txt" "MCC11File3/" ".DS_Store" "DAQ Workshop stuff/" "LinHitFinderPedestal.png" "FindHits.py" "Screenshot 2019-02-20 at 15.04.06.png" "filtered.txt" "InductionHit 2.png" "TAPS.py" "Waveform.py" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/duneggd/python/duneggd/" (24999 22475 821115 26000) "dunefd/" "Low-Background-Module-Water/" "larfd/" "Low-Background-Module/" "__init__.py" "fgt/" "gegede-example/" "test/" "larnd/" ".DS_Store" "Box/" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/PrettyPython/utilities/" (24185 59170 847568 958000) "helpers.pyc" "helpers.py" "__init__.pyc" "buffer.pyc" "parser.py" "__init__.py" "parser.pyc" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/PrettyPython/" (23566 10044 283883 395000) "May13VRInc.log" "eT_miss/" "VRBin.log" "WZMET.log" "._run.py" "May13Slep.log" "Inc.out" "VRInc.log" "run_correlations.py" "SRSlepExtra.log" "May13VRBin.log" "WZ.log" "WZlog.log" "Slep.log" "listSamplesMC.txt" ".git/" "May10-VRBin.log" "May10-SlepArrows.log" "Fig179a" "VR1.log" "Higgs.txt" "May10-VRInc.log" "May14SlepLep.log" "WZMay13.log" "VRs.log" "VR2.log" "VR3Za-j0.log" "MM/" "moreEZMay13.log" "run.py~" "et.png" "May14SlepMET.log" "May10-WZArrows.log" ".ropeproject/" "plotting/" "mll3lZmin_VR3Za-j1.png" ".gitignore" "test_for_region.py" "VRIncMay13.log" "May11Slep.log" "utilities/" "Archive_Outputs/" "May14WZMET.log" "README.md" "ForPaper_Nicola/" "Bin.log" "May10-WZLine2.log" "May10-WZLines.log" "VRIncOn.log" "SRWZExtra.log" "output/" "my_configurations/" "recreate/" "ifs" "tableau10.txt" "SlepMET.log" "SRSlep.log" "WZ-0a-c.log" "Again2.log" ".readme" "VRIncOff.log" "VRBinMay13.log" "config/" "VRIncMay13offZa.log" "Original/" "test_for_vars.py" "VRsfuckingagain.log" "LICENSE" "VRIncMay13offZb.log" "May10-SlepLine.log" ".DS_Store" "SlepMay13.log" "SlepLepPt.log" "WZminmT.log" "WZBinAgain.log" "out.txt" "run.py" "May10-WZLine.log" "VRIncOnAgain.log" "May13WZ.log" "textformat.txt" "May14WZmT.log" "configurations/" "SRWZ.log" "../" "./")
+
+ ("/Users/aranborkum/Docterate/rdecay02/macros/" (24971 62927 91159 154000) "beam.data" "UserRadDataPb210Test.mac" "neutron_fw_longskinny.mac~" "neutron_fw.mac" "UserEvapData_z83.a210" "neutron_dune.mac~" "UserEvapDataBiTest.mac" "measures.data" "neutron_fw_cs_longskinny.mac" "neutron_fw_cs_longskinny.mac~" "electron_optphys.mac" "optphot.mac" "livermore_nue.dat" "Rn_alpha_neutron_fw_cs_longskinny.mac" "ne24.mac" "No252Test.mac" "u238.mac~" "UserRadData_z82.a210" "proton-beam.mac" "tl208.mac~" "Ar3942_optphys.mac" "hep.dat" "e_optphys.mac" "isotopes.mac" "UserEvapData_z102.a252" "bias.data" "tl208.mac" "u238b.mac" "f24.mac" "u238c.mac" "proton.mac" "source.data" "neutron_fw_cs_longskinny_vis.mac~" "pbomb_optphys.mac" "k40.mac~" "neutron_fw_cs.mac~" "gamma.mac~" "po201m.mac" "electron.mac~" "k40-g10.mac" "k40.mac" "Rn222_optphys.mac" "neutron.mac~" "n_optphys.mac" "neutron_cs_optphys.mac" "neutron_fw.mac~" "b8_bahcall.root" "th234c-b.mac" "UserEvapDataBiTest.mac~" "marley_optphys.mac" "neutron.mac" "marley_optphys_liv.mac" "neutron_fw_cs.mac" "neutron_fw_cs_longskinny_vis.mac" "vis.mac" "runall" "b8.dat" "electron.mac" "tl208-g10.mac" "gamma.mac" "u238.mac" "as74.mac" "../" "./")
+
+ ("/Users/aranborkum/Docterate/rdecay02/" (24972 58775 745574 84000) "src/" ".git/" "build/" "doc/" ".gitignore" "rdecay02.in" "rdecay02.out" "macros/" "README" "include/" ".DS_Store" "CMakeLists.txt" "vis.mac" "rdecay02.cc" "ana/" "setup.sh" "ana-liquid/" "../" "./")
+
+ ("/Users/aranborkum/Library/" (24790 53675 690852 738000) "Caches/" "CoreFollowUp/" "Keyboard/" "Services/" "Cookies/" "Input Methods/" "Reminders/" "SafariSafeBrowsing/" "Spelling/" "CallServices/" "VoiceTrigger/" "Jupyter/" "Screen Savers/" "Metadata/" "KeyboardServices/" "Curse/" "Accessibility/" "Fonts/" "Twitch/" "PersonalizationPortrait/" "ContainerManager/" "Containers/" "Dictionaries/" "Group Containers/" "LaunchAgents/" "Suggestions/" "PubSub/" "Mobile Documents/" "FileProvider/" "PreferencePanes/" "Colors/" "Safari/" "Accounts/" "News/" "Voices/" "FrontBoard/" "Internet Plug-Ins/" "Logs/" "DataDeliveryServices/" "Keyboard Layouts/" "Audio/" "SyncedPreferences/" "Printers/" "com.apple.internal.ck/" "HTTPStorages/" "Personas/" "Sounds/" "FontCollections/" "VirtualBox/" "com.apple.icloud.searchpartyd/" "iMovie/" "iTunes/" "Family/" "Passes/" "Favorites/" "LanguageModeling/" "Google/" "GameKit/" "Compositions/" "UIKitSystem/" "Trial/" "Mail/" "Arduino15/" ".localized" "Python/" "Assistants/" "Application Scripts/" "ColorSync/" "ApplicationSupport/" "ColorPickers/" "Sharing/" ".DS_Store" "Keychains/" "DES/" "HomeKit/" "Messages/" "Staging/" "studentd/" "MobileDevice/" "Preferences/" "Calendars/" "Developer/" "WebKit/" "IdentityServices/" "Saved Application State/" "Autosave Information/" "Saved Searches/" "Assistant/" "StickiesDatabase" "Maps/" "Application Support/" "Receipts/" "TeXShop/" "../" "./")
+
+ ("/Users/aranborkum/Library/Containers/" (24914 63473 472412 65000) "com.apple.CalendarFileHandler/" "com.apple.dt.GitLabSelfHostBuiltInExtension/" "com.apple.share.Video.upload-Facebook/" "com.apple.share.CopyLink.invite/" "com.apple.reminders.quicklookextension/" "com.apple.CalendarWidget.IntentsExtension/" "com.apple.SocialPushAgent/" "com.apple.OSDUIHelper/" "com.apple.ImageKit.RecentPictureService/" "com.apple.mediaanalysisd/" "com.microsoft.Outlook/" "com.apple.Notes.QuickLookExtension/" "com.apple.mail.MailNotificationContentExtension/" "com.apple.PhotoThemeService/" "com.microsoft.SkyDriveLauncher/" "com.apple.replayKit.RPVideoEditorExtension-macOS/" "com.apple.print.normalizerd/" "com.apple.ScreenTime.ScreenTimeWebExtension/" "com.apple.podcasts.widget/" "com.apple.DiagnosticExtensions.AirPlay/" "com.apple.reminders.sharingextension/" "com.apple.icloud.apps.messages.business.extension/" "com.apple.messages.ReplyExtension/" "com.apple.appkit.xpc.LegacyExternalColorPickerService.x86_64/" "com.apple.Notes.SharingExtension/" "com.apple.DataDetectorsActionService/" "com.apple.Safari.CredentialExtractionHelper/" "com.apple.replayKit.RPBroadcastActivityExtension-macOS/" "com.apple.iTunesCacheExtension/" "com.apple.AddressBook/" "com.apple.AquaAppearanceHelper/" "com.apple.share.SinaWeibo.post/" "com.apple.dt.XCDocumenter.XCDocumenterExtension/" "com.apple.RemoteManagement.AccountExtension/" "com.apple.preferences.sharing.SharingPrefsExtension/" "com.microsoft.onenote.mac.shareextension/" "com.apple.inputmethod.TYIM/" "com.apple.AirPlayUIAgent/" "com.apple.weather.WeatherIntents/" "com.apple.MailShareExtension/" "com.apple.ScreenSharing/" "com.docker.docker/" "com.apple.siri.DeepSyncVerificationService/" "com.apple.share.LinkedIn.post/" "com.apple.SystemProfiler.CloudStorageHelper/" "com.apple.Notes.IntentsExtension/" "com.apple.SiriNCService/" "com.apple.diagnosticextensions.osx.wifi/" "com.apple.coremedia.pluginformatreader.zonto/" "com.apple.share.Mail.compose/" "com.apple.AuthKitUI.AKFollowUpServerUIExtension/" "com.apple.share.System.add-to-aperture/" "com.apple.siriplugin.FileSearch/" "com.apple.IPAInstaller/" "com.apple.share.System.add-to-safari-reading-list/" "com.apple.NetworkExtension.IKEv2Provider/" "com.apple.iBooksX.CacheDelete/" "com.apple.quicklook.ui.helper/" "com.apple.Notes.NotesImporter/" "com.apple.WatchFaceAlert/" "com.microsoft.Microsoft-Mashup-Container/" "com.apple.iWork.ExternalResourceAccessor/" "com.wunderkinder.wunderlistdesktop.sharingextension/" "com.apple.iphonesimulator.ShareExtension/" "com.apple.RAQLPreviewExtension/" "com.apple..NowPlayingWidgetContainer.NowPlayingWidget/" "com.apple.mcx.ProfileHelper/" "com.apple.Notes.datastore/" "com.apple.share.Video.upload-image-Flickr/" "com.microsoft.errorreporting/" "com.apple.accessibility.mediaaccessibilityd/" "com.apple.diagnosticextensions.osx.spotlight/" "com.apple.AddressBook.ABPersonViewService/" "com.apple.iWork.ExternalResourceValidator/" "com.apple.system.airplay/" "com.apple.stocks/" "com.apple.appkit.xpc.LegacyExternalColorPickerService/" "com.apple.Siri.SiriTodayExtension/" "com.apple.inputmethod.Kotoeri.KanaTyping/" "com.apple.CoreRoutine.helperservice/" "com.apple.news.articlenotificationextension/" "com.apple.AppStoreDaemon.ASDAskPermissionExtension/" "com.apple.UsageTrackingAgent/" "com.apple.podcasts/" "com.apple.Preview/" "com.apple.messages.AssistantExtension/" "com.tinyspeck.slackmacgap/" "com.apple.mobiletimer.WorldClockWidget/" "com.microsoft.openxml.excel.app/" "com.apple.share.Twitter.post/" "com.apple.weather/" "com.apple.ScreenSaver.iLife-Slideshow-Extension/" "com.fiplab.batteryhealth2.widget/" "com.apple.Notes.WidgetExtension/" "com.apple.finder.TrimQuickAction/" "com.apple.stocks.widget/" "com.apple.STMExtension.GarageBand/" "com.apple.corerecents.recentsd/" "com.apple.SiriUI.SiriUISetupXPC/" "com.apple.SystemProfiler.CloudStorageUIHelper/" "com.microsoft.Excel/" "com.apple.inputmethod.SCIM/" "com.apple.routined/" "com.apple.inputmethod.ChineseHandwriting/" "com.apple.STMExtension.Developer/" "com.apple.appkit.xpc.ColorSampler/" "com.apple.sidecar.DisplayMarkup/" "com.apple.AVConference.Diagnostic/" "com.apple.coremedia.pluginformatreader/" "com.apple.PhotoIngestService/" "com.apple.SceneKitQLThumbnailExtension/" "com.apple.AppleMediaServicesUI.SpyglassPurchases/" "com.apple.preferencepane.security.PrivacyTrackingAwareness.PrivacyPhotos/" "com.apple.podcasts.PodcastsAuthAgent/" "com.apple.STMExtension.Mail/" "com.apple.ScreenSaver.Engine.legacyScreenSaver.x86-64/" "com.apple.RemoteManagement.LegacyProfilesExtension/" "com.apple.DiagnosticExtensions.sysdiagnose/" "com.apple.Animoji.StickersApp.MessagesExtension/" "com.apple.messages.ShareExtension/" "com.apple.DataDetectorsViewService/" "com.apple.photomoments/" "com.apple.inputmethod.VietnameseIM/" "com.apple.preferencepane.security.PrivacyAnalytics/" "com.apple.diskspaced/" "com.apple.share.AirDrop.send/" "com.apple.diagnosticextensions.osx.filevault/" "com.apple.Chess/" "com.wunderkinder.wunderlistdesktop/" "com.apple.CaptiveNetworkAssistant/" "com.apple.Safari.SafariQuickLookPreview/" "com.apple.CalendarAgent/" "com.apple.speech.SpeechSynthesisServerXPC/" "com.apple.TV.TVCacheExtension/" "com.apple.appstore.PluginXPCService/" "com.apple.news/" "com.apple.geod/" "com.apple.Safari.DiagnosticExtension/" "com.kfir.mac2048/" "com.apple.AppleMediaServices.FollowUpExtension/" "com.apple.share.Facebook.post/" "com.apple.diagnosticextensions.osx.systemprofile/" "com.apple.ncplugin.WorldClock/" "com.apple.Photos.StorageManagementExtension/" "com.3Planesoft.MechanicalClock3DLite/" "com.apple.systempreferences.cacheAssistant/" "com.apple.siri.SiriGeo.SiriGeoIntentExtension/" "com.apple.IntlTexts.KeyboardServicesHelper/" "com.apple.Music.MusicStorageExtension/" "com.apple.NewDeviceOutreachMac.Extension/" "com.apple.RemoteManagement.PasscodeSettingsExtension/" "com.apple.CryptoTokenKit.pivtoken/" "com.apple.grapher/" "com.apple.TextEdit/" "com.apple.inputmethod.HindiIM/" "com.apple.AuthKitUI.AKAppSSOExtension/" "com.apple.Dictionary/" "com.apple.Home.HomeUIUserList/" "com.apple.reminders/" "com.apple.widgetkit.simulator/" "com.apple.FaceTime.IntentsExtension/" "com.apple.siri.parsec.HashtagImagesApp.HashtagImagesExtension/" "com.apple.scenekit.SCNSceneLoader/" "com.apple.photomodel/" "com.apple.STMExtension.Applications/" "com.apple.STMExtension.iOSFiles/" "com.apple.MailCacheDelete/" "com.apple.diagnosticextensions.osx.syslog/" "com.apple.STMExtension.Trash/" "com.apple.mail.SpotlightIndexExtension/" "com.apple.MarkupUI.Markup/" "com.apple.accessibility.heard/" "com.apple.StickiesMigration/" "com.apple.Notes/" "com.apple.podcasts.MacQuicklookExtension/" "com.apple.Pass-Viewer/" "com.apple.PhotoLibraryMigrationUtility/" "com.apple.Siri/" "com.apple.MarkupUI.MarkupPhotoExtension/" "com.apple.Stickies/" "com.apple.news.widgetintents/" "com.apple.appstore/" "com.apple.PassXPCService/" "com.apple.LoginUserService/" "com.apple.ScreenSaver.Computer-Name/" "com.apple.mobiletimer/" "com.microsoft.Outlook.CalendarWidget/" "com.apple.Music.MusicCacheExtension/" "com.apple.ContactsAgent/" "com.apple.iWork.Pages.EndNoteShim/" "com.apple.iCal.CalendarNotificationContentExtention-OSX/" "com.apple.reminders.RemindersNC/" "com.apple.SafariFoundation.CredentialProviderExtensionHelper/" "com.apple.dt.XcodeBuiltInExtensions/" "com.apple.MobileSMS/" "com.apple.PassbookUIService.PeerPaymentMessagesExtension/" "com.apple.Photos/" "com.apple.DataDetectorsLocalSources/" "com.apple.DiscHelper/" "com.apple.Photos.Migration.Reader/" "com.apple.StoreKit.UIService/" "com.apple.soagent/" "com.apple.VideoSubscriberAccount.VideoSubscriberAccountUIFramework.AuthenticationExtension/" "com.apple.reminders.macOSTodayExtension/" "com.apple.mail/" "com.fiplab.batteryhealth2/" "com.apple.findmy/" "com.apple.family.FAFollowupExtension/" "com.apple.Photos.librarychooserservice/" "com.apple.AddressBook.UrlForwarder/" "com.apple.das.DASDaemon.DuetDiagnosticExtension/" "com.apple.share.Video.upload-Vimeo/" "com.apple.TV.TVStorageExtension/" "com.apple.STMFramework.UIHelper/" "com.apple.VoiceMemos.SpotlightIndexExtension/" "com.apple.PDFKit.PDFExtensionView/" "com.apple.share.TencentWeibo.post/" "com.apple.CloudDocs.MobileDocumentsFileProvider/" "com.microsoft.OneDrive.FileProvider/" "com.apple.ContactsUI.ContactsViewService/" "com.apple.messages.MapRenderingService/" "com.apple.notificationcenterui/" "com.apple.CoreRoutine.RTDiagnosticExtension/" "com.apple.iWork.Pages/" "com.apple.Photos.PhotosReliveWidget/" "com.apple.signpost.signpost-notificationd/" "com.apple.iChat/" "com.apple.dt.GitHubHostBuiltInExtension/" "com.apple.stocks-widget-container/" "com.apple.CloudDocsDaemon.telemetry-disk-checker/" "com.apple.MediaLibraryService/" "com.apple.PhotoLibraryServices.PhotosDiagnostics/" "com.apple.amp.devicesui/" "com.apple..NowPlayingWidgetContainer/" "com.apple.share.Mail.compose-back-to-sender/" "com.apple.photoanalysisd/" "com.apple.diagnosticextensions.osx.installlog/" "com.apple.appkit.xpc.ColorPickerImageLoader/" "com.apple.iwork.ArchiveUpgrader/" "com.apple.CommerceKit.AskPermissionExtension/" "com.apple.archiveutility.auquarantineservice/" "com.apple.share.SocialWidget/" "com.apple.iWork.Keynote/" "com.apple.CoreCDPUI.CDPFollowUpExtension/" "com.microsoft.onenote.mac/" "com.apple.mobileslideshow.photospicker/" "com.wunderkinder.wunderlistdesktop.todayextension/" "com.apple.share.CloudSharing.invite/" "com.apple.diagnosticextensions.osx.bluetooth/" "com.apple.STMExtension.OtherUsers/" "com.microsoft.OneDrive.FinderSync/" "com.apple.WatchFaceAlert.ThumbnailExtension/" "com.apple.share.Twitter.set-profile-image/" "com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension/" "com.apple.ssinvitationagent/" "com.apple.STMExtension.CloudFiles/" "com.apple.news.widget/" "com.apple.inputmethod.EmojiFunctionRowItem/" "com.apple.preferencepane.security.AdvertisingExtension/" "com.apple.STMExtension.AppleInternal/" "com.apple.inputmethod.Korean/" "com.microsoft.Word/" "com.apple.Localization.SetDefaultsService/" "com.apple.ContactsUI.ContactPickerService/" "com.apple.reminders.macOSIntentsExtension/" "com.apple.messages.StorageManagementExtension/" "com.apple.iBooksX.DiskSpaceEfficiency/" "com.apple.SystemProfiler.MessagesHelper/" "com.apple.Photos.PhotosSiriExtension/" "com.apple.AMPArtworkAgent/" "com.apple.podcasts.PodcastsNotificationExtension/" "com.apple.ncplugin.calculator/" "com.apple.ContactsUI.ContactViewViewService/" "com.apple.ncplugin.stocks/" "com.apple.AboutThisMacLauncher/" "com.apple.AmbientDisplayAgent/" "com.apple.inputmethod.TCIM/" "com.apple.inputmethod.Kotoeri.RomajiTyping/" "com.apple.iBooksX/" "com.apple.icloud.SPOwner.SearchPartyDiagnosticExtension/" "com.apple.dt.IDECacheDeleteAppExtension/" "com.apple.share.Facebook.set-profile-image/" "com.apple.reminders.WidgetExtension/" "com.apple.AddressBook.ContactsAccountsService/" "com.apple.Safari.CacheDeleteExtension/" "com.apple.iBooksX-SecureUserDefaults/" "com.apple.AppSSOKerberos.KerberosExtension/" "com.apple.finder.CreatePDFQuickAction/" "com.microsoft.Powerpoint/" "com.apple.CloudDocsDaemon.StorageManagement/" "com.apple.podcasts.SpotlightIndexExtension/" "com.apple.SceneKitQLPreviewExtension/" "com.apple.dt.GitHubEnterpriseHostBuiltInExtension/" "com.apple.ReminderKitUI.ReminderCreationViewService/" "com.apple.RemoteManagement.InteractiveLegacyProfilesExtension/" "com.apple.Safari/" "com.apple.Home/" "com.apple.Safari.BrowserDataImportingService/" "com.apple.Notes.HTMLConverter/" "com.apple.ScreenSaver.Engine/" "com.apple.podcasts.MacPodcastsStorageExtension/" "com.microsoft.outlook.profilemanager/" "com.apple.Grab/" "com.apple.share.System.set-buddy-picture/" "com.apple.CalendarNotification.CalNCService/" "com.microsoft.OneDriveLauncher/" "com.apple.diagnosticextensions.osx.maillogs/" "com.apple.DiagnosticExtensions.WiFi/" "com.apple.SafariPlatformSupport.Helper/" "com.apple.share.Video.upload-video-Flickr/" "com.apple.Music.MPMusicPlayerApplicationControllerInternal/" "com.apple.KerberosMenuExtra/" "com.apple.share.Video.upload-Tudou/" "com.apple.ncplugin.FindMyFriends/" "com.apple.DownloadFolderImporter/" "com.apple.finder.MarkupQuickAction/" "com.apple.ClassKit.diagnosticextension/" "com.apple.AMPDeviceDiscoveryAgent/" "com.apple.Notes.SpotlightIndexExtension/" "com.apple.diagnosticextensions.osx.getmobilityinfo/" "com.apple.Maps/" "com.apple.tonelibraryd/" "com.apple.WorkflowUI.WidgetConfigurationExtension/" "com.apple.share.LinkedIn.set-profile-image/" "com.apple.LookupViewService/" "com.apple.Photos.Migration/" "com.apple.diagnosticextensions.osx.safari/" "com.apple.news.tag/" "com.apple.mediastream.mstreamd/" "com.apple.PassKitUIXPCService/" "com.apple.BKAgentService/" "com.apple.TelephonyUtilities.IntentHandler/" "com.apple.lateragent/" "com.apple.share.System.set-desktop-image/" "com.apple.MailServiceAgent/" "com.apple.iBooksX.SharingExtension/" "com.apple.messages.TranscriptRenderingService/" "com.apple.RemoteManagement.AppManagementExtension/" "com.docker.helper/" "com.apple.CryptoTokenKit.setoken/" ".DS_Store" "com.Microsoft.OsfWebHost/" "com.apple.CoreSpotlight.CoreSpotlightImportExtension/" "com.apple.siri.media-indexer/" "com.apple.siri.SiriContactsIntents.ContactsIntentExtension/" "com.apple.finder.RotateQuickAction/" "com.apple.photolibraryd/" "com.apple.findmy.FindMyNotificationsServiceExtension/" "com.apple.diagnosticextensions.osx.timemachine/" "com.lastpass.LastPass/" "com.apple.contacts.donation-agent/" "com.apple.TelephonyUtilities.PhoneIntentHandler/" "com.apple.RemoteManagement.ManagementTestExtension/" "com.apple.iCal.CalendarWidgetExtension/" "com.apple.sharekit.EntitlementsHelper/" "com.apple.WeatherKitService/" "com.lastpass.LPLaunchAtLoginHelperApp/" "com.apple.dt.BitbucketServerHostBuiltInExtension/" "com.apple.mail.MailQuickLookExtension/" "com.apple.quicklook.QuickLookUIService/" "com.apple.iWork.Numbers/" "com.apple.osx-tailspin/" "QA2G25RMZ4.com.wunderkinder.wunderlist-helper/" "com.apple.Photos.PhotosFileProvider/" "com.apple.MediaPlayer.DiagnosticExtension/" "com.apple.dt.GitLabHostBuiltInExtension/" "com.apple.preferences.sharing.SharingBluetoothService/" "com.apple.SSMenuAgent/" "com.apple.ncplugin.weather/" "com.apple.FaceTime.FaceTimeNotificationCenterService/" "com.apple.PhotoBooth/" "com.apple.MessageUIMacHelperService/" "com.apple.notificationcenterui.WeatherSummary/" "com.apple.photos.ImageConversionService/" "com.apple.calculator/" "com.apple.weather.widget/" "com.apple.dt.BitbucketHostBuiltInExtension/" "com.apple.mobiletimer-framework.MobileTimerIntents/" "com.apple.ScreenTimeViewService/" "com.apple.share.System.add-to-iphoto/" "com.apple.iTunesStorageExtension/" "com.apple.RAQLThumbnailExtension/" "com.apple.ScreenTimeAgent/" "com.apple.FaceTime/" "com.apple.archiveutility/" "com.apple.share.System.set-account-picture/" "com.apple.mobileslideshow.photo-picker/" "com.apple.PassKit.PaymentAuthorizationUIExtension/" "jansasoft.FamilyTreeBuilder4/" "com.apple.StorageManagementLauncher/" "com.apple.VoiceMemos/" "com.apple.QuickTimePlayerX/" "com.apple.share.Video.upload-Youku/" "com.apple.stocks.detailintents/" "com.apple.iCal/" "com.apple.photos.VideoConversionService/" "com.apple.languageassetd/" "com.apple.iCal.CalendarNC/" "com.apple.PressAndHold/" "com.apple.ScreenSaver.Engine.legacyScreenSaver/" "com.fiplab.bh2loginhelper/" "com.apple.CloudPhotosConfiguration/" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/duneggd/python/duneggd/larfd/Configurations/" (24874 12333 247271 329000) "larfd_rn200cm_noOpDet_AllAir_nowires.cfg" "larfd_rn200cm_noOpDet.cfg" "larfd_rn200cm_noOpDet_IBeams.cfg" "larfd_rn200cm_noOpDet_Insulation_nowires.cfg" "larfd_rn200cm_noOpDet_WarmSkin_nowires.cfg" "larfd_rn200cm_noOpDet_ColdSteel_nowires.cfg" "larfd_rn200cm_noOpDet_AllAir.cfg" "larfd_rn200cm_noOpDet_FieldCage_nowires.cfg" "larfd_rn200cm_noOpDet_Insulation.cfg" "larfd_rn200cm_noOpDet_ColdSteel.cfg" "larfd_rn200cm_noOpDet_WarmSkin.cfg" "larfd_rn200cm_noOpDet_FieldCage.cfg" "larfd_rn200cm_noOpDet_nowires.cfg" "larfd_rn200cm_noOpDet_IBeams_nowires.cfg" "MakeConfigs.sh" "../" "./")
+
+ ("/Users/aranborkum/ggdvenv/lib/python2.7/site-packages/" (24855 49420 835969 739000) "wheel-0.33.1.dist-info/" "dateutil/" "pandas/" "pylab.pyc" "pyparsing.py" "numpy-1.16.5.dist-info/" "lxml/" "pip-19.0.3.dist-info/" "subprocess32.pyc" "ggdex.egg-link" "kiwisolver-1.1.0.dist-info/" "pkg_resources.pyc" "duneggd.egg-link" "pkg_resources.py" "setuptools/" "kiwisolver.so" "pytz-2019.2.dist-info/" "six-1.12.0.dist-info/" "pyparsing.pyc" "matplotlib/" "cycler.py" "six.py" "python_dateutil-2.8.0.dist-info/" "_markerlib/" "funcsigs-1.0.2.dist-info/" "xlrd/" "pip/" "backports/" "numpy/" "funcsigs/" "pytz/" "nose-1.3.7.dist-info/" "mpl_toolkits/" "nose/" "gegede/" "Pint-0.9.dist-info/" "wheel/" "backports.functools_lru_cache-1.6.1.dist-info/" "pandas-0.24.2.dist-info/" "easy_install.pyc" "six.pyc" "cycler.pyc" "setuptools-2.0.2.dist-info/" "easy-install.pth" "matplotlib-2.2.4-py2.7-nspkg.pth" "gegede-0.6.dist-info/" "pylab.py" "cycler-0.10.0.dist-info/" "_posixsubprocess32.so" "easy_install.py" ".DS_Store" "matplotlib-2.2.4.dist-info/" "subprocess32.py" "subprocess32-3.5.4.dist-info/" "pyparsing-2.4.6.dist-info/" "pint/" "lxml-4.3.3.dist-info/" "xlrd-1.2.0.dist-info/" "../" "./")
+
+ ("/Users/aranborkum/ggdvenv/lib/python2.7/site-packages/gegede/export/gdml/" (24855 50890 257988 343000) "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/aranborkum/ggdvenv/lib/python2.7/site-packages/gegede/examples/" (23742 62665 494795 580000) "builders.pyc" "simple.py" "__init__.pyc" "simple.pyc" "lar.py" "__init__.py" "lar.pyc" "builders.py" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Projects/GeometryStuff/duneggd/" (24628 57348 227083 456000) "Neutron-Capture-Results.numbers" ".git/" "NeucBOTBreakdowns.numbers" "README.org" "root/" ".gitignore" "setup.py" "startup.sh" "MANIFEST.in" "iceberg_v2.gdml" "fhicl/" "python/" "requirements.txt" ".DS_Store" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Progression Reviews/" (24815 55503 823700 634000) "Progression Review 2021/" "Progression Review 2020/" ".DS_Store" "../" "./")
+
+ ("/Users/aranborkum/ggdvenv/" (23742 63020 490125 228000) "lib/" "include/" "gegede-example/" "bin/" ".Python" "man/" "../" "./")
+
+ ("/Users/aranborkum/ggdvenv/lib/" (23742 61927 821700 430000) "python2.7/" "../" "./")
+
+ ("/Users/aranborkum/ggdvenv/lib/python2.7/" (23742 61927 996537 387000) "abc.py" "sre_parse.py" "os.pyc" "warnings.pyc" "types.pyc" "re.py" "ntpath.py" "locale.pyc" "sre_parse.pyc" "posixpath.pyc" "linecache.pyc" "site.pyc" "stat.pyc" "orig-prefix.txt" "locale.py" "sre_compile.py" "stat.py" "posixpath.py" "UserDict.py" "site.py" "copy_reg.py" "re.pyc" "sre_compile.pyc" "_abcoll.py" "sre.py" "copy_reg.pyc" "types.py" "linecache.py" "genericpath.py" "site-packages/" "os.py" "_weakrefset.py" "no-global-site-packages.txt" "codecs.py" "fnmatch.pyc" "warnings.py" "fnmatch.py" "genericpath.pyc" "abc.pyc" "_abcoll.pyc" "config/" "_weakrefset.pyc" "sre_constants.py" "codecs.pyc" "UserDict.pyc" "sre_constants.pyc" "distutils/" "encodings/" "lib-dynload/" "../" "./")
+
+ ("/Users/aranborkum/ggdvenv/lib/python2.7/site-packages/gegede/" (23798 31732 681318 76000) "validation.py" "validation.pyc" "util.pyc" "main.py" "export/" "interp.py" "interp.pyc" "dot.py" "construct.py" "__init__.pyc" "examples/" "construct.pyc" "schema/" "builder.py" "builder.pyc" "__init__.py" "util.py" "configuration.pyc" "iter.pyc" ".DS_Store" "iter.py" "configuration.py" "dot.pyc" "main.pyc" "../" "./")
+
+ ("/Users/aranborkum/ggdvenv/lib/python2.7/site-packages/gegede/export/" (23742 62665 502647 791000) "root.py" "__init__.pyc" "gdml/" "scenegraph.py" "pod.pyc" "root.pyc" "ggdjson.py" "scenegraph.pyc" "__init__.py" "pod.py" "ggdjson.pyc" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Plotting/" (24816 5854 289413 510000) "build/" "Utils/" "Objects/" "Clustering/" "Executables/" "config/" ".DS_Store" "CMakeLists.txt" "../" "./")
+
+ ("/Users/aranborkum/Docterate/Plotting/config/" (24815 55621 45706 950000) "inputs/" ".DS_Store" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

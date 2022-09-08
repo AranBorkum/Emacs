@@ -1,0 +1,21 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("sides" include nil nil [8 61])
+            ("starches" include nil nil [8 61])
+            ("liquids" include nil nil [8 61])
+            ("fruit_and_veg" include nil nil [8 61])
+            ("meats" include nil nil [8 61]))          
+      :file "__init__.py"
+      :pointmax 62
+      :fsize 61
+      :lastmodtime '(24209 61699 878839 315000)
+      :unmatched-syntax '((PERIOD 6 . 7) (PERIOD 6 . 7) (PERIOD 6 . 7) (PERIOD 6 . 7) (PERIOD 6 . 7) (PERIOD 6 . 7) ($EOI 14 . 14) (PERIOD 6 . 7))))
+  :file "!Users!aranborkum!General!Food App!Config!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

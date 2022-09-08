@@ -1,0 +1,140 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 24])
+            ("integrate" function (:arguments 
+              ( ("F" variable nil (reparse-symbol function_parameters) [40 41])
+                ("x" variable nil (reparse-symbol function_parameters) [42 43])
+                ("y" variable nil (reparse-symbol function_parameters) [44 45])
+                ("xStop" variable nil (reparse-symbol function_parameters) [46 51])
+                ("h" variable nil (reparse-symbol function_parameters) [52 53]))              ) nil [26 490])
+            ("integrateE" function (:arguments 
+              ( ("F" variable nil (reparse-symbol function_parameters) [506 507])
+                ("x" variable nil (reparse-symbol function_parameters) [508 509])
+                ("y" variable nil (reparse-symbol function_parameters) [510 511])
+                ("xStop" variable nil (reparse-symbol function_parameters) [512 517])
+                ("h" variable nil (reparse-symbol function_parameters) [518 519]))              ) nil [491 813]))          
+      :file "run_kut.py"
+      :pointmax 818
+      :fsize 817
+      :lastmodtime '(24493 17280 33341 245000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("printSoln" function (:arguments 
+              ( ("X" variable nil (reparse-symbol function_parameters) [259 260])
+                ("Y" variable nil (reparse-symbol function_parameters) [261 262])
+                ("freq" variable nil (reparse-symbol function_parameters) [263 267]))              ) nil [245 806]))          
+      :file "printSoln.py"
+      :pointmax 806
+      :fsize 805
+      :lastmodtime '(24493 17005 601704 67000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("''' I,nPanels = romberg(f,a,b,tol=1.0e-6).
+    Romberg intergration of f(x) from x = a to b.
+    Returns the integral and the number of panels used.
+'''" code nil nil [19 171])
+            ("numpy" include nil nil [172 195])
+            ("trapezoid" include nil nil [196 219])
+            ("romberg" function (:arguments 
+              ( ("f" variable nil (reparse-symbol function_parameters) [233 234])
+                ("a" variable nil (reparse-symbol function_parameters) [235 236])
+                ("b" variable nil (reparse-symbol function_parameters) [237 238])
+                ("tol" variable nil (reparse-symbol function_parameters) [239 242]))              ) nil [221 745]))          
+      :file "romberg.py"
+      :pointmax 748
+      :fsize 747
+      :lastmodtime '(24493 18386 767845 950000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("''' Inew = trapezoid(f,a,b,Iold,k).
+    Recursive trapezoidal rule:
+    Iold = Integral of f(x) from x = a to b computed by
+    trapezoidal rule with 2^(k-1) panels.
+    Inew = Same integral computed with 2^k panels.
+'''" code nil nil [21 241])
+            ("trapezoid" function (:arguments 
+              ( ("f" variable nil (reparse-symbol function_parameters) [256 257])
+                ("a" variable nil (reparse-symbol function_parameters) [258 259])
+                ("b" variable nil (reparse-symbol function_parameters) [260 261])
+                ("Iold" variable nil (reparse-symbol function_parameters) [262 266])
+                ("k" variable nil (reparse-symbol function_parameters) [267 268]))              ) nil [242 631]))          
+      :file "trapezoid.py"
+      :pointmax 631
+      :fsize 630
+      :lastmodtime '(24493 18156 499482 67000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("scipy" include nil nil [1 19])
+            ("scipy" include nil nil [20 47])
+            ("numpy" include nil nil [48 66])
+            ("math" include nil nil [67 78])
+            ("romberg" include nil nil [79 100])
+            ("f" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [108 109]))              ) nil [102 157])
+            ("I, err" code nil nil [178 218])
+            ("print" code nil nil [219 232])
+            ("Ir, n" code nil nil [256 297])
+            ("print" code nil nil [298 320])
+            ("g" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [328 329]))              ) nil [322 387])
+            ("print" code nil nil [428 443])
+            ("Ir1, n" code nil nil [445 481])
+            ("print" code nil nil [482 507]))          
+      :file "Problem1w6.py"
+      :pointmax 508
+      :fsize 507
+      :lastmodtime '(24493 18648 759534 554000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("math" include nil nil [1 12])
+            ("scipy" include nil nil [13 31])
+            ("scipy" include nil nil [32 59])
+            ("romberg" include nil nil [60 81])
+            ("f" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [89 90]))              ) nil [83 142])
+            ("I, err" code nil nil [166 206])
+            ("print" code nil nil [207 220])
+            ("Ir, n" code nil nil [246 287])
+            ("print" code nil nil [288 312])
+            ("g" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [321 322]))              ) nil [315 384])
+            ("I1, err1" code nil nil [385 430])
+            ("print" code nil nil [431 446]))          
+      :file "problem7.py"
+      :pointmax 525
+      :fsize 524
+      :lastmodtime '(24494 42654 870556 639000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 13])
+            ("numpy" include nil nil [14 72])
+            ("pylab" include nil nil [73 85])
+            ("xx" variable nil nil [87 99])
+            ("error" variable nil nil [145 160])
+            ("for" code nil nil [162 293]))          
+      :file "problem2.py"
+      :pointmax 293
+      :fsize 292
+      :lastmodtime '(24494 46162 343606 358000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Help for SC!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

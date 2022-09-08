@@ -1,0 +1,29 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("utilities.parser" include nil nil [1 43])
+            ("__all__" variable nil nil [45 70]))          
+      :file "__init__.py"
+      :pointmax 71
+      :fsize 70
+      :lastmodtime '(24161 7341 238274 416000)
+      :unmatched-syntax '((NAME 45 . 52) ($EOI 55 . 55) ($EOI 5 . 5) ($EOI 5 . 5)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("argparse" include nil nil [1 16])
+            ("create_parser" function (:documentation "Argument parser for the main script
+    ") nil [19 424]))          
+      :file "parser.py"
+      :pointmax 424
+      :fsize 423
+      :lastmodtime '(24161 7366 958215 800000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!General!Random Projects!Maximize!python!utilities!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

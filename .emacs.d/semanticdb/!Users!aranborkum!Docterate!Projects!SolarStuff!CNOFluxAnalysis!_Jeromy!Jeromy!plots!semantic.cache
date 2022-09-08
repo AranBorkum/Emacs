@@ -1,0 +1,85 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("matplotlib.pyplot" include nil nil [20 51])
+            ("directory" variable nil nil [53 139])
+            ("standard1000" variable nil nil [141 233])
+            ("standard" variable nil nil [234 326])
+            ("optimistic" variable nil nil [327 419])
+            ("betterBoron" variable nil nil [420 512])
+            ("bestBoron" variable nil nil [513 605])
+            ("perfect" variable nil nil [606 698])
+            ("standard_x" variable nil nil [700 746])
+            ("standard_y" variable nil nil [747 762])
+            ("for" code nil nil [763 882])
+            ("optimistic_x" variable nil nil [883 933])
+            ("optimistic_y" variable nil nil [934 951])
+            ("for" code nil nil [952 1079])
+            ("betterBoron_x" variable nil nil [1080 1132])
+            ("betterBoron_y" variable nil nil [1133 1151])
+            ("for" code nil nil [1152 1283])
+            ("bestBoron_x" variable nil nil [1284 1332])
+            ("bestBoron_y" variable nil nil [1333 1349])
+            ("for" code nil nil [1350 1473])
+            ("perfect_x" variable nil nil [1474 1518])
+            ("perfect_y" variable nil nil [1519 1533])
+            ("for" code nil nil [1534 1649])
+            ("standard1000_x" variable nil nil [1650 1704])
+            ("standard1000_y" variable nil nil [1705 1724])
+            ("for" code nil nil [1725 1860])
+            ("plt" code nil nil [1866 1878])
+            ("plt" code nil nil [1938 2015])
+            ("plt" code nil nil [2259 2310])
+            ("plt" code nil nil [2311 2365])
+            ("plt" code nil nil [2411 2428])
+            ("plt" code nil nil [2429 2486])
+            ("plt" code nil nil [2487 2497]))          
+      :file "plot_unc_as_func_of_bg_reduction.py"
+      :pointmax 2498
+      :fsize 2497
+      :lastmodtime '(25360 35346 253101 464000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("matplotlib.pyplot" include nil nil [1 32])
+            ("Jeromy" include nil nil [34 47])
+            ("Jeromy.IO.ImportDataHighZ" include nil nil [48 87])
+            ("Jeromy.IO.ImportDataLowZ" include nil nil [88 126])
+            ("make_spectra" function (:arguments 
+              ( ("configuration" variable nil (reparse-symbol function_parameters) [146 159]))              ) nil [129 10978]))          
+      :file "make_spectrum_plots.py"
+      :pointmax 10978
+      :fsize 10977
+      :lastmodtime '(25363 29572 639803 757000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("yaml" include nil nil [2 13])
+            ("Jeromy" include nil nil [14 27])
+            ("Jeromy.utilities.helpers" include nil nil [28 64])
+            ("numpy" include nil nil [65 83])
+            ("matplotlib.pyplot" include nil nil [84 115])
+            ("with" code nil nil [117 227])
+            ("gaussian" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [241 242])
+                ("m" variable nil (reparse-symbol function_parameters) [244 245])
+                ("s" variable nil (reparse-symbol function_parameters) [247 248])
+                ("a" variable nil (reparse-symbol function_parameters) [250 251]))              ) nil [228 379])
+            ("make_true_rate_plots" function (:arguments 
+              ( ("config" variable nil (reparse-symbol function_parameters) [409 415]))              ) nil [384 2139]))          
+      :file "make_true_plots.py"
+      :pointmax 2139
+      :fsize 2138
+      :lastmodtime '(25213 4540 511675 572000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!SolarStuff!CNOFluxAnalysis!_Jeromy!Jeromy!plots!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

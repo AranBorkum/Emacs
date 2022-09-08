@@ -1,0 +1,283 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("FillVector" function
+               (:arguments 
+                  ( ("ifile" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [38 56]))                  
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [2 438])
+            ("FillGraph" function
+               (:pointer 1
+                :arguments 
+                  ( ("xValues" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("std::string" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [458 491])
+                    ("yValues" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("std::string" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [492 525])
+                    ("title" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [526 544]))                  
+                :type ("TGraph" type (:type "class") nil nil))
+                nil [440 781])
+            ("SurvivalProbabilities" function (:type "void") nil [783 1519]))          
+      :file "SurvivalProbabilities.C"
+      :pointmax 1520
+      :fsize 1519
+      :lastmodtime '(25054 43315 908251 12000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("fstream" include (:system-flag t) nil [1 19])
+            ("iostream" include (:system-flag t) nil [20 39])
+            ("string" include (:system-flag t) nil [40 57])
+            ("vector" include (:system-flag t) nil [58 75])
+            ("TFile.h" include nil nil [77 95])
+            ("TCanvas.h" include nil nil [96 116])
+            ("TH1D.h" include nil nil [117 134])
+            ("ReadXSEC" function
+               (:arguments 
+                  ( ("xsec_file" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [150 181])
+                    ("energy" variable
+                       (:reference 1
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("double" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [189 217])
+                    ("xsec_value" variable
+                       (:reference 1
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("double" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [225 257]))                  
+                :type "void")
+                nil [136 619])
+            ("FillVector" function
+               (:arguments 
+                  ( ("ifile" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [657 675]))                  
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [621 1057])
+            ("FillGraph" function
+               (:pointer 1
+                :arguments 
+                  ( ("xValues" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("std::string" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [1077 1110])
+                    ("yValues" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("std::string" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [1111 1144])
+                    ("title" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1145 1163]))                  
+                :type ("TGraph" type (:type "class") nil nil))
+                nil [1059 1400])
+            ("MakeRootFile" function
+               (:arguments 
+                  ( ("fname" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1420 1438])
+                    ("g" variable
+                       (:pointer 1
+                        :type ("TGraph" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1439 1449]))                  
+                :type "void")
+                nil [1402 1558])
+            ("FluxRootFile" function (:type "int") nil [1560 3176]))          
+      :file "FluxRootFile.C"
+      :pointmax 3177
+      :fsize 3176
+      :lastmodtime '(25054 41940 315049 479000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("fstream" include (:system-flag t) nil [1 19])
+            ("iostream" include (:system-flag t) nil [20 39])
+            ("string" include (:system-flag t) nil [40 57])
+            ("vector" include (:system-flag t) nil [58 75])
+            ("TFile.h" include nil nil [77 95])
+            ("TCanvas.h" include nil nil [96 116])
+            ("TH1D.h" include nil nil [117 134])
+            ("ReadXSEC" function
+               (:arguments 
+                  ( ("xsec_file" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [150 181])
+                    ("energy" variable
+                       (:reference 1
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("double" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [189 217])
+                    ("xsec_value" variable
+                       (:reference 1
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("double" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [225 257]))                  
+                :type "void")
+                nil [136 619])
+            ("FillVector" function
+               (:arguments 
+                  ( ("ifile" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [657 675]))                  
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [621 1057])
+            ("FillGraph" function
+               (:pointer 1
+                :arguments 
+                  ( ("xValues" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("std::string" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [1077 1110])
+                    ("yValues" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("std::string" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [1111 1144])
+                    ("title" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1145 1163]))                  
+                :type ("TGraph" type (:type "class") nil nil))
+                nil [1059 1400])
+            ("MakeRootFile" function
+               (:arguments 
+                  ( ("fname" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1420 1438])
+                    ("g" variable
+                       (:pointer 1
+                        :type ("TGraph" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1439 1449]))                  
+                :type "void")
+                nil [1402 1558])
+            ("XSECRootFile" function (:type "int") nil [1560 2508]))          
+      :file "XSECRootFile.C"
+      :pointmax 2509
+      :fsize 2508
+      :lastmodtime '(25054 41864 752216 409000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("nArgon" variable
+               (:default-value "10000000000.0 / 6.63590923474e-2"
+                :type "double")
+                nil [3 55])
+            ("CalcRateWithOsc" function (:type "void") nil [102 11137]))          
+      :file "CalcRateWithOsc.C"
+      :pointmax 11138
+      :fsize 11137
+      :lastmodtime '(25127 20852 663021 702000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("FillVector" function
+               (:arguments 
+                  ( ("ifile" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [38 56]))                  
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [2 438])
+            ("FillGraph" function
+               (:pointer 1
+                :arguments 
+                  ( ("xValues" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("std::string" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [458 491])
+                    ("yValues" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("std::string" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [492 525])
+                    ("title" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [526 544]))                  
+                :type ("TGraph" type (:type "class") nil nil))
+                nil [440 781])
+            ("MakeEfficiency" function (:type "void") nil [783 3376]))          
+      :file "MakeEfficiency.C"
+      :pointmax 3394
+      :fsize 3393
+      :lastmodtime '(25054 50488 7842 361000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("nYears" variable
+               (:default-value "1"
+                :type "double")
+                nil [2 29])
+            ("nYears" variable
+               (:pointer 1
+                :type "int")
+                nil [89 98])
+            ("axisTitle" variable
+               (:default-value "Form(\";Energy [MeV]; [evts/%i kt-year]\", int(100*nYears))"
+                :type ("std::string" type (:type "class") nil nil))
+                nil [99 182])
+            ("AddBackgroundsToSignal" function (:type "void") nil [184 8779])
+            ("c" variable
+               (:pointer 1
+                :default-value "new TCanvas(\"c\")"
+                :type ("TCanvas" type (:type "class") nil nil))
+                nil [6831 6861])
+            ("Print" function
+               (:prototype-flag t
+                :type "int")
+                nil [6867 6901])
+            ("Draw" function
+               (:prototype-flag t
+                :type "int")
+                nil [7075 7088]))          
+      :file "AddBackgroundsToSignal.C"
+      :pointmax 8780
+      :fsize 8779
+      :lastmodtime '(25057 28753 814423 256000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("WriteTextFile" function
+               (:arguments 
+                  ( ("hist" variable
+                       (:pointer 1
+                        :type ("TH1D" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [21 32])
+                    ("name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [33 50]))                  
+                :type "void")
+                nil [2 278])
+            ("ExportSolarRateTextFiles" function (:type "void") nil [280 1022]))          
+      :file "ExportSolarRateTextFiles.C"
+      :pointmax 1023
+      :fsize 1022
+      :lastmodtime '(25127 17023 987389 477000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!SolarStuff!Macros!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

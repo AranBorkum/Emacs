@@ -1,0 +1,23 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("pickle" include nil nil [1 14])
+            ("pandas" include nil nil [15 34])
+            ("myPickle" variable nil nil [36 118])
+            ("values" variable nil nil [120 131])
+            ("a" variable nil nil [295 310])
+            ("print" code nil nil [311 324])
+            ("print" code nil nil [325 341]))          
+      :file "test.py"
+      :pointmax 454
+      :fsize 453
+      :lastmodtime '(24354 40426 632782 882000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

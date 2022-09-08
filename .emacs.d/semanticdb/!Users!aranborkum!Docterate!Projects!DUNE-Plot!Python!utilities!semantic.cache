@@ -1,0 +1,56 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("__future__" include nil nil [1 38])
+            ("os" include nil nil [40 49])
+            ("ROOT" include nil nil [50 61])
+            ("numpy" include nil nil [63 83])
+            ("logging" include nil nil [84 105])
+            ("get_color" function (:arguments 
+              ( ("color" variable nil (reparse-symbol function_parameters) [121 126]))              ) nil [107 230])
+            ("enable_debug" function nil nil [231 291])
+            ("enable_info" function nil nil [292 350])
+            ("convert_hist_to_arrays" function (:arguments 
+              ( ("hist" variable nil (reparse-symbol function_parameters) [378 382])
+                ("overflow" variable nil (reparse-symbol function_parameters) [384 392])
+                ("underflow" variable nil (reparse-symbol function_parameters) [400 409]))              ) nil [351 447])
+            ("delete_tobject" function (:arguments 
+              ( ("tobject" variable nil (reparse-symbol function_parameters) [808 815]))              ) nil [789 846])
+            ("quite_mode" function (:arguments 
+              ( ("silence_rootfit" variable nil (reparse-symbol function_parameters) [904 919]))              ) nil [889 943])
+            ("createGraphAsymmErrors" function (:arguments 
+              ( ("hist" variable nil (reparse-symbol function_parameters) [1001 1005])
+                ("min_b" variable nil (reparse-symbol function_parameters) [1007 1012])
+                ("max_b" variable nil (reparse-symbol function_parameters) [1014 1019])
+                ("fl_name" variable nil (reparse-symbol function_parameters) [1021 1028]))              ) nil [974 1751])
+            ("title" function (:arguments 
+              ( ("s" variable nil (reparse-symbol function_parameters) [1766 1767])
+                ("banner" variable nil (reparse-symbol function_parameters) [1769 1775]))              ) nil [1756 1962])
+            ("directory_exists" function (:arguments 
+              ( ("path" variable nil (reparse-symbol function_parameters) [1984 1988]))              ) nil [1963 2084])
+            ("ensure_directory_exists" function (:arguments 
+              ( ("path" variable nil (reparse-symbol function_parameters) [2113 2117]))              ) nil [2085 2324]))          
+      :file "helpers.py"
+      :pointmax 2324
+      :fsize 2323
+      :lastmodtime '(23889 28148 72175 584000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("utilities.parser" include nil nil [1 43])
+            ("utilities" include nil nil [44 80])
+            ("__all__" variable nil nil [82 127]))          
+      :file "__init__.py"
+      :pointmax 128
+      :fsize 127
+      :lastmodtime '(23889 28236 813318 557000)
+      :unmatched-syntax '((FROM 44 . 48) ($EOI 81 . 81) (FROM 44 . 48) ($EOI 58 . 58))))
+  :file "!Users!aranborkum!Docterate!Projects!DUNE-Plot!Python!utilities!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

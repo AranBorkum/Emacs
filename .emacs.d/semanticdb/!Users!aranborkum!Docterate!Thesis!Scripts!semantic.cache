@@ -1,0 +1,100 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("matplotlib.pyplot" include nil nil [20 51])
+            ("data" variable nil nil [53 110])
+            ("x" variable nil nil [112 146])
+            ("y_1" variable nil nil [147 183])
+            ("y_2" variable nil nil [184 220])
+            ("y_3" variable nil nil [221 257])
+            ("plt" code nil nil [259 271])
+            ("plt" code nil nil [272 288])
+            ("plt" code nil nil [289 305])
+            ("plt" code nil nil [306 322])
+            ("plt" code nil nil [323 333]))          
+      :file "zenith.py"
+      :pointmax 334
+      :fsize 333
+      :lastmodtime '(25276 16731 515307 713000)
+      :unmatched-syntax '(($EOI 334 . 334) ($EOI 334 . 334) ($EOI 334 . 334) ($EOI 334 . 334) (NAME 112 . 113) ($EOI 118 . 118) (NAME 53 . 57) ($EOI 110 . 110) (NAME 53 . 57) ($EOI 106 . 106) (NAME 53 . 57) ($EOI 96 . 96) (NAME 53 . 57) ($EOI 60 . 60)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("matplotlib.pyplot" include nil nil [20 51])
+            ("data" variable nil nil [53 112])
+            ("plt" code nil nil [114 141])
+            ("plt" code nil nil [142 187])
+            ("plt" code nil nil [188 241])
+            ("plt" code nil nil [242 289])
+            ("plt" code nil nil [290 325])
+            ("plt" code nil nil [326 374])
+            ("plt" code nil nil [375 423])
+            ("plt" code nil nil [482 492])
+            ("difference_up" variable nil nil [494 514])
+            ("difference_down" variable nil nil [515 535])
+            ("for" code nil nil [536 673])
+            ("plt" code nil nil [674 686])
+            ("plt" code nil nil [687 722])
+            ("plt" code nil nil [723 760])
+            ("plt" code nil nil [761 771]))          
+      :file "SurvivalProbability.py"
+      :pointmax 772
+      :fsize 771
+      :lastmodtime '(25366 530 267131 867000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [25 43])
+            ("matplotlib.pyplot" include nil nil [44 75])
+            ("x_values" variable nil nil [134 176])
+            ("uranium_early" variable nil nil [178 249])
+            ("uranium_late" variable nil nil [250 321])
+            ("thorium" variable nil nil [322 393])
+            ("uranium_early_error" variable nil nil [395 472])
+            ("uranium_late_error" variable nil nil [473 550])
+            ("thorium_error" variable nil nil [551 628])
+            ("sum_sources" function nil nil [630 1074])
+            ("main" function nil nil [1076 1998])
+            ("if" code nil nil [2007 2045]))          
+      :file "RockThicknessPlot.py"
+      :pointmax 2045
+      :fsize 2044
+      :lastmodtime '(25366 2152 886400 389000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [25 43])
+            ("matplotlib.pyplot" include nil nil [44 75])
+            ("x_values" variable nil nil [135 164])
+            ("t_values" variable nil nil [165 194])
+            ("e_values" variable nil nil [195 224])
+            ("x_labels" variable nil nil [225 329])
+            ("uranium_early" variable nil nil [331 380])
+            ("uranium_late" variable nil nil [381 431])
+            ("thorium" variable nil nil [432 481])
+            ("uranium_early_error" variable nil nil [483 536])
+            ("uranium_late_error" variable nil nil [537 590])
+            ("thorium_error" variable nil nil [591 644])
+            ("sum_sources" function nil nil [646 1090])
+            ("plotRateReduction" function nil nil [1091 2034])
+            ("plotStepPercentReduction" function nil nil [2035 3190])
+            ("plotTotalPercentReduction" function nil nil [3191 4371])
+            ("main" function nil nil [4372 4408])
+            ("if" code nil nil [4486 4524]))          
+      :file "PassiveShielding.py"
+      :pointmax 4524
+      :fsize 4523
+      :lastmodtime '(25366 2405 636576 38000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Thesis!Scripts!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

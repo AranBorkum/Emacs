@@ -1,0 +1,52 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("config" include nil nil [1 26])
+            ("config" include nil nil [27 52])
+            ("ROOT" include nil nil [53 64])
+            ("numpy" include nil nil [65 83])
+            ("utilities" include nil nil [84 113])
+            ("plotting.input_plotting" include nil nil [114 168])
+            ("merge_inputs" function
+               (:documentation "Takes list of all inputs and merges the plots as requested. Modifies
+    the list of inputs and removes inputs that have been added to another
+    input due to merging."
+                :arguments 
+                  ( ("ipts" variable nil (reparse-symbol function_parameters) [188 192]))                  )
+                nil [171 1005])
+            ("plot_variable_for_region" function
+               (:documentation "This function processes all inputs for the chosen combination of variable
+    and region. Produced histograms are attached to the input objects."
+                :arguments 
+                  ( ("var" variable nil (reparse-symbol function_parameters) [1036 1039])
+                    ("region" variable nil (reparse-symbol function_parameters) [1041 1047]))                  )
+                nil [1007 2767])
+            ("plot_correlation" function
+               (:documentation "This function processes all inputs for the chosen combination of variable
+    and region. Produced histograms are attached to the input objects."
+                :arguments 
+                  ( ("var1" variable nil (reparse-symbol function_parameters) [2791 2795])
+                    ("var2" variable nil (reparse-symbol function_parameters) [2797 2801])
+                    ("region" variable nil (reparse-symbol function_parameters) [2803 2809]))                  )
+                nil [2770 3917]))          
+      :file "__init__.py"
+      :pointmax 3919
+      :fsize 3918
+      :lastmodtime '(23889 35482 539541 458000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags nil
+      :file "utils.py"
+      :pointmax 1
+      :fsize 0
+      :lastmodtime '(23889 35570 755067 340000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!DUNE-Plot!Python!plotting!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

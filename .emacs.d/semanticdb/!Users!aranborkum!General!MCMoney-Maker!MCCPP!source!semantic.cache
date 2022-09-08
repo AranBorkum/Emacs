@@ -1,0 +1,119 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("fstream" include (:system-flag t) nil [21 39])
+            ("vector" include (:system-flag t) nil [40 57])
+            ("string" include (:system-flag t) nil [58 75])
+            ("Overlord" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [243 251])
+                    ("fPersonalWealth" variable (:type "double") (reparse-symbol classsubparts) [254 279])
+                    ("fStartingCapital" variable (:type "double") (reparse-symbol classsubparts) [282 307])
+                    ("fNPropertiesOwned" variable (:type "double") (reparse-symbol classsubparts) [310 335])
+                    ("fPropertyLabels" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("std::string" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [339 380])
+                    ("public" label nil (reparse-symbol classsubparts) [382 389])
+                    ("Overlord" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("cPersonalWealth" variable (:type "double") (reparse-symbol arg-sub-list) [487 512])
+                            ("cStartingCapital" variable (:type "double") (reparse-symbol arg-sub-list) [517 542])
+                            ("cNPropertiesOwned" variable (:type "double") (reparse-symbol arg-sub-list) [547 572])
+                            ("cPropertyLabels" variable (:type ("std::vector" type
+                                 (:template-specifier 
+                                    ( ("std::string" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol arg-sub-list) [577 619]))                          
+                        :type ("Overlord" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [478 797])
+                    ("GetPersonalWealth" function (:type "double") (reparse-symbol classsubparts) [859 933])
+                    ("GetStartingCapital" function (:type "double") (reparse-symbol classsubparts) [936 1010])
+                    ("GetNPropertiesOwned" function (:type "double") (reparse-symbol classsubparts) [1013 1087])
+                    ("GetPropertyLabels" function (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("std::string" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [1090 1164])
+                    ("SetPersonalWealth" function
+                       (:arguments 
+                          ( ("n" variable (:type "double") (reparse-symbol arg-sub-list) [1253 1267]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1228 1299])
+                    ("SetStartingCapital" function
+                       (:arguments 
+                          ( ("n" variable (:type "double") (reparse-symbol arg-sub-list) [1327 1341]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1302 1373])
+                    ("SetNPropertiesOwned" function
+                       (:arguments 
+                          ( ("n" variable (:type "double") (reparse-symbol arg-sub-list) [1401 1415]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1376 1447])
+                    ("SetPropertyLabels" function
+                       (:arguments 
+                          ( ("n" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1475 1489]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1450 1521])
+                    ("<<" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("os" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1595 1612])
+                            ("o" variable (:type ("Overlord" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1613 1624]))                          
+                        :type ("std::ostream" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1563 1625]))                  
+                :type "class")
+                nil [225 1630])
+            ("<<" function
+               (:operator-flag t
+                :arguments 
+                  ( ("os" variable
+                       (:reference 1
+                        :type ("std::ostream" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1657 1674])
+                    ("o" variable (:type ("Overlord" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1675 1686]))                  
+                :type ("std::ostream" type (:type "class") nil nil))
+                nil [1632 2020]))          
+      :file "Overlord.hxx"
+      :pointmax 2021
+      :fsize 2020
+      :lastmodtime '(23720 28551 872348 372000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("fstream" include (:system-flag t) nil [21 39])
+            ("string" include (:system-flag t) nil [40 57])
+            ("vector" include (:system-flag t) nil [58 75])
+            ("MakeMoney.hxx" include nil nil [76 100])
+            ("Overlord.hxx" include nil nil [101 124])
+            ("InitiateProperty" function (:type ("House" type (:type "class") nil nil)) nil [316 717])
+            ("InitiateOverlord" function (:type ("Overlord" type (:type "class") nil nil)) nil [719 1189])
+            ("SaveOverlordData" function (:type "void") nil [1191 1360])
+            ("main" function (:type "int") nil [1363 1463]))          
+      :file "MakeMoney.cxx"
+      :pointmax 1464
+      :fsize 1463
+      :lastmodtime '(23720 28801 880020 204000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :file "MakeMoney.hxx"
+      :fsize 2971
+      :lastmodtime '(23717 51290 769087 441000)))
+  :file "!Users!aranborkum!General!MCMoney-Maker!MCCPP!source!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,55 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("collections" include nil nil [1 36])
+            ("_all" variable nil nil [38 58])
+            ("get" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [69 74]))              ) nil [61 253])
+            ("get_all" function (:documentation "Returns a list of all variables.") nil [255 338])
+            ("variable" type
+               (:documentation "Class to store information on variables that are plotted."
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("\"\"\"Creates a variable with a given name. Label and unit can be
+        specified for the plotting.\"\"\"" code nil (reparse-symbol indented_block_body) [545 646])
+                            ("self" variable nil (reparse-symbol indented_block_body) [655 671])
+                            ("name" code nil (reparse-symbol indented_block_body) [716 720])
+                            ("self" variable nil (reparse-symbol indented_block_body) [729 745])
+                            ("self" variable nil (reparse-symbol indented_block_body) [754 770])
+                            ("self" variable nil (reparse-symbol indented_block_body) [779 807])
+                            ("label" code nil (reparse-symbol indented_block_body) [856 861])
+                            ("_all" variable nil (reparse-symbol indented_block_body) [870 887]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [442 446])
+                            ("name" variable nil (reparse-symbol function_parameters) [448 452])
+                            ("branch" variable nil (reparse-symbol function_parameters) [454 460])
+                            ("unit" variable nil (reparse-symbol function_parameters) [467 471])
+                            ("label" variable nil (reparse-symbol function_parameters) [478 483])
+                            ("bins" variable nil (reparse-symbol function_parameters) [490 494])
+                            ("reverse_zn" variable nil (reparse-symbol function_parameters) [518 528]))                          
+                        :documentation "Creates a variable with a given name. Label and unit can be
+        specified for the plotting."
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [429 888])
+                    ("get_full_xlabel" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [913 917]))                          )
+                        (reparse-symbol indented_block_body) [893 1047]))                  
+                :type "class")
+                nil [340 1047]))          
+      :file "__init__.py"
+      :pointmax 1047
+      :fsize 1046
+      :lastmodtime '(23566 9915 175955 107000)
+      :unmatched-syntax '((NAME 816 . 820) (IF 834 . 836) (ELSE 851 . 855) (NAME 680 . 684) (IF 701 . 703) (ELSE 711 . 715) (RETURN 151 . 157) (IF 172 . 174) (ELSE 191 . 195))))
+  :file "!Users!aranborkum!Docterate!Projects!PrettyPython!config!vars!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

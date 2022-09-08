@@ -1,0 +1,25 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("TGeoManager.h" include nil nil [1 25])
+            ("drawSimple" function
+               (:arguments 
+                  ( ("volName" variable
+                       (:default-value "\"\""
+                        :type ("TString" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [43 62]))                  
+                :type "void")
+                nil [27 874]))          
+      :file "drawSimple.C"
+      :pointmax 875
+      :fsize 874
+      :lastmodtime '(23782 58733 492264 364000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!duneggd-old!python!duneggd!dunefd!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

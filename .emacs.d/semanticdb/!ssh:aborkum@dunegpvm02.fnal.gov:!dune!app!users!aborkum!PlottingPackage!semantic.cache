@@ -1,0 +1,18 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("config" include nil nil [25 57])
+            ("utilities" include nil nil [58 102]))          
+      :file "run.py"
+      :pointmax 123
+      :fsize 122
+      :lastmodtime '(23945 59787)
+      :unmatched-syntax nil))
+  :file "!ssh:aborkum@dunegpvm02.fnal.gov:!dune!app!users!aborkum!PlottingPackage!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

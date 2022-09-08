@@ -1,0 +1,17 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("MergeRootFile" function (:type "void") nil [3 1186]))          
+      :file "MergeRootFile.C"
+      :pointmax 1187
+      :fsize 1186
+      :lastmodtime '(25051 62712 597210 398000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!SolarStuff!Plots!RootFiles!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

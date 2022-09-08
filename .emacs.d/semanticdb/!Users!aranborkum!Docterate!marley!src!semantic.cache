@@ -1,0 +1,693 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("map" include (:system-flag t) nil [660 674])
+            ("marley/ElectronReaction.hh" include nil nil [695 732])
+            ("marley/HauserFeshbachDecay.hh" include nil nil [733 773])
+            ("marley/Logger.hh" include nil nil [774 801])
+            ("marley/MatrixElement.hh" include nil nil [802 836])
+            ("marley/NuclearReaction.hh" include nil nil [837 873])
+            ("marley/Reaction.hh" include nil nil [874 903])
+            ("marley/StructureDatabase.hh" include nil nil [904 942])
+            ("marley/marley_kinematics.hh" include nil nil [943 981])
+            ("marley/marley_utils.hh" include nil nil [982 1015])
+            ("marley::Reaction::ProcessType" variable (:type "int") nil [1034 1064])
+            ("marley::MatrixElement::TransitionType" variable (:type "int") nil [1081 1119])
+            ("unnamed" type
+               (:members 
+                  ( ("marley_utils" using (:type ("marley_utils" type
+                         (:prototype t
+                          :type "namespace")
+                          nil nil)) (reparse-symbol namespacesubparts) [1136 1165])
+                    ("proc_type_to_string_map" variable (:type ("std::map" type
+                         (:template-specifier 
+                            ( ("ProcType" type nil nil nil)
+                              ("std::string" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [1169 1421])
+                    ("proc_type_to_nu_pdg" variable
+                       (:default-value "{
+
+    { ProcType::NeutrinoCC,
+      { ELECTRON_NEUTRINO, MUON_NEUTRINO, TAU_NEUTRINO }
+    },
+
+    { ProcType::AntiNeutrinoCC,
+      { ELECTRON_ANTINEUTRINO, MUON_ANTINEUTRINO, TAU_ANTINEUTRINO }
+    },
+
+    { ProcType::NC,
+      { ELECTRON_NEUTRINO, MUON_NEUTRINO, TAU_NEUTRINO,
+        ELECTRON_ANTINEUTRINO, MUON_ANTINEUTRINO, TAU_ANTINEUTRINO }
+    },
+
+    { ProcType::NuElectronElastic,
+        { ELECTRON_NEUTRINO, MUON_NEUTRINO, TAU_NEUTRINO,
+          ELECTRON_ANTINEUTRINO, MUON_ANTINEUTRINO, TAU_ANTINEUTRINO }
+    },
+
+  }"
+                        :type ("std::map" type
+                             (:template-specifier 
+                                ( ("ProcType" type nil nil nil)
+                                  ("std::vector" type (:template-specifier 
+                                    ( ("int" type nil nil nil))                                    ) nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [1520 2114])
+                    ("set_level_ptrs" function
+                       (:arguments 
+                          ( ("matrix_elements" variable
+                               (:reference 1
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("marley::MatrixElement" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [2271 2323])
+                            ("pdg_b" variable (:type "int") (reparse-symbol arg-sub-list) [2328 2338])
+                            ("pdg_d" variable (:type "int") (reparse-symbol arg-sub-list) [2339 2349])
+                            ("db" variable
+                               (:reference 1
+                                :type ("marley::StructureDatabase" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2350 2380]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [2251 7756]))                  
+                :type "namespace")
+                nil [1121 7759])
+            ("two_two_scatter" function
+               (:methodconst-flag t
+                :parent "marley::Reaction"
+                :arguments 
+                  ( ("KEa" variable (:type "double") (reparse-symbol arg-sub-list) [7914 7925])
+                    ("s" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [7926 7936])
+                    ("Ec_cm" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [7937 7951])
+                    ("pc_cm" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [7954 7968])
+                    ("Ed_cm" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [7969 7983]))                  
+                :type "void")
+                nil [7875 8717])
+            ("make_event_object" function
+               (:methodconst-flag t
+                :parent "marley::Reaction"
+                :arguments 
+                  ( ("KEa" variable (:type "double") (reparse-symbol arg-sub-list) [8769 8780])
+                    ("pc_cm" variable (:type "double") (reparse-symbol arg-sub-list) [8783 8796])
+                    ("cos_theta_c_cm" variable (:type "double") (reparse-symbol arg-sub-list) [8797 8819])
+                    ("phi_c_cm" variable (:type "double") (reparse-symbol arg-sub-list) [8820 8836])
+                    ("Ec_cm" variable (:type "double") (reparse-symbol arg-sub-list) [8839 8852])
+                    ("Ed_cm" variable (:type "double") (reparse-symbol arg-sub-list) [8853 8866])
+                    ("E_level" variable (:type "double") (reparse-symbol arg-sub-list) [8867 8882])
+                    ("twoJ" variable (:type "int") (reparse-symbol arg-sub-list) [8883 8892])
+                    ("P" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("marley::Parity" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8895 8919]))                  
+                :type ("marley::Event" type (:type "class") nil nil))
+                nil [8719 10354])
+            ("get_ejectile_pdg" function
+               (:parent "marley::Reaction"
+                :arguments 
+                  ( ("pdg_a" variable (:type "int") (reparse-symbol arg-sub-list) [10395 10405])
+                    ("proc_type" variable (:type ("ProcType" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10406 10425]))                  
+                :type "int")
+                nil [10356 11242])
+            ("proc_type_to_string" function
+               (:parent "marley::Reaction"
+                :arguments 
+                  ( ("pt" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("ProcType" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11294 11313]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [11244 11360])
+            ("get_projectiles" function
+               (:parent "marley::Reaction"
+                :constant-flag t
+                :arguments 
+                  ( ("pt" variable (:type ("ProcType" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11420 11432]))                  
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("int" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [11362 11475])
+            ("load_from_file" function
+               (:parent "marley::Reaction"
+                :arguments 
+                  ( ("filename" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11561 11589])
+                    ("db" variable
+                       (:reference 1
+                        :type ("marley::StructureDatabase" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11592 11622]))                  
+                :type ("std::vector" type
+                     (:template-specifier 
+                        ( ("std::unique_ptr" type (:template-specifier 
+                            ( ("marley::Reaction" type nil nil nil))                            ) nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [11477 18377]))          
+      :file "Reaction.cc"
+      :pointmax 18378
+      :fsize 18377
+      :lastmodtime '(24971 61119 516836 930000)
+      :unmatched-syntax '((USING 1065 . 1070) (USING 1017 . 1022)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("chrono" include (:system-flag t) nil [631 648])
+            ("cmath" include (:system-flag t) nil [649 665])
+            ("limits" include (:system-flag t) nil [666 683])
+            ("string" include (:system-flag t) nil [684 701])
+            ("marley/ChebyshevInterpolatingFunction.hh" include nil nil [703 754])
+            ("marley/Error.hh" include nil nil [755 781])
+            ("marley/Generator.hh" include nil nil [782 812])
+            ("marley/Logger.hh" include nil nil [813 840])
+            ("marley/NucleusDecayer.hh" include nil nil [841 876])
+            ("marley/Reaction.hh" include nil nil [877 906])
+            ("marley/StructureDatabase.hh" include nil nil [907 945])
+            ("marley/marley_utils.hh" include nil nil [946 979])
+            ("Generator" function
+               (:constructor-flag t
+                :parent "marley::Generator"
+                :type ("Generator" type (:type "class") nil nil))
+                nil [1232 1463])
+            ("Generator" function
+               (:constructor-flag t
+                :parent "marley::Generator"
+                :arguments 
+                  ( ("seed" variable (:type ("uint_fast64_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1596 1615]))                  
+                :type ("Generator" type (:type "class") nil nil))
+                nil [1567 1757])
+            ("print_logo" function
+               (:parent "marley::Generator"
+                :type "void")
+                nil [1832 2258])
+            ("create_event" function
+               (:parent "marley::Generator"
+                :type ("marley::Event" type (:type "class") nil nil))
+                nil [2260 2974])
+            ("seed_using_state_string" function
+               (:parent "marley::Generator"
+                :arguments 
+                  ( ("state_string" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3027 3059]))                  
+                :type "void")
+                nil [2976 3200])
+            ("reseed" function
+               (:parent "marley::Generator"
+                :arguments 
+                  ( ("seed" variable (:type ("uint_fast64_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3233 3252]))                  
+                :type "void")
+                nil [3202 3635])
+            ("get_state_string" function
+               (:methodconst-flag t
+                :parent "marley::Generator"
+                :type ("std::string" type (:type "class") nil nil))
+                nil [3637 3758])
+            ("normalize_E_pdf" function
+               (:parent "marley::Generator"
+                :type "void")
+                nil [3760 6041])
+            ("uniform_random_double" function
+               (:parent "marley::Generator"
+                :arguments 
+                  ( ("min" variable (:type "double") (reparse-symbol arg-sub-list) [6416 6427])
+                    ("max" variable (:type "double") (reparse-symbol arg-sub-list) [6428 6439])
+                    ("inclusive" variable (:type "bool") (reparse-symbol arg-sub-list) [6442 6457]))                  
+                :type "double")
+                nil [6368 7277])
+            ("rejection_sample" function
+               (:parent "marley::Generator"
+                :arguments 
+                  ( ("" variable
+                       (:constant-flag t
+                        :type ("std::function" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8488 8508])
+                    ("" variable (:type "double") (reparse-symbol arg-sub-list) [8508 8522])
+                    ("" variable (:type ("f" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8525 8527])
+                    ("xmin" variable (:type "double") (reparse-symbol arg-sub-list) [8530 8542])
+                    ("xmax" variable (:type "double") (reparse-symbol arg-sub-list) [8543 8555])
+                    ("fmax" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [8556 8569])
+                    ("safety_factor" variable (:type "double") (reparse-symbol arg-sub-list) [8570 8591])
+                    ("max_search_tolerance" variable (:type "double") (reparse-symbol arg-sub-list) [8594 8622]))                  
+                :type "double")
+                nil [8445 10113])
+            ("E_pdf" function
+               (:parent "marley::Generator"
+                :arguments 
+                  ( ("E" variable (:type "double") (reparse-symbol arg-sub-list) [10147 10156]))                  
+                :type "double")
+                nil [10115 12092])
+            ("sample_reaction" function
+               (:parent "marley::Generator"
+                :arguments 
+                  ( ("E" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [12147 12157]))                  
+                :type ("marley::Reaction" type (:type "class") nil nil))
+                nil [12094 14811])
+            ("get_source" function
+               (:methodconst-flag t
+                :parent "marley::Generator"
+                :constant-flag t
+                :type ("marley::NeutrinoSource" type (:type "class") nil nil))
+                nil [14813 15040])
+            ("get_target" function
+               (:methodconst-flag t
+                :parent "marley::Generator"
+                :constant-flag t
+                :type ("marley::Target" type (:type "class") nil nil))
+                nil [15042 15261])
+            ("set_source" function
+               (:parent "marley::Generator"
+                :arguments 
+                  ( ("source" variable (:type ("std::unique_ptr" type
+                         (:template-specifier 
+                            ( ("marley::NeutrinoSource" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [15301 15348]))                  
+                :type "void")
+                nil [15263 15863])
+            ("add_reaction" function
+               (:parent "marley::Generator"
+                :arguments 
+                  ( ("reaction" variable (:type ("std::unique_ptr" type
+                         (:template-specifier 
+                            ( ("marley::Reaction" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [15902 15945]))                  
+                :type "void")
+                nil [15865 16603])
+            ("clear_reactions" function
+               (:parent "marley::Generator"
+                :type "void")
+                nil [16605 16821])
+            ("get_structure_db" function
+               (:parent "marley::Generator"
+                :type ("marley::StructureDatabase" type (:type "class") nil nil))
+                nil [16823 17071])
+            ("set_neutrino_direction" function
+               (:parent "marley::Generator"
+                :arguments 
+                  ( ("dir_vec" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::array" type
+                             (:template-specifier 
+                                ( ("double" type nil nil nil)
+                                  ("3"))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [17123 17160]))                  
+                :type "void")
+                nil [17073 17569])
+            ("set_weight_flux" function
+               (:parent "marley::Generator"
+                :arguments 
+                  ( ("should_we_weight" variable (:type "bool") (reparse-symbol arg-sub-list) [17611 17633]))                  
+                :type "void")
+                nil [17571 17672])
+            ("inverse_transform_sample" function
+               (:parent "marley::Generator"
+                :arguments 
+                  ( ("" variable
+                       (:constant-flag t
+                        :type ("std::function" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [17728 17748])
+                    ("" variable (:type "double") (reparse-symbol arg-sub-list) [17748 17762])
+                    ("" variable (:type ("f" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17765 17767])
+                    ("xmin" variable (:type "double") (reparse-symbol arg-sub-list) [17768 17780])
+                    ("xmax" variable (:type "double") (reparse-symbol arg-sub-list) [17781 17793])
+                    ("bisection_tolerance" variable (:type "double") (reparse-symbol arg-sub-list) [17796 17823]))                  
+                :type "double")
+                nil [17674 18343])
+            ("inverse_transform_sample" function
+               (:parent "marley::Generator"
+                :arguments 
+                  ( ("cdf" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("marley::ChebyshevInterpolatingFunction" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [18399 18449])
+                    ("xmin" variable (:type "double") (reparse-symbol arg-sub-list) [18450 18462])
+                    ("xmax" variable (:type "double") (reparse-symbol arg-sub-list) [18463 18475])
+                    ("bisection_tolerance" variable (:type "double") (reparse-symbol arg-sub-list) [18478 18505]))                  
+                :type "double")
+                nil [18345 19651])
+            ("flux_averaged_total_xs" function
+               (:methodconst-flag t
+                :parent "marley::Generator"
+                :type "double")
+                nil [19653 20402])
+            ("set_target" function
+               (:parent "marley::Generator"
+                :arguments 
+                  ( ("target" variable (:type ("std::unique_ptr" type
+                         (:template-specifier 
+                            ( ("marley::Target" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [20440 20480]))                  
+                :type "void")
+                nil [20404 21001])
+            ("total_xs" function
+               (:methodconst-flag t
+                :parent "marley::Generator"
+                :arguments 
+                  ( ("pdg_a" variable (:type "int") (reparse-symbol arg-sub-list) [21039 21049])
+                    ("KEa" variable (:type "double") (reparse-symbol arg-sub-list) [21050 21061])
+                    ("pdg_atom" variable (:type "int") (reparse-symbol arg-sub-list) [21062 21075]))                  
+                :type "double")
+                nil [21003 21152])
+            ("total_xs" function
+               (:methodconst-flag t
+                :parent "marley::Generator"
+                :arguments 
+                  ( ("pdg_a" variable (:type "int") (reparse-symbol arg-sub-list) [21190 21200])
+                    ("KEa" variable (:type "double") (reparse-symbol arg-sub-list) [21201 21212])
+                    ("pdg_atom" variable (:type "int") (reparse-symbol arg-sub-list) [21213 21226])
+                    ("index_vec" variable
+                       (:pointer 1
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("size_t" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [21229 21260])
+                    ("xsec_vec" variable
+                       (:pointer 1
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("double" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [21261 21292]))                  
+                :type "double")
+                nil [21154 22063])
+            ("create_event" function
+               (:parent "marley::Generator"
+                :arguments 
+                  ( ("pdg_a" variable (:type "int") (reparse-symbol arg-sub-list) [22113 22123])
+                    ("KEa" variable (:type "double") (reparse-symbol arg-sub-list) [22124 22135])
+                    ("pdg_atom" variable (:type "int") (reparse-symbol arg-sub-list) [22138 22151])
+                    ("dir_vec" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::array" type
+                             (:template-specifier 
+                                ( ("double" type nil nil nil)
+                                  ("3"))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [22152 22190]))                  
+                :type ("marley::Event" type (:type "class") nil nil))
+                nil [22066 23939])
+            ("total_xs" function
+               (:methodconst-flag t
+                :parent "marley::Generator"
+                :arguments 
+                  ( ("pdg_a" variable (:type "int") (reparse-symbol arg-sub-list) [24078 24088])
+                    ("KEa" variable (:type "double") (reparse-symbol arg-sub-list) [24089 24101]))                  
+                :type "double")
+                nil [24042 24993]))          
+      :file "Generator.cc"
+      :pointmax 24994
+      :fsize 24993
+      :lastmodtime '(24971 61119 513836 165000)
+      :unmatched-syntax '((punctuation 17763 . 17764) (punctuation 17762 . 17763) (semantic-list 17754 . 17762) (punctuation 17747 . 17748) (punctuation 8523 . 8524) (punctuation 8522 . 8523) (semantic-list 8514 . 8522) (punctuation 8507 . 8508)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("chrono" include (:system-flag t) nil [660 677])
+            ("cstdlib" include (:system-flag t) nil [678 696])
+            ("fstream" include (:system-flag t) nil [697 715])
+            ("iostream" include (:system-flag t) nil [716 735])
+            ("vector" include (:system-flag t) nil [736 753])
+            ("marley/marley_utils.hh" include nil nil [774 807])
+            ("marley/Error.hh" include nil nil [808 834])
+            ("marley/FileManager.hh" include nil nil [835 867])
+            ("marley/JSONConfig.hh" include nil nil [868 899])
+            ("marley/NeutrinoSource.hh" include nil nil [900 935])
+            ("marley/NuclearReaction.hh" include nil nil [936 972])
+            ("marley/Logger.hh" include nil nil [973 1000])
+            ("marley/StructureDatabase.hh" include nil nil [1001 1039])
+            ("marley::InterpolationGrid::InterpolationMethod" variable (:type "int") nil [1062 1117])
+            ("marley::Reaction::ProcessType" variable (:type "int") nil [1135 1165])
+            ("marley::NuclearReaction::CoulombMode" variable (:type "int") nil [1180 1217])
+            ("unnamed" type
+               (:members 
+                  ( ("source_check_positive" function
+                       (:arguments 
+                          ( ("x" variable (:type "double") (reparse-symbol arg-sub-list) [1311 1320])
+                            ("description" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [1321 1345])
+                            ("source_type" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [1350 1374]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [1284 1531])
+                    ("source_check_nonnegative" function
+                       (:arguments 
+                          ( ("x" variable (:type "double") (reparse-symbol arg-sub-list) [1565 1574])
+                            ("description" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [1575 1599])
+                            ("source_type" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [1604 1628]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [1535 1780])
+                    ("source_get_double" function
+                       (:arguments 
+                          ( ("name" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [1809 1826])
+                            ("source_spec" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("marley::JSON" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1827 1859])
+                            ("description" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [1864 1888]))                          
+                        :type "double")
+                        (reparse-symbol namespacesubparts) [1784 2268])
+                    ("get_vector" function
+                       (:arguments 
+                          ( ("name" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [2303 2320])
+                            ("spec" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("marley::JSON" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2321 2346])
+                            ("description" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [2351 2375]))                          
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("double" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [2272 3252]))                  
+                :type "namespace")
+                nil [1269 3255])
+            ("JSONConfig" function
+               (:constructor-flag t
+                :parent "marley::JSONConfig"
+                :arguments 
+                  ( ("json" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("marley::JSON" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3288 3313]))                  
+                :type ("JSONConfig" type (:type "class") nil nil))
+                nil [3257 3359])
+            ("JSONConfig" function
+               (:parent "marley::JSONConfig"
+                :arguments 
+                  ( ("json_filename" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3392 3425]))                  
+                :type "int")
+                nil [3361 3755])
+            ("neutrino_pdg" function
+               (:methodconst-flag t
+                :parent "marley::JSONConfig"
+                :arguments 
+                  ( ("nu" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3794 3816]))                  
+                :type "int")
+                nil [3757 4331])
+            ("create_generator" function
+               (:methodconst-flag t
+                :parent "marley::JSONConfig"
+                :type ("marley::Generator" type (:type "class") nil nil))
+                nil [4333 10652])
+            ("prepare_direction" function
+               (:methodconst-flag t
+                :parent "marley::JSONConfig"
+                :arguments 
+                  ( ("gen" variable
+                       (:reference 1
+                        :type ("marley::Generator" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10778 10801]))                  
+                :type "void")
+                nil [10735 12437])
+            ("prepare_reactions" function
+               (:methodconst-flag t
+                :parent "marley::JSONConfig"
+                :arguments 
+                  ( ("gen" variable
+                       (:reference 1
+                        :type ("marley::Generator" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12482 12505]))                  
+                :type "void")
+                nil [12439 15988])
+            ("prepare_structure" function
+               (:methodconst-flag t
+                :parent "marley::JSONConfig"
+                :arguments 
+                  ( ("gen" variable
+                       (:reference 1
+                        :type ("marley::Generator" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16033 16056]))                  
+                :type "void")
+                nil [15990 17686])
+            ("get_interpolation_method" function
+               (:methodconst-flag t
+                :parent "marley::JSONConfig"
+                :arguments 
+                  ( ("rule" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [17830 17854]))                  
+                :type ("InterpMethod" type (:type "class") nil nil))
+                nil [17769 19184])
+            ("prepare_neutrino_source" function
+               (:methodconst-flag t
+                :parent "marley::JSONConfig"
+                :arguments 
+                  ( ("gen" variable
+                       (:reference 1
+                        :type ("marley::Generator" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [19316 19339]))                  
+                :type "void")
+                nil [19267 26954])
+            ("prepare_target" function
+               (:methodconst-flag t
+                :parent "marley::JSONConfig"
+                :arguments 
+                  ( ("gen" variable
+                       (:reference 1
+                        :type ("marley::Generator" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [26997 27021]))                  
+                :type "void")
+                nil [26956 31453])
+            ("source_get" function
+               (:methodconst-flag t
+                :parent "marley::JSONConfig"
+                :arguments 
+                  ( ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [31498 31515])
+                    ("source_spec" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("marley::JSON" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [31518 31550])
+                    ("description" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [31551 31575])
+                    ("default_str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [31578 31602]))                  
+                :type ("std::string" type (:type "class") nil nil))
+                nil [31455 32026])
+            ("update_logger_settings" function
+               (:methodconst-flag t
+                :parent "marley::JSONConfig"
+                :type "void")
+                nil [32028 35518])
+            ("handle_json_error" function
+               (:parent "marley::JSONConfig"
+                :arguments 
+                  ( ("name" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [35563 35587])
+                    ("json" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("marley::JSON" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [35590 35615]))                  
+                :type "void")
+                nil [35520 35789]))          
+      :file "JSONConfig.cc"
+      :pointmax 35790
+      :fsize 35789
+      :lastmodtime '(24971 61119 514488 646000)
+      :unmatched-syntax '((USING 1166 . 1171) (USING 1118 . 1123) (USING 1041 . 1046))))
+  :file "!Users!aranborkum!Docterate!marley!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,120 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("Jeromy" include nil nil [1 14])
+            ("Jeromy.IO.FileImporter" include nil nil [15 50])
+            ("B8_CC" variable nil nil [52 142])
+            ("B8_ES" variable nil nil [143 233])
+            ("B8" variable nil nil [234 275])
+            ("B8" code nil nil [276 309])
+            ("HEP_CC" variable nil nil [377 468])
+            ("HEP_ES" variable nil nil [469 560])
+            ("HEP" variable nil nil [561 595])
+            ("HEP" code nil nil [597 633])
+            ("O15" variable nil nil [705 796])
+            ("F17" variable nil nil [797 888])
+            ("CNO" variable nil nil [889 924])
+            ("CNO" code nil nil [925 955])
+            ("Radon" variable nil nil [959 1058])
+            ("Neutron" variable nil nil [1059 1158])
+            ("Ar42" variable nil nil [1159 1258])
+            ("Radiologicals" variable nil nil [1259 1313])
+            ("Radiologicals" code nil nil [1314 1366])
+            ("Backgrounds" variable nil nil [1369 1419])
+            ("Backgrounds" code nil nil [1420 1479])
+            ("TotalSignal" variable nil nil [1481 1531])
+            ("TotalSignal" code nil nil [1532 1601]))          
+      :file "ImportDataHighZ.py"
+      :pointmax 1713
+      :fsize 1712
+      :lastmodtime '(25203 50909 259774 525000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("random" include nil nil [1 14])
+            ("numpy" include nil nil [15 33])
+            ("collections" include nil nil [34 69])
+            ("_all" variable nil nil [71 91])
+            ("get" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [102 107]))              ) nil [94 286])
+            ("get_all" function (:documentation "Returns a list of all variables.") nil [287 370])
+            ("ImportFile" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [606 623])
+                            ("self" variable nil (reparse-symbol indented_block_body) [632 649])
+                            ("self" variable nil (reparse-symbol indented_block_body) [658 680])
+                            ("self" variable nil (reparse-symbol indented_block_body) [689 703])
+                            ("self" variable nil (reparse-symbol indented_block_body) [712 734])
+                            ("self" variable nil (reparse-symbol indented_block_body) [743 765])
+                            ("if" code nil (reparse-symbol indented_block_body) [774 1510])
+                            ("_all" variable nil (reparse-symbol indented_block_body) [1518 1535]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [409 413])
+                            ("name" variable nil (reparse-symbol function_parameters) [432 436])
+                            ("path" variable nil (reparse-symbol function_parameters) [460 464])
+                            ("file" variable nil (reparse-symbol function_parameters) [488 492])
+                            ("xValues" variable nil (reparse-symbol function_parameters) [516 523])
+                            ("yValues" variable nil (reparse-symbol function_parameters) [547 554])
+                            ("map" variable nil (reparse-symbol function_parameters) [578 581]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [396 1536])
+                    ("set_name" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1554 1558])
+                            ("name" variable nil (reparse-symbol function_parameters) [1560 1564]))                          )
+                        (reparse-symbol indented_block_body) [1541 1593])
+                    ("combine_inputs" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1846 1850])
+                            ("list" variable nil (reparse-symbol function_parameters) [1852 1856]))                          )
+                        (reparse-symbol indented_block_body) [1827 2298])
+                    ("shuffle_slightly" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2336 2340])
+                            ("error" variable nil (reparse-symbol function_parameters) [2342 2347])
+                            ("low" variable nil (reparse-symbol function_parameters) [2349 2352])
+                            ("high" variable nil (reparse-symbol function_parameters) [2354 2358]))                          )
+                        (reparse-symbol indented_block_body) [2315 3047])
+                    ("scale" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3071 3075])
+                            ("time_scale" variable nil (reparse-symbol function_parameters) [3077 3087])
+                            ("background_scale" variable nil (reparse-symbol function_parameters) [3091 3107]))                          )
+                        (reparse-symbol indented_block_body) [3061 3534]))                  
+                :type "class")
+                nil [371 3534])
+            ("__all__" variable nil nil [3554 3576]))          
+      :file "FileImporter.py"
+      :pointmax 3577
+      :fsize 3576
+      :lastmodtime '(25214 37636 639464 973000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("yaml" include nil nil [1 12])
+            ("Jeromy" include nil nil [13 26])
+            ("with" code nil nil [28 160])
+            ("load_uncertainties" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [184 188]))              ) nil [161 228]))          
+      :file "UncertaintyImporter.py"
+      :pointmax 228
+      :fsize 227
+      :lastmodtime '(25202 29428 848901 768000)
+      :unmatched-syntax nil))
+  :file "!Users!aranborkum!Docterate!Projects!SolarStuff!CNOFluxAnalysis!Jeromy!Jeromy!IO!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
